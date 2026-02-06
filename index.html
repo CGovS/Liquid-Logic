@@ -1,63 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liquid Logic</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquid Logic</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Press+Start+2P&family=Rye&family=Changa:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div id="app">
-    <!-- Landing Screen -->
-    <section id="landing-page" class="screen active">
-      <div class="chalk-board-container">
-        <h1 class="chalk-title">Liquid Logic</h1>
-        <p class="chalk-subtitle">Enter Team Names</p>
-        <div id="team-inputs">
-          <input type="text" class="chalk-input" placeholder="Team 1 Name" aria-label="Team 1 Name">
-          <input type="text" class="chalk-input" placeholder="Team 2 Name" aria-label="Team 2 Name">
-          <input type="text" class="chalk-input" placeholder="Team 3 Name" aria-label="Team 3 Name">
-          <input type="text" class="chalk-input" placeholder="Team 4 Name" aria-label="Team 4 Name">
-        </div>
-        <button id="start-btn" class="chalk-btn">Start Game</button>
-      </div>
-    </section>
 
-    <!-- Game Board -->
-    <section id="game-board" class="screen hidden">
-      <header class="game-header">
-        <h1 class="chalk-title-small">Liquid Logic</h1>
-        <div id="scoreboard" class="scoreboard">
-          <!-- Scores injected here -->
-        </div>
-      </header>
-      
-      <div id="board-grid" class="board-grid">
-        <!-- Grid injected here -->
-      </div>
-    </section>
+<body data-theme="chalkboard">
+    <div id="app">
+        <!-- Landing Screen -->
+        <section id="landing-page" class="screen active">
+            <div class="main-container">
+                <h1 class="game-title">Liquid Logic</h1>
+                <p class="game-subtitle">The Ultimate Drinking Trivia</p>
 
-    <!-- Question Modal -->
-    <div id="modal" class="modal hidden">
-      <div class="modal-content chalk-board-container">
-        <span id="close-modal" class="close">&times;</span>
-        <h2 id="modal-points" class="chalk-subtitle"></h2>
-        <p id="modal-penalty" class="penalty-text"></p>
-        <div id="modal-question" class="question-text"></div>
-        <button id="reveal-btn" class="chalk-btn hidden">Reveal Answer</button>
-        <div id="modal-answer" class="answer-text hidden"></div>
-        
-        <div id="scoring-controls" class="hidden">
-          <p>Award Points To:</p>
-          <div id="team-buttons"></div>
-          <button id="no-winner-btn" class="chalk-btn small">No One / Incorrect</button>
+                <div class="setup-steps-container">
+                    <div class="setup-group">
+                        <h2>1. Appearance</h2>
+                        <div class="theme-selector">
+                            <button class="theme-btn active" data-set-theme="chalkboard">Chalkboard</button>
+                            <button class="theme-btn" data-set-theme="tv">TV Stage</button>
+                            <button class="theme-btn" data-set-theme="roller">High Roller</button>
+                            <button class="theme-btn" data-set-theme="arcade">Arcade</button>
+                        </div>
+                    </div>
+
+                    <div class="setup-group">
+                        <h2>2. The Board</h2>
+                        <select id="board-select" class="setup-select">
+                            <!-- Populated by JS -->
+                        </select>
+                    </div>
+
+                    <div class="setup-group">
+                        <h2>3. The Teams</h2>
+                        <div id="teams-container">
+                            <!-- Default 2 inputs -->
+                            <input type="text" class="team-input" placeholder="Team 1 Name" value="Team 1">
+                            <input type="text" class="team-input" placeholder="Team 2 Name" value="Team 2">
+                        </div>
+                        <div class="team-controls">
+                            <button id="add-team-btn" class="control-btn">+ Add Team</button>
+                            <button id="remove-team-btn" class="control-btn">- Remove</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-row">
+                    <button id="how-to-play-btn" class="secondary-btn">How To Play</button>
+                    <button id="start-btn" class="primary-btn">Start Game</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Board -->
+        <section id="game-board" class="screen hidden">
+            <header class="game-header">
+                <div class="header-left">
+                    <h1 id="home-btn" class="header-title clickable">Liquid Logic</h1>
+                    <span id="current-board-name">Standard Jeopardy</span>
+                </div>
+                <button id="quit-btn" class="small-btn">Quit</button>
+            </header>
+
+            <div id="scoreboard" class="scoreboard">
+                <!-- Scores injected here -->
+            </div>
+
+            <div id="board-grid" class="board-grid">
+                <!-- Grid injected here -->
+            </div>
+        </section>
+
+        <!-- Question Modal -->
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+
+                <!-- Phase 1: Question -->
+                <div id="modal-phase-question">
+                    <h2 id="modal-points" class="modal-header"></h2>
+                    <p id="modal-penalty" class="penalty-text"></p>
+                    <div id="modal-question" class="question-text"></div>
+                    <button id="reveal-btn" class="action-btn">Reveal Answer</button>
+                </div>
+
+                <!-- Phase 2: Answer & Scoring -->
+                <div id="modal-phase-answer" class="hidden">
+                    <div id="modal-answer" class="answer-text"></div>
+                    <div id="scoring-controls">
+                        <p class="instruction-text">Who got it right?</p>
+                        <div id="winner-buttons"></div>
+                        <button id="no-winner-btn" class="secondary-btn">No One / Skip</button>
+                    </div>
+                </div>
+
+                <!-- Phase 3: Distribute Sips -->
+                <div id="modal-phase-sips" class="hidden">
+                    <h2 class="sip-header">DISTRIBUTE SIPS!</h2>
+                    <p id="sip-instruction" class="sip-instruction"></p>
+                    <div id="target-buttons"></div>
+                </div>
+
+            </div>
         </div>
-      </div>
+
+        <!-- Rules Modal -->
+        <div id="rules-modal" class="modal hidden">
+            <div class="modal-content rules-content">
+                <span id="close-rules" class="close">&times;</span>
+                <h2>How To Play</h2>
+                <ul>
+                    <li><strong>Teams:</strong> 2 to 6 teams compete.</li>
+                    <li><strong>The Board:</strong> 5 Categories, 5 Questions each.</li>
+                    <li><strong>Answering:</strong> First team to buzz in (shout out) gets to answer.</li>
+                    <li><strong>Correct Answer:</strong> Award points to your team AND force another team to drink!</li>
+                    <li><strong>Penalties:</strong>
+                        <ul>
+                            <li>200 Pts = 1 Sip</li>
+                            <li>400 Pts = 2 Sips</li>
+                            <li>600 Pts = 3 Sips</li>
+                            <li>800 Pts = 4 Sips</li>
+                            <li>1000 Pts = 1 Shot</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><em>Drink responsibly. This is a game of logic, not liver failure.</em></p>
+            </div>
+        </div>
+
     </div>
-  </div>
-  <script type="module" src="main.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
+
 </html>

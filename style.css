@@ -1,261 +1,516 @@
-:root {
-  --bg-color: #2b2b2b;
-  --board-bg: #1a1a1a;
-  --chalk-white: #f1f1f1;
-  --chalk-yellow: #f5e6a3;
-  --chalk-blue: #a3d9f5;
-  --border-color: #666;
-  --font-main: 'Architects Daughter', cursive;
-  --font-hand: 'Patrick Hand', cursive;
-}
-
+/* Base Reset */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--bg-color);
-  color: var(--chalk-white);
-  font-family: var(--font-main);
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="200" height="200" fill="%232b2b2b"/><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="200" height="200" filter="url(%23noise)" opacity="0.1"/></svg>');
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s, color 0.5s;
+    font-family: sans-serif;
+}
+
+/* --- THEMES --- */
+
+/* 1. Chalkboard Special */
+[data-theme="chalkboard"] {
+    --bg-color: #2b2b2b;
+    --container-bg: #1e1e1e;
+    --text-main: #f1f1f1;
+    --text-accent: #f5e6a3;
+    --text-highlight: #a3d9f5;
+    --border-color: #666;
+    --border-style: solid;
+    --border-width: 3px;
+    --font-title: 'Architects Daughter', cursive;
+    --font-body: 'Patrick Hand', cursive;
+    --btn-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    --shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    --grid-gap: 10px;
+    --bg-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><rect width="200" height="200" fill="%232b2b2b"/><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="200" height="200" filter="url(%23n)" opacity="0.1"/></svg>');
+}
+
+/* 2. Classic TV Stage */
+[data-theme="tv"] {
+    --bg-color: #000033;
+    --container-bg: #000066;
+    --text-main: #ffffff;
+    --text-accent: #ffcc00;
+    --text-highlight: #ffffff;
+    --border-color: #ffcc00;
+    --border-style: solid;
+    --border-width: 2px;
+    --font-title: 'Changa', sans-serif;
+    --font-body: 'Changa', sans-serif;
+    --btn-radius: 0px;
+    --shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+    --grid-gap: 5px;
+    --bg-image: radial-gradient(circle, #000066 0%, #000033 100%);
+}
+
+/* 3. High Roller */
+[data-theme="roller"] {
+    --bg-color: #0d2b12;
+    --container-bg: #1a4221;
+    --text-main: #e8dcb5;
+    --text-accent: #ffd700;
+    --text-highlight: #ffffff;
+    --border-color: #d4af37;
+    --border-style: double;
+    --border-width: 6px;
+    --font-title: 'Rye', serif;
+    --font-body: serif;
+    --btn-radius: 8px;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    --grid-gap: 15px;
+    --bg-image: none;
+    /* Could add a felt texture pattern here */
+}
+
+/* 4. Retro Arcade */
+[data-theme="arcade"] {
+    --bg-color: #000;
+    --container-bg: #111;
+    --text-main: #0f0;
+    --text-accent: #f0f;
+    --text-highlight: #0ff;
+    --border-color: #0f0;
+    --border-style: solid;
+    --border-width: 4px;
+    --font-title: 'Press Start 2P', cursive;
+    --font-body: 'Press Start 2P', cursive;
+    --btn-radius: 0px;
+    --shadow: 0 0 10px #0f0;
+    --grid-gap: 8px;
+    --bg-image: linear-gradient(0deg, transparent 24%, rgba(0, 255, 0, .05) 25%, rgba(0, 255, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 255, 0, .05) 75%, rgba(0, 255, 0, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 255, 0, .05) 25%, rgba(0, 255, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 255, 0, .05) 75%, rgba(0, 255, 0, .05) 76%, transparent 77%, transparent);
+    background-size: 30px 30px;
+}
+
+/* --- GLOBAL STYLES --- */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    background-image: var(--bg-image);
 }
 
 .hidden {
-  display: none !important;
+    display: none !important;
 }
 
+/* Layout */
 .screen {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.active {
-  display: flex;
+.main-container {
+    background-color: var(--container-bg);
+    border: var(--border-width) var(--border-style) var(--border-color);
+    padding: 40px;
+    border-radius: var(--btn-radius);
+    box-shadow: var(--shadow);
+    max-width: 1000px;
+    /* Increased width for 3 columns */
+    width: 95%;
+    text-align: center;
+    margin-top: 50px;
 }
 
-/* Chalkboard Container */
-.chalk-board-container {
-  border: 10px solid #5d4037;
-  border-radius: 8px;
-  background-color: #1e1e1e;
-  padding: 40px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-  text-align: center;
-  margin-top: 50px;
-  position: relative;
+.game-title {
+    font-family: var(--font-title);
+    font-size: 4rem;
+    /* Larger Title */
+    color: var(--text-main);
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
-.chalk-board-container::before {
-  content: '';
-  position: absolute;
-  top: -10px; left: -10px; right: -10px; bottom: -10px;
-  border: 2px dashed rgba(255,255,255,0.2);
-  pointer-events: none;
+.game-subtitle {
+    font-family: var(--font-body);
+    color: var(--text-accent);
+    font-size: 1.5rem;
+    margin-bottom: 50px;
 }
 
-.chalk-title {
-  font-size: 4rem;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-  color: var(--chalk-white);
+/* Setup Steps Layout */
+.setup-steps-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-bottom: 40px;
 }
 
-.chalk-subtitle {
-  font-size: 2rem;
-  color: var(--chalk-yellow);
-  margin-bottom: 30px;
+.setup-group {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(0, 0, 0, 0.2);
+    /* Slight background for grouping */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.chalk-title-small {
-  font-size: 2rem;
-  margin: 10px;
+.setup-group h2 {
+    font-family: var(--font-title);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: var(--text-highlight);
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-/* Inputs */
-.chalk-input {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 10px auto;
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid var(--chalk-white);
-  color: var(--chalk-white);
-  font-family: var(--font-hand);
-  font-size: 1.5rem;
-  padding: 10px;
-  text-align: center;
+.theme-selector {
+    display: flex;
+    flex-direction: column;
+    /* Stack buttons in the column */
+    gap: 10px;
 }
 
-.chalk-input::placeholder {
-  color: rgba(241, 241, 241, 0.5);
+.theme-btn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: all 0.2s;
 }
 
-.chalk-input:focus {
-  outline: none;
-  border-bottom-color: var(--chalk-blue);
+.theme-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
-/* Buttons */
-.chalk-btn {
-  background: transparent;
-  border: 3px solid var(--chalk-white);
-  color: var(--chalk-white);
-  padding: 10px 30px;
-  font-family: var(--font-main);
-  font-size: 1.5rem;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
-  transition: transform 0.1s;
+.theme-btn.active {
+    background: var(--text-accent);
+    color: #000;
+    border-color: var(--text-accent);
+    font-weight: bold;
 }
 
-.chalk-btn:hover {
-  transform: scale(1.05);
-  background: rgba(255,255,255,0.1);
+.setup-select,
+.team-input {
+    width: 100%;
+    padding: 12px;
+    font-family: var(--font-body);
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
-.chalk-btn.small {
-  font-size: 1rem;
-  padding: 5px 15px;
-  margin: 5px;
+.team-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.control-btn {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+.control-btn:hover {
+    background: #555;
+}
+
+/* Main Buttons */
+.action-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.primary-btn {
+    padding: 15px 50px;
+    font-family: var(--font-title);
+    font-size: 1.8rem;
+    background: var(--container-bg);
+    border: var(--border-width) var(--border-style) var(--text-accent);
+    color: var(--text-accent);
+    cursor: pointer;
+    border-radius: var(--btn-radius);
+    transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.primary-btn:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px var(--text-accent);
+}
+
+.secondary-btn {
+    padding: 15px 30px;
+    font-family: var(--font-body);
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    cursor: pointer;
+    border-radius: var(--btn-radius);
+    font-size: 1.2rem;
+}
+
+.secondary-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 /* Game Board */
 .game-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  background: rgba(0,0,0,0.3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background: var(--container-bg);
+    padding: 10px 20px;
+    border-bottom: var(--border-width) var(--border-style) var(--border-color);
+}
+
+.header-title {
+    font-family: var(--font-title);
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-title.clickable {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.header-title.clickable:hover {
+    color: var(--text-accent);
+    text-shadow: 0 0 10px var(--text-accent);
+}
+
+#current-board-name {
+    margin-left: 20px;
+    color: var(--text-accent);
+    font-family: var(--font-body);
+    font-size: 1.2rem;
 }
 
 .scoreboard {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .score-card {
-  text-align: center;
-  border: 1px solid var(--border-color);
-  padding: 5px 10px;
-  border-radius: 5px;
+    background: var(--container-bg);
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    text-align: center;
+    min-width: 140px;
+    font-family: var(--font-body);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.team-name {
-  display: block;
-  font-size: 1rem;
-  color: var(--chalk-blue);
+.score-card .team-name {
+    color: var(--text-highlight);
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
 }
 
-.team-score {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
+.score-card .team-score {
+    font-size: 1.8rem;
+    display: block;
+    margin: 10px 0;
 }
 
-.team-penalty {
-  display: block;
-  font-size: 0.8rem;
-  color: #ff6b6b;
+.score-card .team-sips {
+    font-size: 1rem;
+    color: #ff6b6b;
+    display: block;
 }
 
 .board-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  padding: 20px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: var(--grid-gap);
+    width: 100%;
+    max-width: 1200px;
 }
 
 .category-cell {
-  background: transparent;
-  padding: 15px;
-  text-align: center;
-  font-size: 1.5rem;
-  border-bottom: 3px solid var(--chalk-white);
-  color: var(--chalk-yellow);
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  word-break: break-word;
+    background: var(--container-bg);
+    color: var(--text-accent);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-title);
+    border: 1px solid var(--border-color);
+    height: 100px;
+    font-size: 1.2rem;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .clue-card {
-  background: #333;
-  color: var(--chalk-blue);
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-  cursor: pointer;
-  border: 1px solid #555;
-  transition: background 0.2s;
+    background: var(--container-bg);
+    color: var(--text-main);
+    border: 1px solid var(--border-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-title);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
 .clue-card:hover {
-  background: #444;
+    opacity: 1;
+    transform: translateY(-2px);
+    background: var(--text-accent);
+    color: #000;
+    box-shadow: 0 0 15px var(--text-accent);
 }
 
 .clue-card.used {
-  color: transparent;
-  background: #222;
-  cursor: default;
+    background: rgba(0, 0, 0, 0.5);
+    color: transparent;
+    border-color: rgba(255, 255, 255, 0.05);
+    cursor: default;
+    pointer-events: none;
+    box-shadow: none;
 }
 
 /* Modal */
 .modal {
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
 .modal-content {
-  width: 80%;
-  max-width: 800px;
+    background: var(--container-bg);
+    border: var(--border-width) var(--border-style) var(--text-accent);
+    padding: 60px;
+    border-radius: var(--btn-radius);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+    position: relative;
+    font-family: var(--font-body);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
 }
 
 .close {
-  position: absolute;
-  top: 10px; right: 20px;
-  font-size: 3rem;
-  cursor: pointer;
-  color: #aaa;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--text-main);
+    transition: color 0.2s;
 }
 
 .close:hover {
-  color: #fff;
+    color: #ff6b6b;
 }
 
-.penalty-text {
-  font-size: 1.5rem;
-  color: #ff6b6b;
-  margin-top: -20px;
-  margin-bottom: 20px;
+.modal-header {
+    font-family: var(--font-title);
+    font-size: 4rem;
+    color: var(--text-highlight);
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .question-text {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    line-height: 1.4;
 }
 
 .answer-text {
-  font-size: 2rem;
-  color: var(--chalk-yellow);
-  margin: 20px 0;
-  border-top: 2px dashed #666;
-  padding-top: 20px;
+    font-size: 2.5rem;
+    color: var(--text-accent);
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.action-btn {
+    padding: 15px 40px;
+    font-size: 1.8rem;
+    background: var(--text-accent);
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-title);
+    border-radius: 5px;
+    transition: transform 0.1s;
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+}
+
+.penalty-text,
+.team-sips {
+    color: #ff6b6b;
+    font-size: 1.5rem;
+}
+
+.sip-header {
+    color: #ff6b6b;
+    font-family: var(--font-title);
+    font-size: 3rem;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#target-buttons,
+#winner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.small-btn {
+    background: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-family: sans-serif;
 }

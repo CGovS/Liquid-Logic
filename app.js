@@ -1,4 +1,5 @@
-import { library } from './data.js';
+console.log("App Module Evaluating...");
+import { library } from './library.js';
 
 class LiquidLogicV2 {
     constructor() {
@@ -38,6 +39,10 @@ class LiquidLogicV2 {
             document.getElementById('reveal-btn').addEventListener('click', () => this.revealAnswer());
             document.getElementById('no-winner-btn').addEventListener('click', () => this.handleNoWinner());
 
+            // Navigation
+            document.getElementById('home-btn').addEventListener('click', () => this.resetGame());
+
+
             // Rules
             document.getElementById('how-to-play-btn').addEventListener('click', () => {
                 document.getElementById('rules-modal').classList.remove('hidden');
@@ -55,6 +60,16 @@ class LiquidLogicV2 {
 
     populateBoardSelect() {
         const select = document.getElementById('board-select');
+        if (!select) {
+            console.error("Board select element not found!");
+            return;
+        }
+        if (!library || !library.boards) {
+            console.error("Library or boards undefined!", library);
+            return;
+        }
+
+        select.innerHTML = ''; // Clear placeholder
         library.boards.forEach((board, index) => {
             const option = document.createElement('option');
             option.value = index;
@@ -62,6 +77,7 @@ class LiquidLogicV2 {
             select.appendChild(option);
         });
         select.addEventListener('change', (e) => this.state.boardIndex = parseInt(e.target.value));
+        console.log("Board select populated with", library.boards.length, "boards.");
     }
 
     setupThemeSelector() {
@@ -82,21 +98,28 @@ class LiquidLogicV2 {
 
     setupTeamInputs() {
         const container = document.getElementById('teams-container');
+        if (!container) return;
+
         const inputTemplate = (num) => `<input type="text" class="team-input" placeholder="Team ${num} Name" value="Team ${num}">`;
 
-        document.getElementById('add-team-btn').addEventListener('click', () => {
-            if (container.children.length < 6) {
-                const num = container.children.length + 1;
-                const div = document.createElement('div'); // Wrapper not needed but helpful for removal logic if more complex
-                container.insertAdjacentHTML('beforeend', inputTemplate(num));
-            }
-        });
+        const addBtn = document.getElementById('add-team-btn');
+        if (addBtn) {
+            addBtn.addEventListener('click', () => {
+                if (container.children.length < 6) {
+                    const num = container.children.length + 1;
+                    container.insertAdjacentHTML('beforeend', inputTemplate(num));
+                }
+            });
+        }
 
-        document.getElementById('remove-team-btn').addEventListener('click', () => {
-            if (container.children.length > 2) {
-                container.removeChild(container.lastElementChild);
-            }
-        });
+        const removeBtn = document.getElementById('remove-team-btn');
+        if (removeBtn) {
+            removeBtn.addEventListener('click', () => {
+                if (container.children.length > 2) {
+                    container.removeChild(container.lastElementChild);
+                }
+            });
+        }
     }
 
     /* --- GAME FLOW --- */
@@ -125,6 +148,18 @@ class LiquidLogicV2 {
 
     quitGame() {
         if (confirm("Are you sure you want to quit?")) {
+            this.resetGame();
+        }
+    }
+
+    resetGame() {
+        if (confirm("Return to main menu? Current game progress will be lost.")) {
+            document.getElementById('game-board').classList.remove('active');
+            document.getElementById('game-board').classList.add('hidden');
+            document.getElementById('landing-page').classList.remove('hidden');
+            document.getElementById('landing-page').classList.add('active');
+
+            // Optional: Reload to truly reset state
             location.reload();
         }
     }
@@ -291,5 +326,5 @@ class LiquidLogicV2 {
 }
 
 // Init
-// Init
+console.log("Instantiating LiquidLogicV2");
 new LiquidLogicV2();
