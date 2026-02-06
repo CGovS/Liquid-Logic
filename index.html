@@ -36,8 +36,8 @@
                     </div>
 
                     <div class="setup-group">
-                        <h2>2. The Board</h2>
-                        <select id="board-select" class="setup-select">
+                        <h2>2. Board Mode</h2>
+                        <select id="board-select" class="board-dropdown">
                             <!-- Populated by JS -->
                         </select>
                     </div>
@@ -122,9 +122,15 @@
                 <h2>How To Play</h2>
                 <ul>
                     <li><strong>Teams:</strong> 2 to 6 teams compete.</li>
-                    <li><strong>The Board:</strong> 5 Categories, 5 Questions each.</li>
-                    <li><strong>Answering:</strong> First team to buzz in (shout out) gets to answer.</li>
-                    <li><strong>Correct Answer:</strong> Award points to your team AND force another team to drink!</li>
+                    <li><strong>The Board:</strong> 5 Random Categories, 5 Questions each.</li>
+                    <li><strong>The Slap Rule:</strong> Wait for the computer to finish reading. First to slap their leg
+                        answers.</li>
+                    <li><strong>Scoring:</strong>
+                        <ul>
+                            <li>Correct Answer: Points + Distribute Sips.</li>
+                            <li>Wrong Answer: LOSE points (Negative Scoring).</li>
+                        </ul>
+                    </li>
                     <li><strong>Penalties:</strong>
                         <ul>
                             <li>200 Pts = 1 Sip</li>
@@ -140,7 +146,7 @@
         </div>
 
     </div>
-    <script type="module" src="app.js"></script>
+    <script type="module" src="app.js?v=2.4"></script>
 </body>
 
 </html>
