@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Logic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Landing Screen -->
+    <section id="landing-page" class="screen active">
+      <div class="chalk-board-container">
+        <h1 class="chalk-title">Liquid Logic</h1>
+        <p class="chalk-subtitle">Enter Team Names</p>
+        <div id="team-inputs">
+          <input type="text" class="chalk-input" placeholder="Team 1 Name" aria-label="Team 1 Name">
+          <input type="text" class="chalk-input" placeholder="Team 2 Name" aria-label="Team 2 Name">
+          <input type="text" class="chalk-input" placeholder="Team 3 Name" aria-label="Team 3 Name">
+          <input type="text" class="chalk-input" placeholder="Team 4 Name" aria-label="Team 4 Name">
+        </div>
+        <button id="start-btn" class="chalk-btn">Start Game</button>
+      </div>
+    </section>
+
+    <!-- Game Board -->
+    <section id="game-board" class="screen hidden">
+      <header class="game-header">
+        <h1 class="chalk-title-small">Liquid Logic</h1>
+        <div id="scoreboard" class="scoreboard">
+          <!-- Scores injected here -->
+        </div>
+      </header>
+      
+      <div id="board-grid" class="board-grid">
+        <!-- Grid injected here -->
+      </div>
+    </section>
+
+    <!-- Question Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content chalk-board-container">
+        <span id="close-modal" class="close">&times;</span>
+        <h2 id="modal-points" class="chalk-subtitle"></h2>
+        <p id="modal-penalty" class="penalty-text"></p>
+        <div id="modal-question" class="question-text"></div>
+        <button id="reveal-btn" class="chalk-btn hidden">Reveal Answer</button>
+        <div id="modal-answer" class="answer-text hidden"></div>
+        
+        <div id="scoring-controls" class="hidden">
+          <p>Award Points To:</p>
+          <div id="team-buttons"></div>
+          <button id="no-winner-btn" class="chalk-btn small">No One / Incorrect</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
