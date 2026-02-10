@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Press+Start+2P&family=Rye&family=Changa:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css?v=2.7">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body data-theme="chalkboard">
@@ -37,7 +37,7 @@
 
                     <div class="setup-group">
                         <h2>2. Board Mode</h2>
-                        <select id="board-select" class="board-dropdown setup-select">
+                        <select id="board-select" class="board-dropdown">
                             <!-- Populated by JS -->
                         </select>
                     </div>
@@ -66,8 +66,8 @@
         <!-- Game Board -->
         <section id="game-board" class="screen hidden">
             <header class="game-header">
-                <div id="home-btn-container" class="header-left clickable">
-                    <h1 class="header-title">Liquid Logic</h1>
+                <div class="header-left">
+                    <h1 id="home-btn" class="header-title clickable">Liquid Logic</h1>
                     <span id="current-board-name">Standard Jeopardy</span>
                 </div>
                 <button id="quit-btn" class="small-btn">Quit</button>
@@ -146,7 +146,7 @@
         </div>
 
     </div>
-    <script type="module" src="app.js?v=2.6"></script>
+    <script type="module" src="app.js?v=2.4"></script>
 </body>
 
 </html>

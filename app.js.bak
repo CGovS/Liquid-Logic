@@ -39,21 +39,6 @@ class LiquidLogicV2 {
             document.getElementById('reveal-btn').addEventListener('click', () => this.revealAnswer());
             document.getElementById('no-winner-btn').addEventListener('click', () => this.handleNoWinner());
 
-            // Navigation - Force listener directly
-            const homeBtnContainer = document.getElementById('home-btn-container');
-            if (homeBtnContainer) {
-                console.log("Attaching Home Button listener to CONTAINER");
-                homeBtnContainer.addEventListener('click', (e) => {
-                    console.log("Home Button Container Clicked");
-                    this.resetGame();
-                });
-            } else {
-                console.error("Home Button Container NOT FOUND");
-            }
-
-            // Preload voices
-            this.loadVoices();
-
             /* 
                Remove this listener if it exists, or update init to call populateBoardSelect 
                Actually, I need to call populateBoardSelect in Setup Phase (Line 27 area)
@@ -155,42 +140,7 @@ class LiquidLogicV2 {
         if ('speechSynthesis' in window) {
             window.speechSynthesis.cancel(); // Stop previous
             const utterance = new SpeechSynthesisUtterance(text);
-
-            // Ensure voices are loaded
-            let voices = window.speechSynthesis.getVoices();
-            if (voices.length === 0) {
-                // Try to wait for voices (though this is async, for this call we might just use default)
-                // Ideally we cache this on init.
-                // Fallback:
-            }
-
-            // Retry getting voices if we have cached ones or try to find them
-            if (this.cachedVoices && this.cachedVoices.length > 0) {
-                voices = this.cachedVoices;
-            }
-
-            const preferredVoice = voices.find(v => v.name === 'Google US English') ||
-                voices.find(v => v.name === 'Samantha') ||
-                voices.find(v => v.lang === 'en-US');
-
-            if (preferredVoice) utterance.voice = preferredVoice;
-
-            // Adjust rate/pitch for more natural feel
-            utterance.rate = 0.9;
-            utterance.pitch = 1.0;
-
             window.speechSynthesis.speak(utterance);
-        }
-    }
-
-    loadVoices() {
-        if ('speechSynthesis' in window) {
-            const load = () => {
-                this.cachedVoices = window.speechSynthesis.getVoices();
-                console.log("Voices loaded:", this.cachedVoices.length);
-            };
-            window.speechSynthesis.onvoiceschanged = load;
-            load(); // Try immediately too
         }
     }
 
@@ -216,28 +166,8 @@ class LiquidLogicV2 {
         const categories = [];
         shuffledCats.forEach(catName => {
             const poolQuestions = library.pool[catName];
-
-            // Select one question for each difficulty level (1-5)
-            const selectedQs = [];
-
-            for (let level = 1; level <= 5; level++) {
-                // Filter for specific difficulty
-                const tierQuestions = poolQuestions.filter(q => q.difficulty === level);
-
-                if (tierQuestions.length > 0) {
-                    // Pick a random one from this tier
-                    const randomQ = tierQuestions[Math.floor(Math.random() * tierQuestions.length)];
-                    selectedQs.push(randomQ);
-                } else {
-                    // Fallback: Pick any unused question
-                    console.warn(`No difficulty ${level} found for ${catName}, using random fallback.`);
-                    const remaining = poolQuestions.filter(q => !selectedQs.includes(q));
-                    if (remaining.length > 0) {
-                        const randomFallback = remaining[Math.floor(Math.random() * remaining.length)];
-                        selectedQs.push(randomFallback);
-                    }
-                }
-            }
+            // Shuffle questions and pick 5
+            const selectedQs = poolQuestions.sort(() => 0.5 - Math.random()).slice(0, 5);
 
             // Assign values
             const values = [200, 400, 600, 800, 1000];
@@ -291,15 +221,15 @@ class LiquidLogicV2 {
     }
 
     resetGame() {
-        // Instant Reset (User requested "it doesn't work", assumption: confirm dialog was blocked/ignored)
-        console.log("Resetting Game - Instant");
-        document.getElementById('game-board').classList.remove('active');
-        document.getElementById('game-board').classList.add('hidden');
-        document.getElementById('landing-page').classList.remove('hidden');
-        document.getElementById('landing-page').classList.add('active');
+        if (confirm("Return to main menu? Current game progress will be lost.")) {
+            document.getElementById('game-board').classList.remove('active');
+            document.getElementById('game-board').classList.add('hidden');
+            document.getElementById('landing-page').classList.remove('hidden');
+            document.getElementById('landing-page').classList.add('active');
 
-        // Optional: Reload to truly reset state
-        // location.reload(); 
+            // Optional: Reload to truly reset state
+            location.reload();
+        }
     }
 
     /* --- RENDERERS --- */
@@ -389,17 +319,6 @@ class LiquidLogicV2 {
         document.getElementById('modal').classList.remove('hidden');
     }
 
-    handleNoWinner() {
-        // No one got it right, no sips distributed
-        this.closeModalAndMarkUsed();
-    }
-
-    handleWrongAnswer(index) {
-        // Deduct Points
-        this.state.scores[index] -= this.state.currentClue.value;
-        this.renderScoreboard();
-    }
-
     revealAnswer() {
         document.getElementById('modal-phase-question').classList.add('hidden');
         document.getElementById('modal-phase-answer').classList.remove('hidden');
@@ -407,41 +326,20 @@ class LiquidLogicV2 {
         // Render Winner Buttons
         const container = document.getElementById('winner-buttons');
         container.innerHTML = '';
-
         this.state.teams.forEach((team, index) => {
-            const wrapper = document.createElement('div');
-            wrapper.style.display = 'flex';
-            wrapper.style.flexDirection = 'column';
-            wrapper.style.alignItems = 'center';
-            wrapper.style.margin = '5px';
-
-            // Correct Button
-            const btnCorrect = document.createElement('button');
-            btnCorrect.className = 'action-btn small';
-            btnCorrect.style.fontSize = "1rem";
-            btnCorrect.style.marginBottom = "5px";
-            btnCorrect.textContent = `${team} (Correct)`;
-            btnCorrect.addEventListener('click', () => this.handleWinnerSelected(index));
-
-            // Wrong Button (Minus Function)
-            const btnWrong = document.createElement('button');
-            btnWrong.className = 'secondary-btn small';
-            btnWrong.style.fontSize = "0.8rem";
-            btnWrong.style.padding = "5px 10px";
-            btnWrong.style.borderColor = "#ff6b6b";
-            btnWrong.style.color = "#ff6b6b";
-            btnWrong.textContent = "Wrong (-)";
-            btnWrong.addEventListener('click', () => {
-                this.handleWrongAnswer(index);
-                // Visual feedback?
-                btnWrong.disabled = true;
-                btnWrong.textContent = "Points Deducted";
-            });
-
-            wrapper.appendChild(btnCorrect);
-            wrapper.appendChild(btnWrong);
-            container.appendChild(wrapper);
+            const btn = document.createElement('button');
+            btn.className = 'action-btn small';
+            btn.style.margin = "5px"; // Inline style for simplicity
+            btn.style.fontSize = "1rem";
+            btn.textContent = team;
+            btn.addEventListener('click', () => this.handleWinnerSelected(index));
+            container.appendChild(btn);
         });
+    }
+
+    handleNoWinner() {
+        // No one got it right, no sips distributed (or could be all drink, but keeping simple)
+        this.closeModalAndMarkUsed();
     }
 
     handleWinnerSelected(index) {
