@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css?v=2.7">
 </head>
 
-<body data-theme="chalkboard">
+<body data-theme="tv">
     <div id="app">
         <!-- Landing Screen -->
         <section id="landing-page" class="screen active">
@@ -28,9 +28,9 @@
                     <div class="setup-group">
                         <h2>1. Appearance</h2>
                         <div class="theme-selector">
-                            <button class="theme-btn active" data-set-theme="chalkboard">Chalkboard</button>
-                            <button class="theme-btn" data-set-theme="tv">TV Stage</button>
+                            <button class="theme-btn active" data-set-theme="tv">TV Stage</button>
                             <button class="theme-btn" data-set-theme="roller">High Roller</button>
+                            <button class="theme-btn" data-set-theme="chalkboard">Chalkboard</button>
                             <button class="theme-btn" data-set-theme="arcade">Arcade</button>
                         </div>
                     </div>
@@ -119,34 +119,55 @@
         <div id="rules-modal" class="modal hidden">
             <div class="modal-content rules-content">
                 <span id="close-rules" class="close">&times;</span>
-                <h2>How To Play</h2>
-                <ul>
-                    <li><strong>Teams:</strong> 2 to 6 teams compete.</li>
-                    <li><strong>The Board:</strong> 5 Random Categories, 5 Questions each.</li>
-                    <li><strong>The Slap Rule:</strong> Wait for the computer to finish reading. First to slap their leg
-                        answers.</li>
-                    <li><strong>Scoring:</strong>
-                        <ul>
-                            <li>Correct Answer: Points + Distribute Sips.</li>
-                            <li>Wrong Answer: LOSE points (Negative Scoring).</li>
-                        </ul>
-                    </li>
-                    <li><strong>Penalties:</strong>
-                        <ul>
-                            <li>200 Pts = 1 Sip</li>
-                            <li>400 Pts = 2 Sips</li>
-                            <li>600 Pts = 3 Sips</li>
-                            <li>800 Pts = 4 Sips</li>
-                            <li>1000 Pts = 1 Shot</li>
-                        </ul>
-                    </li>
-                </ul>
+                <h2>How to Play</h2>
+                <div class="help-modal">
+                    <ul>
+                        <li>
+                            <strong>Setup:</strong> Enter team names and choose a theme.
+                        </li>
+                        <li>
+                            <strong>Gameplay:</strong> Pick a category and point value.
+                        </li>
+                        <li>
+                            <strong>Buzzing:</strong> Wait for the host/voice to finish reading. First to SLAP the table
+                            buzzes in!
+                        </li>
+                        <li>
+                            <strong>Answering:</strong> Click "Reveal Answer". If right, assign sips!
+                        </li>
+                        <li>
+                            <strong>Scoring:</strong>
+                            <ul>
+                                <li>Correct: Points + Assign Sips.</li>
+                                <li>Wrong: Negative Points (No Drinking).</li>
+                                <li>200-800 pts = 1-4 sips.</li>
+                                <li>1000 pts = 5 sips (The Big One).</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Winning:</strong> Most points (and fewest sips) wins!
+                        </li>
+                    </ul>
+                </div>
+                <button class="action-btn" onclick="document.getElementById('modal-rules').classList.add('hidden')">Got
+                    it!</button>
                 <p><em>Drink responsibly. This is a game of logic, not liver failure.</em></p>
             </div>
         </div>
 
+        <!-- Legal Footer -->
+        <footer class="legal-footer">
+            <p class="legal-text">&copy; 2026 Liquid Logic. For Entertainment Purposes Only.</p>
+            <p class="legal-disclaimer">
+                TERMS OF SERVICE: This game is intended for players of legal drinking age.
+                Please drink responsibly. The developers assume no liability for the consequences of alcohol
+                consumption.
+                Know your limits and never drink and drive.
+            </p>
+        </footer>
+
     </div>
-    <script type="module" src="app.js?v=2.6"></script>
+    <script type="module" src="app.js?v=2.7"></script>
 </body>
 
 </html>

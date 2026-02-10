@@ -458,16 +458,24 @@ class LiquidLogicV2 {
         document.getElementById('modal-phase-sips').classList.remove('hidden');
 
         const winnerName = this.state.teams[this.state.winnerIndex];
-        const penalty = this.state.currentClue.penalty; // e.g., "2 sips"
+        // Ensure points is a number (it should be, but let's be safe)
+        const points = parseInt(this.state.currentClue.value, 10);
+        const amount = Math.floor(points / 200);
+        let penaltyText = "";
 
-        // Parse penalty to number for tracking (Simple heuristic)
-        let amount = 1;
-        if (penalty.includes('2')) amount = 2;
-        if (penalty.includes('3')) amount = 3;
-        if (penalty.includes('4')) amount = 4;
-        if (penalty.includes('shot')) amount = 5; // Shot = 5 sips weight
+        // Grammar Logic
+        // Special Case: 1000 points = "this 1 Shot"
+        if (points === 1000) {
+            penaltyText = "this 1 Shot";
+        }
+        // Normal Cases
+        else if (amount === 1) {
+            penaltyText = "this 1 sip";
+        } else {
+            penaltyText = `these ${amount} sips`;
+        }
 
-        document.getElementById('sip-instruction').textContent = `${winnerName}, who must drink these ${penalty}?`;
+        document.getElementById('sip-instruction').textContent = `${winnerName}, who must drink ${penaltyText}?`;
 
         // Render Target Buttons (Exclude Winner? Usually yes, but self-sabotage is fun. Let's allowing targeting anyone).
         const container = document.getElementById('target-buttons');

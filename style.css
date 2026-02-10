@@ -549,3 +549,44 @@ body {
     cursor: pointer;
     font-family: sans-serif;
 }
+
+/* --- HELP MODAL POLISH --- */
+.help-modal ul {
+    text-align: left;
+    padding-left: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    list-style-type: disc;
+}
+
+.help-modal li {
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: var(--text-main);
+}
+
+/* --- LEGAL FOOTER --- */
+.legal-footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border-color);
+    background: rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
+}
+
+.legal-text {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 5px 0;
+}
+
+.legal-disclaimer {
+    font-size: 0.8rem;
+    color: #666;
+    max-width: 800px;
+    margin: 10px auto;
+    font-style: italic;
+}
