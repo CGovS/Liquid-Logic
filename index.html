@@ -32,7 +32,7 @@
         <!-- Ad Placeholder -->
         <div id="ad-placeholder"
             style="width: 100%; height: 50px; background-color: #000; color: #333; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; letter-spacing: 1px;">
-            LIQUID LOGIC v3.4
+            LIQUID LOGIC v3.5
         </div>
 
         <!-- Landing Screen -->
@@ -74,9 +74,21 @@
                 </div>
 
                 <div class="action-row">
+                    <button id="about-btn" class="secondary-btn">About</button>
                     <button id="how-to-play-btn" class="secondary-btn">How To Play</button>
                     <button id="start-btn" class="primary-btn">Start Game</button>
                 </div>
+            </div>
+
+            <!-- SEO Content (Dark, Subtle) -->
+            <div class="seo-footer-text">
+                <h2>What is Liquid Logic?</h2>
+                <p>Liquid Logic is the ultimate drinking trivia game, designed to test your wits (and your liver). With
+                    over <strong>2,500 questions</strong> across 50+ diverse categories, it offers endless replayability
+                    for parties and game nights.</p>
+                <h3>How to Play</h3>
+                <p>In this <strong>Jeopardy-style</strong> showdown, teams compete to buzz in first. Correct answers
+                    earn points and the right to assign sips, while wrong answers deduct points.</p>
             </div>
         </section>
 
@@ -176,6 +188,29 @@
             </div>
         </div>
 
+
+
+        <!-- About Modal (SEO Content in Popup) -->
+        <div id="about-modal" class="modal hidden">
+            <div class="modal-content rules-content">
+                <span id="close-about" class="close">&times;</span>
+                <h2>What is Liquid Logic?</h2>
+                <div class="help-modal">
+                    <p>Liquid Logic is the ultimate drinking trivia game, designed to test your wits (and your liver).
+                    </p>
+                    <p>With over <strong>2,500 questions</strong> across 50+ diverse categories, it offers endless
+                        replayability for parties, game nights, and social gatherings.</p>
+
+                    <h3>How to Play</h3>
+                    <p>This is a fast-paced, <strong>Jeopardy-style</strong> showdown. Teams compete to buzz in first
+                        and answer trivia questions ranging from "History of Tech" to "Beers, Bars & Booze".</p>
+                    <p>Correct answers earn points and the right to assign sips to opponents. Wrong answers deduct
+                        points, raising the stakes.</p>
+                </div>
+                <button id="close-about-btn" class="action-btn">Cool, Thanks!</button>
+            </div>
+        </div>
+
         <!-- Legal Footer -->
         <footer class="legal-footer">
             <p class="legal-text">&copy; 2026 Liquid Logic. For entertainment purposes only. All Rights Reserved.</p>
@@ -189,7 +224,7 @@
         </footer>
 
     </div>
-    <script type="module" src="app.js?v=2.7"></script>
+    <script type="module" src="app.js?v=3.6"></script>
 </body>
 
 </html>

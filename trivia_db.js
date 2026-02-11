@@ -8,11 +8,11 @@ export const library = {
         "history": { name: "The History Vault", categories: ["US History", "Wars", "Technology", "Ancient Greece", "The 1980s"] },
         "pop": { name: "Pop Culture Blender", categories: ["Blockbuster Movies", "Reality TV", "Slogans & Brands", "Current Events", "Famous People"] },
         "music": { name: "Music Masters", categories: ["Rock n' Roll Riots", "Lyrics about Liquor", "80s One-Hit Wonders", "Rap", "Haus (House Music)"] },
-        "geography": { name: "Globe Trotter", categories: ["World Capitals", "Rivers & Lakes", "Mountains", "Islands", "Landmarks"] },
-        "sports": { name: "The Sports Bar", categories: ["Olympics", "NFL Legends", "NBA Hoops", "World Cup Soccer", "Baseball History"] },
-        "library": { name: "The Library", categories: ["Classic Novels", "Shakespeare", "Poetry", "Children's Books", "Mythology"] },
-        "science": { name: "Science Lab", categories: ["Biology", "Physics", "Astronomy", "Chemistry", "Famous Scientists"] },
-        "movies": { name: "Silver Screen", categories: ["Oscar Winners", "Disney Villains", "Horror Movies", "Comedies", "Sci-Fi Classics"] }
+        "geography": { name: "Globe Trotter", categories: ["World Capitals", "Rivers & Lakes", "Mountains", "Islands", "Landmarks"] }
+        // "sports": { name: "The Sports Bar", categories: ["Olympics", "NFL Legends", "NBA Hoops", "World Cup Soccer", "Baseball History"] },
+        // "library": { name: "The Library", categories: ["Classic Novels", "Shakespeare", "Poetry", "Children's Books", "Mythology"] },
+        // "science": { name: "Science Lab", categories: ["Biology", "Physics", "Astronomy", "Chemistry", "Famous Scientists"] },
+        // "movies": { name: "Silver Screen", categories: ["Oscar Winners", "Disney Villains", "Horror Movies", "Comedies", "Sci-Fi Classics"] }
     },
     pool: {
         "Potent Potables": [
@@ -896,6 +896,139 @@ export const library = {
             { question: "The villain in 'Wreck-It Ralph'.", answer: "Who is King Candy / Turbo?", difficulty: 4 },
             { question: "The villain in 'Frozen' (twist).", answer: "Who is Hans?", difficulty: 2 },
             { question: "The villain in '101 Dalmatians'.", answer: "Who is Cruella de Vil?", difficulty: 1 }
+        ],
+        "Olympics": [
+            { question: "This city hosted the 2008 Summer Olympics.", answer: "What is Beijing?", difficulty: 1 },
+            { question: "This Jamaican sprinter holds the world record in the 100m.", answer: "Who is Usain Bolt?", difficulty: 2 },
+            { question: "The five interlocking rings on the Olympic flag represent these.", answer: "What are The Continents?", difficulty: 3 },
+            { question: "This sport was reintroduced to the Olympics in 2016 after 112 years.", answer: "What is Golf?", difficulty: 4 },
+            { question: "The first modern Olympics were held here in 1896.", answer: "What is Athens?", difficulty: 5 }
+        ],
+        "NFL Legends": [
+            { question: "He has the most Super Bowl wins as a quarterback.", answer: "Who is Tom Brady?", difficulty: 1 },
+            { question: "This wide receiver is considered the GOAT and played for the 49ers.", answer: "Who is Jerry Rice?", difficulty: 2 },
+            { question: "He was known as 'Sweetness' and played for the Bears.", answer: "Who is Walter Payton?", difficulty: 3 },
+            { question: "This linebacker was the face of the Ravens defense for years.", answer: "Who is Ray Lewis?", difficulty: 4 },
+            { question: "The only NFL team to complete a perfect season (1972).", answer: "Who are The Miami Dolphins?", difficulty: 5 }
+        ],
+        "NBA Hoops": [
+            { question: "He won 6 championships with the Chicago Bulls.", answer: "Who is Michael Jordan?", difficulty: 1 },
+            { question: "The team with the most NBA championships (tied).", answer: "Who are The Celtics or Lakers?", difficulty: 2 },
+            { question: "Specifically known as 'The King'.", answer: "Who is LeBron James?", difficulty: 2 },
+            { question: "He holds the record for most points in a single game (100).", answer: "Who is Wilt Chamberlain?", difficulty: 4 },
+            { question: "The height of a regulation NBA hoop (in feet).", answer: "What is 10 Feet?", difficulty: 3 }
+        ],
+        "World Cup Soccer": [
+            { question: "This country has won the most World Cups.", answer: "What is Brazil?", difficulty: 1 },
+            { question: "The 2022 World Cup was held in this country.", answer: "What is Qatar?", difficulty: 2 },
+            { question: "Diego Maradona played for this country.", answer: "What is Argentina?", difficulty: 3 },
+            { question: "The 'Hand of God' goal was scored against this team.", answer: "What is England?", difficulty: 4 },
+            { question: "The only player to win 3 World Cups.", answer: "Who is Pelé?", difficulty: 5 }
+        ],
+        "Baseball History": [
+            { question: "He broke the color barrier in MLB.", answer: "Who is Jackie Robinson?", difficulty: 1 },
+            { question: "The Curse of the Bambino plagued this team for 86 years.", answer: "Who are The Boston Red Sox?", difficulty: 2 },
+            { question: "He is the all-time Home Run king (controversial).", answer: "Who is Barry Bonds?", difficulty: 3 },
+            { question: "The year the Chicago Cubs finally won the World Series again.", answer: "What is 2016?", difficulty: 4 },
+            { question: "This player holds the record for most consecutive games played.", answer: "Who is Cal Ripken Jr.?", difficulty: 5 }
+        ],
+        "Biology": [
+            { question: "The control center of a cell.", answer: "What is The Nucleus?", difficulty: 1 },
+            { question: "Plants use this process to make food.", answer: "What is Photosynthesis?", difficulty: 1 },
+            { question: "The largest organ in the human body.", answer: "What is The Skin?", difficulty: 2 },
+            { question: "This molecule carries genetic instructions.", answer: "What is DNA?", difficulty: 3 },
+            { question: "The powerhouse of the cell.", answer: "What is The Mitochondria?", difficulty: 2 }
+        ],
+        "Physics": [
+            { question: "Force equals mass times acceleration (F=ma).", answer: "What is Newton's Second Law?", difficulty: 2 },
+            { question: "The speed of light is approximately this many km/s.", answer: "What is 300,000?", difficulty: 4 },
+            { question: "He discovered gravity when an apple fell.", answer: "Who is Isaac Newton?", difficulty: 1 },
+            { question: "The unit of electrical resistance.", answer: "What is The Ohm?", difficulty: 4 },
+            { question: "Splitting an atom is called this.", answer: "What is Fission?", difficulty: 3 }
+        ],
+        "Astronomy": [
+            { question: "The planet closest to the sun.", answer: "What is Mercury?", difficulty: 1 },
+            { question: "The largest planet in our solar system.", answer: "What is Jupiter?", difficulty: 1 },
+            { question: "The galaxy we live in.", answer: "What is The Milky Way?", difficulty: 2 },
+            { question: "This planet is known as the Red Planet.", answer: "What is Mars?", difficulty: 1 },
+            { question: "A star that suddenly increases greatly in brightness.", answer: "What is A Supernova?", difficulty: 4 }
+        ],
+        "Chemistry": [
+            { question: "The chemical symbol for water.", answer: "What is H2O?", difficulty: 1 },
+            { question: "The first element on the periodic table.", answer: "What is Hydrogen?", difficulty: 2 },
+            { question: "The symbol 'Au' stands for this precious metal.", answer: "What is Gold?", difficulty: 2 },
+            { question: "A substance with a pH less than 7.", answer: "What is An Acid?", difficulty: 3 },
+            { question: "The noble gas used in lighted signs.", answer: "What is Neon?", difficulty: 2 }
+        ],
+        "Famous Scientists": [
+            { question: "He developed the theory of relativity.", answer: "Who is Albert Einstein?", difficulty: 1 },
+            { question: "She was the first woman to win a Nobel Prize.", answer: "Who is Marie Curie?", difficulty: 3 },
+            { question: "He proposed the theory of evolution by natural selection.", answer: "Who is Charles Darwin?", difficulty: 2 },
+            { question: "He discovered penicillin.", answer: "Who is Alexander Fleming?", difficulty: 4 },
+            { question: "This physicist wrote 'A Brief History of Time'.", answer: "Who is Stephen Hawking?", difficulty: 3 }
+        ],
+        "Classic Novels": [
+            { question: "He wrote 'Moby Dick'.", answer: "Who is Herman Melville?", difficulty: 3 },
+            { question: "The Great Gatsby is set in this decade.", answer: "What is The 1920s?", difficulty: 2 },
+            { question: "Author of 'Pride and Prejudice'.", answer: "Who is Jane Austen?", difficulty: 2 },
+            { question: "To Kill a Mockingbird features this lawyer.", answer: "Who is Atticus Finch?", difficulty: 2 },
+            { question: "Start of this book: 'It was the best of times, it was the worst of times'.", answer: "What is A Tale of Two Cities?", difficulty: 4 }
+        ],
+        "Shakespeare": [
+            { question: "To be or not to be, that is the question.", answer: "What is Hamlet?", difficulty: 1 },
+            { question: "Star-crossed lovers from Verona.", answer: "Who are Romeo and Juliet?", difficulty: 1 },
+            { question: "The Scottish Play.", answer: "What is Macbeth?", difficulty: 3 },
+            { question: "A Midsummer Night's...", answer: "What is Dream?", difficulty: 1 },
+            { question: "He kills Caesar.", answer: "Who is Brutus?", difficulty: 3 }
+        ],
+        "Poetry": [
+            { question: "He wrote 'The Raven'.", answer: "Who is Edgar Allan Poe?", difficulty: 1 },
+            { question: "I wandered lonely as a cloud...", answer: "Who is William Wordsworth?", difficulty: 4 },
+            { question: "Shall I compare thee to a summer's day?", answer: "What is Sonnet 18?", difficulty: 3 },
+            { question: "Author of 'The Road Not Taken'.", answer: "Who is Robert Frost?", difficulty: 2 },
+            { question: "She wrote 'Still I Rise'.", answer: "Who is Maya Angelou?", difficulty: 2 }
+        ],
+        "Children's Books": [
+            { question: "He creates a Chocolate Factory.", answer: "Who is Willy Wonka?", difficulty: 1 },
+            { question: "The boy who wouldn't grow up.", answer: "Who is Peter Pan?", difficulty: 1 },
+            { question: "The bear with very little brain.", answer: "Who is Winnie the Pooh?", difficulty: 1 },
+            { question: "Author of 'The Cat in the Hat'.", answer: "Who is Dr. Seuss?", difficulty: 1 },
+            { question: "Where the Wild Things...", answer: "What is Are?", difficulty: 2 }
+        ],
+        "Mythology": [
+            { question: "King of the Greek Gods.", answer: "Who is Zeus?", difficulty: 1 },
+            { question: "God of the Sea.", answer: "Who is Poseidon?", difficulty: 1 },
+            { question: "He has a hammer named Mjolnir.", answer: "Who is Thor?", difficulty: 1 },
+            { question: "She has snakes for hair.", answer: "Who is Medusa?", difficulty: 2 },
+            { question: "The river bordering the underworld.", answer: "What is The Styx?", difficulty: 3 }
+        ],
+        "Oscar Winners": [
+            { question: "This film won Best Picture in 1997 (Ship).", answer: "What is Titanic?", difficulty: 1 },
+            { question: "He won Best Actor for 'Forrest Gump'.", answer: "Who is Tom Hanks?", difficulty: 2 },
+            { question: "This fantasy trilogy won 11 Oscars for its final film.", answer: "What is Lord of the Rings?", difficulty: 3 },
+            { question: "First animated film nominated for Best Picture.", answer: "What is Beauty and the Beast?", difficulty: 4 },
+            { question: "She has the most Oscar nominations for acting.", answer: "Who is Meryl Streep?", difficulty: 3 }
+        ],
+        "Horror Movies": [
+            { question: "The killer in 'Halloween'.", answer: "Who is Michael Myers?", difficulty: 1 },
+            { question: "He visits you in your dreams on Elm Street.", answer: "Who is Freddy Krueger?", difficulty: 1 },
+            { question: "Here's Johnny!", answer: "What is The Shining?", difficulty: 2 },
+            { question: "The movie with the girl crawling out of the TV.", answer: "What is The Ring?", difficulty: 2 },
+            { question: "He wears a hockey mask.", answer: "Who is Jason Voorhees?", difficulty: 1 }
+        ],
+        "Comedies": [
+            { question: "Will Ferrell plays a human raised by elves.", answer: "What is Elf?", difficulty: 1 },
+            { question: "The Plastics wear pink on Wednesdays.", answer: "What is Mean Girls?", difficulty: 2 },
+            { question: "Stop trying to make 'fetch' happen.", answer: "What is Mean Girls?", difficulty: 2 },
+            { question: "Who ya gonna call?", answer: "Who are Ghostbusters?", difficulty: 1 },
+            { question: "This mockupmentary follows strict rock band Spinal Tap.", answer: "What is This Is Spinal Tap?", difficulty: 4 }
+        ],
+        "Sci-Fi Classics": [
+            { question: "Use the Force, Luke.", answer: "What is Star Wars?", difficulty: 1 },
+            { question: "In space, no one can hear you scream.", answer: "What is Alien?", difficulty: 2 },
+            { question: "He is the One in The Matrix.", answer: "Who is Neo?", difficulty: 2 },
+            { question: "The Terminator's catchphrase.", answer: "What is I'll be back?", difficulty: 1 },
+            { question: "This 1982 film features a replicant named Roy Batty.", answer: "What is Blade Runner?", difficulty: 4 }
         ]
     }
 };

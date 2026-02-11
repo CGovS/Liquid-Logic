@@ -1,5 +1,5 @@
 console.log("App Module Evaluating...");
-import { library } from './trivia_db.js';
+import { library } from './trivia_db.js?v=3.6';
 
 class LiquidLogicV3 {
     constructor() {
@@ -72,12 +72,27 @@ class LiquidLogicV3 {
                 document.getElementById('rules-modal').classList.add('hidden');
             });
 
+            // About Modal
+            document.getElementById('about-btn').addEventListener('click', () => {
+                document.getElementById('about-modal').classList.remove('hidden');
+            });
+            const closeAboutBtn = document.getElementById('close-about-btn');
+            if (closeAboutBtn) {
+                closeAboutBtn.addEventListener('click', () => {
+                    document.getElementById('about-modal').classList.add('hidden');
+                });
+            }
+            document.getElementById('close-about').addEventListener('click', () => {
+                document.getElementById('about-modal').classList.add('hidden');
+            });
+
             // V3 Buzzer Listener
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') {
                     this.closeModal();
-                    // Also support closing rules if open
+                    // Also support closing rules/about if open
                     document.getElementById('rules-modal').classList.add('hidden');
+                    document.getElementById('about-modal').classList.add('hidden');
                 }
                 this.handleKeyPress(e);
             });
