@@ -4,7 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liquid Logic</title>
+    <title>Liquid Logic v3.0</title>
+    <meta name="description"
+        content="Liquid Logic v3.0 - The Ultimate Drinking Trivia Game. Test your knowledge in a Jeopardy-style format. For entertainment purposes only.">
+    <meta name="keywords"
+        content="drinking game, trivia, jeopardy, party game, liquid logic, alcohol trivia, entertainment">
+    <meta property="og:title" content="Liquid Logic v3.1 - The Ultimate Drinking Trivia">
+    <meta property="og:description"
+        content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://liquidlogic.game">
+    <meta property="og:image" content="https://liquidlogic.game/preview.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +28,12 @@
 
 <body data-theme="tv">
     <div id="app">
+        <!-- Ad Placeholder -->
+        <div id="ad-placeholder"
+            style="width: 100%; height: 50px; background-color: #000; color: #333; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; letter-spacing: 1px;">
+            LIQUID LOGIC v3.0
+        </div>
+
         <!-- Landing Screen -->
         <section id="landing-page" class="screen active">
             <div class="main-container">
@@ -129,8 +145,12 @@
                             <strong>Gameplay:</strong> Pick a category and point value.
                         </li>
                         <li>
-                            <strong>Buzzing:</strong> Wait for the host/voice to finish reading. First to SLAP the table
-                            buzzes in!
+                            <strong>Buzzing:</strong> Wait for the voice. Keys: <strong>1, 5, 0</strong> (Top) or
+                            <strong>z, b, /</strong> (Bottom).
+                        </li>
+                        <li>
+                            <strong>Stealing:</strong> 4-second timer! If it hits 0 or answer is wrong, buzzer
+                            <strong>RE-OPENS</strong> for others!
                         </li>
                         <li>
                             <strong>Answering:</strong> Click "Reveal Answer". If right, assign sips!
@@ -149,19 +169,20 @@
                         </li>
                     </ul>
                 </div>
-                <button class="action-btn" onclick="document.getElementById('modal-rules').classList.add('hidden')">Got
-                    it!</button>
-                <p><em>Drink responsibly. This is a game of logic, not liver failure.</em></p>
+                <button id="close-rules-btn" class="action-btn">Got it!</button>
+                <p><em>Drink responsibly. This is a game of logic, not liver failure. Drinking amounts should be scaled
+                        to the number of players/teams.</em></p>
             </div>
         </div>
 
         <!-- Legal Footer -->
         <footer class="legal-footer">
-            <p class="legal-text">&copy; 2026 Liquid Logic. For Entertainment Purposes Only.</p>
+            <p class="legal-text">&copy; 2026 Liquid Logic. For entertainment purposes only. All Rights Reserved.</p>
             <p class="legal-disclaimer">
                 TERMS OF SERVICE: This game is intended for players of legal drinking age.
-                Please drink responsibly. The developers assume no liability for the consequences of alcohol
-                consumption.
+                DO NOT PLAY THIS GAME WITH ALCOHOL.
+                Please drink responsibly (water/soda recommended). The developers assume no liability for the
+                consequences of alcohol consumption.
                 Know your limits and never drink and drive.
             </p>
         </footer>

@@ -1,10 +1,10 @@
 console.log("App Module Evaluating...");
 import { library } from './trivia_db.js';
 
-class LiquidLogicV2 {
+class LiquidLogicV3 {
     constructor() {
         this.state = {
-            theme: 'chalkboard',
+            theme: 'tv', // Default to TV
             teams: ['Team 1', 'Team 2'],
             scores: [0, 0],
             sipsReceived: [0, 0],
@@ -12,7 +12,15 @@ class LiquidLogicV2 {
             currentClue: null,
             winnerIndex: -1,
             selectedTheme: 'daily',
-            currentBoard: [] // Generated at runtime
+            currentBoard: [],
+            // V3 State
+            gamePhase: 'IDLE', // IDLE, READING, OPEN, BUZZED, ANSWERING, RESOLVED
+            buzzedTeam: -1,
+            lockedTeams: new Set(), // Teams that answered wrong
+            speechSynth: null,
+            speechUtterance: null,
+            timerInterval: null,
+            timerValue: 4
         };
 
         this.init();
@@ -20,7 +28,7 @@ class LiquidLogicV2 {
 
     init() {
         try {
-            console.log("Initializing Liquid Logic V2.1...");
+            console.log("Initializing Liquid Logic V3.0...");
             console.log("Library loaded with", Object.keys(library.pool).length, "categories.");
 
             // 1. Setup Phase
@@ -34,45 +42,118 @@ class LiquidLogicV2 {
             const quitBtn = document.getElementById('quit-btn');
             if (quitBtn) quitBtn.addEventListener('click', () => this.quitGame());
 
+            // Home Header Click -> Quit/Reset (Instant)
+            const homeBtn = document.getElementById('home-btn-container');
+            if (homeBtn) {
+                // Ensure no duplicates
+                homeBtn.removeEventListener('click', () => this.quitGame()); // Safety
+                homeBtn.addEventListener('click', () => this.quitGame());
+            }
+
             // Modal Interactions
             document.getElementById('close-modal').addEventListener('click', () => this.closeModal());
             document.getElementById('reveal-btn').addEventListener('click', () => this.revealAnswer());
             document.getElementById('no-winner-btn').addEventListener('click', () => this.handleNoWinner());
 
-            // Navigation - Force listener directly
-            const homeBtnContainer = document.getElementById('home-btn-container');
-            if (homeBtnContainer) {
-                console.log("Attaching Home Button listener to CONTAINER");
-                homeBtnContainer.addEventListener('click', (e) => {
-                    console.log("Home Button Container Clicked");
-                    this.resetGame();
-                });
-            } else {
-                console.error("Home Button Container NOT FOUND");
-            }
-
-            // Preload voices
-            this.loadVoices();
-
-            /* 
-               Remove this listener if it exists, or update init to call populateBoardSelect 
-               Actually, I need to call populateBoardSelect in Setup Phase (Line 27 area)
-            */
-            this.populateBoardSelect();
-
-
             // Rules
             document.getElementById('how-to-play-btn').addEventListener('click', () => {
                 document.getElementById('rules-modal').classList.remove('hidden');
             });
+            // Fix "Got It" button logic
+            const closeRulesBtn = document.getElementById('close-rules-btn') || document.getElementById('close-rules');
+            if (closeRulesBtn) {
+                closeRulesBtn.addEventListener('click', () => {
+                    document.getElementById('rules-modal').classList.add('hidden');
+                });
+            }
             document.getElementById('close-rules').addEventListener('click', () => {
                 document.getElementById('rules-modal').classList.add('hidden');
             });
+
+            // V3 Buzzer Listener
+            document.addEventListener('keydown', (e) => this.handleKeyPress(e));
+
+            this.loadVoices();
+            this.populateBoardSelect();
+
         } catch (error) {
             console.error("Initialization Failed:", error);
             alert("Game failed to initialize: " + error.message);
         }
     }
+
+    handleKeyPress(e) {
+        if (this.state.gamePhase !== 'READING' && this.state.gamePhase !== 'OPEN') return;
+        if (this.state.currentClue === null) return;
+        if (document.getElementById('modal').classList.contains('hidden')) return;
+
+        const key = e.key.toLowerCase();
+        let teamIndex = -1;
+
+        if (key === '1') teamIndex = 0; // Top Left
+        if (key === '5') teamIndex = 1; // Top Mid
+        if (key === '0') teamIndex = 2; // Top Right
+        if (key === 'z') teamIndex = 3; // Bot Left
+        if (key === 'b') teamIndex = 4; // Bot Mid
+        if (key === '/') teamIndex = 5; // Bot Right
+
+        if (teamIndex !== -1 && teamIndex < this.state.teams.length) {
+            this.handleBuzz(teamIndex);
+        }
+    }
+
+    handleBuzz(teamIndex) {
+        if (this.state.lockedTeams.has(teamIndex)) return; // Already answered wrong
+
+        // Early Buzz Logic
+        if (this.state.gamePhase === 'READING') {
+            console.log(`Early Buzz by ${this.state.teams[teamIndex]}! Pausing speech...`);
+            if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+
+            // Penalty delay? Jeopardy usually stops reading. 
+            // Implementation: Stop reading, wait 0.1s, then let them answer.
+            this.state.gamePhase = 'BUZZED';
+            setTimeout(() => {
+                this.activateBuzz(teamIndex);
+            }, 100);
+        } else if (this.state.gamePhase === 'OPEN') {
+            this.activateBuzz(teamIndex);
+        }
+    }
+
+    activateBuzz(teamIndex) {
+        this.state.gamePhase = 'ANSWERING';
+        this.state.buzzedTeam = teamIndex;
+        this.state.timerValue = 4; // Reset Timer
+
+        // UI Feedback
+        const modalQuestion = document.getElementById('modal-question');
+        modalQuestion.style.border = "4px solid #00ff00";
+        this.updateTimerUI(teamIndex);
+
+        const revealBtn = document.getElementById('reveal-btn');
+        revealBtn.textContent = `Reveal Answer (for ${this.state.teams[teamIndex]})`;
+        revealBtn.focus();
+
+        // Start Countdown
+        if (this.state.timerInterval) clearInterval(this.state.timerInterval);
+        this.state.timerInterval = setInterval(() => {
+            this.state.timerValue--;
+            this.updateTimerUI(teamIndex);
+
+            if (this.state.timerValue <= 0) {
+                clearInterval(this.state.timerInterval);
+                // Time's Up! Treat as Wrong Answer
+                this.handleWrongAnswer(teamIndex, true); // true = time out
+            }
+        }, 1000);
+    }
+
+    updateTimerUI(teamIndex) {
+        const modalQuestion = document.getElementById('modal-question');
+        modalQuestion.textContent = `BUZZED: ${this.state.teams[teamIndex]}! (${this.state.timerValue}s)`;
+    }
+
 
     /* --- SETUP HELPERS --- */
 
@@ -94,7 +175,6 @@ class LiquidLogicV2 {
 
         select.addEventListener('change', (e) => {
             this.state.selectedTheme = e.target.value;
-            console.log("Selected Theme:", this.state.selectedTheme);
         });
     }
 
@@ -102,11 +182,8 @@ class LiquidLogicV2 {
         const buttons = document.querySelectorAll('.theme-btn');
         buttons.forEach(btn => {
             btn.addEventListener('click', () => {
-                // UI Update
                 buttons.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-
-                // Logic Update
                 const theme = btn.dataset.setTheme;
                 this.state.theme = theme;
                 document.body.setAttribute('data-theme', theme);
@@ -117,27 +194,21 @@ class LiquidLogicV2 {
     setupTeamInputs() {
         const container = document.getElementById('teams-container');
         if (!container) return;
-
         const inputTemplate = (num) => `<input type="text" class="team-input" placeholder="Team ${num} Name" value="Team ${num}">`;
 
         const addBtn = document.getElementById('add-team-btn');
-        if (addBtn) {
-            addBtn.addEventListener('click', () => {
-                if (container.children.length < 6) {
-                    const num = container.children.length + 1;
-                    container.insertAdjacentHTML('beforeend', inputTemplate(num));
-                }
-            });
-        }
+        if (addBtn) addBtn.addEventListener('click', () => {
+            if (container.children.length < 6) {
+                container.insertAdjacentHTML('beforeend', inputTemplate(container.children.length + 1));
+            }
+        });
 
         const removeBtn = document.getElementById('remove-team-btn');
-        if (removeBtn) {
-            removeBtn.addEventListener('click', () => {
-                if (container.children.length > 2) {
-                    container.removeChild(container.lastElementChild);
-                }
-            });
-        }
+        if (removeBtn) removeBtn.addEventListener('click', () => {
+            if (container.children.length > 2) {
+                container.removeChild(container.lastElementChild);
+            }
+        });
     }
 
     /* --- GAME FLOW --- */
@@ -153,54 +224,38 @@ class LiquidLogicV2 {
 
     speak(text) {
         if ('speechSynthesis' in window) {
-            window.speechSynthesis.cancel(); // Stop previous
+            window.speechSynthesis.cancel();
             const utterance = new SpeechSynthesisUtterance(text);
 
-            // Ensure voices are loaded
-            let voices = window.speechSynthesis.getVoices();
-            if (voices.length === 0) {
-                // Try to wait for voices (though this is async, for this call we might just use default)
-                // Ideally we cache this on init.
-                // Fallback:
-            }
+            // Voice selection logic (simplified)
+            const voices = window.speechSynthesis.getVoices();
+            const voice = voices.find(v => v.lang === 'en-US') || voices[0];
+            if (voice) utterance.voice = voice;
+            utterance.rate = 1.0;
 
-            // Retry getting voices if we have cached ones or try to find them
-            if (this.cachedVoices && this.cachedVoices.length > 0) {
-                voices = this.cachedVoices;
-            }
+            utterance.onend = () => {
+                if (this.state.gamePhase === 'READING') {
+                    this.state.gamePhase = 'OPEN'; // Allow buzzing if no one buzzed early
+                }
+            };
 
-            const preferredVoice = voices.find(v => v.name === 'Google US English') ||
-                voices.find(v => v.name === 'Samantha') ||
-                voices.find(v => v.lang === 'en-US');
-
-            if (preferredVoice) utterance.voice = preferredVoice;
-
-            // Adjust rate/pitch for more natural feel
-            utterance.rate = 0.9;
-            utterance.pitch = 1.0;
-
+            this.state.gamePhase = 'READING';
             window.speechSynthesis.speak(utterance);
+        } else {
+            this.state.gamePhase = 'OPEN';
         }
     }
 
     loadVoices() {
         if ('speechSynthesis' in window) {
-            const load = () => {
-                this.cachedVoices = window.speechSynthesis.getVoices();
-                console.log("Voices loaded:", this.cachedVoices.length);
-            };
-            window.speechSynthesis.onvoiceschanged = load;
-            load(); // Try immediately too
+            window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
         }
     }
 
     generateBoard() {
-        console.log("Generating board for theme:", this.state.selectedTheme || "daily");
-
         let availableCategories = [];
         let boardName = "Randomized Daily Mix";
 
-        // Filter Categories
         if (this.state.selectedTheme && this.state.selectedTheme !== 'daily' && library.themes[this.state.selectedTheme]) {
             const themeData = library.themes[this.state.selectedTheme];
             boardName = themeData.name;
@@ -209,75 +264,49 @@ class LiquidLogicV2 {
             availableCategories = Object.keys(library.pool);
         }
 
-        // Shuffle and pick 5 categories
-        // Simple Shuffle
         const shuffledCats = availableCategories.sort(() => 0.5 - Math.random()).slice(0, 5);
 
         const categories = [];
         shuffledCats.forEach(catName => {
-            const poolQuestions = library.pool[catName];
-
-            // Select one question for each difficulty level (1-5)
+            const poolQuestions = library.pool[catName] || [];
             const selectedQs = [];
 
             for (let level = 1; level <= 5; level++) {
-                // Filter for specific difficulty
                 const tierQuestions = poolQuestions.filter(q => q.difficulty === level);
-
                 if (tierQuestions.length > 0) {
-                    // Pick a random one from this tier
-                    const randomQ = tierQuestions[Math.floor(Math.random() * tierQuestions.length)];
-                    selectedQs.push(randomQ);
+                    selectedQs.push(tierQuestions[Math.floor(Math.random() * tierQuestions.length)]);
                 } else {
-                    // Fallback: Pick any unused question
-                    console.warn(`No difficulty ${level} found for ${catName}, using random fallback.`);
                     const remaining = poolQuestions.filter(q => !selectedQs.includes(q));
-                    if (remaining.length > 0) {
-                        const randomFallback = remaining[Math.floor(Math.random() * remaining.length)];
-                        selectedQs.push(randomFallback);
-                    }
+                    if (remaining.length > 0) selectedQs.push(remaining[0]);
                 }
             }
 
-            // Assign values
+            // Map to Clues
             const values = [200, 400, 600, 800, 1000];
             const clues = selectedQs.map((q, i) => ({
                 ...q,
                 value: values[i],
                 penalty: this.calculatePenalty(values[i])
             }));
-
             categories.push({ title: catName, clues: clues });
         });
 
         this.state.currentBoard = { name: boardName, categories: categories };
-        console.log("Board Generated:", this.state.currentBoard);
     }
 
     startGame() {
-        // Capture Teams
         const inputs = document.querySelectorAll('.team-input');
         this.state.teams = Array.from(inputs).map(i => i.value.trim() || `Team ${Math.random().toString().substr(2, 3)}`);
 
-        if (this.state.teams.length < 2) {
-            alert("Please add at least 2 teams!");
-            return;
-        }
-
-        // Reset Scores
         this.state.scores = new Array(this.state.teams.length).fill(0);
         this.state.sipsReceived = new Array(this.state.teams.length).fill(0);
         this.state.usedClues.clear();
 
-        // Generate Board
         this.generateBoard();
-
-        // Render Board
         this.renderHeader();
         this.renderScoreboard();
         this.renderGrid();
 
-        // Switch Screen
         document.getElementById('landing-page').classList.remove('active');
         document.getElementById('landing-page').classList.add('hidden');
         document.getElementById('game-board').classList.remove('hidden');
@@ -285,29 +314,22 @@ class LiquidLogicV2 {
     }
 
     quitGame() {
-        if (confirm("Are you sure you want to quit?")) {
-            this.resetGame();
-        }
+        // Instant Quit as requested ("Override")
+        this.resetGame();
     }
 
     resetGame() {
-        // Instant Reset (User requested "it doesn't work", assumption: confirm dialog was blocked/ignored)
-        console.log("Resetting Game - Instant");
         document.getElementById('game-board').classList.remove('active');
         document.getElementById('game-board').classList.add('hidden');
         document.getElementById('landing-page').classList.remove('hidden');
         document.getElementById('landing-page').classList.add('active');
-
-        // Optional: Reload to truly reset state
-        // location.reload(); 
     }
 
     /* --- RENDERERS --- */
 
     renderHeader() {
-        const board = this.state.currentBoard;
-        if (board) {
-            document.getElementById('current-board-name').textContent = board.name;
+        if (this.state.currentBoard) {
+            document.getElementById('current-board-name').textContent = this.state.currentBoard.name;
         }
     }
 
@@ -331,12 +353,8 @@ class LiquidLogicV2 {
         grid.innerHTML = '';
         const boardData = this.state.currentBoard;
 
-        if (!boardData || !boardData.categories) {
-            console.error("No board data rendered!");
-            return;
-        }
+        if (!boardData || !boardData.categories) return;
 
-        // Headers
         boardData.categories.forEach(cat => {
             const cell = document.createElement('div');
             cell.className = 'category-cell';
@@ -344,7 +362,6 @@ class LiquidLogicV2 {
             grid.appendChild(cell);
         });
 
-        // Cells
         for (let i = 0; i < 5; i++) {
             boardData.categories.forEach((cat, catIndex) => {
                 const clue = cat.clues[i];
@@ -358,7 +375,6 @@ class LiquidLogicV2 {
                 } else {
                     cell.addEventListener('click', () => this.handleClueClick(catIndex, i, cell.dataset.id, cell));
                 }
-
                 grid.appendChild(cell);
             });
         }
@@ -367,37 +383,72 @@ class LiquidLogicV2 {
     /* --- MODAL LOGIC --- */
 
     handleClueClick(catIndex, clueIndex, id, element) {
-        const boardData = this.state.currentBoard;
-        const clue = boardData.categories[catIndex].clues[clueIndex];
-
+        const clue = this.state.currentBoard.categories[catIndex].clues[clueIndex];
         this.state.currentClue = { ...clue, id, element };
 
-        // TTS
-        this.speak(clue.question);
+        // Reset Phase State
+        this.state.lockedTeams.clear();
+        this.state.buzzedTeam = -1;
+        this.state.gamePhase = 'READING'; // Will be set in speak, but explicitly here too
 
-        // Update Modal Content
         document.getElementById('modal-points').textContent = `${clue.value}`;
         document.getElementById('modal-penalty').textContent = `Penalty: ${clue.penalty}`;
         document.getElementById('modal-question').textContent = clue.question;
+        document.getElementById('modal-question').style.border = "none";
         document.getElementById('modal-answer').textContent = clue.answer;
 
-        // Reset View State
+        document.getElementById('reveal-btn').textContent = "Reveal Answer";
+
         document.getElementById('modal-phase-question').classList.remove('hidden');
         document.getElementById('modal-phase-answer').classList.add('hidden');
         document.getElementById('modal-phase-sips').classList.add('hidden');
-
         document.getElementById('modal').classList.remove('hidden');
+
+        this.speak(clue.question);
     }
 
     handleNoWinner() {
-        // No one got it right, no sips distributed
         this.closeModalAndMarkUsed();
     }
 
-    handleWrongAnswer(index) {
+    // Steal Logic implementation
+    handleWrongAnswer(index, isTimeout = false) {
+        // Stop Timer
+        if (this.state.timerInterval) clearInterval(this.state.timerInterval);
+
         // Deduct Points
-        this.state.scores[index] -= this.state.currentClue.value;
+        const points = this.state.currentClue.value;
+        this.state.scores[index] -= points; // Negative points
+        this.state.lockedTeams.add(index);
         this.renderScoreboard();
+
+        // Check if other teams can steal
+        const activeTeams = this.state.teams.length;
+        const blockedCount = this.state.lockedTeams.size;
+
+        if (blockedCount >= activeTeams) {
+            this.handleNoWinner();
+        } else {
+            // STEAL OPPORTUNITY - RE-OPEN BUZZER
+            this.state.gamePhase = 'OPEN';
+
+            const modalQuestion = document.getElementById('modal-question');
+            modalQuestion.style.border = "4px solid #ffcc00"; // Yellow/Warn
+
+            if (isTimeout) {
+                modalQuestion.textContent = `TIME'S UP! Steal Mode: Buzzer OPEN! (Keys: 1,5,0,z,b,/)`;
+            } else {
+                modalQuestion.textContent = `INCORRECT! Steal Mode: Buzzer OPEN! (Keys: 1,5,0,z,b,/)`;
+            }
+
+            // Go back to Question Phase (hide Answer buttons)
+            document.getElementById('modal-phase-answer').classList.add('hidden');
+            document.getElementById('modal-phase-question').classList.remove('hidden');
+
+            const revealBtn = document.getElementById('reveal-btn');
+            revealBtn.textContent = "Reveal Answer";
+            revealBtn.focus();
+        }
     }
 
     revealAnswer() {
@@ -415,27 +466,35 @@ class LiquidLogicV2 {
             wrapper.style.alignItems = 'center';
             wrapper.style.margin = '5px';
 
-            // Correct Button
             const btnCorrect = document.createElement('button');
             btnCorrect.className = 'action-btn small';
             btnCorrect.style.fontSize = "1rem";
-            btnCorrect.style.marginBottom = "5px";
             btnCorrect.textContent = `${team} (Correct)`;
+
+            // Disable if locked (tried to steal/answer early and failed?)
+            // Actually reset locks for result phase unless we want to track who buzzed and failed.
+            if (this.state.lockedTeams.has(index)) {
+                btnCorrect.disabled = true;
+                btnCorrect.style.opacity = 0.5;
+            }
+
             btnCorrect.addEventListener('click', () => this.handleWinnerSelected(index));
 
-            // Wrong Button (Minus Function)
             const btnWrong = document.createElement('button');
             btnWrong.className = 'secondary-btn small';
             btnWrong.style.fontSize = "0.8rem";
-            btnWrong.style.padding = "5px 10px";
-            btnWrong.style.borderColor = "#ff6b6b";
             btnWrong.style.color = "#ff6b6b";
             btnWrong.textContent = "Wrong (-)";
+
+            if (this.state.lockedTeams.has(index)) {
+                btnWrong.disabled = true;
+            }
+
             btnWrong.addEventListener('click', () => {
                 this.handleWrongAnswer(index);
-                // Visual feedback?
                 btnWrong.disabled = true;
-                btnWrong.textContent = "Points Deducted";
+                btnCorrect.disabled = true;
+                wrapper.style.opacity = 0.5;
             });
 
             wrapper.appendChild(btnCorrect);
@@ -445,11 +504,9 @@ class LiquidLogicV2 {
     }
 
     handleWinnerSelected(index) {
+        if (this.state.timerInterval) clearInterval(this.state.timerInterval);
         this.state.winnerIndex = index;
-        // Award Points
         this.state.scores[index] += this.state.currentClue.value;
-
-        // Transition to Sip Distribution
         this.startSipDistribution();
     }
 
@@ -458,18 +515,13 @@ class LiquidLogicV2 {
         document.getElementById('modal-phase-sips').classList.remove('hidden');
 
         const winnerName = this.state.teams[this.state.winnerIndex];
-        // Ensure points is a number (it should be, but let's be safe)
         const points = parseInt(this.state.currentClue.value, 10);
         const amount = Math.floor(points / 200);
         let penaltyText = "";
 
-        // Grammar Logic
-        // Special Case: 1000 points = "this 1 Shot"
         if (points === 1000) {
             penaltyText = "this 1 Shot";
-        }
-        // Normal Cases
-        else if (amount === 1) {
+        } else if (amount === 1) {
             penaltyText = "this 1 sip";
         } else {
             penaltyText = `these ${amount} sips`;
@@ -477,16 +529,13 @@ class LiquidLogicV2 {
 
         document.getElementById('sip-instruction').textContent = `${winnerName}, who must drink ${penaltyText}?`;
 
-        // Render Target Buttons (Exclude Winner? Usually yes, but self-sabotage is fun. Let's allowing targeting anyone).
         const container = document.getElementById('target-buttons');
         container.innerHTML = '';
         this.state.teams.forEach((team, index) => {
-            // Don't disable winner, they can drink their own if they want!
             const btn = document.createElement('button');
             btn.className = 'action-btn small';
             btn.style.margin = "5px";
             btn.style.background = "#ff6b6b";
-            btn.style.fontSize = "1rem";
             btn.textContent = team;
             btn.addEventListener('click', () => this.handleSipTarget(index, amount));
             container.appendChild(btn);
@@ -499,11 +548,10 @@ class LiquidLogicV2 {
     }
 
     closeModalAndMarkUsed() {
-        // UI Updates
         document.getElementById('modal').classList.add('hidden');
         this.state.currentClue.element.classList.add('used');
         this.state.usedClues.add(this.state.currentClue.id);
-
+        this.state.gamePhase = 'RESOLVED';
         this.renderScoreboard();
         this.state.currentClue = null;
         if ('speechSynthesis' in window) window.speechSynthesis.cancel();
@@ -515,6 +563,4 @@ class LiquidLogicV2 {
     }
 }
 
-// Init
-console.log("Instantiating LiquidLogicV2.1");
-window.app = new LiquidLogicV2();
+window.app = new LiquidLogicV3();
