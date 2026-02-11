@@ -590,3 +590,29 @@ body {
     margin: 10px auto;
     font-style: italic;
 }
+/* --- TOAST NOTIFICATION --- */
+.notification-toast {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 0, 0, 0.95);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive; /* Use Arcade font for impact */
+    font-size: 1.2rem;
+    z-index: 2000;
+    border: 3px solid #fff;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+    animation: fadeInOut 2.5s ease-in-out forwards;
+    text-align: center;
+    pointer-events: none;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translate(-50%, -20px); }
+    10% { opacity: 1; transform: translate(-50%, 0); }
+    80% { opacity: 1; transform: translate(-50%, 0); }
+    100% { opacity: 0; transform: translate(-50%, -20px); }
+}

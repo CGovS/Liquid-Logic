@@ -20,7 +20,9 @@ class LiquidLogicV3 {
             speechSynth: null,
             speechUtterance: null,
             timerInterval: null,
-            timerValue: 4
+            timerValue: 4,
+            earlyBuzzPenalties: new Set(),
+            penaltyActive: false
         };
 
         this.init();
@@ -71,7 +73,14 @@ class LiquidLogicV3 {
             });
 
             // V3 Buzzer Listener
-            document.addEventListener('keydown', (e) => this.handleKeyPress(e));
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    this.closeModal();
+                    // Also support closing rules if open
+                    document.getElementById('rules-modal').classList.add('hidden');
+                }
+                this.handleKeyPress(e);
+            });
 
             this.loadVoices();
             this.populateBoardSelect();
@@ -91,8 +100,8 @@ class LiquidLogicV3 {
         let teamIndex = -1;
 
         if (key === '1') teamIndex = 0; // Top Left
-        if (key === '5') teamIndex = 1; // Top Mid
-        if (key === '0') teamIndex = 2; // Top Right
+        if (key === '=') teamIndex = 1; // Top Mid (Updated v3.4)
+        if (key === '6') teamIndex = 2; // Top Right (Updated v3.4)
         if (key === 'z') teamIndex = 3; // Bot Left
         if (key === 'b') teamIndex = 4; // Bot Mid
         if (key === '/') teamIndex = 5; // Bot Right
@@ -107,17 +116,22 @@ class LiquidLogicV3 {
 
         // Early Buzz Logic
         if (this.state.gamePhase === 'READING') {
-            console.log(`Early Buzz by ${this.state.teams[teamIndex]}! Pausing speech...`);
-            if ('speechSynthesis' in window) window.speechSynthesis.cancel();
-
-            // Penalty delay? Jeopardy usually stops reading. 
-            // Implementation: Stop reading, wait 0.1s, then let them answer.
-            this.state.gamePhase = 'BUZZED';
-            setTimeout(() => {
-                this.activateBuzz(teamIndex);
-            }, 100);
+            // v3.4: Strict Anti-Buzz
+            if (!this.state.earlyBuzzPenalties.has(teamIndex)) {
+                this.state.earlyBuzzPenalties.add(teamIndex);
+                console.log(`Early Buzz by ${this.state.teams[teamIndex]}! Penalty pending.`);
+                this.showNotification(`${this.state.teams[teamIndex]}! WAIT FOR VOICE! (Penalty Applied)`);
+            }
+            // Do NOT stop speech. Do NOT activate buzz.
         } else if (this.state.gamePhase === 'OPEN') {
+            // Check for active penalty
+            if (this.state.penaltyActive && this.state.earlyBuzzPenalties.has(teamIndex)) {
+                console.log(`${this.state.teams[teamIndex]} is locked out due to penalty.`);
+                return;
+            }
             this.activateBuzz(teamIndex);
+        } else if (this.state.gamePhase === 'IDLE' || this.state.gamePhase === 'RESOLVED') {
+            // Ignore
         }
     }
 
@@ -234,16 +248,38 @@ class LiquidLogicV3 {
             utterance.rate = 1.0;
 
             utterance.onend = () => {
-                if (this.state.gamePhase === 'READING') {
-                    this.state.gamePhase = 'OPEN'; // Allow buzzing if no one buzzed early
-                }
+                this.onSpeechEnd();
             };
 
             this.state.gamePhase = 'READING';
+            this.state.earlyBuzzPenalties.clear(); // Reset penalties for new question
             window.speechSynthesis.speak(utterance);
         } else {
             this.state.gamePhase = 'OPEN';
         }
+    }
+
+    onSpeechEnd() {
+        if (this.state.gamePhase === 'READING') {
+            this.state.gamePhase = 'OPEN';
+
+            // Apply Penalty Delay if needed
+            if (this.state.earlyBuzzPenalties.size > 0) {
+                this.state.penaltyActive = true;
+                setTimeout(() => {
+                    this.state.penaltyActive = false;
+                    // Optional: Visual cue that penalty is over?
+                }, 100); // 0.1s requested
+            }
+        }
+    }
+
+    showNotification(msg) {
+        const notif = document.createElement('div');
+        notif.className = 'notification-toast';
+        notif.textContent = msg;
+        document.body.appendChild(notif);
+        setTimeout(() => notif.remove(), 2000);
     }
 
     loadVoices() {
@@ -436,9 +472,9 @@ class LiquidLogicV3 {
             modalQuestion.style.border = "4px solid #ffcc00"; // Yellow/Warn
 
             if (isTimeout) {
-                modalQuestion.textContent = `TIME'S UP! Steal Mode: Buzzer OPEN! (Keys: 1,5,0,z,b,/)`;
+                modalQuestion.textContent = `TIME'S UP! Steal Mode: Buzzer OPEN! (Keys: 1,=,6,z,b,/)`;
             } else {
-                modalQuestion.textContent = `INCORRECT! Steal Mode: Buzzer OPEN! (Keys: 1,5,0,z,b,/)`;
+                modalQuestion.textContent = `INCORRECT! Steal Mode: Buzzer OPEN! (Keys: 1,=,6,z,b,/)`;
             }
 
             // Go back to Question Phase (hide Answer buttons)
