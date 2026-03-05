@@ -1,5 +1,5 @@
 console.log("App Module Evaluating...");
-import { library } from './trivia_db.js?v=3.6';
+import { library } from './trivia_db.js';
 
 class LiquidLogicV3 {
     constructor() {
@@ -317,18 +317,61 @@ class LiquidLogicV3 {
 
         const shuffledCats = availableCategories.sort(() => 0.5 - Math.random()).slice(0, 5);
 
+        // Track played questions to ensure 100% turnover
+        let playedQuestions = new Set();
+        try {
+            const saved = localStorage.getItem('liquidLogicPlayedQuestions');
+            if (saved) {
+                playedQuestions = new Set(JSON.parse(saved));
+            }
+        } catch (e) {
+            console.error("Failed to load played questions:", e);
+        }
+
         const categories = [];
         shuffledCats.forEach(catName => {
             const poolQuestions = library.pool[catName] || [];
+
+            // Check if we need to reset tracking for this category if unplayed questions are low
+            const unplayedCount = poolQuestions.filter(q => !playedQuestions.has(q.question)).length;
+            if (unplayedCount < 5) { // Need at least 5 for a category full column
+                poolQuestions.forEach(q => playedQuestions.delete(q.question));
+            }
+
+            const unplayedPool = poolQuestions.filter(q => !playedQuestions.has(q.question));
             const selectedQs = [];
 
             for (let level = 1; level <= 5; level++) {
-                const tierQuestions = poolQuestions.filter(q => q.difficulty === level);
+                let tierQuestions = unplayedPool.filter(q => q.difficulty === level);
+
+                // If no question of this difficulty is unplayed, fallback to all questions of this difficulty
+                if (tierQuestions.length === 0) {
+                    tierQuestions = poolQuestions.filter(q => q.difficulty === level);
+                }
+
                 if (tierQuestions.length > 0) {
-                    selectedQs.push(tierQuestions[Math.floor(Math.random() * tierQuestions.length)]);
+                    const chosen = tierQuestions[Math.floor(Math.random() * tierQuestions.length)];
+                    selectedQs.push(chosen);
+                    playedQuestions.add(chosen.question);
+                    // remove from unplayedPool
+                    const index = unplayedPool.indexOf(chosen);
+                    if (index > -1) unplayedPool.splice(index, 1);
                 } else {
-                    const remaining = poolQuestions.filter(q => !selectedQs.includes(q));
-                    if (remaining.length > 0) selectedQs.push(remaining[0]);
+                    const remaining = unplayedPool.filter(q => !selectedQs.includes(q));
+                    if (remaining.length > 0) {
+                        const chosen = remaining[0];
+                        selectedQs.push(chosen);
+                        playedQuestions.add(chosen.question);
+                        const index = unplayedPool.indexOf(chosen);
+                        if (index > -1) unplayedPool.splice(index, 1);
+                    } else {
+                        // absolute emergency fallback
+                        const fallback = poolQuestions.filter(q => !selectedQs.includes(q))[0];
+                        if (fallback) {
+                            selectedQs.push(fallback);
+                            playedQuestions.add(fallback.question);
+                        }
+                    }
                 }
             }
 
@@ -343,6 +386,12 @@ class LiquidLogicV3 {
         });
 
         this.state.currentBoard = { name: boardName, categories: categories };
+
+        try {
+            localStorage.setItem('liquidLogicPlayedQuestions', JSON.stringify(Array.from(playedQuestions)));
+        } catch (e) {
+            console.error("Failed to save played questions:", e);
+        }
     }
 
     startGame() {
