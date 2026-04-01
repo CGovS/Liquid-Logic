@@ -4,18 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liquid Logic v3.0</title>
+    <title>Liquid Logic - The Ultimate Drinking Trivia Game</title>
     <meta name="google-site-verification" content="RNACaTIJi-mOSihpzI2Iwtfzc6Ushb3ChMxEcWt4HpU" />
     <meta name="description"
-        content="Liquid Logic v3.0 - The Ultimate Drinking Trivia Game. Test your knowledge in a Jeopardy-style format. For entertainment purposes only.">
+        content="Liquid Logic - The Ultimate Drinking Trivia Game. Test your knowledge in a fast-paced Jeopardy-style format. For entertainment purposes only.">
     <meta name="keywords"
-        content="drinking game, trivia, jeopardy, party game, liquid logic, alcohol trivia, entertainment">
-    <meta property="og:title" content="Liquid Logic v3.1 - The Ultimate Drinking Trivia">
+        content="drinking game, trivia, jeopardy, party game, liquid logic, alcohol trivia, entertainment, interactive game">
+
+    <link rel="canonical" href="https://liquidlogic.game/" />
+
+    <!-- Open Graph (OG) for Facebook/LinkedIn -->
+    <meta property="og:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
     <meta property="og:description"
         content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://liquidlogic.game">
     <meta property="og:image" content="https://liquidlogic.game/preview.png">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
+    <meta name="twitter:description"
+        content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
+    <meta name="twitter:image" content="https://liquidlogic.game/preview.png">
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Liquid Logic",
+      "operatingSystem": "Web",
+      "applicationCategory": "GameApplication",
+      "genre": "Trivia",
+      "description": "Liquid Logic is the ultimate drinking trivia game, designed to test your wits in a fast-paced Jeopardy-style showdown.",
+      "url": "https://liquidlogic.game",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +62,7 @@
         <!-- Ad Placeholder -->
         <div id="ad-placeholder"
             style="width: 100%; height: 50px; background-color: #000; color: #333; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; letter-spacing: 1px;">
-            LIQUID LOGIC v3.6
+            LIQUID LOGIC v3.7
         </div>
 
         <!-- Landing Screen -->
@@ -45,10 +75,14 @@
                     <div class="setup-group">
                         <h2>1. Appearance</h2>
                         <div class="theme-selector">
-                            <button class="theme-btn active" data-set-theme="tv">TV Stage</button>
-                            <button class="theme-btn" data-set-theme="roller">High Roller</button>
-                            <button class="theme-btn" data-set-theme="chalkboard">Chalkboard</button>
-                            <button class="theme-btn" data-set-theme="arcade">Arcade</button>
+                            <button class="theme-btn active" data-set-theme="tv" aria-label="Select TV Stage Theme">TV
+                                Stage</button>
+                            <button class="theme-btn" data-set-theme="roller" aria-label="Select High Roller Theme">High
+                                Roller</button>
+                            <button class="theme-btn" data-set-theme="chalkboard"
+                                aria-label="Select Chalkboard Theme">Chalkboard</button>
+                            <button class="theme-btn" data-set-theme="arcade"
+                                aria-label="Select Arcade Theme">Arcade</button>
                         </div>
                     </div>
 
@@ -71,6 +105,17 @@
                             <button id="remove-team-btn" class="control-btn">- Remove</button>
                         </div>
                     </div>
+                </div>
+
+                <div class="moderated-mode-group"
+                    style="margin: 20px 0; display: flex; align-items: center; justify-content: center; gap: 15px;">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="moderated-mode-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span class="moderated-label"
+                        style="font-family: var(--font-primary); font-size: 1.2rem; color: #aaa;">Moderated In-Person
+                        Mode (Voice & Buzzers OFF)</span>
                 </div>
 
                 <div class="action-row">

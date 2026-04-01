@@ -14,6 +14,7 @@ class LiquidLogicV3 {
             selectedTheme: 'daily',
             currentBoard: [],
             // V3 State
+            isModerated: false,
             gamePhase: 'IDLE', // IDLE, READING, OPEN, BUZZED, ANSWERING, RESOLVED
             buzzedTeam: -1,
             lockedTeams: new Set(), // Teams that answered wrong
@@ -107,6 +108,7 @@ class LiquidLogicV3 {
     }
 
     handleKeyPress(e) {
+        if (this.state.isModerated) return; // Disable keyboard buzzers in Moderated Mode
         if (this.state.gamePhase !== 'READING' && this.state.gamePhase !== 'OPEN') return;
         if (this.state.currentClue === null) return;
         if (document.getElementById('modal').classList.contains('hidden')) return;
@@ -252,6 +254,11 @@ class LiquidLogicV3 {
     }
 
     speak(text) {
+        if (this.state.isModerated) {
+            this.state.gamePhase = 'OPEN'; // Instantly open for manual reveal
+            return;
+        }
+
         if ('speechSynthesis' in window) {
             window.speechSynthesis.cancel();
             const utterance = new SpeechSynthesisUtterance(text);
@@ -395,6 +402,9 @@ class LiquidLogicV3 {
     }
 
     startGame() {
+        const modToggle = document.getElementById('moderated-mode-toggle');
+        this.state.isModerated = modToggle ? modToggle.checked : false;
+
         const inputs = document.querySelectorAll('.team-input');
         this.state.teams = Array.from(inputs).map(i => i.value.trim() || `Team ${Math.random().toString().substr(2, 3)}`);
 
