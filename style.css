@@ -662,8 +662,8 @@ body {
     margin-bottom: 5px;
     /* Symmetric spacing */
     padding-top: 0;
-    color: var(--bg-color);
-    filter: brightness(1.2);
+    color: #333;
+    filter: none;
     font-size: 0.5rem;
     line-height: 1;
     text-align: center;
@@ -730,15 +730,15 @@ body {
     border-radius: 50%;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background-color: var(--text-accent);
 }
 
-input:focus + .slider {
+input:focus+.slider {
     box-shadow: 0 0 1px var(--text-accent);
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
     transform: translateX(26px);
     background-color: #000;
 }
