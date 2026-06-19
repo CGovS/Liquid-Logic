@@ -1,0 +1,943 @@
+# d5 (1000pt) CANDIDATES THAT MAY BE TOO EASY
+
+**Total d5 short-answer candidates: 878** (not all wrong — review)
+
+Heuristic: d5 clues with short/common answers. NEEDS HUMAN JUDGMENT — review each.
+
+## Before & After (14)
+   - [#20] A 20th-century British Prime Minister during WWII and a famous Disney film about a lion.  →  What is Churchill King?
+   - [#21] A famous revolutionary who led Cuba and a type of Asian martial art.  →  What is Castro Karate?
+   - [#22] A Greek philosopher known for his dialogues and a device for playing music.  →  What is Plato Player?
+   - [#23] A former Roman gladiator and a famous 1980s toy line.  →  What is Spartacus Transformers?
+   - [#24] A famous German composer and a popular online streaming service.  →  What is Beethovenflix?
+   - [#37] A popular global search engine and a famous female aviator.  →  What is Google Earhart?
+   - [#38] A famous British secret agent and a popular brand of soft drink.  →  What is Bond Pepsi?
+   - [#39] An ancient Greek epic poem and a famous American author of 'The Raven'.  →  What is Odyssey Poe?
+   - [#88] A classic 19th-century novel paired with a popular type of seafood.  →  What is Moby-Dick lobster?
+   - [#93] A famous French impressionist painter paired with a popular type of pasta.  →  What is Monet penne?
+   - [#96] A renowned classical composer combined with a brand of bottled water.  →  What is Beethoven Evian?
+   - [#172] A famous formula in physics and a popular American TV show about a group of friends.  →  What is E=mc^2 Friends?
+   - [#179] A historic event involving the fall of a giant and a popular brand of tissues.  →  What is Goliath Kleenex?
+   - [#199] An iconic horror movie featuring a possessed girl combined with a famous children's building block toy.  →  What is The Exorcist Lego?
+
+## 4-Letter Words (37)
+   - [#30] A term for a long, narrow cut or opening.  →  What is a slit?
+   - [#31] A word for a narrow passage between mountains.  →  What is a pass?
+   - [#32] A word that means a substance used to start a fire.  →  What is kindling?
+   - [#33] A term for a small, round, and often shiny object.  →  What is a bead?
+   - [#34] A word for a structure built to hold back water.  →  What is a dam?
+   - [#35] A word describing a person who predicts the future.  →  What is a seer?
+   - [#36] A term for a fine, powdery material made by grinding.  →  What is dust?
+   - [#37] A word for a small, sharp-pointed tool.  →  What is a pick?
+   - [#38] A word describing an area of land dedicated to growing fruit.  →  What is an orchard?
+   - [#39] A word for a person who repairs machinery.  →  What is a tech?
+   - [#40] A word for the main upright member of a ship's rigging.  →  What is a mast?
+   - [#41] A word for a four-wheeled carriage.  →  What is a cart?
+   - [#42] A term for the part of a plant that develops into a flower.  →  What is a bud?
+   - [#43] A word for a small, rudimentary dwelling.  →  What is a hut?
+   - [#44] A word for a long, thin piece of wood used in construction.  →  What is a beam?
+   - [#86] A word for a prehistoric megalithic structure.  →  What is a dolmen?
+   - [#87] A word for a small demon or mischievous child.  →  What is an imp?
+   - [#88] A word for a small, open boat with a sail.  →  What is a skiff?
+   - [#89] A word for an aromatic resin used in incense and perfumes.  →  What is myrrh?
+   - [#90] A word for a thickened liquid food of European origin.  →  What is a stew?
+   - [#91] A word meaning to move with a sudden spring.  →  What is leap?
+   - [#92] A word for a type of long, narrow, flat-bottomed boat.  →  What is a punt?
+   - [#93] A word meaning to cover or envelop completely.  →  What is wrap?
+   - [#112] A type of poem or song with a fixed structure, often about love.  →  What is a ballad?
+   - [#116] A prolonged period of abnormally low rainfall.  →  What is a drought?
+   - [#120] A system of governance in which all people vote directly on laws.  →  What is a democracy?
+   - [#136] A machine for converting mechanical energy into electrical energy.  →  What is a dynamo?
+   - [#183] A type of aircraft that derives its lift from spinning blades.  →  What is a gyro?
+   - [#184] A small marine fish known for its ability to inflate when threatened.  →  What is a puffer?
+   - [#185] A type of edible seaweed commonly used in Japanese cuisine.  →  What is nori?
+   - [#186] A type of fungus that is often used in cooking for its earthy flavor.  →  What is a morel?
+   - [#187] A Scandinavian spirit distilled from potatoes or grain.  →  What is akvavit?
+   - [#188] A word used to describe something that is neither acidic nor basic.  →  What is pH?
+   - [#189] A large African antelope with long, spiral horns.  →  What is a kudu?
+   - [#190] A type of tea traditionally made by mixing butter and salt.  →  What is pocha?
+   - [#191] A small, nocturnal marsupial native to Australia.  →  What is a quoll?
+   - [#199] An English term for a mischievous or bumbling person, often used in British slang.  →  What is a berk?
+
+## Science (38)
+   - [#38] The phenomenon where certain materials emit light when exposed to ultraviolet radiation.  →  What is fluorescence?
+   - [#39] The principle stating that current is directly proportional to voltage and inversely proportional to resistance.  →  What is Ohm's Law?
+   - [#40] The scientist who developed the first successful polio vaccine.  →  Who is Jonas Salk?
+   - [#41] The astronomical event that occurs when the moon passes between the Earth and the sun.  →  What is a solar eclipse?
+   - [#42] The smallest unit of a chemical compound that retains its chemical properties.  →  What is a molecule?
+   - [#43] The branch of physics that studies the behavior of objects moving at very high speeds.  →  What is relativistic physics?
+   - [#44] The term for the ability of a liquid to resist flowing.  →  What is viscosity?
+   - [#45] The scientist known for the uncertainty principle in quantum mechanics.  →  Who is Werner Heisenberg?
+   - [#46] The term for the point in an object's orbit closest to the Earth.  →  What is perigee?
+   - [#47] The chemical element with the highest atomic number that occurs naturally.  →  What is uranium?
+   - [#89] The scientist known for the uncertainty principle in quantum mechanics.  →  Who is Werner Heisenberg?
+   - [#90] The phenomenon where particles behave as both particles and waves.  →  What is wave-particle duality?
+   - [#91] The hypothetical point where gravitational forces prevent anything from escaping.  →  What is a black hole?
+   - [#92] The term for the genetic makeup of an individual organism.  →  What is a genotype?
+   - [#93] The process by which organisms adapt over time through heritable traits.  →  What is evolution?
+   - [#94] The theory that describes the fundamental forces and particles in the universe.  →  What is the Standard Model?
+   - [#95] The device used to accelerate charged particles to high energies.  →  What is a particle accelerator?
+   - [#96] The philosopher known for the method of critical doubt and the cogito argument.  →  Who is René Descartes?
+   - [#97] The branch of mathematics dealing with the properties and relations of points, lines, surfaces, and solids.  →  What is geometry?
+   - [#118] The number of chromosomes in a human cell.  →  What is 46?
+   - [#119] The scientist who formulated the laws of planetary motion.  →  Who is Johannes Kepler?
+   - [#120] The term for a change in a gene or chromosome.  →  What is a mutation?
+   - [#121] The subatomic particle with a positive charge.  →  What is a proton?
+   - [#122] The second most abundant element in the Earth's crust.  →  What is silicon?
+   - [#145] The scientist who is famous for the laws of inheritance.  →  Who is Gregor Mendel?
+   - [#179] The name of the process by which DNA is copied.  →  What is replication?
+   - [#180] The scientist who discovered penicillin.  →  Who is Alexander Fleming?
+   - [#181] The term for the study of fungi.  →  What is mycology?
+   - [#182] The type of chemical bond formed by the sharing of electrons.  →  What is a covalent bond?
+   - [#183] The theory that describes the motion of continental plates.  →  What is plate tectonics?
+   - [#184] The principle that states the total pressure exerted by a mixture of gases is equal to the sum of the pressures of each gas.  →  What is Dalton's Law?
+   - [#185] The term for the science of classifying organisms.  →  What is taxonomy?
+   - [#186] The scientist who proposed the heliocentric model of the solar system.  →  Who is Nicolaus Copernicus?
+   - [#187] The astronomical term for the point in a planet's orbit closest to the sun.  →  What is perihelion?
+   - [#188] The unit of measure for the amount of substance in the International System of Units.  →  What is the mole?
+   - [#197] The longest wavelength in the electromagnetic spectrum.  →  What are radio waves?
+   - [#198] The process by which plants convert sunlight into chemical energy.  →  What is photosynthesis?
+   - [#199] The rarest naturally occurring element on Earth.  →  What is astatine?
+
+## English (30)
+   - [#40] A literary device used to subtly hint at events to come later in the story.  →  What is foreshadowing?
+   - [#41] The narrative device that involves an interruption of the chronological sequence of events by interjecting events of earlier occurrence.  →  What is flashback?
+   - [#42] The term for a character who contrasts with another character, usually the protagonist, to highlight particular qualities.  →  What is foil?
+   - [#43] The term for the emotional release experienced by the audience at the end of a tragic drama.  →  What is catharsis?
+   - [#44] A form of poetry that does not use consistent meter patterns, rhyme, or any musical pattern.  →  What is free verse?
+   - [#46] The term for a novel focused on the psychological and moral growth of its main character from youth to adulthood.  →  What is bildungsroman?
+   - [#47] The rhetorical device involving the omission of conjunctions between parts of a sentence.  →  What is asyndeton?
+   - [#48] A form of verbal irony where praise is actually a disguise for criticism.  →  What is sarcasm?
+   - [#49] The literary technique of giving non-human figures human characteristics or emotions.  →  What is anthropomorphism?
+   - [#153] The term for a word that refers to a part of a whole.  →  What is a synecdoche?
+   - [#154] This is the term for descriptive language that appeals to the senses.  →  What is imagery?
+   - [#155] The term for a sentence that asks a question.  →  What is an interrogative sentence?
+   - [#156] The term for a sentence that gives a command or makes a request.  →  What is an imperative sentence?
+   - [#157] This is the term for a word derived from a verb that functions as an adjective.  →  What is a participle?
+   - [#158] The term for a rhetorical device where contrasting ideas are expressed in a balanced or parallel manner.  →  What is antithesis?
+   - [#159] The term for the study of word origins and how their meanings have changed over time.  →  What is etymology?
+   - [#160] This is the term for a figure of speech where a part is made to represent the whole or vice versa.  →  What is a metonymy?
+   - [#161] The term for the repetition of a word or phrase at the beginning of successive clauses.  →  What is anaphora?
+   - [#162] This is the term for the use of components in a sentence that are grammatically the same or similar in their construction.  →  What is parallelism?
+   - [#188] The term for a word that expresses a complete thought and can stand alone.  →  What is an independent clause?
+   - [#189] This is the term for the omission of a sound or syllable in a word.  →  What is elision?
+   - [#190] The term for the repetition of vowel sounds in nearby words.  →  What is assonance?
+   - [#191] The term for a verb form that indicates the time of an action or state.  →  What is tense?
+   - [#192] This is the term for a word or phrase used to join words, phrases, or clauses.  →  What is a conjunction?
+   - [#193] The term for a statement or proposition that seems self-contradictory or absurd but in reality expresses a possible truth.  →  What is a paradox?
+   - [#194] This is the term for a literary work that uses humor, irony, or ridicule to criticize or mock.  →  What is satire?
+   - [#195] The term for a word that is derived from the name of a person or place.  →  What is an eponym?
+   - [#196] This is the term for a word that is spelled the same forwards and backwards.  →  What is a palindrome?
+   - [#197] The term for the study of the sounds of human speech.  →  What is phonetics?
+   - [#198] This is the term for a verb form that functions as an adjective.  →  What is a participle?
+
+## Barroom Physics (25)
+   - [#40] This concept refers to the smallest possible discrete unit of any physical property.  →  What is a quantum?
+   - [#41] The hypothetical particle believed to mediate the force of gravity in quantum field theory.  →  What is a graviton?
+   - [#44] The concept in quantum mechanics that describes a state where a particle exists in multiple states until observed.  →  What is superposition?
+   - [#45] The term for the set of equations that describe the electromagnetic field.  →  What are Maxwell's equations?
+   - [#46] The term for the apparent increase in mass of an object as its velocity approaches the speed of light.  →  What is relativistic mass?
+   - [#48] The phenomenon in quantum mechanics where a particle tunnels through a barrier it classically couldn't surmount.  →  What is quantum tunneling?
+   - [#59] The name of the effect where a moving object experiences a force perpendicular to its direction of motion in a rotating frame.  →  What is the Coriolis effect?
+   - [#75] The measure of a system's thermal energy per unit temperature that is unavailable for doing useful work.  →  What is free energy?
+   - [#90] The effect responsible for holding galaxies together, despite their rotation.  →  What is dark matter?
+   - [#147] The scientist who is known for his uncertainty principle.  →  Who is Werner Heisenberg?
+   - [#178] What is the name of the law that describes the force between two point charges?  →  What is Coulomb's law?
+   - [#179] What is the term for the rate at which electrical energy is transferred by an electric circuit?  →  What is electrical power?
+   - [#180] What is the phenomenon where a change in the current flowing through one coil induces an electromotive force in a nearby coil?  →  What is mutual inductance?
+   - [#181] What is the principle that describes the increase in pressure in a confined fluid being transmitted undiminished in all directions?  →  What is Pascal's principle?
+   - [#182] What term describes the force that causes an object to move in a circular path?  →  What is centripetal force?
+   - [#183] What is the term for the distribution of power among frequencies in a signal?  →  What is a spectrum?
+   - [#184] What is the effect that describes the change in frequency of a wave in relation to an observer moving relative to the source of the wave?  →  What is the Doppler effect?
+   - [#185] What is the process by which a liquid turns into vapor without boiling?  →  What is evaporation?
+   - [#186] What is the term for the force opposing the relative motion of layers in a fluid?  →  What is viscosity?
+   - [#190] What term describes the phenomenon when a system oscillates with greater amplitude at specific frequencies?  →  What is resonance?
+   - [#191] What is the term for the intrinsic angular momentum of a particle?  →  What is spin?
+   - [#192] What is the term for the point in an orbit where the orbiting object is closest to the body it orbits?  →  What is periapsis?
+   - [#193] What is the name of the principle that explains the upward force experienced by objects submerged in a fluid?  →  What is Archimedes' principle?
+   - [#194] What is the name of the law that states that the pressure of a given mass of gas is inversely proportional to its volume at constant temperature?  →  What is Boyle's law?
+   - [#199] The principle explaining why an object immersed in fluid experiences an upward force equal to the weight of the fluid displaced.  →  What is Archimedes' principle?
+
+## Potent Potables (33)
+   - [#38] A fortified wine produced in the Jerez region of Spain.  →  What is sherry?
+   - [#39] A potent plant used as a flavoring in some bitters, with a notorious reputation in absinthe.  →  What is wormwood?
+   - [#40] A French herbal liqueur made by Carthusian monks, known for its green and yellow varieties.  →  What is Chartreuse?
+   - [#41] A distilled spirit traditionally enjoyed during the Day of the Dead in Mexico, made from the agave plant.  →  What is mezcal?
+   - [#42] This drink's name means 'little water' in Italian, and it is a type of brandy.  →  What is grappa?
+   - [#43] A distilled alcoholic beverage made from juniper berries and known for its London Dry variety.  →  What is gin?
+   - [#44] The cocktail made with gin, Campari, and sweet vermouth.  →  What is a Negroni?
+   - [#45] A Hungarian fruit brandy made from plums.  →  What is Slivovitz?
+   - [#46] A type of absinthe that originated in Switzerland, known for its green color.  →  What is La Bleue?
+   - [#88] This is a type of beer that originated in Belgium, known for its wheat base and spiced flavors.  →  What is witbier?
+   - [#89] This rare and expensive Japanese tea is made from the youngest leaves of the Camellia sinensis plant and is ground into a fine powder.  →  What is matcha?
+   - [#90] This type of Italian wine is made from dried grapes and is known for its high alcohol content and rich flavor.  →  What is Amarone?
+   - [#91] This French term refers to a sparkling wine made by a process involving a single fermentation in a closed tank.  →  What is méthode Charmat?
+   - [#92] This is a distilled spirit made primarily in the Balkans, traditionally from plums.  →  What is rakia?
+   - [#93] This Swiss liqueur is made from anise and other herbs and was banned in many countries in the early 20th century.  →  What is absinthe?
+   - [#94] This is a distilled alcoholic beverage made from agave, particularly in the region around the city of Santiago Matatlán.  →  What is mezcal?
+   - [#95] This is a rare and highly prized Chinese tea, known for its delicate flavor and is often referred to as 'Dragon Well'.  →  What is Longjing tea?
+   - [#96] This type of rum, distilled in Guyana, is known for its rich, full-bodied flavor and is often used in premium cocktails.  →  What is Demerara rum?
+   - [#97] This type of fortified wine, originating from a specific island, is known for its complex flavors and aging potential.  →  What is Madeira?
+   - [#138] This type of German beer is characterized by its light color and low alcohol content, often consumed during the summer.  →  What is Kölsch?
+   - [#143] This South African spirit is made from the fermented fruit of a specific indigenous tree.  →  What is marula?
+   - [#144] This traditional Polish and Russian spirit is often distilled from rye or wheat and flavored with bison grass.  →  What is Żubrówka?
+   - [#146] This Scandinavian spirit is made from potatoes or grain and is traditionally flavored with caraway.  →  What is aquavit?
+   - [#147] This type of traditional Japanese spirit is distilled from barley, sweet potatoes, or rice.  →  What is shochu?
+   - [#185] This sour beer style originates from Belgium and is known for its tart flavor.  →  What is a lambic?
+   - [#186] This strong distilled spirit from Eastern Europe is often made from potatoes or grains.  →  What is vodka?
+   - [#187] This cocktail is typically made with rum, lime juice, sugar, mint, and soda water.  →  What is a mojito?
+   - [#188] This classic cocktail is made with rye whiskey, Peychaud's bitters, and absinthe.  →  What is a Sazerac?
+   - [#189] This liqueur has a distinctive anise flavor and is often consumed as an aperitif.  →  What is pastis?
+   - [#190] This type of wine is named after a French region famous for its sparkling variety.  →  What is Champagne?
+   - [#191] This type of whiskey is known for being smooth and is made in Ireland.  →  What is Irish whiskey?
+   - [#192] This Spanish wine is often fortified and comes in styles from dry to very sweet.  →  What is sherry?
+   - [#199] The oldest known alcoholic beverage, made from fermented honey, is called this.  →  What is mead?
+
+## Pub Grub (16)
+   - [#45] A traditional South African method of cooking meat over an open fire.  →  What is braai?
+   - [#88] A classic dish from Bavaria made of marinated beef, typically served with a red wine sauce.  →  What is sauerbraten?
+   - [#89] A traditional Japanese dish made from fermented soybeans.  →  What is natto?
+   - [#90] A classic French dish of slow-cooked duck confit, typically served with garlic and herbs.  →  What is cassoulet?
+   - [#91] A Russian dish made from finely chopped raw meat, traditionally seasoned with onions and spices.  →  What is steak tartare?
+   - [#92] A traditional Norwegian dish made from dried, salted fish and lye.  →  What is lutefisk?
+   - [#93] A type of Chinese dumpling traditionally served in a bamboo steamer.  →  What is dim sum?
+   - [#94] A traditional South African dish made with spiced minced meat baked with an egg-based topping.  →  What is bobotie?
+   - [#95] A Nordic dish consisting of raw salmon, cured with a mixture of salt, sugar, and dill.  →  What is gravlax?
+   - [#128] A type of sausage made from finely ground meat, often served with sauerkraut.  →  What is knackwurst?
+   - [#136] A Scottish confection made from sugar, butter, and milk, often sold in bars.  →  What is tablet?
+   - [#143] A Scottish dish consisting of a spiced ball of oatmeal, often served with neeps and tatties.  →  What is a haggis?
+   - [#183] A traditional dish from the Basque region, consisting of fish and potatoes in a tomato and pepper sauce.  →  What is marmitako?
+   - [#185] A type of pie from Canada made with meat and potatoes, often seasoned with allspice and cloves.  →  What is tourtière?
+   - [#190] A classic French dish made with layers of potatoes, cheese, and cream, baked until golden.  →  What is gratin dauphinois?
+   - [#199] An unusual pub snack from the United Kingdom that combines a hard-boiled egg wrapped in sausage meat.  →  What is a Scotch egg?
+
+## Beer Science (30)
+   - [#23] The term for the specific strain of yeast used in lager production.  →  What is Saccharomyces pastorianus?
+   - [#24] The scientific term for the bubbles found in carbonated beer.  →  What is nucleation?
+   - [#26] The acid in hops that contributes to beer's bitterness.  →  What are alpha acids?
+   - [#27] This type of enzyme converts proteins into amino acids during malting.  →  What is protease?
+   - [#28] The main carbohydrate found in barley that is converted into fermentable sugars.  →  What is maltose?
+   - [#29] The process of converting sugars into alcohol and carbon dioxide without oxygen.  →  What is anaerobic fermentation?
+   - [#37] This ingredient is used to stabilize foam in beer.  →  What is isinglass?
+   - [#39] This component of hops provides the floral and citrus flavors in beer.  →  What are essential oils?
+   - [#45] The scientific term for the study of beer and brewing.  →  What is zymurgy?
+   - [#124] The chemical that gives beer its golden color and is formed during the Maillard reaction.  →  What are melanoidins?
+   - [#125] The brewing method that involves heating the mash to different temperatures to activate various enzymes.  →  What is step mashing?
+   - [#126] The term for the concentration of dissolved solids in beer, measured in Plato.  →  What is degrees Plato?
+   - [#130] The chemical reaction responsible for the development of flavor and color in malt during kilning.  →  What is the Maillard reaction?
+   - [#131] The name of the process where yeast cells form small clumps during fermentation.  →  What is flocculation?
+   - [#132] The term for the sensory evaluation of beer aroma and flavor by trained professionals.  →  What is organoleptic analysis?
+   - [#133] The type of fermentation characterized by the presence of both yeast and bacteria.  →  What is mixed fermentation?
+   - [#136] The metal ion commonly found in water that can cause haze in beer if present in high concentrations.  →  What is calcium?
+   - [#138] The process by which beer is naturally carbonated in the bottle.  →  What is bottle conditioning?
+   - [#139] The name for hop-derived compounds that contribute to the aroma and flavor of beer.  →  What are terpenes?
+   - [#160] This is the principal source of fermentable sugars in beer.  →  What is malt?
+   - [#161] This term refers to the relative dryness of a finished beer.  →  What is final gravity?
+   - [#162] This process involves separating the wort from the spent grains.  →  What is lautering?
+   - [#163] This type of fermentation uses a specific yeast strain for creating Belgian-style beers.  →  What is Brettanomyces?
+   - [#164] This chemical reaction, involving amino acids and sugars, contributes to beer's color and flavor.  →  What is the Maillard reaction?
+   - [#165] This organic compound gives beer its floral and fruity aromas.  →  What are esters?
+   - [#175] This term refers to the practice of adding sugar to the wort to increase alcohol content.  →  What is chaptalization?
+   - [#177] This compound causes the 'skunky' aroma in light-struck beer.  →  What is 3-methyl-2-butene-1-thiol (MBT)?
+   - [#179] This is a common byproduct of yeast fermentation that can cause off-flavors if not controlled.  →  What is acetaldehyde?
+   - [#198] This term refers to the ratio of carbon dioxide absorbed in beer relative to air pressure.  →  What is carbonation level?
+   - [#199] This scientific law describes the relationship between the pressure and volume of gases, crucial in carbonation.  →  What is Boyle's Law?
+
+## Alcohol Trivia (40)
+   - [#20] This is the name of the Japanese rice wine that is often served warm.  →  What is sake?
+   - [#21] This is the name of a spirit made from sugarcane juice or molasses, often associated with the Caribbean.  →  What is rum?
+   - [#22] This traditional Korean alcoholic beverage is made from rice and is known for its milky appearance.  →  What is makgeolli?
+   - [#23] This term refers to a high-proof spirit made by distilling wine, often used in cooking and cocktails.  →  What is brandy?
+   - [#24] This is the term for a cocktail that combines whisky, vermouth, and bitters, served straight up or on the rocks.  →  What is a Rob Roy?
+   - [#34] This type of cocktail is made by muddling sugar with bitters, adding whiskey, and garnishing with a twist.  →  What is a Sazerac?
+   - [#35] This type of rum, referred to as agricole, is made from sugarcane juice rather than molasses.  →  What is Rhum Agricole?
+   - [#43] This is the name of a distilled beverage made from sugarcane juice or molasses, typically associated with the Caribbean.  →  What is rum?
+   - [#44] This is the term for a high-proof spirit distilled from wine or fermented fruit juice, often used in cooking and cocktails.  →  What is brandy?
+   - [#69] This is the French brandy made from distilled white wine and aged in oak barrels.  →  What is Cognac?
+   - [#70] This is the Scottish region known for producing peaty single malt whisky.  →  What is Islay?
+   - [#71] This is the traditional method of producing sparkling wine by fermenting it in the bottle.  →  What is Méthode Champenoise?
+   - [#72] This is the Italian region known for producing Amarone wine.  →  What is Valpolicella?
+   - [#73] This is the term for the Spanish grape variety used to make the base of Sherry.  →  What is Palomino?
+   - [#74] This is the name of the rare Japanese whisky brand known for its single malt expressions.  →  What is Yamazaki?
+   - [#75] This is the French term for a winemaker or wine producer.  →  What is vigneron?
+   - [#76] This is the American cocktail made with rye whiskey, sweet vermouth, and bitters.  →  What is a Manhattan?
+   - [#77] This is the name of the German beer style that is characterized by a low alcohol content and a sour taste.  →  What is Berliner Weisse?
+   - [#78] This is the Italian term for a sweet, fortified wine from the island of Sicily.  →  What is Marsala?
+   - [#79] This is the name of the Scottish region known for its light and floral single malt whisky.  →  What is Speyside?
+   - [#80] This is the term for the Spanish fortified wine aged in a solera system.  →  What is Sherry?
+   - [#129] This is the name of the double distillation process that produces Cognac.  →  What is Charentais distillation?
+   - [#130] This ancient civilization is credited with the first known production of beer.  →  What are the Sumerians?
+   - [#131] This type of tequila is aged in oak barrels for at least one year.  →  What is Añejo?
+   - [#132] This is the name of a traditional Korean rice wine.  →  What is Makgeolli?
+   - [#133] This rare type of sherry undergoes a process called 'flor' aging.  →  What is Fino?
+   - [#134] This is the name of a spirit made from the fermented juice of the blue agave plant.  →  What is Mezcal?
+   - [#135] This is the term for the practice of maturing wine in barrels after fermentation.  →  What is aging?
+   - [#136] This is the name of the region in France where Armagnac is produced.  →  What is Gascony?
+   - [#137] This cocktail is made with rye whiskey, sweet vermouth, and bitters.  →  What is a Manhattan?
+   - [#176] This term refers to the process of adding sugar to wine to increase its alcohol content.  →  What is chaptalization?
+   - [#177] This is the name for a person who is a trained and knowledgeable wine professional.  →  What is a sommelier?
+   - [#178] This technique involves using a candle to detect sediment in an aged wine bottle.  →  What is decanting?
+   - [#179] This grape variety is known for being used in the production of Grappa.  →  What is pomace?
+   - [#180] This ancient civilization is credited with the earliest known production of beer.  →  What is the Sumerians?
+   - [#181] This spirit's name is derived from the Gaelic term for 'water of life'.  →  What is whisky?
+   - [#182] This term refers to the natural yeast bloom found on grape skins used in fermentation.  →  What is the bloom?
+   - [#183] This process involves heating a liquid to create vapor and then cooling to collect the liquid, crucial in spirit production.  →  What is distillation?
+   - [#184] This French term describes the unique characteristic of a wine derived from its environment.  →  What is terroir?
+   - [#198] This is the first step in brewing beer, where grains are soaked to convert starches to sugars.  →  What is mashing?
+
+## Famous Bars (25)
+   - [#16] This famous bar in Reykjavik, Iceland, is named after a notorious pirate and is known for its unique cocktails.  →  What is The Dubliner?
+   - [#44] This bar in Prague is known for its medieval theme and old-world charm.  →  What is U Medvídků?
+   - [#61] A famous tiki bar in Los Angeles known for its extensive rum selection and island decor.  →  What is Tonga Hut?
+   - [#66] This iconic Las Vegas establishment is famous for its neon cowboy sign.  →  What is The Pioneer Club?
+   - [#73] An iconic beach bar in Mykonos known for its celebrity patrons and sunset views.  →  What is Nammos?
+   - [#168] This bar in Prague is famous for its extensive beer selection and medieval ambiance.  →  What is U Fleků?
+   - [#169] This Havana bar is famous for its daiquiris and was a favorite of Hemingway.  →  What is El Floridita?
+   - [#173] This Hong Kong bar is known for its speakeasy ambiance and is located in a former storage room.  →  What is 001?
+   - [#174] This Berlin bar is known for its avant-garde cocktails and artistic performances.  →  What is Reingold?
+   - [#176] This iconic Edinburgh pub is known for its traditional Scottish music and historic charm.  →  What is The Royal Oak?
+   - [#179] This Rio de Janeiro bar is famous for its samba music and lively atmosphere.  →  What is Rio Scenarium?
+   - [#180] This Copenhagen bar is known for its focus on Nordic ingredients in cocktails.  →  What is Ruby?
+   - [#181] This Johannesburg bar is located in a former power station and is known for its eclectic design.  →  What is The Living Room?
+   - [#183] This St. Petersburg bar is located in a historic building and known for its vodka selection.  →  What is The Hat?
+   - [#184] This Istanbul bar is known for its stunning Bosphorus views and elegant ambiance.  →  What is Mikla?
+   - [#185] This Athens bar is famous for its rooftop view of the Acropolis.  →  What is A for Athens?
+   - [#186] This Seoul bar is known for its speakeasy vibe and innovative cocktail menu.  →  What is Bar Cham?
+   - [#187] This Toronto bar is known for its vintage aesthetic and signature cocktails.  →  What is The Cloak Bar?
+   - [#188] This Auckland bar is known for its extensive wine list and elegant setting.  →  What is The Jefferson?
+   - [#189] This bar in Venice is known for its historic charm and classic Italian cocktails.  →  What is Harry's Bar?
+   - [#190] This Reykjavik bar is famous for its unique geothermal cocktails.  →  What is Slippbarinn?
+   - [#191] This Lima bar is known for its pisco sours and traditional Peruvian ambiance.  →  What is Mayta?
+   - [#192] This Santiago bar is known for its vibrant atmosphere and Chilean wines.  →  What is Bocanáriz?
+   - [#193] This Buenos Aires bar is known for its speakeasy style and secretive entrance.  →  What is Florería Atlántico?
+   - [#199] This bar in Singapore is acclaimed for its innovative use of local ingredients and has been ranked among the world's best.  →  What is Atlas Bar?
+
+## US History (22)
+   - [#40] This U.S. President signed the Indian Removal Act, leading to the Trail of Tears.  →  Who is Andrew Jackson?
+   - [#47] This 18th-century rebellion was led by farmers in response to a tax on whiskey.  →  What is the Whiskey Rebellion?
+   - [#48] This 19th-century act offered land to settlers in the western United States.  →  What is the Homestead Act?
+   - [#90] The political party founded in the 1850s that opposed the expansion of slavery.  →  What is the Republican Party?
+   - [#91] The name of the 17th-century colony that was the first to practice self-governance in present-day United States.  →  What is the Plymouth Colony?
+   - [#93] The early 19th-century US policy warning European powers against colonization in the Americas.  →  What is the Monroe Doctrine?
+   - [#96] The event in 1859 where an abolitionist led a raid on a federal armory at Harpers Ferry.  →  Who is John Brown?
+   - [#97] The 18th-century rebellion that highlighted the weaknesses of the Articles of Confederation.  →  What is Shays' Rebellion?
+   - [#98] The 1787 agreement that counted slaves as a fraction of a person for legislative representation.  →  What is the Three-Fifths Compromise?
+   - [#139] The US program that aimed to rebuild Europe after World War II.  →  What is the Marshall Plan?
+   - [#140] The 1786-1787 uprising among Massachusetts farmers protesting economic injustices.  →  What is Shays' Rebellion?
+   - [#144] This 1925 trial challenged a law prohibiting the teaching of evolution in Tennessee.  →  What is the Scopes Trial?
+   - [#146] The 1862 act that provided land to settlers in the West, encouraging westward expansion.  →  What is the Homestead Act?
+   - [#147] The doctrine that justified US expansion across North America in the 19th century.  →  What is Manifest Destiny?
+   - [#148] The 1832 crisis involving a confrontation between South Carolina and the federal government.  →  What is the Nullification Crisis?
+   - [#185] The President during the War of 1812.  →  Who is James Madison?
+   - [#186] The incident that led to the US entry into World War I.  →  What is the Zimmermann Telegram?
+   - [#188] The political scandal involving the DNC headquarters break-in.  →  What is Watergate?
+   - [#189] The President who enacted the Indian Removal Act.  →  Who is Andrew Jackson?
+   - [#190] The location of the first permanent English settlement in America.  →  What is Jamestown?
+   - [#192] The US doctrine that warned European nations against colonizing the Americas.  →  What is the Monroe Doctrine?
+   - [#193] The US President who issued the Monroe Doctrine.  →  Who is James Monroe?
+
+## Wars (19)
+   - [#20] This war, which took place from 1992 to 1995, was part of the breakup of Yugoslavia.  →  What is the Bosnian War?
+   - [#21] This conflict, fought from 431 to 404 BC, ended with the defeat of Athens.  →  What is the Peloponnesian War?
+   - [#32] This series of conflicts in the 17th century saw the expansion of Russian territory into Siberia.  →  What are the Russian-Cossack conflicts?
+   - [#35] This conflict involved the Byzantine Empire and the Sassanid Empire from 602 to 628.  →  What is the Byzantine-Sassanian War?
+   - [#36] This 19th-century war resulted in the British Empire taking control of a South Asian subcontinent.  →  What is the Anglo-Sikh Wars?
+   - [#42] This war, occurring from 1919 to 1921, involved a newly independent nation and its former empire.  →  What is the Polish-Soviet War?
+   - [#44] This 16th-century conflict involved a European kingdom attempting to dominate Italy.  →  What are the Italian Wars?
+   - [#46] This war, occurring from 1715 to 1717, involved several European powers against the Ottoman Empire.  →  What is the Austro-Turkish War?
+   - [#85] The war where the Battle of Lepanto was a turning point for naval battles.  →  What is the Ottoman-Venetian War?
+   - [#86] The prolonged conflict in Southeast Asia that ended with the fall of Saigon.  →  What is the Vietnam War?
+   - [#121] The series of conflicts in the 20th century where South Africa was a major player against colonial powers.  →  What are the Anglo-Boer Wars?
+   - [#132] The 16th-century conflict that resulted in the establishment of Protestantism in Switzerland.  →  What is the Swiss Reformation?
+   - [#134] The long-standing series of conflicts between the Kingdom of Israel and neighboring states in the biblical era.  →  What are the Biblical Wars?
+   - [#162] This 13th-century conflict was fought between the Mongol Empire and a coalition of Eastern European states.  →  What are the Mongol invasions?
+   - [#166] This war from 1870 to 1871 established the German Empire.  →  What is the Franco-Prussian War?
+   - [#171] This 16th-century conflict in England was sparked by a Catholic uprising against Queen Elizabeth I.  →  What is the Northern Rebellion?
+   - [#175] This 7th-century conflict led to the spread of Islam across the Arabian Peninsula.  →  What are the Muslim conquests?
+   - [#181] This 19th-century conflict in China was one of the deadliest civil wars in history.  →  What is the Taiping Rebellion?
+   - [#199] This conflict, occurring from 1853 to 1856, involved an alliance including France and the Ottoman Empire.  →  What is the Crimean War?
+
+## Technology (38)
+   - [#31] The first computer virus, created in 1971.  →  What is the Creeper virus?
+   - [#32] This document-based database program is known for its flexibility.  →  What is MongoDB?
+   - [#33] A programming paradigm based on the concept of 'objects'.  →  What is object-oriented programming?
+   - [#35] This concept enables multiple operating systems to run on a single physical machine.  →  What is virtualization?
+   - [#36] This term refers to the maximum rate of data transfer across a network.  →  What is bandwidth?
+   - [#37] The year the first email was sent.  →  What is 1971?
+   - [#38] This Japanese company developed the first commercially successful video game console.  →  What is Nintendo?
+   - [#39] The network protocol suite used for the Internet and similar networks.  →  What is TCP/IP?
+   - [#40] A system that allows users to execute scripts written in batch language.  →  What is a shell?
+   - [#41] This term describes the process of protecting networks from unauthorized access.  →  What is cybersecurity?
+   - [#42] The field of study focused on the design and use of robots.  →  What is robotics?
+   - [#43] This type of database uses tables to store data and relationships.  →  What is a relational database?
+   - [#44] The first successful personal computer, introduced in 1975.  →  What is the Altair 8800?
+   - [#85] This is the term for a decentralized network protocol that enables peer-to-peer file sharing.  →  What is BitTorrent?
+   - [#86] This term describes the process of extracting useful information from large datasets.  →  What is data mining?
+   - [#87] This is the name of the computing framework developed by Google for processing large data sets in a distributed fashion.  →  What is MapReduce?
+   - [#88] This is the term for a method of storing data in which each bit is assigned a unique address.  →  What is memory-mapped I/O?
+   - [#89] This is the name of the first programming language designed for artificial intelligence.  →  What is Lisp?
+   - [#90] This term describes the collection and analysis of information about individuals or groups, often used by marketers.  →  What is data profiling?
+   - [#91] This is the name of the first computer virus that spread in the wild.  →  What is the Brain virus?
+   - [#92] This is the term for a quantum computing concept that allows a qubit to be in multiple states at once.  →  What is superposition?
+   - [#93] This is the name of the algorithm that underpins the RSA encryption technique.  →  What is the RSA algorithm?
+   - [#94] This term describes a data structure that uses LIFO (last in, first out) methodology.  →  What is a stack?
+   - [#136] The computer scientist credited with inventing the World Wide Web.  →  Who is Tim Berners-Lee?
+   - [#137] The cryptographic method that uses two different keys, one public and one private.  →  What is asymmetric encryption?
+   - [#138] The programming language known for its concurrency features and used by Google.  →  What is Go?
+   - [#140] The technique used in computer graphics to convert mathematical representations into images.  →  What is rendering?
+   - [#141] The first computer virus that spread in the wild and was named after a creature from folklore.  →  What is the Elk Cloner?
+   - [#142] The decentralized platform known for smart contracts and developed by Vitalik Buterin.  →  What is Ethereum?
+   - [#184] This is a method of designing software that allows multiple programs to run concurrently.  →  What is multiprocessing?
+   - [#185] The term for the simulation of human intelligence in machines.  →  What is artificial intelligence?
+   - [#187] This processor architecture is known for its simplicity and efficiency, often used in mobile devices.  →  What is ARM?
+   - [#188] A method of controlling access to resources by assigning permissions to users or systems.  →  What is access control?
+   - [#189] A cryptographic protocol designed to provide communications security over a computer network.  →  What is SSL?
+   - [#190] The method of dividing a disk into multiple regions to manage data storage.  →  What is partitioning?
+   - [#191] The architecture that allows programs to perform multiple tasks simultaneously.  →  What is multithreading?
+   - [#192] This is a software testing method that involves testing the internal structures or workings of an application.  →  What is white-box testing?
+   - [#199] This pioneering computer scientist is known as the 'father of theoretical computer science and artificial intelligence'.  →  Who is Alan Turing?
+
+## Ancient Greece (29)
+   - [#20] The philosopher who founded the Academy in Athens.  →  Who is Plato?
+   - [#22] The sculptor who created the statue of Zeus at Olympia, one of the Seven Wonders.  →  Who is Phidias?
+   - [#23] The Greek historian known for his work 'The Peloponnesian War'.  →  Who is Thucydides?
+   - [#24] The ancient Greek mathematician known for his theorem on right triangles.  →  Who is Pythagoras?
+   - [#46] The philosopher who asserted that 'man is the measure of all things'.  →  Who is Protagoras?
+   - [#47] The mathematician and engineer known for his work in geometry and mechanics.  →  Who is Archimedes?
+   - [#48] The strategic pass where Spartans and allies held off the Persian army.  →  What is Thermopylae?
+   - [#49] The Athenian statesman who led during the golden age of Athens.  →  Who is Pericles?
+   - [#70] This was the name of the league led by Athens during the 5th century BC.  →  What is the Delian League?
+   - [#71] This ancient Greek historian chronicled the Peloponnesian War.  →  Who is Thucydides?
+   - [#72] This philosopher is known for the concept of the 'Golden Mean'.  →  Who is Aristotle?
+   - [#73] This Spartan king led the famous last stand at the Battle of Thermopylae.  →  Who is Leonidas?
+   - [#74] This is the term for a Greek temple's front porch.  →  What is a pronaos?
+   - [#81] This Greek term refers to the spirit of hospitality, often shown to guests and strangers.  →  What is xenia?
+   - [#84] This Greek island was the birthplace of the god Apollo and his sister Artemis.  →  What is Delos?
+   - [#97] This term refers to the Greek concept of excellence or virtue.  →  What is arete?
+   - [#142] The leader who orchestrated a major military campaign against the Persians in the early 5th century BC.  →  Who is Themistocles?
+   - [#143] This Greek scientist and philosopher is known for his work on ethics and logical reasoning.  →  Who is Aristotle?
+   - [#144] The ancient Greek city-state that was the center of commerce and culture in Sicily.  →  What is Syracuse?
+   - [#145] The author of the 'Elements', a comprehensive compilation of knowledge on geometry.  →  Who is Euclid?
+   - [#146] The philosopher who founded the school of thought known as Cynicism.  →  Who is Diogenes?
+   - [#168] The chief deity in Greek mythology, ruler of Mount Olympus.  →  Who is Zeus?
+   - [#169] The historian known for writing about the Peloponnesian War.  →  Who is Thucydides?
+   - [#170] The Athenian statesman who led the city during its Golden Age.  →  Who is Pericles?
+   - [#171] The term for the heavily armed foot soldiers of ancient Greece.  →  What is hoplites?
+   - [#173] The sculptor who created the statue of Zeus at Olympia, one of the Seven Wonders.  →  Who is Phidias?
+   - [#187] The ancient Greek philosopher who is considered the founder of Western philosophy.  →  Who is Socrates?
+   - [#188] The philosopher known for formulating the theory of the four causes.  →  Who is Aristotle?
+   - [#192] The group of Greek islands known for their unique dialect and cultural practices.  →  What are the Cyclades?
+
+## The 1980s (15)
+   - [#40] This 1980s TV series follows a Miami-based vice squad.  →  What is Miami Vice?
+   - [#41] This 1982 film directed by Ridley Scott is set in a dystopian future Los Angeles.  →  What is Blade Runner?
+   - [#43] This 1987 film features a group of friends uncovering a vampire coven in California.  →  What is The Lost Boys?
+   - [#44] This 1985 film features a breakfast club of teenagers in detention.  →  What is The Breakfast Club?
+   - [#45] This NASA mission in 1986 ended in tragedy shortly after launch.  →  What is the Challenger disaster?
+   - [#46] This 1982 sci-fi film features a replicant named Roy Batty.  →  What is Blade Runner?
+   - [#47] This 1980s sitcom featured a family with an alien named Gordon Shumway.  →  What is ALF?
+   - [#48] This 1980s band is known for the song 'Another One Bites the Dust'.  →  Who is Queen?
+   - [#87] This 1986 event was the world's worst nuclear disaster.  →  What is the Chernobyl disaster?
+   - [#88] This 1984 sci-fi film features a dystopian future where humans are harvested by machines.  →  What is The Terminator?
+   - [#91] This 1987 film features Kevin Costner as an agent fighting against organized crime during Prohibition.  →  What is The Untouchables?
+   - [#92] This 1984 event in India involved a deadly chemical leak from a pesticide plant.  →  What is the Bhopal disaster?
+   - [#93] This 1984 film involves a group of kids searching for a pirate's treasure in Oregon.  →  What is The Goonies?
+   - [#94] This 1988 film directed by Tim Burton features a 'bio-exorcist'.  →  What is Beetlejuice?
+   - [#95] This 1987 film directed by Rob Reiner is a fairytale adventure featuring a princess, a farm boy, and a giant.  →  What is The Princess Bride?
+
+## Blockbuster Movies (19)
+   - [#21] A 1982 film featuring an alien stranded on Earth and befriending a young boy.  →  What is E.T. the Extra-Terrestrial?
+   - [#22] This 1994 film takes place over several decades in the life of an intellectually challenged man.  →  What is Forrest Gump?
+   - [#37] A 1959 film known for its chariot race scene, set in the time of Christ.  →  What is Ben-Hur?
+   - [#39] A 1960 film about a secretary who embezzles money and encounters a shy motel owner.  →  What is Psycho?
+   - [#40] This 1998 film is about a giant lizard-like creature attacking New York City.  →  What is Godzilla?
+   - [#87] This 2003 film is about a young fish trying to find his way back home in the ocean.  →  What is Finding Nemo?
+   - [#88] A 1999 film adaptation of a Stephen King novel about a death row corrections officer.  →  What is The Green Mile?
+   - [#89] This 1984 film directed by James Cameron features a cyborg sent from the future.  →  What is The Terminator?
+   - [#90] A 1994 film about two hitmen, a boxer, a gangster's wife, and a pair of diner bandits.  →  What is Pulp Fiction?
+   - [#91] This 2007 film adapts a non-fiction book about a single mother fighting the oil industry.  →  What is Erin Brockovich?
+   - [#92] A 2006 film about a former undercover cop trying to take down a dangerous gang from within.  →  What is The Departed?
+   - [#93] This 1996 film is about a group of college students dealing with a killer on campus.  →  What is Scream?
+   - [#94] A 2009 science fiction film about humans attempting to extract a valuable mineral on another planet.  →  What is Avatar?
+   - [#95] This 2001 film is about a group of friends who enter a high-stakes poker game.  →  What is Ocean's Eleven?
+   - [#186] The 1982 film about a young man and his sentient motorcycle in a dystopian future.  →  What is Tron?
+   - [#187] This 1981 Italian horror film is the second in a trilogy about witches.  →  What is Inferno?
+   - [#190] A 1974 French-Italian film that details the life of a famous British author.  →  What is The Night Porter?
+   - [#191] The 1971 film directed by Stanley Kubrick, based on a dystopian novel about a delinquent's rehabilitation.  →  What is A Clockwork Orange?
+   - [#193] The 1984 film that is a surrealist adventure featuring a character named Jack in a world of bizarre fantasy landscapes.  →  What is The NeverEnding Story?
+
+## Reality TV (26)
+   - [#41] This show follows the lives of a group of siblings as they run their family business in New Orleans.  →  What is Duck Dynasty?
+   - [#42] A reality series documenting the lives of a group of friends in a wealthy California community.  →  What is Laguna Beach?
+   - [#43] This competition series involves building intricate creations using small plastic bricks.  →  What is LEGO Masters?
+   - [#46] A reality series that follows a group of friends working at a popular restaurant in Los Angeles.  →  What is Vanderpump Rules?
+   - [#47] This reality series documents the journey of a family adopting a healthier lifestyle.  →  What is 1000-lb Sisters?
+   - [#79] This series follows a group of wealthy young adults in Los Angeles as they navigate love and friendship.  →  What is The Hills?
+   - [#80] This reality show follows the daily operations of a famous restaurant in West Hollywood.  →  What is Vanderpump Rules?
+   - [#82] This series involves a team of paranormal investigators exploring haunted locations.  →  What is Ghost Adventures?
+   - [#83] This reality series involves individuals living in a remote location for an extended period, often for a prize.  →  What is Alone?
+   - [#85] This reality show features a group of friends living on the beaches of Florida.  →  What is Floribama Shore?
+   - [#129] Name the competition show where contestants must create innovative makeup transformations.  →  What is Glow Up?
+   - [#130] A reality series centered around a group of friends living in the Hamptons during the summer.  →  What is Summer House?
+   - [#131] This show follows the dramatic lives of young professionals in South Carolina.  →  What is Southern Charm?
+   - [#133] This reality show features a group of wealthy Asian socialites in Los Angeles.  →  What is Bling Empire?
+   - [#135] This series documents the lives of polygamous families in Utah.  →  What is Sister Wives?
+   - [#137] This series captures the lives of a prominent Southern family in Charleston, South Carolina.  →  What is Southern Charm?
+   - [#178] This series features a team of experts helping individuals who hoard.  →  What is Hoarders?
+   - [#179] This show involves a team of experts restoring classic cars and motorcycles.  →  What is Counting Cars?
+   - [#180] This series follows a group of people searching for gold in Alaska.  →  What is Gold Rush?
+   - [#181] This show features a group of individuals attempting to survive on a tropical island.  →  What is Survivor?
+   - [#182] This series documents the life and work of a famous dog trainer.  →  What is The Dog Whisperer?
+   - [#184] This series showcases fishermen working in the dangerous waters of the Bering Sea.  →  What is Deadliest Catch?
+   - [#185] This competition series involves artists creating sculptures made of food.  →  What is Cake Wars?
+   - [#197] The show where a panel tries to guess the identities of disguised celebrity singers.  →  What is The Masked Singer?
+   - [#198] This series focuses on the business dealings of a pawn shop in Las Vegas.  →  What is Pawn Stars?
+   - [#199] The UK reality series where people attempt to live in a remote wilderness for a year.  →  What is Eden?
+
+## Slogans & Brands (15)
+   - [#79] This brand's slogan is 'Challenge Everything'.  →  What is Electronic Arts?
+   - [#83] The brand that uses 'Belong Anywhere'.  →  What is Airbnb?
+   - [#87] This company uses 'Think Small'.  →  What is Volkswagen?
+   - [#91] The tech company known for 'Don't Be Evil'.  →  What is Google?
+   - [#93] This brand uses the slogan 'Every Little Helps'.  →  What is Tesco?
+   - [#138] Which company uses the slogan 'The Best Part of Wakin' Up...'?  →  What is Folgers?
+   - [#139] What is the brand behind 'The Uncola'?  →  What is 7-Up?
+   - [#140] Which brand's slogan is 'It's In the Game'?  →  What is EA Sports?
+   - [#141] Which brand is known for the slogan 'Taste the Rainbow'?  →  What is Skittles?
+   - [#142] What company uses 'Reach Out and Touch Someone' as a slogan?  →  What is AT&T?
+   - [#143] Which brand uses 'The Night Time Sniffling, Sneezing, Coughing, Aching, Stuffy Head, Fever, So You Can Rest Medicine' in its commercials?  →  What is NyQuil?
+   - [#144] What is the brand associated with the slogan 'Keeps Going and Going and Going'?  →  What is Energizer?
+   - [#193] Which brand uses the slogan 'The Ultimate Driving Machine'?  →  What is BMW?
+   - [#194] What brand uses the slogan 'We Bring Good Things to Life'?  →  What is General Electric?
+   - [#199] This brand's slogan, 'For the Bold', is associated with a beverage originally introduced as 'Brad's Drink'.  →  What is Pepsi?
+
+## Current Events (39)
+   - [#40] This is the ancient city known for its hanging gardens.  →  What is Babylon?
+   - [#41] This is the rarest blood type in humans.  →  What is AB negative?
+   - [#42] This is the current Secretary-General of the United Nations.  →  Who is António Guterres?
+   - [#43] This is the inventor of the World Wide Web.  →  Who is Tim Berners-Lee?
+   - [#44] This is the term for a group of flamingos.  →  What is a Flamboyance?
+   - [#45] This is the name of the first human-made object to reach space.  →  What is V-2 Rocket?
+   - [#46] This is the first female Prime Minister of the United Kingdom.  →  Who is Margaret Thatcher?
+   - [#47] This is the smallest prime number.  →  What is 2?
+   - [#48] This river forms part of the border between the United States and Mexico.  →  What is the Rio Grande?
+   - [#70] This Middle Eastern country experienced a civil war beginning in 2011.  →  What is Syria?
+   - [#71] This initiative aims to provide universal internet access using satellites.  →  What is Starlink?
+   - [#72] This treaty organization includes countries from North America and Europe for mutual defense.  →  What is NATO?
+   - [#73] This Asian country has a demilitarized zone with its southern neighbor.  →  What is North Korea?
+   - [#74] This African country has been in the news for its ongoing conflict in the Tigray region.  →  What is Ethiopia?
+   - [#76] This island nation recently experienced political upheaval and economic crisis.  →  What is Sri Lanka?
+   - [#77] This African country was the last to join the African Union in 2011.  →  What is South Sudan?
+   - [#78] This global organization was established to ensure international peace and security after World War II.  →  What is the United Nations?
+   - [#90] This island nation in the Indian Ocean was the site of a 2004 tsunami disaster.  →  What is Sri Lanka?
+   - [#92] This Asian country has the world's second-largest economy.  →  What is China?
+   - [#93] This South American country was led by Hugo Chávez from 1999 until his death in 2013.  →  What is Venezuela?
+   - [#94] This European capital city is also a major financial center and hosts many international organizations.  →  What is Brussels?
+   - [#136] The Asian country with the highest number of islands.  →  What is Indonesia?
+   - [#137] The company behind the world's largest social media platform as of 2023.  →  What is Meta?
+   - [#138] The South American country that experienced hyperinflation in the 2010s.  →  What is Venezuela?
+   - [#139] The first country to legalize recreational cannabis use nationwide.  →  What is Uruguay?
+   - [#140] The European country where the city of Dubrovnik is located.  →  What is Croatia?
+   - [#141] The first woman to win a Nobel Prize.  →  Who was Marie Curie?
+   - [#143] The country where the ancient city of Petra is located.  →  What is Jordan?
+   - [#144] The technological company that developed the first smartphone.  →  What is IBM?
+   - [#184] The African country led by Paul Kagame as of 2023.  →  What is Rwanda?
+   - [#185] The South Asian country formerly known as Ceylon.  →  What is Sri Lanka?
+   - [#186] The country where the tech company Samsung is headquartered.  →  What is South Korea?
+   - [#187] The country where the Nobel Peace Prize is awarded.  →  What is Norway?
+   - [#188] The currency used in Russia.  →  What is the Ruble?
+   - [#189] The Middle Eastern country that experienced a civil war beginning in 2011.  →  What is Syria?
+   - [#190] The largest island in the Mediterranean Sea.  →  What is Sicily?
+   - [#191] The European city known for its canals and the Anne Frank House.  →  What is Amsterdam?
+   - [#198] The country that legalized same-sex marriage in May 2023.  →  What is Estonia?
+   - [#199] The primary space agency responsible for the Artemis II mission.  →  What is NASA?
+
+## Famous People (28)
+   - [#21] This Norwegian explorer was the first to reach the South Pole.  →  Who is Roald Amundsen?
+   - [#22] This British mathematician and logician laid foundations for computer science and artificial intelligence.  →  Who is Alan Turing?
+   - [#23] This physicist coined the term 'black hole' and wrote 'A Brief History of Time'.  →  Who is Stephen Hawking?
+   - [#38] This American author is known for writing 'Moby-Dick'.  →  Who is Herman Melville?
+   - [#39] This French sculptor is famous for creating 'The Thinker'.  →  Who is Auguste Rodin?
+   - [#40] This American inventor is known for developing the telegraph and Morse code.  →  Who is Samuel Morse?
+   - [#41] This Italian physicist and astronomer is known for improvements to the telescope and astronomical observations.  →  Who is Galileo Galilei?
+   - [#42] This American abolitionist and women's rights activist is known for her 'Ain't I a Woman?' speech.  →  Who is Sojourner Truth?
+   - [#68] This Chinese leader was the founding father of the People's Republic of China.  →  Who is Mao Zedong?
+   - [#70] This German philosopher is known for the work 'Critique of Pure Reason'.  →  Who is Immanuel Kant?
+   - [#71] This aviator completed the first solo transatlantic flight.  →  Who is Charles Lindbergh?
+   - [#90] This Russian novelist wrote 'War and Peace'.  →  Who is Leo Tolstoy?
+   - [#94] This Italian poet is famous for 'The Divine Comedy'.  →  Who is Dante Alighieri?
+   - [#115] This French military leader became Emperor of the French.  →  Who is Napoleon Bonaparte?
+   - [#116] This leader is known for founding the People's Republic of China.  →  Who is Mao Zedong?
+   - [#117] This Roman general became dictator for life before his assassination.  →  Who is Julius Caesar?
+   - [#119] This physicist is famous for her pioneering research on radioactivity.  →  Who is Marie Curie?
+   - [#127] This German philosopher is known for his critique of pure reason.  →  Who is Immanuel Kant?
+   - [#132] The first Secretary-General of the United Nations.  →  Who is Trygve Lie?
+   - [#141] This French military and political leader rose to prominence during the French Revolution.  →  Who is Napoleon Bonaparte?
+   - [#183] This Indian leader is known for his nonviolent resistance.  →  Who is Mahatma Gandhi?
+   - [#184] This American aviator made the first solo nonstop transatlantic flight.  →  Who is Charles Lindbergh?
+   - [#187] This English mathematician helped break the Enigma code.  →  Who is Alan Turing?
+   - [#188] This Chinese philosopher founded a school of thought emphasizing personal and governmental morality.  →  Who is Confucius?
+   - [#189] This American jazz musician is known for his trumpet playing and singing.  →  Who is Louis Armstrong?
+   - [#190] This Italian navigator sailed under the Spanish flag and reached the Caribbean in 1492.  →  Who is Christopher Columbus?
+   - [#191] This French military and political leader rose to prominence during the French Revolution.  →  Who is Napoleon Bonaparte?
+   - [#199] This philosopher wrote 'The Republic', a Socratic dialogue on justice.  →  Who is Plato?
+
+## Rock n' Roll Riots (55)
+   - [#6] This band's 1989 concert in Moscow was marked by violence and destruction.  →  What was the Metallica concert?
+   - [#30] In 1989, a concert in Seattle by this group resulted in a riot and multiple arrests.  →  What was the Nirvana concert?
+   - [#64] The 2004 'riot' at this band's Columbus nightclub performance ended in tragedy when the guitarist was shot.  →  Who is Damageplan?
+   - [#76] The infamous 2000 riot at this band's concert in Denmark during a music festival resulted in multiple fatalities.  →  Who is Pearl Jam?
+   - [#83] This band's 1989 Moscow concert is often cited as a symbol of the end of the Cold War, despite the chaos that ensued.  →  Who are The Scorpions?
+   - [#85] This band's 1987 concert in Detroit ended in a riot when the lead singer was detained by police.  →  Who is Mötley Crüe?
+   - [#87] This band's 1978 concert in Atlanta ended in a riot due to the lead singer's provocative stage behavior.  →  Who is Lynyrd Skynyrd?
+   - [#88] The 1994 riot at this band's concert in Toronto was triggered by fans reacting to a rain delay.  →  Who are The Rolling Stones?
+   - [#89] This band's 1979 show in Cleveland was disrupted by a riot when fans were denied entry due to overcapacity.  →  Who are Led Zeppelin?
+   - [#91] The 1998 riot in Detroit at this band's concert was due to the lead singer's inflammatory remarks.  →  Who is Marilyn Manson?
+   - [#92] This band's 1975 Paris concert saw a riot due to a combination of a power outage and a rainstorm.  →  Who are The Rolling Stones?
+   - [#93] A 1985 concert in Milan was abruptly ended due to rioting fans of this band, known for their new wave hits.  →  Who are Duran Duran?
+   - [#95] This band's 1980 concert in Detroit was marred by a riot when the lead singer was arrested for inciting the crowd.  →  Who is Alice Cooper?
+   - [#110] A 1990 riot in Philadelphia broke out due to a no-show by this iconic rock band.  →  Who are Aerosmith?
+   - [#111] In 1989, this band's concert in Paris was interrupted by a riot, leading to several arrests.  →  Who are The Rolling Stones?
+   - [#112] This band's performance in 1998 at Woodstock '99 is often blamed for inciting violence and riots.  →  Who are Limp Bizkit?
+   - [#114] Riots erupted at a 1984 concert in Sydney by this band known for their hard rock anthems.  →  Who are AC/DC?
+   - [#115] In 1975, a riot at a concert in Milwaukee was blamed on this band's decision to cancel their set.  →  Who are Led Zeppelin?
+   - [#117] This band's 1979 concert in Cleveland ended in a riot after a misunderstanding over ticketing.  →  Who are Led Zeppelin?
+   - [#118] A 1974 festival in Ontario saw chaos after this band, known for their live performances, took the stage.  →  Who are KISS?
+   - [#119] This band's 1964 performance in Cleveland led to a ban on rock concerts due to the ensuing riot.  →  Who are The Beatles?
+   - [#120] In 1980, this band's show in Vancouver ended in a riot due to a power outage.  →  Who are Van Halen?
+   - [#121] A 1988 concert in Philadelphia ended in riots after this glam metal band was forced to cancel.  →  Who are Mötley Crüe?
+   - [#122] The 1971 concert in Zurich by this band ended in violence after a delayed start.  →  Who are Deep Purple?
+   - [#123] Riots broke out at a 1982 concert in New York City by this band known for their energetic punk sound.  →  Who are The Clash?
+   - [#124] This band's 1969 performance in Miami led to a riot and subsequent arrest of their lead singer.  →  Who are The Doors?
+   - [#125] A riot ensued at a 1995 festival in San Francisco during a performance by this experimental rock band.  →  Who are Jane's Addiction?
+   - [#126] In 1978, a concert in Glasgow turned violent during a performance by this band known for their hard rock style.  →  Who are AC/DC?
+   - [#127] This band's 1973 concert in London ended in a riot after the venue exceeded capacity limits.  →  Who are Led Zeppelin?
+   - [#128] A 1994 concert in Buenos Aires by this band led to riots after the lead singer was injured.  →  Who are Nirvana?
+   - [#129] This band, known for their glam rock image, caused a riot at their 1975 concert in Detroit.  →  Who are KISS?
+   - [#130] Riots occurred at a 1966 performance in Manila by this famous British band, causing them to vow never to return.  →  Who are The Beatles?
+   - [#131] A 1983 concert in Los Angeles ended in riots when this band, known for their punk roots, did not perform.  →  Who are Dead Kennedys?
+   - [#133] In 1991, a concert in São Paulo by this band led to riots after the show was abruptly canceled.  →  Who are Metallica?
+   - [#134] This band's 1971 concert in Milan ended in a riot, resulting in a ban from performing in the city.  →  Who are Led Zeppelin?
+   - [#136] Riots erupted at a 1981 concert in Oakland after this band known for their theatrical shows canceled.  →  Who are KISS?
+   - [#137] This band's 1967 performance in Amsterdam ended in chaos and arrests after their lead singer incited the crowd.  →  Who are The Rolling Stones?
+   - [#138] A 1997 festival in New York saw riots during a performance by this band known for their alternative rock sound.  →  Who are Pearl Jam?
+   - [#139] In 1986, a concert in Paris by this band led to riots and clashes with police.  →  Who are The Cure?
+   - [#140] This band's 1989 show in Moscow ended in violence due to overcrowding and lack of security.  →  Who are Scorpions?
+   - [#141] Riots broke out at a 1972 concert in Sydney by this band known for their blues-influenced rock.  →  Who are Led Zeppelin?
+   - [#142] In 1995, a concert in Madrid by this band led to riots after a stage collapse.  →  Who are U2?
+   - [#143] A 1982 concert in Mexico City by this band ended in riots due to poor sound quality.  →  Who are Queen?
+   - [#144] This band's 1978 performance in Stockholm is remembered for the chaos and destruction it caused.  →  Who are The Clash?
+   - [#157] A 1979 riot in Cleveland was sparked by a radio promotion involving this band's music being destroyed.  →  Who are The Rolling Stones?
+   - [#166] A 1995 incident involving this band in Argentina led to riots after changes were made to the concert venue.  →  Who are The Rolling Stones?
+   - [#170] A famous 1976 concert in Japan by this band ended in a riot, partly due to cultural misunderstandings.  →  Who are Deep Purple?
+   - [#174] This band faced a riot in Toronto in 1977 after fans were dissatisfied with the sound quality.  →  Who are The Ramones?
+   - [#175] A 1972 riot in Montreal was associated with this group's performance being abruptly stopped by authorities.  →  Who are The Rolling Stones?
+   - [#177] A 1978 concert in Atlanta by this band ended in a riot when fans were upset by the opening act's performance.  →  Who are Black Sabbath?
+   - [#181] In 1987, a concert in Munich by this band led to riots after fans were disappointed by the sound system.  →  Who are U2?
+   - [#182] A 1974 concert in Cleveland by this band ended in a riot, leading to significant damage to the venue.  →  Who are Deep Purple?
+   - [#186] This band's 1980 concert in Philadelphia ended in a riot after the band was late to start.  →  Who are Pink Floyd?
+   - [#192] In 1979, a riot in San Francisco was sparked by this band's decision to cancel their performance mid-tour.  →  Who are The Clash?
+   - [#199] A 1975 concert in London escalated into a riot when fans attempted to storm the stage to see this artist.  →  Who is David Bowie?
+
+## Lyrics about Liquor (27)
+   - [#14] In 'Escape (The Piña Colada Song)', this tropical cocktail is mentioned.  →  What is 'Piña Colada'?
+   - [#15] The singer of 'Whiskey Lullaby' is known for a duet about this spirit.  →  Who is 'Brad Paisley'?
+   - [#16] This song by Eric Church mentions an illegal type of corn whiskey.  →  What is 'Moonshine'?
+   - [#17] An old blues song by Jimmy Witherspoon talks about losing a woman to this drink.  →  What is 'Whiskey'?
+   - [#18] In 'Tequila Sunrise', this band sings about a drink named after a morning phenomenon.  →  Who is 'The Eagles'?
+   - [#19] This song by Toby Keith describes a drink that involves lime and salt.  →  What is 'Margarita'?
+   - [#46] This song by Brad Paisley speaks about a 'shot of Jack' and its effects.  →  What is 'Alcohol'?
+   - [#47] A track by Kesha mentions waking up feeling like a famous rapper.  →  What is 'Tik Tok'?
+   - [#48] In this song, Luke Bryan sings about margaritas and how they taste better with a companion.  →  What is 'One Margarita'?
+   - [#51] A song by Post Malone talks about 'Henny' in the context of celebrating.  →  What is 'Congratulations'?
+   - [#53] This song by Miranda Lambert mentions 'two for one' mixed drinks.  →  What is 'Tequila Does'?
+   - [#57] A track by Van Morrison celebrates a 'sweet' alcoholic beverage.  →  What is 'Moonshine Whiskey'?
+   - [#59] In this track by Drake, 'champagne' is associated with success.  →  What is 'The Motto'?
+   - [#60] This song by Pink Floyd mentions a cocktail shared 'at the bar'.  →  What is 'Breathe'?
+   - [#62] In this Elvis Presley song, a drink is a metaphor for 'sorrow'.  →  What is 'Heartbreak Hotel'?
+   - [#87] This song by The Beatles features a cocktail with a name similar to a religious figure.  →  What is 'Rocky Raccoon'?
+   - [#89] This 90s hit by Aqua mentions a drink associated with a particular color.  →  What is 'Barbie Girl'?
+   - [#103] This song by The Rolling Stones features a cocktail made with a citrus fruit.  →  What is 'Brown Sugar'?
+   - [#105] In this track by Little Big Town, they sing about a drink that invokes nostalgia.  →  What is 'Pontoon'?
+   - [#111] This song by Elton John mentions a drink that symbolizes a carefree lifestyle.  →  What is 'Island Girl'?
+   - [#135] What drink is mentioned in a song by Rupert Holmes that involves an escape plan?  →  What is 'pina colada'?
+   - [#140] What drink is central to the song 'Sippin' on Some Syrup' by Three 6 Mafia?  →  What is 'syrup'?
+   - [#141] Which song by Eric Church references 'Jack Daniel's'?  →  What is 'Jack Daniels'?
+   - [#152] Which song by Red Hot Chili Peppers mentions drinking 'cabernet'?  →  What is 'Under the Bridge'?
+   - [#196] This artist's song features the line 'whiskey on a Sunday'.  →  Who are The Dubliners?
+   - [#198] This band's song includes the line 'bourbon for breakfast'.  →  Who are The Hold Steady?
+   - [#199] This artist mentions 'rum and tonic' in their song.  →  Who is The Pogues?
+
+## 80s One-Hit Wonders (30)
+   - [#33] This 1983 song by Madness is about a confusing relationship.  →  What is 'Our House'?
+   - [#34] Which 1981 hit by Stars on 45 is known for its medley of Beatles songs?  →  What is 'Medley'?
+   - [#36] Which 1988 song by Johnny Hates Jazz discusses a lifestyle change?  →  What is 'Shattered Dreams'?
+   - [#37] This 1984 hit by Alphaville is about eternal youth.  →  What is 'Forever Young'?
+   - [#38] Which 1986 song by Swing Out Sister is about a significant emotional event?  →  What is 'Breakout'?
+   - [#40] Which 1982 song by After the Fire is a cover of a Falco song and became their only US hit?  →  What is 'Der Kommissar'?
+   - [#41] This 1985 song by Animotion is about a deep craving or desire.  →  What is 'Obsession'?
+   - [#75] This band sang about 'Pac-Man Fever' in 1981.  →  Who is Buckner & Garcia?
+   - [#77] This band's 1987 hit was 'Heart and Soul'.  →  Who is T'Pau?
+   - [#80] This artist had a 1980 hit with 'Cars'.  →  Who is Gary Numan?
+   - [#82] This group sang 'Don't You (Forget About Me)' in 1985.  →  Who are Simple Minds?
+   - [#83] This artist sang 'Putting on the Ritz' in 1983.  →  Who is Taco?
+   - [#84] This band had a hit with 'Turning Japanese' in the early 80s.  →  Who are The Vapors?
+   - [#85] This artist told us about 'Der Kommissar' in 1982.  →  Who is After the Fire?
+   - [#86] This group sang 'Our House' in 1982.  →  Who is Madness?
+   - [#87] This artist's 'It's Raining Men' was a hit in 1982.  →  Who is The Weather Girls?
+   - [#157] This group had a 1984 hit about a 'whisper to a scream'.  →  Who is Icicle Works?
+   - [#158] This artist had a 1986 hit with a song about 'life in a northern town'.  →  Who is The Dream Academy?
+   - [#159] This group had a hit in 1981 with a song about 'Einstein'.  →  Who is Landscape?
+   - [#160] This artist's 1982 hit was about 'let it whip'.  →  Who is Dazz Band?
+   - [#161] This band had a 1982 hit with a song about 'being on video'.  →  Who is The Buggles?
+   - [#162] This artist's hit song was about a 'major breakdown'.  →  Who is Tubeway Army?
+   - [#170] This group had a 1980 hit about a 'rock lobster'.  →  Who is The B-52's?
+   - [#172] This band had a 1986 hit about 'living in oblivion'.  →  Who is Anything Box?
+   - [#173] This artist had a hit about 'love changes' in 1987.  →  Who is Climie Fisher?
+   - [#174] This band had a 1984 hit about 'smalltown boy'.  →  Who is Bronski Beat?
+   - [#178] This artist had a 1983 hit about 'perfect strangers'.  →  Who is Deep Purple?
+   - [#180] This artist had a hit with a song about '19' in 1985.  →  Who is Paul Hardcastle?
+   - [#182] This artist had a 1986 hit about 'a good heart'.  →  Who is Feargal Sharkey?
+   - [#185] This artist had a 1982 hit about 'I eat cannibals'.  →  Who is Total Coelo?
+
+## Rap (40)
+   - [#20] This artist is known for his distinctively fast lyrical delivery and the song 'Worldwide Choppers'.  →  Who is Tech N9ne?
+   - [#21] This rapper's first name is Aubrey.  →  Who is Drake?
+   - [#22] This artist was one of the founders of Death Row Records.  →  Who is Suge Knight?
+   - [#23] This rapper was known as 'Tupac's rival' during the infamous East Coast-West Coast hip hop rivalry.  →  Who is The Notorious B.I.G.?
+   - [#25] This rapper is known as the 'King of Crunk'.  →  Who is Lil Jon?
+   - [#38] This rapper's real name is Earl Simmons.  →  Who is DMX?
+   - [#39] This artist is known for the song 'C.R.E.A.M.'.  →  Who are Wu-Tang Clan?
+   - [#40] This rapper's influential album is 'Enter the Wu-Tang (36 Chambers)'.  →  Who are Wu-Tang Clan?
+   - [#41] This artist was a founding member of 'A Tribe Called Quest'.  →  Who is Q-Tip?
+   - [#42] This rapper was known for the album 'All Eyez on Me'.  →  Who is Tupac Shakur?
+   - [#84] This rapper released the album 'My Beautiful Dark Twisted Fantasy'.  →  Who is Kanye West?
+   - [#85] This artist's debut album 'The Slim Shady LP' won a Grammy Award.  →  Who is Eminem?
+   - [#86] This rapper released the song 'Mo Money Mo Problems'.  →  Who is The Notorious B.I.G.?
+   - [#87] This artist wrote 'Jesus Walks'.  →  Who is Kanye West?
+   - [#88] This rapper's real name is Amethyst Amelia Kelly.  →  Who is Iggy Azalea?
+   - [#89] This artist is known for the album 'Enter the Wu-Tang (36 Chambers)'.  →  Who are the Wu-Tang Clan?
+   - [#90] This rapper was first signed to 'Roc-A-Fella Records'.  →  Who is Kanye West?
+   - [#91] This artist's debut album was titled 'Food & Liquor'.  →  Who is Lupe Fiasco?
+   - [#92] This rapper is associated with the group 'A Tribe Called Quest'.  →  Who is Q-Tip?
+   - [#133] This rapper's debut mixtape is 'House of Balloons'.  →  Who is The Weeknd?
+   - [#134] This rapper is known for the album 'The Marshall Mathers LP'.  →  Who is Eminem?
+   - [#135] This artist is known for the song 'Stan' featuring Dido.  →  Who is Eminem?
+   - [#136] This rapper released the album 'Life After Death'.  →  Who is The Notorious B.I.G.?
+   - [#137] This rapper's debut studio album is 'Reasonable Doubt'.  →  Who is Jay-Z?
+   - [#138] This artist's real name is Aubrey Graham.  →  Who is Drake?
+   - [#139] This rapper is known for the hit song 'Lose Yourself'.  →  Who is Eminem?
+   - [#140] This rapper's real name is Marshall Mathers.  →  Who is Eminem?
+   - [#141] This artist is known for the album 'Illmatic'.  →  Who is Nas?
+   - [#177] This rapper was born as Christopher Wallace.  →  Who is The Notorious B.I.G.?
+   - [#178] This rapper was known for his involvement with Death Row Records.  →  Who is Tupac Shakur?
+   - [#179] This rapper's posthumous album is titled 'Life After Death'.  →  Who is The Notorious B.I.G.?
+   - [#180] This rapper's debut album is titled 'Doggystyle'.  →  Who is Snoop Dogg?
+   - [#181] This rapper is known for pioneering the 'chopped and screwed' style.  →  Who is DJ Screw?
+   - [#182] This rapper released the song 'Juicy' in 1994.  →  Who is The Notorious B.I.G.?
+   - [#183] This rapper was born as Lesane Parish Crooks.  →  Who is Tupac Shakur?
+   - [#184] This rapper's influential album 'The Chronic' was released in 1992.  →  Who is Dr. Dre?
+   - [#185] This rapper had a famous beef with Nas, leading to the song 'Ether'.  →  Who is Jay-Z?
+   - [#186] This rapper's 1996 album was titled 'All Eyez on Me'.  →  Who is Tupac Shakur?
+   - [#187] This rapper is known for the 1995 hit 'Gangsta's Paradise'.  →  Who is Coolio?
+   - [#199] This rapper's stage name is derived from a character in 'Back to the Future'.  →  Who is Busta Rhymes?
+
+## Haus (House Music) (16)
+   - [#15] This New York-based DJ and producer, known for his work on the 'Paradise Garage', played a major role in the development of house music.  →  Who is Larry Levan?
+   - [#17] This Chicago DJ, known for his work with Trax Records, co-produced the iconic house track 'Your Love' with Frankie Knuckles.  →  Who is Jamie Principle?
+   - [#19] This term describes a style of house music that incorporates elements of gospel and blues, often featuring soulful vocals.  →  What is garage house?
+   - [#20] This iconic house music compilation series, released by a Chicago-based label, was instrumental in spreading the genre worldwide.  →  What is 'House Trax'?
+   - [#21] This pioneering house music artist from Chicago released 'Move Your Body (The House Music Anthem)' in 1986.  →  Who is Marshall Jefferson?
+   - [#22] This house music track by the group Inner City became a major hit in the late 1980s, featuring vocals by Paris Grey.  →  What is 'Good Life'?
+   - [#41] This Chicago-based record label, founded in the 1980s, was instrumental in the development of house music.  →  What is Trax Records?
+   - [#46] This iconic house music producer and DJ from Detroit is part of the techno collective known as the Belleville Three.  →  Who is Juan Atkins?
+   - [#114] This party series and record label, founded by David Mancuso, played a significant role in the development of house music.  →  What is The Loft?
+   - [#119] This legendary Ibiza nightclub is often credited with popularizing house music in Europe.  →  What is Amnesia?
+   - [#124] This Italian producer and DJ is known for his contributions to Italo house.  →  Who is Claudio Coccoluto?
+   - [#159] This record label, founded by Larry Heard, pioneered deep house music.  →  What is Alleviated Records?
+   - [#168] This DJ was the first to use the term 'house music' in reference to his mixes.  →  Who is DJ Knuckles?
+   - [#174] This house music pioneer co-founded Trax Records.  →  Who is Larry Sherman?
+   - [#183] This house music label was founded by Tony Humphries and was instrumental in the genre's growth.  →  What is Strictly Rhythm?
+   - [#199] The Roland drum machine that played a pivotal role in shaping the sound of early house music with its distinctive rhythm and bass sounds.  →  What is the Roland TR-808?
+
+## World Capitals (42)
+   - [#40] The capital of Qatar, a rapidly developing city on the Persian Gulf.  →  What is Doha?
+   - [#41] The capital of Kazakhstan, renamed in 2019 in honor of the former president.  →  What is Nur-Sultan?
+   - [#42] This city is the capital of Bhutan, known for its traditional Buddhist culture.  →  What is Thimphu?
+   - [#43] The capital of Mongolia, located in the Tuul River Valley.  →  What is Ulaanbaatar?
+   - [#44] The capital of Yemen, situated at a high altitude in the Yemeni Highlands.  →  What is Sana'a?
+   - [#45] This city is the capital of Eritrea, known for its Italian colonial buildings.  →  What is Asmara?
+   - [#46] The capital of Tajikistan, located in the Gissar Valley.  →  What is Dushanbe?
+   - [#47] The capital of Turkmenistan, known for its white marble buildings.  →  What is Ashgabat?
+   - [#48] This city is the capital of the Maldives, located on a low-lying island.  →  What is Malé?
+   - [#49] The capital of Timor-Leste, located on the north coast of the island of Timor.  →  What is Dili?
+   - [#90] The capital of Uzbekistan, known for its many museums and landmarks from the Soviet era.  →  What is Tashkent?
+   - [#91] This city is the capital of Mongolia, known for its cold climate and Soviet-style architecture.  →  What is Ulaanbaatar?
+   - [#92] The capital of Kazakhstan, moved from Almaty in 1997 and known for its futuristic skyline.  →  What is Nur-Sultan?
+   - [#93] This city is the capital of Myanmar, known for its sprawling layout and recent development.  →  What is Naypyidaw?
+   - [#94] The capital of Bhutan, known for its unique architecture and being one of the smallest capital cities.  →  What is Thimphu?
+   - [#96] The capital of Madagascar, located in the central highlands and known for its palaces and markets.  →  What is Antananarivo?
+   - [#97] This city is the capital of Papua New Guinea, located on the southeastern coast of the island.  →  What is Port Moresby?
+   - [#98] The capital of Kyrgyzstan, known for its Soviet-era architecture and cultural landmarks.  →  What is Bishkek?
+   - [#99] This city is the capital of Tajikistan, known for its tree-lined avenues and Soviet-era buildings.  →  What is Dushanbe?
+   - [#138] This city is the capital of Iceland, known for its geothermal activity.  →  What is Reykjavik?
+   - [#139] The capital of Bolivia, one of the highest capitals in the world.  →  What is La Paz?
+   - [#140] This city is the capital of Bhutan, located in the Himalayas.  →  What is Thimphu?
+   - [#141] The capital of Malta, known for its historical fortifications.  →  What is Valletta?
+   - [#142] This city is the capital of Mongolia, known for its proximity to the Gobi Desert.  →  What is Ulaanbaatar?
+   - [#143] The capital of Paraguay, located on the banks of the Paraguay River.  →  What is Asunción?
+   - [#144] This city is the capital of the Czech Republic, known for its Old Town Square.  →  What is Prague?
+   - [#145] The capital of Slovakia, located near the borders of Austria and Hungary.  →  What is Bratislava?
+   - [#146] This city is the capital of Cyprus, divided by a UN buffer zone.  →  What is Nicosia?
+   - [#147] The capital of Qatar, known for its futuristic skyscrapers.  →  What is Doha?
+   - [#183] This African capital is located in the Sahara Desert and known for its historic city center.  →  What is Bamako?
+   - [#184] The capital of Mongolia, known for its proximity to the vast steppe region.  →  What is Ulaanbaatar?
+   - [#185] This Pacific island nation's capital is known for its lagoon and coral reefs.  →  What is Tarawa?
+   - [#186] The capital of Bhutan, known for its traditional architecture.  →  What is Thimphu?
+   - [#187] This Central Asian capital is known for its Soviet-era architecture.  →  What is Bishkek?
+   - [#188] The capital city of Tajikistan, located in the Hissar Valley.  →  What is Dushanbe?
+   - [#189] This African capital is one of the highest capitals in the world, located in the Ethiopian Highlands.  →  What is Addis Ababa?
+   - [#190] The capital of Suriname, known for its Dutch colonial architecture.  →  What is Paramaribo?
+   - [#191] This Caribbean capital is the largest city in the Bahamas.  →  What is Nassau?
+   - [#192] The capital of Kazakhstan, renamed in 2019, known for its futuristic architecture.  →  What is Nur-Sultan?
+   - [#193] This European capital city is known for its medieval architecture and is situated at the confluence of two rivers.  →  What is Bratislava?
+   - [#194] This capital of Uzbekistan was a major city on the Silk Road.  →  What is Tashkent?
+   - [#199] This city serves as the capital of a landlocked African country that is entirely surrounded by South Africa.  →  What is Maseru?
+
+## Rivers & Lakes (38)
+   - [#40] This river is the longest in New Zealand.  →  What is the Waikato?
+   - [#41] This lake is the largest in Mongolia.  →  What is Lake Khövsgöl?
+   - [#42] This river's delta is known as the Sundarbans, a UNESCO World Heritage site.  →  What is the Ganges?
+   - [#43] This river is known for the city of Basel, where it flows through the Swiss Alps.  →  What is the Rhine?
+   - [#44] This lake is the largest in Central Asia and was once part of the Aral Sea basin.  →  What is the Caspian Sea?
+   - [#45] This river is known for its importance to the Inca civilization.  →  What is the Urubamba?
+   - [#46] This river flows into the Gulf of Finland and is important to the city of St. Petersburg.  →  What is the Neva?
+   - [#81] This river is known for its historical significance to the ancient Mesopotamian civilization.  →  What is the Euphrates?
+   - [#82] This European river is known for its extensive system of canals.  →  What is the Rhine?
+   - [#83] This river forms the majority of the border between Laos and Thailand.  →  What is the Mekong?
+   - [#84] This river flows through the ancient city of Petra.  →  What is the Wadi Musa?
+   - [#85] This river's delta is a UNESCO World Heritage site in Romania.  →  What is the Danube?
+   - [#86] This lake is known for being the largest naturally occurring lake in New Zealand.  →  What is Lake Taupo?
+   - [#87] This lake is the largest in Central America.  →  What is Lake Nicaragua?
+   - [#88] This river is known for being the longest river in the Iberian Peninsula.  →  What is the Ebro?
+   - [#89] This river is known for its significant role in forming the landscape of the Grand Canyon.  →  What is the Colorado River?
+   - [#90] This river is the primary water source for the Aral Sea.  →  What is the Amu Darya?
+   - [#91] This river is known for its unique red coloring due to algae growth.  →  What is the Rio Tinto?
+   - [#132] This river is famous for its spectacular waterfalls in southern Africa.  →  What is the Zambezi?
+   - [#133] This river flows through the world's largest rainforest.  →  What is the Amazon?
+   - [#134] This is the world's largest lake located entirely within one country.  →  What is the Caspian Sea?
+   - [#135] This river is often considered the cradle of Chinese civilization.  →  What is the Yellow River?
+   - [#136] This river's basin covers approximately one-third of the African continent.  →  What is the Congo River?
+   - [#137] This river is known for its cultural and religious significance in India.  →  What is the Ganges?
+   - [#138] This river in Siberia is one of the longest in the world and flows northward into the Arctic Ocean.  →  What is the Yenisei?
+   - [#139] This river is the world's deepest river.  →  What is the Congo River?
+   - [#160] This river is the main waterway of New York City.  →  What is the Hudson?
+   - [#162] This river is known for the historical city of Timbuktu located near its banks.  →  What is the Niger?
+   - [#163] This river is the main river of Pakistan, flowing through the Punjab region.  →  What is the Indus?
+   - [#164] This river flows through the Grand Canyon.  →  What is the Colorado?
+   - [#175] This river is the main tributary of the Volga.  →  What is the Kama?
+   - [#176] This river in Russia is known for its extensive delta on the Caspian Sea.  →  What is the Volga?
+   - [#177] This lake is Europe's largest by volume.  →  What is Lake Ladoga?
+   - [#178] This river is prominent in the mythology of the ancient Greeks.  →  What is the Styx?
+   - [#179] This river in Africa is known for its seasonal flooding patterns.  →  What is the Nile?
+   - [#180] This river's basin is a critical water source for the southeastern United States.  →  What is the Mississippi?
+   - [#198] This Canadian river is the longest in the country.  →  What is the Mackenzie River?
+   - [#199] This South American river is the second-longest in the world.  →  What is the Amazon River?
+
+## Mountains (26)
+   - [#34] This peak in the Andes is known for its difficult climbing conditions and high altitude.  →  What is Huascarán?
+   - [#35] This mountain range in Central Asia is known for its extreme weather and dangerous climbing conditions.  →  What are the Tian Shan?
+   - [#36] This mountain in the Caucasus is famous for its dormant volcanic status and is one of the Seven Summits.  →  What is Mount Elbrus?
+   - [#37] This peak in the Himalayas is the fourth highest in the world.  →  What is Lhotse?
+   - [#38] This mountain is the highest peak in the Rwenzori Mountains of Uganda.  →  What is Mount Stanley?
+   - [#40] This peak in the Alaska Range is known for its isolation and extreme climbing challenges.  →  What is Mount McKinley?
+   - [#41] This summit in the Alps is known for its heavily glaciated terrain and is on the border between Switzerland and Italy.  →  What is Monte Rosa?
+   - [#42] This mountain in the Himalayas is the world's highest unclimbed peak.  →  What is Gangkhar Puensum?
+   - [#44] This mountain is the highest peak in the Tien Shan range, located in Kyrgyzstan.  →  What is Jengish Chokusu?
+   - [#68] A mountain known for being the deadliest eight-thousander.  →  What is Annapurna?
+   - [#99] This mountain is considered the highest unclimbed peak in the world.  →  What is Gangkhar Puensum?
+   - [#132] The geological feature shared by both Mount St. Helens and Mount Fuji.  →  What is a stratovolcano?
+   - [#141] This mountain is often called the 'Matterhorn of the Americas'.  →  What is Mount Assiniboine?
+   - [#179] This peak is known as the highest unclimbed mountain in the world.  →  What is Gangkhar Puensum?
+   - [#180] The mountain range in Antarctica that contains the highest peaks.  →  What is the Ellsworth Mountains?
+   - [#181] The highest mountain in the state of Hawaii.  →  What is Mauna Kea?
+   - [#182] The mountain range that forms a natural border between Norway and Sweden.  →  What are the Scandinavian Mountains?
+   - [#183] The peak named after the first President of the United States in the North Cascades.  →  What is Mount Washington?
+   - [#184] This peak is the highest in the Hindu Kush range.  →  What is Tirich Mir?
+   - [#185] The mountain range that runs through the eastern part of Siberia.  →  What are the Verkhoyansk Mountains?
+   - [#186] The mountain range that contains Mount Kosciuszko.  →  What are the Snowy Mountains?
+   - [#187] This peak in the Karakoram range is the 11th highest in the world.  →  What is Gasherbrum I?
+   - [#188] The highest point in the continent of Australia.  →  What is Mount Kosciuszko?
+   - [#197] This iconic mountain is located in the Bernese Alps of Switzerland and is famous for its dramatic north face.  →  What is the Eiger?
+   - [#198] This mountain range is the longest continental mountain range in the world.  →  What are the Andes?
+   - [#199] This mountain is located on the border of Nepal and Tibet and is the third highest in the world.  →  What is Kangchenjunga?
+
+## Islands (39)
+   - [#34] This island nation in the Caribbean is known for its unique creole culture.  →  What is Haiti?
+   - [#35] This island is known as the 'Isle of Spice' for its nutmeg production.  →  What is Grenada?
+   - [#36] This island is known for being part of the first circumnavigation of the Earth by Magellan's expedition.  →  What is Guam?
+   - [#37] This island is the largest of the Channel Islands and is a British Crown dependency.  →  What is Jersey?
+   - [#38] This island is known for its unique endemic species like the lemurs.  →  What is Madagascar?
+   - [#39] This island is known for its large stone hill, reputed to be a site of ancient worship in Oceania.  →  What is Yap?
+   - [#40] This island is the third largest in the Mediterranean and has a rich history dating back to the Bronze Age.  →  What is Cyprus?
+   - [#41] This island is known for the famous battle during World War II, which was a turning point in the Pacific theater.  →  What is Midway?
+   - [#42] This island is the largest in Indonesia and is known for its Krakatoa volcano.  →  What is Sumatra?
+   - [#43] This island is part of the Solomon Islands and was a major battleground during World War II.  →  What is Guadalcanal?
+   - [#72] This island is the largest in the Persian Gulf.  →  What is Qeshm?
+   - [#73] This island is home to the Komodo dragon.  →  What is Komodo Island?
+   - [#74] This island is the largest in the Arctic Archipelago of Canada.  →  What is Baffin Island?
+   - [#75] This island was the site of the ancient Minoan civilization.  →  What is Crete?
+   - [#76] This island is the largest in the Seychelles group.  →  What is Mahé?
+   - [#77] This island is the largest of the Faroe Islands.  →  What is Streymoy?
+   - [#78] This island is the largest in the Sea of Cortez.  →  What is Tiburon?
+   - [#79] This island is the most populous in the Caribbean.  →  What is Hispaniola?
+   - [#80] This island is the largest in the Aegean Sea.  →  What is Crete?
+   - [#81] This island is the site of the oldest known civilization in the Americas.  →  What is Caral?
+   - [#82] This island is located in the Bay of Bengal and is known for its unique flora and fauna.  →  What is Andaman Islands?
+   - [#83] This island was once known as Formosa.  →  What is Taiwan?
+   - [#84] This island was the site of the first successful British settlement in the Pacific.  →  What is Norfolk Island?
+   - [#85] This island is the largest in the Andaman and Nicobar Islands group.  →  What is Great Andaman?
+   - [#86] This island nation is home to the city of Victoria and is located in the Indian Ocean.  →  What is Seychelles?
+   - [#87] This island group is located off the coast of Senegal and is known for its Creole Portuguese-African culture.  →  What is Cape Verde?
+   - [#88] This island is the largest in the Balearic Islands group.  →  What is Mallorca?
+   - [#89] This island is located in the South Atlantic and is part of a British Overseas Territory.  →  What is Ascension Island?
+   - [#122] The island known for its ancient ruins of Machu Picchu.  →  What is not an island?
+   - [#128] The island known for the annual running of the bulls.  →  What is not an island?
+   - [#158] This island, part of New Zealand, is known for its fjords and the Te Wahipounamu World Heritage Site.  →  What is South Island?
+   - [#159] This island is the largest in the Arctic Archipelago and is part of Canada.  →  What is Baffin Island?
+   - [#160] This island is home to the ancient Minoan civilization and the legendary palace of Knossos.  →  What is Crete?
+   - [#161] This island is located in the Bay of Bengal and is home to the indigenous Andamanese people.  →  What are the Andaman Islands?
+   - [#162] This island is the largest in the world that is not a continent.  →  What is Greenland?
+   - [#170] This island is the largest in the Solomons and was a major World War II battleground.  →  What is Guadalcanal?
+   - [#178] This island is located in the Aegean Sea and is known for its archaeological site of Delos.  →  What is Mykonos?
+   - [#181] This island is the largest in the Inner Hebrides off the west coast of Scotland.  →  What is Skye?
+   - [#199] This island is located in the Indian Ocean and is known for its unique biodiversity, including lemurs.  →  What is Madagascar?
+
+## Landmarks (27)
+   - [#42] This medieval castle in Romania is often associated with the Dracula legend.  →  What is Bran Castle?
+   - [#44] This ancient city in Syria was a trading hub of the Roman Empire.  →  What is Palmyra?
+   - [#45] This historic palace in Iran was the ceremonial capital of the Achaemenid Empire.  →  What is Persepolis?
+   - [#46] This fortress complex in Moscow includes the residence of the president of Russia.  →  What is the Kremlin?
+   - [#47] This pre-Incan archaeological site in Bolivia is known for its megalithic structures.  →  What is Tiwanaku?
+   - [#90] This ancient city in Jordan is known for its stunning rock-cut architecture.  →  What is Petra?
+   - [#91] This temple in Greece is dedicated to the goddess Athena and is considered the epitome of Doric architecture.  →  What is the Parthenon?
+   - [#92] This massive stone structure in Cambodia is a UNESCO World Heritage Site and part of the Khmer Empire.  →  What is Angkor Wat?
+   - [#93] This archaeological site in Peru is an ancient Inca city on a mountain ridge.  →  What is Machu Picchu?
+   - [#135] This ancient city in Iraq was one of the largest of the ancient world and is near modern-day Baghdad.  →  What is Babylon?
+   - [#136] This ancient royal palace in Iran is a UNESCO World Heritage Site and was a ceremonial capital.  →  What is Persepolis?
+   - [#137] This massive earthwork in the United Kingdom is one of the largest and most complex prehistorical sites in Europe.  →  What is Avebury?
+   - [#139] This historic fortress in Spain, known for its Islamic architecture, was originally constructed as a small fortress in AD 889.  →  What is the Alhambra?
+   - [#140] This ancient city in Greece is home to a stadium that hosted the original Olympic Games.  →  What is Olympia?
+   - [#141] This ancient city in Turkey was a major center of Hittite civilization and is noted for its rock reliefs and fortifications.  →  What is Hattusa?
+   - [#142] This archaeological site in the Andes was one of the most important settlements of the Chachapoyas culture.  →  What is Kuelap?
+   - [#143] This ancient Mesoamerican city in Mexico is noted for its Pyramid of the Sun and the Avenue of the Dead.  →  What is Teotihuacan?
+   - [#144] This ancient city in Lebanon is one of the oldest continuously inhabited cities in the world.  →  What is Byblos?
+   - [#184] This prehistoric site in Orkney, Scotland, is older than Stonehenge and the Great Pyramids of Giza.  →  What is Skara Brae?
+   - [#185] This underground complex in Israel is noted for its intricate water system and being a potential site of the biblical Armageddon.  →  What is Megiddo?
+   - [#186] This remote island in the Pacific Ocean is famous for its monumental statues called moai.  →  What is Easter Island?
+   - [#187] This ancient Mayan city in Guatemala is one of the largest archaeological sites in Mesoamerica.  →  What is Tikal?
+   - [#188] This archaeological site in Turkey is considered one of the oldest known temples in the world.  →  What is Göbekli Tepe?
+   - [#190] This mountain in the North Sea near Norway is known for its unique rock formations resembling organ pipes.  →  What is the Giant's Causeway?
+   - [#191] This ancient monument in Lebanon is known for its Roman ruins and well-preserved temples.  →  What is Baalbek?
+   - [#192] This ancient Nabataean city in Saudi Arabia features tombs carved into rocky outcrops.  →  What is Al-'Ula?
+   - [#199] Designed by Antoni Gaudí, this basilica in Barcelona, Spain, has been under construction since 1882 and remains unfinished.  →  What is the Sagrada Família?

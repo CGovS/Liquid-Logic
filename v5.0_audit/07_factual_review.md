@@ -1,0 +1,823 @@
+# FACTUAL / QUALITY REVIEW (post-dedup, 8 parallel agents)
+
+**252 issues flagged** across 30 categories. Indices reference the DEDUPED database.
+
+Type counts: factual=196, calibration=26, vague=18, stale=7, typo=4, leak=1
+
+Legend: each entry = current Q/A, the diagnosed problem, and suggested fix.
+
+## 4-Letter Words  (9 issues, 7 high)
+- **#9 [factual/high]** A four-sided figure with opposite sides parallel.
+  - A: What is a rhombus?  (d3)
+  - FIX: What is a quad? (or rewrite: 'A parallelogram' fits the clue; rhombus requires all sides equal, not just opposite sides parallel. Also 'rhombus' is 7 letters, n
+- **#21 [factual/high]** A word for a large, often colorful butterfly.
+  - A: What is a moth?  (d4)
+  - FIX: What is a moth? (if rewriting clue to match: 'A nocturnal insect related to the butterfly') OR fix answer to a 4-letter butterfly word.
+- **#53 [factual/high]** An animal known for its long neck, often found in Africa.
+  - A: What is a lion?  (d1)
+  - FIX: What is a giraffe?
+- **#121 [factual/high]** A sweet, frozen dessert made from cream and sugar.
+  - A: What is a cone?  (d2)
+  - FIX: What is ice cream?
+- **#142 [factual/high]** A small insect known for its ability to jump and its chirping sound.
+  - A: What is a flea?  (d2)
+  - FIX: What is a cricket?
+- **#158 [factual/high]** The lightest of the noble gases, used in balloons.
+  - A: What is neon?  (d3)
+  - FIX: What is helium?
+- **#175 [factual/high]** A word used to describe something that is neither acidic nor basic.
+  - A: What is pH?  (d5)
+  - FIX: What is neutral?
+- **#56 [typo/med]** A cooking utensil with a long handle and a flat surface.
+  - A: What is a spat?  (d2)
+  - FIX: What is a spatula? (but then not 4 letters) or What is a spat? with clue rewrite — standard term is 'spatula'; 'spat' is not a recognized culinary tool name.
+- **#169 [typo/low]** A small, wingless, parasitic insect that lives on the skin of mammals and birds.
+  - A: What is a lice?  (d4)
+  - FIX: What is a louse?
+
+## 80s One-Hit Wonders  (26 issues, 12 high)
+- **#6 [factual/high]** Which band sang about a cold-hearted snake in a 1983 hit?
+  - A: Who is Rockwell?  (d1)
+  - FIX: 'Cold Hearted Snake' (1989) is by Paula Abdul, not Rockwell. Rockwell sang 'Somebody's Watching Me' (1984). Change answer to Paula Abdul.
+- **#22 [factual/high]** This Italian artist had a 1983 hit about a futuristic world.
+  - A: Who is Baltimora?  (d3)
+  - FIX: Baltimora (Jimmy McShane) was Irish/Northern Irish, not Italian. Also their hit 'Tarzan Boy' was released in 1985, not 1983, and is about a jungle/nature theme,
+- **#93 [factual/high]** This artist's one-hit wonder involved a 'rap' about 'Russians'.
+  - A: What is 'Russians' by Sting?  (d5)
+  - FIX: Two errors: (1) 'Russians' is not a rap song — it is a synth-pop/new wave ballad. (2) Sting is not a one-hit wonder — he had many hits both with The Police and 
+- **#158 [factual/high]** This band had a 1982 hit with a song about 'being on video'.
+  - A: Who is The Buggles?  (d5)
+  - FIX: 'Video Killed the Radio Star' by The Buggles was released in 1979, not 1982. Change year to 1979.
+- **#182 [factual/high]** This 1982 hit by a German singer describes a girl's night out and reached number one in several countries.
+  - A: What is '99 Luftballons' by Nena?  (d1)
+  - FIX: '99 Luftballons' (1983) is about 99 balloons floating over a city and triggering a nuclear war panic — not a girl's night out. Change the description to reflect
+- **#183 [factual/high]** This quirky song from 1980 celebrated a specific day of the week and was performed by an American duo.
+  - A: What is 'It's Raining Men' by The Weather Girls?  (d2)
+  - FIX: 'It's Raining Men' was released in 1982 (US) / 1983 (UK chart peak), not 1980. Also it is not about a specific day of the week. Change year to 1982 and fix the 
+- **#184 [factual/high]** This 1983 hit by an American musician is famous for its distinct saxophone riff and was his only top 40 hit.
+  - A: What is 'Baker Street' by Gerry Rafferty?  (d2)
+  - FIX: Two errors: (1) 'Baker Street' was released in 1978, not 1983. (2) Gerry Rafferty is Scottish, not American. Change year to 1978 and nationality to Scottish.
+- **#188 [factual/high]** This 1984 hit by a Dutch band describes a time measurement and was their only major US hit.
+  - A: What is 'Twilight Zone' by Golden Earring?  (d4)
+  - FIX: 'Twilight Zone' by Golden Earring was released in 1982, not 1984. Change year to 1982.
+- **#190 [factual/high]** This 1985 song by a British band tells about moving to a new neighborhood and was their only charting single.
+  - A: What is 'Our House' by Madness?  (d4)
+  - FIX: Two errors: (1) 'Our House' was released in 1982, not 1985. (2) Madness had multiple hits (One Step Beyond, Baggy Trousers, House of Fun, etc.) — not a one-hit 
+- **#192 [factual/high]** This 1981 song by a Scottish band describes a particular type of celebration and was their only US hit.
+  - A: What is 'In a Big Country' by Big Country?  (d5)
+  - FIX: 'In a Big Country' was released in 1983, not 1981. Change year to 1983.
+- **#193 [factual/high]** This 1982 hit by an Australian group describes the feeling of isolation and was their only US top 10 single.
+  - A: What is 'I Melt with You' by Modern English?  (d5)
+  - FIX: Modern English is British (from Colchester, Essex, England), not Australian. Change nationality to British.
+- **#194 [factual/high]** This 1987 track by a British artist uses a famous German word for its title and was their only hit.
+  - A: What is 'Der Kommissar' by After the Fire?  (d5)
+  - FIX: After the Fire's cover of 'Der Kommissar' was released in 1982, not 1987. The original by Falco (Austrian) was 1981. Change year to 1982.
+- **#20 [calibration/med]** This 1983 song by Eurythmics discusses dreams and sweet fantasies.
+  - A: What is 'Sweet Dreams (Are Made of This)'?  (d3)
+  - FIX: Eurythmics are not a one-hit wonder — they had multiple major hits (Here Comes the Rain Again, Would I Lie to You, There Must Be an Angel, etc.). Cut or replace
+- **#32 [calibration/med]** Which 1986 hit by The Bangles is about a weekday?
+  - A: What is 'Manic Monday'?  (d4)
+  - FIX: The Bangles had multiple hits (Walk Like an Egyptian, Eternal Flame, Hazy Shade of Winter) — not a one-hit wonder. Cut or replace.
+- **#87 [calibration/med]** This group wanted to 'rock you like a hurricane' in the 80s.
+  - A: Who are the Scorpions?  (d2)
+  - FIX: The Scorpions are not a one-hit wonder — they had multiple hits (Wind of Change, No One Like You, Still Loving You, etc.). Cut or replace.
+- **#89 [calibration/med]** This band had a top hit with a song about the 'centerfold' in 1982.
+  - A: Who are the J. Geils Band?  (d1)
+  - FIX: The J. Geils Band had multiple hits (Freeze-Frame, Love Stinks, Centerfold) — not a one-hit wonder. Cut or replace.
+- **#102 [calibration/med]** This artist's hit was about 'falling in love' and 'being afraid'.
+  - A: What is 'I Want to Know What Love Is' by Foreigner?  (d3)
+  - FIX: Foreigner had many hits (Waiting for a Girl Like You, Juke Box Hero, Cold as Ice, etc.) — not a one-hit wonder. Cut or replace.
+- **#103 [calibration/med]** This song from 1983 was about being 'under pressure' and involved a collaboration with a famous band.
+  - A: What is 'Under Pressure' by Queen and David Bowie?  (d4)
+  - FIX: Neither Queen nor David Bowie are one-hit wonders. Cut.
+- **#107 [calibration/med]** This 1984 song was about 'jumping' and performed by a hard rock band.
+  - A: What is 'Jump' by Van Halen?  (d2)
+  - FIX: Van Halen had many hits (Panama, Hot for Teacher, Why Can't This Be Love, etc.) — not a one-hit wonder. Cut or replace.
+- **#111 [calibration/med]** This 1986 song was about 'perfect' strangers and performed by a band with a 'purple' name.
+  - A: What is 'Perfect Strangers' by Deep Purple?  (d5)
+  - FIX: Deep Purple had many classic rock hits (Smoke on the Water, Highway Star, Black Night, etc.) — not a one-hit wonder. Cut or replace.
+- **#112 [calibration/med]** This 1985 song was about 'money for nothing' and performed by a 'dire' band.
+  - A: What is 'Money for Nothing' by Dire Straits?  (d2)
+  - FIX: Dire Straits had multiple hits (Sultans of Swing, Romeo and Juliet, Walk of Life, etc.) — not a one-hit wonder. Cut or replace.
+- **#114 [calibration/med]** This 1984 song was about 'running up that hill' and performed by a British female artist.
+  - A: What is 'Running Up That Hill' by Kate Bush?  (d4)
+  - FIX: Kate Bush had many hits (Wuthering Heights, Babooshka, Hounds of Love, Don't Give Up, etc.) — not a one-hit wonder. Cut or replace.
+- **#115 [calibration/med]** This 1989 hit involved a 'girl' and a 'material world'.
+  - A: What is 'Material Girl' by Madonna?  (d1)
+  - FIX: Madonna is one of the best-selling artists of all time with dozens of hits — not a one-hit wonder. Cut.
+- **#116 [calibration/med]** This artist had a one-hit wonder in 1981 about a 'man on the corner'.
+  - A: What is 'Man on the Corner' by Genesis?  (d5)
+  - FIX: Genesis had many hits (Invisible Touch, That's All, Follow You Follow Me, Abacab, etc.) — not a one-hit wonder. Cut.
+- **#125 [calibration/med]** This 1980 song was about 'call me' and was performed by a band with a 'blonde' name.
+  - A: What is 'Call Me' by Blondie?  (d2)
+  - FIX: Blondie had many hits (Heart of Glass, Rapture, The Tide Is High, One Way or Another, etc.) — not a one-hit wonder. Cut or replace.
+- **#127 [calibration/med]** This 1986 song was about 'west end girls' and performed by a duo with 'pets' in the name.
+  - A: What is 'West End Girls' by Pet Shop Boys?  (d2)
+  - FIX: Pet Shop Boys had many hits (It's a Sin, Always on My Mind, What Have I Done to Deserve This, Opportunities, etc.) — not a one-hit wonder. Cut or replace.
+
+## Alcohol Trivia  (9 issues, 5 high)
+- **#96 [factual/high]** This is the most densely populated country where wine is produced.
+  - A: What is Italy?  (d2)
+  - FIX: cut or rewrite; China and several other wine-producing countries have higher population densities than Italy
+- **#107 [factual/high]** This is the oldest known alcoholic beverage, discovered in China.
+  - A: What is mead?  (d4)
+  - FIX: The oldest known fermented beverage found in China (Jiahu, ~7000 BC) was a mixed rice/honey/fruit drink, not purely mead; answer should be 'a mixed fermented be
+- **#117 [factual/high]** This is the name of a spirit made from the fermented juice of the blue agave plant.
+  - A: What is Mezcal?  (d5)
+  - FIX: What is tequila?
+- **#151 [factual/high]** This technique involves using a candle to detect sediment in an aged wine bottle.
+  - A: What is decanting?  (d5)
+  - FIX: What is candling?
+- **#152 [factual/high]** This grape variety is known for being used in the production of Grappa.
+  - A: What is pomace?  (d5)
+  - FIX: Rewrite question: 'This is the name for the grape solids — skins, seeds, and stems — from which Grappa is distilled.' Answer: What is pomace?
+- **#29 [vague/med]** This type of cocktail is made by muddling sugar with bitters, adding whiskey, and garnishing with a twist.
+  - A: What is a Sazerac?  (d5)
+  - FIX: Add 'absinthe rinse' and 'rye whiskey' to distinguish from an Old Fashioned; or cut
+- **#36 [vague/med]** This is the traditional Japanese alcoholic beverage made from fermented rice and often served warm.
+  - A: What is sake?  (d4)
+  - FIX: cut
+- **#37 [calibration/med]** This is the name of a distilled beverage made from sugarcane juice or molasses, typically associated with the Caribbean.
+  - A: What is rum?  (d5)
+  - FIX: d1
+- **#38 [calibration/med]** This is the term for a high-proof spirit distilled from wine or fermented fruit juice, often used in cooking and cocktai
+  - A: What is brandy?  (d5)
+  - FIX: d1
+
+## Ancient Greece  (5 issues, 3 high)
+- **#32 [factual/high]** The mathematician and engineer known for his work in geometry and mechanics.
+  - A: Who is Archimedes?  (d5)
+  - FIX: Archimedes was from Syracuse (Sicily), not mainland Greece. Also marked d5 but he appears in easier questions (d3 at index 61, d3 at index 94). Minor calibratio
+- **#117 [factual/high]** The hill in Athens that served as the center of ancient Greek democracy.
+  - A: What is the Acropolis?  (d2)
+  - FIX: What is the Pnyx?
+- **#146 [factual/high]** The war-like people who lived on the island of Crete and influenced early Greek culture.
+  - A: Who are the Minoans?  (d4)
+  - FIX: The Minoans are not primarily described as 'war-like.' They were a Bronze Age civilization known for trade, art, and palace culture. 'War-like' better describes
+- **#126 [calibration/med]** The chief deity in Greek mythology, ruler of Mount Olympus.
+  - A: Who is Zeus?  (d5)
+  - FIX: d1
+- **#128 [calibration/med]** The term for the heavily armed foot soldiers of ancient Greece.
+  - A: What is hoplites?  (d5)
+  - FIX: d3 or d4
+
+## Barroom Physics  (7 issues, 5 high)
+- **#13 [factual/high]** The name for the angle between the direction of light before and after it strikes a surface.
+  - A: What is the angle of incidence?  (d2)
+  - FIX: The angle of incidence is the angle between the incoming ray and the normal to the surface — not the angle between the incoming and outgoing directions. Correct
+- **#15 [factual/high]** This term refers to the total energy contained within a system due to both its temperature and pressure.
+  - A: What is internal energy?  (d2)
+  - FIX: What is enthalpy? (or fix clue to remove 'pressure' — internal energy depends on temperature/molecular motion, not pressure)
+- **#37 [factual/high]** The term for the intrinsic property of quantum systems that prevents identical particles from occupying the same state.
+  - A: What is the Pauli exclusion principle?  (d5)
+  - FIX: cut — exact duplicate of index 41
+- **#41 [factual/high]** The principle stating that no two fermions can occupy the same quantum state simultaneously.
+  - A: What is the Pauli exclusion principle?  (d5)
+  - FIX: cut — exact duplicate of index 37
+- **#63 [factual/high]** The measure of a system's thermal energy per unit temperature that is unavailable for doing useful work.
+  - A: What is free energy?  (d5)
+  - FIX: What is entropy?
+- **#93 [vague/med]** The number denoting complete absence of matter.
+  - A: What is zero (referring to vacuum)?  (d3)
+  - FIX: cut or rewrite — the clue conflates a number with a physical concept in an unanswerable way
+- **#125 [calibration/med]** The scientist who is known for his uncertainty principle.
+  - A: Who is Werner Heisenberg?  (d5)
+  - FIX: 2
+
+## Beer Science  (7 issues, 7 high)
+- **#1 [factual/high]** The process of soaking grains in water to prepare them for brewing.
+  - A: What is mashing?  (d1)
+  - FIX: What is steeping? (or malting/steeping — the first step of malting where barley is soaked in water to initiate germination, before kilning). Mashing is a separa
+- **#24 [factual/high]** The main carbohydrate found in barley that is converted into fermentable sugars.
+  - A: What is maltose?  (d5)
+  - FIX: What is starch? (Barley starch — amylose and amylopectin — is the main carbohydrate. It is broken down by amylase enzymes into maltose during mashing. Maltose i
+- **#33 [factual/high]** This ingredient is used to stabilize foam in beer.
+  - A: What is isinglass?  (d5)
+  - FIX: Isinglass is a fining agent (clarifier) that causes yeast and proteins to flocculate and settle — it is used to clarify beer, not stabilize foam. Foam stabilize
+- **#38 [factual/high]** This term describes the creamy texture of beer head.
+  - A: What is lacing?  (d3)
+  - FIX: Lacing (also called Brussels lace) refers to the foam residue left on the inside of the glass as beer is consumed — not the creamy texture of the head itself. T
+- **#75 [factual/high]** The specific pH range that is ideal for brewing beer.
+  - A: What is 4.0 to 5.0?  (d4)
+  - FIX: What is 5.2 to 5.6? (The ideal mash pH for brewing is generally 5.2–5.6. The finished beer pH is around 4.0–4.5, but the 'ideal pH for brewing' refers to mash p
+- **#158 [factual/high]** The optimal temperature range for fermenting lager yeast.
+  - A: What is 45-55°F (7-13°C)?  (d4)
+  - FIX: What is 35-50°F (2-10°C)? Lager fermentation typically occurs at 35-50°F (2-10°C). 55°F/13°C is at the boundary of ale fermentation territory.
+- **#167 [factual/high]** This term refers to the microbial process of converting sugars to alcohol in the absence of oxygen.
+  - A: What is anaerobic respiration?  (d4)
+  - FIX: What is fermentation? (Anaerobic respiration uses inorganic electron acceptors; fermentation uses organic molecules. Yeast converting sugars to ethanol and CO2 
+
+## Before & After  (2 issues, 0 high)
+- **#5 [vague/med]** A famous Italian explorer and a heartwarming holiday movie starring Macaulay Culkin.
+  - A: What is Marco Polo Alone?  (d2)
+  - FIX: What is Marco Polo Home Alone?
+- **#6 [vague/med]** A 16th-century English playwright and a brand of premium bottled water.
+  - A: What is Shakespearean Hills?  (d2)
+  - FIX: cut or rewrite — 'Shakespearean Hills' is not a recognizable portmanteau; no major water brand is called 'Hills.' Consider 'Shakespeare Evian' or similar if a r
+
+## Blockbuster Movies  (16 issues, 16 high)
+- **#13 [factual/high]** A 1995 film where a group of toys must rescue one of their own from a collector.
+  - A: What is Toy Story 2?  (d4)
+  - FIX: Toy Story 2 was released in 1999, not 1995.
+- **#15 [factual/high]** A 2003 film where a young girl falls through a rabbit hole into a fantastical world.
+  - A: What is Alice in Wonderland?  (d4)
+  - FIX: The Tim Burton Alice in Wonderland was 2010, not 2003. No major Alice in Wonderland film was released in 2003. Cut or correct year to 2010.
+- **#39 [factual/high]** This 1954 film features a dockworker who stands up against a corrupt union boss.
+  - A: What is On the Waterfront?  (d1)
+  - FIX: On the Waterfront was released in 1954 — correct. However, this is a d1 clue about a 1954 film in a Blockbuster Movies category. The calibration is questionable
+- **#40 [factual/high]** A 1998 film about a man who lives the same day repeatedly.
+  - A: What is Groundhog Day?  (d1)
+  - FIX: Groundhog Day was released in 1993, not 1998.
+- **#43 [factual/high]** A 1980 film featuring a boarding school for boys and an inspiring English teacher.
+  - A: What is Dead Poets Society?  (d2)
+  - FIX: Dead Poets Society was released in 1989, not 1980.
+- **#70 [factual/high]** This 1998 animated film features a cowboy doll and a space ranger action figure.
+  - A: What is Toy Story 2?  (d3)
+  - FIX: Toy Story 2 was released in 1999, not 1998. Also Toy Story (1995) features a cowboy and space ranger — Toy Story 2 adds a cowgirl (Jessie). Correct year to 1999
+- **#86 [factual/high]** This 2007 film adapts a non-fiction book about a single mother fighting the oil industry.
+  - A: What is Erin Brockovich?  (d5)
+  - FIX: Erin Brockovich was released in 2000, not 2007. Also it involves a legal case against a utility (PG&E) over groundwater contamination, not technically 'the oil 
+- **#99 [factual/high]** This 2008 film is the beginning of a dark knight trilogy.
+  - A: What is The Dark Knight?  (d2)
+  - FIX: What is Batman Begins?
+- **#113 [factual/high]** The 1994 film starring a computer hacker who learns the true nature of reality.
+  - A: What is The Matrix?  (d2)
+  - FIX: The Matrix was released in 1999, not 1994.
+- **#133 [factual/high]** The 1999 film about a high school student living next to a mob boss.
+  - A: What is American Beauty?  (d4)
+  - FIX: American Beauty (1999) is about a middle-aged suburban man's midlife crisis, not a high school student living next to a mob boss. That description better fits '
+- **#160 [factual/high]** This 2004 romantic comedy features a woman who wakes up in a different man's body every day.
+  - A: What is 13 Going on 30?  (d3)
+  - FIX: cut — 13 Going on 30 (2004) is about a 13-year-old girl who wakes up as a 30-year-old woman. She does not wake up in a different man's body. The description doe
+- **#162 [factual/high]** The 1995 crime film with the famous line "I'm the king of the world!".
+  - A: What is Casino?  (d3)
+  - FIX: The line 'I'm the king of the world!' is from Titanic (1997), not Casino (1995). Casino (1995) is a Scorsese film about Las Vegas mob operations.
+- **#172 [factual/high]** The 1982 film about a young man and his sentient motorcycle in a dystopian future.
+  - A: What is Tron?  (d5)
+  - FIX: cut or rewrite — Tron (1982) is about a computer programmer who is digitized into a computer world. It does not feature a sentient motorcycle. The Light Cycles 
+- **#176 [factual/high]** A 1974 French-Italian film that details the life of a famous British author.
+  - A: What is The Night Porter?  (d5)
+  - FIX: cut — The Night Porter (1974) is an Italian film about a former SS officer and a Holocaust survivor who resume a sadomasochistic relationship; it does not detai
+- **#178 [factual/high]** This 1985 British historical drama involves a young Englishman and his adventures in India during British colonial rule.
+  - A: What is A Passage to India?  (d5)
+  - FIX: A Passage to India was released in 1984, not 1985. Also it was directed by David Lean and is British, but it centers on a British woman (Adela Quested) and a fr
+- **#179 [factual/high]** The 1984 film that is a surrealist adventure featuring a character named Jack in a world of bizarre fantasy landscapes.
+  - A: What is The NeverEnding Story?  (d5)
+  - FIX: cut or rewrite — The NeverEnding Story (1984) features a boy named Bastian (not Jack) and a character named Atreyu. There is no 'Jack' in this film.
+
+## Current Events  (10 issues, 7 high)
+- **#16 [factual/high]** This is the main ingredient in traditional Japanese miso soup.
+  - A: What is Tofu?  (d2)
+  - FIX: What is miso paste? — Miso paste (fermented soybean paste dissolved in dashi broth) is the defining/main ingredient. Tofu is a common add-in but not the main in
+- **#46 [stale/high]** This person is currently serving as the President of the United States.
+  - A: Who is Joe Biden?  (d1)
+  - FIX: Biden's term ended January 20, 2025. Update answer to current president or reframe as 'This person served as U.S. President from 2021 to 2025.'
+- **#51 [stale/high]** This Asian country is the world's most populous.
+  - A: What is China?  (d2)
+  - FIX: What is India? — India surpassed China as the world's most populous country in 2023.
+- **#92 [stale/high]** The current Prime Minister of the United Kingdom.
+  - A: Who is Rishi Sunak?  (d2)
+  - FIX: Who is Keir Starmer? — Sunak lost the July 2024 general election. Starmer became PM July 2024.
+- **#97 [stale/high]** The leader of the Catholic Church.
+  - A: Who is Pope Francis?  (d2)
+  - FIX: Pope Francis died April 21, 2025. A new pope was elected May 2025. Update the answer.
+- **#102 [stale/high]** The current Prime Minister of Canada.
+  - A: Who is Justin Trudeau?  (d3)
+  - FIX: Who is Mark Carney? — Trudeau resigned January 2025, Carney became PM March 2025.
+- **#150 [stale/high]** The Asian country with the world's largest population as of 2023.
+  - A: What is China?  (d4)
+  - FIX: What is India? — India surpassed China as most populous in 2023. The 'as of 2023' qualifier makes the answer wrong.
+- **#113 [factual/med]** The world leader known for the 'Green New Deal'.
+  - A: Who is Alexandria Ocasio-Cortez?  (d4)
+  - FIX: Change 'world leader' to 'U.S. congresswoman' or 'U.S. representative'. AOC is a House member, not a world leader.
+- **#165 [stale/med]** The current President of the United States as of 2023.
+  - A: Who is Joe Biden?  (d1)
+  - FIX: The 'as of 2023' frame makes this a historical clue in 2026. Reframe as 'This person served as U.S. President from 2021–2025' or move to a non-current-events ca
+- **#166 [vague/med]** The capital city of the country that hosted the 2023 FIFA Women's World Cup.
+  - A: What is Wellington?  (d2)
+  - FIX: Add 'New Zealand' to specify: 'The capital city of New Zealand, one of two co-hosts of the 2023 FIFA Women's World Cup.' The tournament was co-hosted by Austral
+
+## English  (2 issues, 2 high)
+- **#67 [factual/high]** The form of a verb used to create continuous tenses.
+  - A: What is gerund?  (d2)
+  - FIX: What is present participle?
+- **#134 [factual/high]** This is the term for a figure of speech where a part is made to represent the whole or vice versa.
+  - A: What is a metonymy?  (d5)
+  - FIX: What is synecdoche?
+
+## Famous Bars  (7 issues, 7 high)
+- **#0 [factual/high]** What famous bar in New York City was a frequent haunt of writers like Ernest Hemingway and F. Scott Fitzgerald?
+  - A: What is the Algonquin Hotel's Round Table?  (d4)
+  - FIX: The Algonquin Round Table was associated with Dorothy Parker, Robert Benchley, and the Vicious Circle — not Hemingway or Fitzgerald; rewrite clue to name the co
+- **#1 [factual/high]** Which bar in Los Angeles is renowned for its celebrity clientele and art deco design, and was a favorite of Frank Sinatr
+  - A: What is the Rainbow Bar & Grill?  (d3)
+  - FIX: The Rainbow Bar & Grill is known for its rock music clientele (Led Zeppelin, Motley Crue, etc.), not art deco design and not Frank Sinatra; answer should be a d
+- **#16 [factual/high]** This famous bar in Reykjavik, Iceland, is named after a notorious pirate and is known for its unique cocktails.
+  - A: What is The Dubliner?  (d5)
+  - FIX: cut or correct answer; The Dubliner is a generic Irish pub name unrelated to any pirate; the pirate-named bar in Reykjavik is Kaldi Bar or similar — verify and 
+- **#46 [factual/high]** This New York City watering hole is known for its literary clientele, including Ernest Hemingway and F. Scott Fitzgerald
+  - A: What is the White Horse Tavern?  (d3)
+  - FIX: White Horse Tavern (NYC) is famous for Dylan Thomas, not Hemingway or Fitzgerald; rewrite clue to reference Dylan Thomas, or change the answer
+- **#48 [factual/high]** This Paris establishment is where Ernest Hemingway wrote 'A Moveable Feast'.
+  - A: What is La Closerie des Lilas?  (d5)
+  - FIX: Rewrite: 'A Moveable Feast' was written primarily in Cuba and Idaho in the late 1950s, not at any Paris café; the clue should say Hemingway was a regular patron
+- **#66 [factual/high]** This bar in Barcelona is known for its Gaudí-inspired architecture and artistic cocktails.
+  - A: What is Bar Marsella?  (d4)
+  - FIX: Bar Marsella is renowned for its absinthe and antique decor, not Gaudí-inspired architecture; correct the clue or change the answer
+- **#135 [factual/high]** This bar in New York City is known for being the inspiration for the TV show 'Cheers'.
+  - A: What is McSorley's Old Ale House?  (d1)
+  - FIX: What is the Bull & Finch Pub (Boston)?
+
+## Famous People  (4 issues, 2 high)
+- **#15 [typo/high]** This scientist is known for his work on radioactivity and won two Nobel Prizes in Physics and Chemistry.
+  - A: Who is Marie Curie?  (d4)
+  - FIX: Change 'his' to 'her' — Marie Curie is a woman.
+- **#93 [factual/high]** The first woman to fly solo nonstop across the Atlantic from west to east.
+  - A: Who is Beryl Markham?  (d4)
+  - FIX: Beryl Markham flew east to west (England to Nova Scotia) in 1936. Amelia Earhart flew west to east in 1932. Either correct the direction to 'east to west' for M
+- **#30 [factual/med]** This Russian physicist and chemist is best known for creating the periodic table.
+  - A: Who is Dmitri Mendeleev?  (d4)
+  - FIX: Change 'physicist and chemist' to 'chemist' — Mendeleev was a chemist, not a physicist.
+- **#58 [vague/med]** This person is known as the 'Father of Modern Physics'.
+  - A: Who is Galileo Galilei?  (d3)
+  - FIX: Add distinguishing detail specific to Galileo, e.g. reference to his telescope observations or heliocentrism support, to distinguish from Einstein (also called 
+
+## Haus (House Music)  (9 issues, 9 high)
+- **#5 [factual/high]** This term describes the characteristic house music beat pattern emphasizing the second and fourth beats in a measure.
+  - A: What is 'four-on-the-floor'?  (d2)
+  - FIX: Change clue to: 'This term describes the characteristic house music beat pattern with a kick drum on every beat of a 4/4 measure.' OR change answer to 'What is 
+- **#15 [factual/high]** This influential 1987 house track by Raze features the iconic line 'Got to have house music all night long.'
+  - A: What is 'Jack Your Body'?  (d5)
+  - FIX: 'Jack Your Body' is by Steve 'Silk' Hurley (1986), not Raze. Raze released 'Jack the Groove'. Change artist to Steve 'Silk' Hurley or change answer to 'What is 
+- **#24 [factual/high]** This house music producer, famous for the track 'I Feel for You', is also known as a pioneer of the Detroit techno scene
+  - A: Who is Kevin Saunderson?  (d4)
+  - FIX: Kevin Saunderson did not release 'I Feel for You'. That is a Chaka Khan song written by Prince. Remove this clue or replace with a genuine Kevin Saunderson trac
+- **#53 [factual/high]** A house music track that samples the bassline from the 1983 disco song 'Let No Man Put Asunder'.
+  - A: What is 'Ride on Time' by Black Box?  (d3)
+  - FIX: 'Ride on Time' samples Loleatta Holloway's 'Love Sensation' (1980), not 'Let No Man Put Asunder'. Correct the sampled track name.
+- **#79 [factual/high]** This house music producer is known for the track 'I Feel for You', featuring vocals by Chaka Khan.
+  - A: Who is Bob Sinclar?  (d4)
+  - FIX: Bob Sinclar did not produce 'I Feel for You'. That song was written by Prince and produced for Chaka Khan by Arif Mardin. Cut this clue or replace with an actua
+- **#139 [factual/high]** This DJ duo is known for the hit track 'Pjanoo'.
+  - A: Who are Axwell and Ingrosso?  (d3)
+  - FIX: 'Pjanoo' (2008) is by Eric Prydz, not Axwell and Ingrosso. Correct the answer to 'Who is Eric Prydz?'
+- **#156 [factual/high]** This producer's hit 'I Feel for You' was one of the first to use a sampler.
+  - A: Who is Chaka Khan?  (d4)
+  - FIX: Chaka Khan is the performing artist, not the producer, and the claim that it was 'one of the first to use a sampler' is dubious. The song was written by Prince.
+- **#158 [factual/high]** This DJ was the first to use the term 'house music' in reference to his mixes.
+  - A: Who is DJ Knuckles?  (d5)
+  - FIX: Frankie Knuckles' name is 'Frankie Knuckles', not 'DJ Knuckles'. Correct the answer to 'Who is Frankie Knuckles?'
+- **#173 [factual/high]** This house music label was founded by Tony Humphries and was instrumental in the genre's growth.
+  - A: What is Strictly Rhythm?  (d5)
+  - FIX: Strictly Rhythm was founded by Mark Peck and Gladys Pimentel, not Tony Humphries. Tony Humphries was a prominent DJ associated with the label but did not found 
+
+## Islands  (15 issues, 14 high)
+- **#1 [factual/high]** This island nation is famous for its hula dancing and volcanic landscapes.
+  - A: What is Hawaii?  (d1)
+  - FIX: Hawaii is a U.S. state, not an island nation. Reclue as 'This U.S. state is famous for…' or change answer.
+- **#4 [factual/high]** This island nation is famous for its ancient ruins such as the Parthenon.
+  - A: What is Greece?  (d2)
+  - FIX: Greece is not an island nation — it is a mainland/peninsula country with many islands. Reclue as 'This Mediterranean nation…'.
+- **#13 [factual/high]** This island is known for its distinctive white cliffs located on the English Channel.
+  - A: What is the Isle of Wight?  (d3)
+  - FIX: The iconic white cliffs on the English Channel are the White Cliffs of Dover (Kent, mainland England), not Isle of Wight. Fix answer or reclue.
+- **#14 [factual/high]** This island, part of the Kingdom of Denmark, is known for its geothermal activity and glaciers.
+  - A: What is Iceland?  (d3)
+  - FIX: Iceland has been an independent republic since 1944 and is NOT part of the Kingdom of Denmark. Remove 'part of the Kingdom of Denmark' from the clue.
+- **#24 [factual/high]** This island is the largest in the Persian Gulf and is a major oil producer.
+  - A: What is Bahrain?  (d4)
+  - FIX: What is Qeshm? — Qeshm (Iran) is the largest island in the Persian Gulf. Bahrain is not the largest. (Index 55 correctly identifies Qeshm as 'largest in the Per
+- **#34 [factual/high]** This island is the largest in Indonesia and is known for its Krakatoa volcano.
+  - A: What is Sumatra?  (d5)
+  - FIX: The largest island in Indonesia is Kalimantan (the Indonesian portion of Borneo). Sumatra is the second-largest. Fix: 'second-largest island in Indonesia' or ch
+- **#48 [factual/high]** This island is shared by three countries in the Caribbean.
+  - A: What is Saint Martin?  (d3)
+  - FIX: Saint Martin is shared by TWO countries (France and the Netherlands), not three. Cut or reclue.
+- **#62 [factual/high]** This island is the site of the oldest known civilization in the Americas.
+  - A: What is Caral?  (d5)
+  - FIX: cut — Caral is an ancient city in coastal Peru, not an island. The question asks about an island but the answer is a mainland archaeological site.
+- **#94 [vague/high]** The island known for its ancient ruins of Machu Picchu.
+  - A: What is not an island?  (d5)
+  - FIX: cut — 'What is not an island?' is not a valid Jeopardy answer. Machu Picchu is in the Andes of Peru, not on an island.
+- **#96 [factual/high]** This island's name means 'Green Land' in its native language.
+  - A: What is Greenland?  (d2)
+  - FIX: The native language of Greenland is Greenlandic (Kalaallisut), where it is called 'Kalaallit Nunaat' meaning 'Land of the Greenlanders', not 'Green Land'. 'Gree
+- **#97 [vague/high]** The island known for the annual running of the bulls.
+  - A: What is not an island?  (d5)
+  - FIX: cut — 'What is not an island?' is not a valid Jeopardy answer. The Running of the Bulls is in Pamplona, Spain — not on an island.
+- **#112 [factual/high]** This island country is the world's second-largest by area and is located in the Caribbean.
+  - A: What is Cuba?  (d2)
+  - FIX: cut or reclue — Cuba is the largest island in the Caribbean, but the world's second-largest island is New Guinea (~786,000 km²). Cuba (~105,000 km²) is not clos
+- **#144 [factual/high]** This island is part of the French overseas department known for its rum and reggae.
+  - A: What is Martinique?  (d3)
+  - FIX: Remove 'reggae' — reggae is associated with Jamaica, not Martinique. Martinique is known for rum and zouk music. Fix: 'known for its rum and zouk music'.
+- **#151 [factual/high]** This island is known for its fjords and is the second-largest in Europe by area.
+  - A: What is Great Britain?  (d4)
+  - FIX: Great Britain (~209,000 km²) is the LARGEST island in Europe, not the second-largest. The second-largest is Iceland (~103,000 km²). Fix clue to 'largest in Euro
+- **#116 [vague/med]** This island is the most populous in the Caribbean and has the capital city of Port-au-Prince.
+  - A: What is Hispaniola?  (d3)
+  - FIX: Port-au-Prince is the capital of Haiti, not of Hispaniola (the island as a whole). Reclue: '...and is home to the capital city of the Dominican Republic and Hai
+
+## Landmarks  (6 issues, 6 high)
+- **#46 [factual/high]** This large ancient amphitheater in Athens, Greece, is dedicated to a Greek god.
+  - A: What is the Parthenon?  (d2)
+  - FIX: The Parthenon is a TEMPLE, not an amphitheater. Either change question to 'ancient temple' or change answer to the Odeon of Herodes Atticus (an actual amphithea
+- **#51 [factual/high]** This historic fortress and former prison is located on an island in Paris.
+  - A: What is the Île de la Cité?  (d2)
+  - FIX: Île de la Cité is an island in Paris, not a fortress or prison. The Conciergerie (a former prison) is located on Île de la Cité. Fix answer to 'What is the Conc
+- **#99 [factual/high]** This famous mausoleum in Turkey was originally a cathedral and later a mosque.
+  - A: What is Hagia Sophia?  (d3)
+  - FIX: Hagia Sophia is NOT a mausoleum — it is a former cathedral/basilica turned mosque turned museum (now mosque again). Remove 'mausoleum' and reclue as 'This famou
+- **#136 [factual/high]** This Tokyo landmark is a communications and observation tower and the second tallest structure in Japan.
+  - A: What is Tokyo Skytree?  (d3)
+  - FIX: Tokyo Skytree (634m) is the TALLEST structure in Japan, not the second tallest. Fix clue: 'tallest structure in Japan'.
+- **#145 [factual/high]** This island in Scotland is renowned for its standing stones and Neolithic monuments.
+  - A: What is the Isle of Skye?  (d4)
+  - FIX: The Scottish island famous for standing stones and Neolithic monuments is Lewis (home of the Callanish Stones). Isle of Skye is known for the Cuillins and scene
+- **#159 [factual/high]** This mountain in the North Sea near Norway is known for its unique rock formations resembling organ pipes.
+  - A: What is the Giant's Causeway?  (d5)
+  - FIX: cut — Giant's Causeway is on the north coast of Northern Ireland, not in the North Sea near Norway. It is also not a mountain. The clue's geography is completel
+
+## Lyrics about Liquor  (12 issues, 11 high)
+- **#2 [factual/high]** In Garth Brooks' hit, a drink with lime is consumed in a bar setting.
+  - A: What is 'Margaritaville'?  (d1)
+  - FIX: 'Margaritaville' is by Jimmy Buffett, not Garth Brooks. Change artist to Jimmy Buffett.
+- **#8 [factual/high]** In the song 'Gin and Juice' by a famous rapper, this spirit is a primary focus.
+  - A: What is 'Snoop Dogg'?  (d3)
+  - FIX: The answer should be 'What is gin?' — Snoop Dogg is the artist, not the spirit. The question asks for a spirit.
+- **#12 [factual/high]** In 'Tubthumping', this band refers to a drink that rhymes with 'vodka'.
+  - A: What is 'Whiskey'?  (d4)
+  - FIX: 'Whiskey' does not rhyme with 'vodka'. The clue premise is false. Rewrite: 'In Tubthumping, Chumbawamba lists four drinks including a whiskey drink, a vodka dri
+- **#30 [factual/high]** This song by the B-52's mentions a drink made with rum and fruit juice.
+  - A: What is 'Rock Lobster'?  (d2)
+  - FIX: 'Rock Lobster' does not mention rum or rum-based drinks. Cut or replace with a B-52s song that actually references a liquor.
+- **#48 [factual/high]** This track by The Rolling Stones describes a cocktail made with lime and tequila.
+  - A: What is 'You Got the Silver'?  (d5)
+  - FIX: 'You Got the Silver' is a love song with no tequila/lime cocktail. The Rolling Stones song associated with tequila-like imagery is 'Tequila Sunrise' (but that's
+- **#112 [factual/high]** Which hit by Garth Brooks mentions a beverage in the title that is popular in Ireland?
+  - A: What is 'Two Pina Coladas'?  (d1)
+  - FIX: Piña Coladas are not a beverage popular in Ireland (that would be Guinness/whiskey). The clue premise is false. Either change the clue to reference a tropical d
+- **#114 [factual/high]** Which rapper has a song titled after a type of alcohol often associated with celebrations?
+  - A: Who is Kanye West with 'Champagne Poetry'?  (d2)
+  - FIX: 'Champagne Poetry' is by Drake (from his 2021 album 'Certified Lover Boy'), not Kanye West. Change artist to Drake.
+- **#121 [factual/high]** Which song by the Beastie Boys includes a reference to a specific type of whiskey?
+  - A: What is 'Brass Monkey'?  (d3)
+  - FIX: 'Brass Monkey' is a mixture of malt liquor and orange juice (Olde English 800 + OJ), not a whiskey. The answer should reference Brass Monkey as a malt liquor dr
+- **#130 [factual/high]** Which song by Fleetwood Mac contains a reference to 'rivers of whiskey'?
+  - A: What is 'Gold Dust Woman'?  (d5)
+  - FIX: 'Gold Dust Woman' does not contain 'rivers of whiskey' — it uses drug/rock star imagery. Cut or replace with a song that actually contains that phrase.
+- **#150 [factual/high]** Which song by Red Hot Chili Peppers mentions drinking 'cabernet'?
+  - A: What is 'Under the Bridge'?  (d5)
+  - FIX: 'Under the Bridge' is about heroin use in Los Angeles, not wine. Cut or replace with a RHCP song that actually mentions wine/alcohol.
+- **#170 [factual/high]** This song's lyrics include 'vodka and lime'.
+  - A: What is 'Escape (The Piña Colada Song)' by Rupert Holmes?  (d2)
+  - FIX: 'Escape (The Piña Colada Song)' does not mention vodka and lime — it mentions piña coladas, getting caught in the rain, and champagne. Cut or correct to a song 
+- **#147 [calibration/med]** Who sings about 'cocaina' in a popular song?
+  - A: Who is Eric Clapton with 'Cocaine'?  (d2)
+  - FIX: Also: cocaine is not a liquor — this clue does not fit the category 'Lyrics about Liquor'. Cut.
+
+## Mountains  (8 issues, 6 high)
+- **#12 [factual/high]** This mountain range in the United Kingdom is home to the highest peak in England.
+  - A: What are the Lake District Mountains?  (d2)
+  - FIX: What are the Cumbrian Mountains? (or rephrase answer to 'What is the Lake District?' — 'Lake District Mountains' is not a standard range name; the range is the 
+- **#13 [factual/high]** This mountain in the Pyrenees serves as a natural border between France and Spain.
+  - A: What is Aneto?  (d3)
+  - FIX: cut or reclue — Aneto is located entirely within Spain and does not serve as a natural border between France and Spain.
+- **#33 [factual/high]** This mountain is the highest peak in the Rwenzori Mountains of Uganda.
+  - A: What is Mount Stanley?  (d5)
+  - FIX: Change clue: 'This mountain is the highest peak in the Rwenzori Mountains, straddling the border of Uganda and the DRC.'
+- **#112 [factual/high]** This mountain range contains the highest peaks in Europe.
+  - A: What are the Alps?  (d1)
+  - FIX: What are the Caucasus Mountains? (if Elbrus/Europe defined broadly) — or reclue as 'This range contains the highest peaks in Western Europe' for Alps.
+- **#133 [factual/high]** The peak named after the first President of the United States in the North Cascades.
+  - A: What is Mount Washington?  (d5)
+  - FIX: Mount Washington is in the White Mountains of New Hampshire, not the North Cascades. Fix clue to 'in the White Mountains of New Hampshire' or change answer.
+- **#148 [factual/high]** This mountain is located on the border of Nepal and Tibet and is the third highest in the world.
+  - A: What is Kangchenjunga?  (d5)
+  - FIX: Kangchenjunga is on the border of Nepal and India (Sikkim), not Nepal and Tibet. Fix: 'located on the border of Nepal and India (Sikkim)'.
+- **#77 [vague/med]** This mountain range is known for its 'Seven Summits'.
+  - A: What are the Andes?  (d3)
+  - FIX: cut or reclue — the Seven Summits is a challenge spanning all seven continents, not a single range. The Andes contains one summit (Aconcagua).
+- **#104 [factual/med]** The mountain range that is home to Mount Olympus, the mythical home of the Greek gods.
+  - A: What are the Olympus Range?  (d4)
+  - FIX: What is the Olympus massif? (or 'What are the Macedonian Mountains?' — 'Olympus Range' is not the standard name; Mount Olympus is typically described as part of
+
+## Potent Potables  (7 issues, 7 high)
+- **#36 [factual/high]** This drink's name means 'little water' in Italian, and it is a type of brandy.
+  - A: What is grappa?  (d5)
+  - FIX: The name 'grappa' derives from 'grappolo' (grape cluster) or the town of Bassano del Grappa, not from 'little water.' 'Acquavite' (aqua vitae) means 'water of l
+- **#39 [factual/high]** A type of absinthe that originated in Switzerland, known for its green color.
+  - A: What is La Bleue?  (d5)
+  - FIX: La Bleue is the traditional Swiss clandestine absinthe known for being CLEAR (colorless/blue-tinted when louched), not green. Remove 'known for its green color'
+- **#59 [factual/high]** This classic Cuban cocktail is made with white rum, lime juice, and mint leaves.
+  - A: What is a Daiquiri?  (d3)
+  - FIX: What is a mojito? (A Daiquiri is rum + lime juice + sugar, no mint. Mint = mojito.)
+- **#99 [factual/high]** This popular citrus-flavored cocktail originated in Cuba and shares its name with a type of music.
+  - A: What is a Daiquiri?  (d3)
+  - FIX: cut or rewrite — Daiquiri does not share its name with a type of music; clue is factually false
+- **#115 [factual/high]** This herbal liqueur is made from 27 different herbs and is a key ingredient in the cocktail called a Last Word.
+  - A: What is Chartreuse?  (d4)
+  - FIX: Chartreuse is made from 130 herbs, not 27. Jägermeister is made from 56 herbs and spices. Fix: change '27' to '130' in the clue.
+- **#139 [factual/high]** A famous French cocktail made with absinthe and sugar.
+  - A: What is a Sazerac?  (d3)
+  - FIX: The Sazerac is an American cocktail (New Orleans, Louisiana), not French. Its primary spirit is rye whiskey; absinthe is only used as a glass rinse. Fix: 'A cla
+- **#154 [factual/high]** A traditional German spirit made from juniper berries.
+  - A: What is gin?  (d4)
+  - FIX: Gin is Dutch/British in origin, not traditionally German. A German juniper spirit is Wacholder or Steinhäger. Fix answer or fix clue to say 'British' or 'Dutch.
+
+## Pub Grub  (10 issues, 9 high)
+- **#14 [factual/high]** This type of salad is named after a Roman leader.
+  - A: What is Caesar salad?  (d1)
+  - FIX: Caesar salad was named after Caesar Cardini, an Italian-American restaurateur who invented it in Tijuana, Mexico in 1924 — not after Julius Caesar or any Roman 
+- **#41 [factual/high]** A dish made from shredded beef or pork, often used in Mexican cuisine.
+  - A: What is carnitas?  (d3)
+  - FIX: Carnitas is specifically slow-cooked, shredded or chopped PORK — not beef. Shredded beef in Mexican cuisine is barbacoa or ropa vieja. Fix answer to 'carnitas' 
+- **#65 [factual/high]** A type of stew made with beef and Guinness beer.
+  - A: What is Irish stew?  (d3)
+  - FIX: Traditional Irish stew is made with lamb or mutton, root vegetables, and water — not beef and not Guinness. 'Beef and Guinness stew' is a distinct dish. Fix: ch
+- **#71 [factual/high]** A Scottish savory pudding dish made from oatmeal and meat.
+  - A: What is black pudding?  (d3)
+  - FIX: What is haggis?
+- **#84 [factual/high]** A Russian dish made from finely chopped raw meat, traditionally seasoned with onions and spices.
+  - A: What is steak tartare?  (d5)
+  - FIX: Steak tartare is a French dish (or at most international). Its origins trace to French cuisine, not Russian. Fix clue to remove 'Russian' or replace with a genu
+- **#136 [factual/high]** A sandwich named after the Italian explorer, consisting of corned beef, Swiss cheese, sauerkraut, and Russian dressing o
+  - A: What is a Reuben sandwich?  (d2)
+  - FIX: The Reuben sandwich is not named after an Italian explorer. It is named after either Reuben Kulakofsky (Omaha, Nebraska) or Arthur Reuben (New York deli owner).
+- **#154 [factual/high]** This savory pie is filled with minced beef and topped with mashed potatoes, commonly eaten in British pubs.
+  - A: What is shepherd's pie?  (d2)
+  - FIX: What is cottage pie?
+- **#187 [factual/high]** A type of British pie that typically contains steak and a specific kind of fungus.
+  - A: What is steak and kidney pie?  (d3)
+  - FIX: Kidney is an organ (offal), not a fungus. The clue's description ('specific kind of fungus') does not match the answer. A pie with steak and a fungus would be '
+- **#188 [factual/high]** A hearty soup originating from Scotland, often containing leeks and potatoes.
+  - A: What is cullen skink?  (d4)
+  - FIX: Cullen skink is a Scottish smoked haddock soup with potatoes and onions — not leeks. A Scottish soup with leeks and potatoes is cock-a-leekie (with chicken and 
+- **#8 [vague/med]** A savory pie filled with minced meat and a mashed potato topping.
+  - A: What is shepherd's pie?  (d1)
+  - FIX: Shepherd's pie uses lamb/mutton. Minced beef with mashed potato is cottage pie. Clue should specify 'lamb' for shepherd's pie, or accept 'cottage pie' as altern
+
+## Rap  (3 issues, 3 high)
+- **#16 [factual/high]** This artist created the alter ego 'Macho Man' for a wrestling career.
+  - A: Who is Macho Man Randy Savage?  (d5)
+  - FIX: Randy Savage is a professional wrestler, not a rapper. This clue does not belong in the Rap category. Cut.
+- **#55 [factual/high]** This artist is known for the track 'I Will Always Love You' cover.
+  - A: Who is Whitney Houston?  (d4)
+  - FIX: Whitney Houston is an R&B/pop singer, not a rapper. This clue does not belong in the Rap category. Cut or move to a different category.
+- **#147 [factual/high]** This rapper's stage name is derived from a character in 'Back to the Future'.
+  - A: Who is Busta Rhymes?  (d5)
+  - FIX: Busta Rhymes's name does not come from Back to the Future. His name comes from a character he played named 'Busta Rhymes' in a high school rap battle. Cut or co
+
+## Reality TV  (11 issues, 6 high)
+- **#26 [factual/high]** A reality competition where artists are challenged to create large-scale sculptures.
+  - A: What is Blown Away?  (d3)
+  - FIX: Blown Away is a glassblowing competition, not a large-scale sculpture competition. Change answer to Face Off or rewrite clue to reference glassblowing.
+- **#27 [factual/high]** This documentary-style reality series follows the life of a famous professional wrestler and his family.
+  - A: What is Total Divas?  (d3)
+  - FIX: What is Hogan Knows Best? — Total Divas is an ensemble show about female WWE wrestlers, not a single male wrestler's family.
+- **#34 [factual/high]** A reality series that showcases the lives of a famous music manager and his family.
+  - A: What is The Osbournes?  (d4)
+  - FIX: Change 'music manager' to 'rock musician' or 'rock star' — Ozzy Osbourne is a performer, not a manager.
+- **#37 [factual/high]** This series documents the lives of people who are obsessed with cleaning and organizing.
+  - A: What is Hoarders?  (d4)
+  - FIX: Rewrite clue: 'This series documents people who compulsively accumulate possessions and struggle to discard them.' Hoarders is the opposite of people obsessed w
+- **#62 [factual/high]** This series has families compete in various challenges to win a family vacation.
+  - A: What is Family Feud?  (d3)
+  - FIX: Family Feud is a survey-based game show where families answer questions for cash prizes, not a reality challenge show with a vacation prize. Change answer or re
+- **#75 [factual/high]** This show involves teams of two competing in a series of challenges, hosted by Phil Keoghan.
+  - A: What is The Amazing Race Australia?  (d4)
+  - FIX: What is The Amazing Race? — Phil Keoghan hosts the US version. The Australian version is hosted by Grant Denyer.
+- **#40 [vague/med]** A competition series where contestants are eliminated by a panel of judges after each challenge.
+  - A: What is RuPaul's Drag Race?  (d5)
+  - FIX: Add specific detail: e.g., 'In this competition, drag queens lip-sync for their lives before RuPaul eliminates one each week.'
+- **#40 [calibration/med]** A competition series where contestants are eliminated by a panel of judges after each challenge.
+  - A: What is RuPaul's Drag Race?  (d5)
+  - FIX: d3
+- **#47 [factual/med]** This reality series documents the journey of a family adopting a healthier lifestyle.
+  - A: What is 1000-lb Sisters?  (d5)
+  - FIX: Rewrite clue: 'This TLC series follows two morbidly obese sisters as they pursue weight-loss surgery.' The current clue is misleadingly generic.
+- **#139 [factual/med]** Contestants on this show attempt to win a large sum of money by answering questions.
+  - A: What is Who Wants to Be a Millionaire?  (d1)
+  - FIX: Who Wants to Be a Millionaire is a game show, not a reality TV show. Move to a different category or cut.
+- **#152 [factual/med]** This show features teams attempting to win cash by answering trivia questions while on the move.
+  - A: What is Cash Cab?  (d3)
+  - FIX: Cash Cab is a game show set in a NYC taxi, not a reality series. Also riders are not pre-formed 'teams'. Move to a different category or rewrite clue.
+
+## Rivers & Lakes  (8 issues, 8 high)
+- **#12 [factual/high]** This lake is located in Kazakhstan and is the largest saltwater lake in the world.
+  - A: What is the Caspian Sea?  (d2)
+  - FIX: The Caspian Sea is bordered by five countries: Kazakhstan, Russia, Azerbaijan, Iran, and Turkmenistan. It is not 'located in Kazakhstan'. Fix to 'bordered by fi
+- **#40 [factual/high]** This lake is the largest in Central Asia and was once part of the Aral Sea basin.
+  - A: What is the Caspian Sea?  (d5)
+  - FIX: The Caspian Sea was never part of the Aral Sea basin. They are separate endorheic basins. Remove the false historical claim. Also the Caspian Sea is in both Cen
+- **#67 [factual/high]** This river is known for being the longest entirely within one country.
+  - A: What is the Yangtze?  (d4)
+  - FIX: The Congo River (approximately 4,700 km) flows entirely within or borders a single country system and is longer than the Yangtze (6,300 km). Actually the Yangtz
+- **#74 [factual/high]** This river is known for being the longest river in the Iberian Peninsula.
+  - A: What is the Ebro?  (d5)
+  - FIX: The Tagus (Tejo) at ~1,007 km is the longest river in the Iberian Peninsula. The Ebro is approximately 930 km. Correct the answer to 'What is the Tagus?' Note: 
+- **#84 [factual/high]** This is the longest river on the Indian subcontinent.
+  - A: What is the Ganges?  (d2)
+  - FIX: The Indus River (~3,180 km) is longer than the Ganges (~2,525 km). The correct answer should be 'What is the Indus?'
+- **#105 [factual/high]** This is the world's largest lake located entirely within one country.
+  - A: What is the Caspian Sea?  (d5)
+  - FIX: The Caspian Sea borders five countries (Russia, Kazakhstan, Azerbaijan, Iran, Turkmenistan), so it is NOT entirely within one country. The largest lake entirely
+- **#110 [factual/high]** This river is famous for being the second longest in South America.
+  - A: What is the Amazon?  (d1)
+  - FIX: The Amazon is the LONGEST river in South America (and arguably the world), not the second longest. The second longest in South America is the Paraná. Correct th
+- **#130 [factual/high]** This river flows through the city of Baghdad.
+  - A: What is the Euphrates?  (d3)
+  - FIX: Baghdad sits on the Tigris River, not the Euphrates. The Euphrates passes well to the west of Baghdad. Correct the answer to 'What is the Tigris?'
+
+## Rock n' Roll Riots  (8 issues, 7 high)
+- **#0 [factual/high]** A 1965 event in California escalated into chaos at a concert by a famous British band.
+  - A: What was the Rolling Stones concert at Altamont Speedway?  (d3)
+  - FIX: Altamont was 1969, not 1965. Change clue year to 1969, or cut.
+- **#2 [factual/high]** A notorious 1970 festival in New York became infamous for violence and disorganization.
+  - A: What was the Isle of Wight Festival?  (d5)
+  - FIX: The Isle of Wight Festival was in England (Isle of Wight), not New York.
+- **#23 [factual/high]** A 1970 concert in Cincinnati by this band ended in disaster, with several fatalities.
+  - A: What was The Who concert?  (d1)
+  - FIX: The Who Cincinnati disaster was December 3, 1979, not 1970. Change year to 1979.
+- **#74 [factual/high]** This band's 1992 concert in Montreal was cut short, leading to a riot, after a pyrotechnics mishap injured the lead sing
+  - A: Who is Guns N' Roses?  (d5)
+  - FIX: The pyrotechnics injured James Hetfield of Metallica (the headliner, not the opening act). GN'R then also left early. Correct clue: 'after co-headliner Metallic
+- **#112 [factual/high]** This band's performance in 1998 at Woodstock '99 is often blamed for inciting violence and riots.
+  - A: Who are Limp Bizkit?  (d5)
+  - FIX: Woodstock '99 was held in 1999, not 1998. Change year to 1999.
+- **#157 [factual/high]** A 1979 riot in Cleveland was sparked by a radio promotion involving this band's music being destroyed.
+  - A: Who are The Rolling Stones?  (d5)
+  - FIX: The 1979 event where music was destroyed was 'Disco Demolition Night' in Chicago (Comiskey Park, July 12, 1979) — it involved disco records, not Rolling Stones 
+- **#196 [factual/high]** A 1986 riot occurred in Montreal after this singer left the stage early due to voice issues.
+  - A: Who is Axl Rose?  (d4)
+  - FIX: The famous Axl Rose/GN'R riot was at Riverport Amphitheatre in St. Louis in 1991, not Montreal in 1986. Change to 1991, St. Louis.
+- **#96 [vague/med]** This famous festival in 1969 experienced significant unrest and police intervention.
+  - A: What is the Altamont Free Concert?  (d1)
+  - FIX: Add distinguishing detail — e.g., mention it was in California and involved a motorcycle gang providing security, to differentiate from Woodstock.
+
+## Science  (4 issues, 1 high)
+- **#83 [factual/high]** The part of the eye that controls the amount of light entering.
+  - A: What is the pupil?  (d3)
+  - FIX: What is the iris?
+- **#35 [vague/med]** The branch of physics that studies the behavior of objects moving at very high speeds.
+  - A: What is relativistic physics?  (d5)
+  - FIX: What is special relativity?
+- **#78 [vague/low]** The philosopher known for the method of critical doubt and the cogito argument.
+  - A: Who is René Descartes?  (d5)
+  - FIX: Move to a Philosophy category, or reframe as a science clue (e.g., reference his contributions to mathematics/coordinate geometry).
+- **#140 [calibration/med]** The process by which plants convert sunlight into chemical energy.
+  - A: What is photosynthesis?  (d5)
+  - FIX: d1
+
+## Slogans & Brands  (5 issues, 4 high)
+- **#13 [factual/high]** This tech company uses the tagline 'Don't be evil.'
+  - A: What is Google?  (d1)
+  - FIX: 'Don't be evil' was Google's internal code-of-conduct motto, dropped around 2018 — not a consumer-facing tagline. At d1, this is also a near-duplicate of index 
+- **#50 [factual/high]** This computer company uses 'Innovation that Excites'.
+  - A: What is Nissan?  (d3)
+  - FIX: Change 'computer company' to 'automotive brand' or 'car manufacturer'. Nissan is a car company.
+- **#58 [factual/high]** This insurance company states 'Like a Rock'.
+  - A: What is Chevrolet?  (d4)
+  - FIX: Change 'insurance company' to 'automotive brand' or 'truck brand'. 'Like a Rock' is a Chevrolet truck slogan.
+- **#74 [factual/high]** Which technology company uses the slogan 'Empowering Us All'?
+  - A: What is Microsoft?  (d1)
+  - FIX: Verify — 'Empowering Us All' is not a recognized Microsoft advertising slogan. Microsoft's known slogans include 'Your Potential. Our Passion.' and 'Empower eve
+- **#85 [typo/low]** Which technology company uses 'Do No Evil' as an informal motto?
+  - A: What is Google?  (d3)
+  - FIX: Change 'Do No Evil' to 'Don't be evil' — that is Google's actual motto wording.
+
+## Technology  (16 issues, 12 high)
+- **#9 [factual/high]** This company is the largest producer of semiconductors globally.
+  - A: What is Intel?  (d2)
+  - FIX: What is TSMC? (Taiwan Semiconductor Manufacturing Company)
+- **#13 [factual/high]** This programming language is named after a comedy group.
+  - A: What is Python?  (d2)
+  - FIX: Python is named after Monty Python (a comedy group), so the answer is correct, but the clue is misleading — most people associate Python with the snake. Conside
+- **#19 [factual/high]** This company was formerly known as Blue Ribbon Sports.
+  - A: What is Nike?  (d3)
+  - FIX: correct — Nike was formerly Blue Ribbon Sports. However, this is a Technology category item and Nike is not a technology company. Consider 'cut' or move to anot
+- **#23 [factual/high]** This algorithm helps secure digital currencies by solving mathematical problems.
+  - A: What is blockchain?  (d4)
+  - FIX: What is proof-of-work? (or 'What is a mining algorithm?')
+- **#28 [factual/high]** The first computer virus, created in 1971.
+  - A: What is the Creeper virus?  (d5)
+  - FIX: correct answer and year, but index 85 says the first virus that spread 'in the wild' was the Brain virus — these two clues contradict each other's framing. Cree
+- **#69 [factual/high]** This company is known for its ThinkPad line of laptops.
+  - A: What is Lenovo?  (d3)
+  - FIX: Correct — Lenovo acquired ThinkPad from IBM in 2005. However, IBM created ThinkPad. Clue is technically correct for current ownership. No change needed.
+- **#82 [factual/high]** This is the term for a method of storing data in which each bit is assigned a unique address.
+  - A: What is memory-mapped I/O?  (d5)
+  - FIX: cut or rewrite — memory-mapped I/O maps hardware registers to memory addresses, not a method where each bit has a unique address. The description doesn't accura
+- **#85 [factual/high]** This is the name of the first computer virus that spread in the wild.
+  - A: What is the Brain virus?  (d5)
+  - FIX: What is the Elk Cloner?
+- **#87 [factual/high]** This is the name of the algorithm that underpins the RSA encryption technique.
+  - A: What is the RSA algorithm?  (d5)
+  - FIX: rewrite clue or answer — the RSA algorithm IS the answer, so the clue just restates the answer (leak). The underlying math is modular exponentiation with prime 
+- **#93 [factual/high]** The American electric vehicle and clean energy company founded by Elon Musk.
+  - A: What is Tesla?  (d1)
+  - FIX: Correct the clue: Tesla was founded by Martin Eberhard and Marc Tarpenning in 2003; Elon Musk joined as chairman and largest investor but was not a founder.
+- **#100 [factual/high]** The type of artificial intelligence that mimics human cognitive functions.
+  - A: What is machine learning?  (d2)
+  - FIX: What is artificial intelligence? (or rewrite clue to specifically describe machine learning)
+- **#155 [factual/high]** A high-level programming language named after a French mathematician, commonly used in mathematics and science.
+  - A: What is Pascal?  (d3)
+  - FIX: Pascal is named after Blaise Pascal, who was French-Swiss (born in France). The language is commonly used in education, not primarily mathematics/science (that 
+- **#30 [calibration/med]** A programming paradigm based on the concept of 'objects'.
+  - A: What is object-oriented programming?  (d5)
+  - FIX: d2 or d3
+- **#33 [calibration/med]** This term refers to the maximum rate of data transfer across a network.
+  - A: What is bandwidth?  (d5)
+  - FIX: d2 or d3
+- **#38 [calibration/med]** This term describes the process of protecting networks from unauthorized access.
+  - A: What is cybersecurity?  (d5)
+  - FIX: d1 or d2
+- **#39 [calibration/med]** The field of study focused on the design and use of robots.
+  - A: What is robotics?  (d5)
+  - FIX: d1 or d2
+
+## The 1980s  (11 issues, 11 high)
+- **#11 [factual/high]** This 1980 film features a disaster at a nuclear power plant and stars Jane Fonda.
+  - A: What is The China Syndrome?  (d2)
+  - FIX: The China Syndrome was released in 1979, not 1980. Correct the year in the clue.
+- **#18 [factual/high]** This 1987-1990 TV series starred Richard Dean Anderson as a resourceful secret agent.
+  - A: What is MacGyver?  (d3)
+  - FIX: MacGyver aired from 1985 to 1992, not 1987-1990. Correct the dates.
+- **#31 [factual/high]** This 1987 film, directed by Rob Reiner, is based on a Stephen King novella about four boys on a journey.
+  - A: What is Stand by Me?  (d4)
+  - FIX: Stand by Me was released in 1986, not 1987.
+- **#69 [factual/high]** This 1982 album by Bruce Springsteen features the hit 'Hungry Heart'.
+  - A: What is 'The River'?  (d3)
+  - FIX: 'Hungry Heart' is on 'The River', but The River was released in 1980, not 1982. Also, 'Nebraska' was Springsteen's 1982 album.
+- **#77 [factual/high]** This 1989 film features a club singer hiding out in a convent after witnessing a murder.
+  - A: What is Sister Act?  (d4)
+  - FIX: Sister Act was released in 1992, not 1989.
+- **#81 [factual/high]** This 1982 Steven Spielberg film features a haunted suburban home.
+  - A: What is Poltergeist?  (d4)
+  - FIX: Poltergeist (1982) was directed by Tobe Hooper, not Steven Spielberg. Spielberg wrote and produced it but Hooper directed.
+- **#99 [leak/high]** The Rubik's Cube became a worldwide craze in this decade.
+  - A: What is the 1980s?  (d1)
+  - FIX: rewrite clue to not reference the category. E.g., 'The Rubik's Cube became a worldwide phenomenon in this decade, the same one that brought us MTV and the Walkm
+- **#104 [factual/high]** The American astronaut who became the first woman to travel into space in 1983.
+  - A: Who is Sally Ride?  (d3)
+  - FIX: Sally Ride was the first American woman in space, not the first woman in space. Soviet cosmonaut Valentina Tereshkova was the first woman in space in 1963. Corr
+- **#119 [factual/high]** This 1980s handheld gaming device was introduced by Nintendo.
+  - A: What is the Game Boy?  (d2)
+  - FIX: The Game Boy was released in 1989 (Japan) and 1989/1990 (elsewhere) — it is technically a late-1980s release, so this is acceptable. However, index 154 says it 
+- **#137 [factual/high]** The 1980 movie that launched the career of actor Tom Hanks.
+  - A: What is 'Splash'?  (d3)
+  - FIX: Splash was released in 1984, not 1980. Also, Tom Hanks' breakthrough was indeed Splash (1984). Correct the year to 1984.
+- **#151 [factual/high]** The first video game character to have a balloon-based arcade game released by Namco in 1982.
+  - A: Who is Dig Dug?  (d4)
+  - FIX: cut or rewrite — Dig Dug is a Namco 1982 game but it involves an underground digging character who inflates enemies with a pump, not a 'balloon-based' game. The
+
+## US History  (2 issues, 2 high)
+- **#77 [factual/high]** The author of the Federalist Papers who later became Chief Justice of the Supreme Court.
+  - A: Who is John Jay?  (d4)
+  - FIX: Rewrite to 'one of the authors' — John Jay co-wrote the Federalist Papers with Hamilton and Madison but authored only 5 of 85 essays; calling him 'the author' i
+- **#108 [factual/high]** The 1863 US legislation that allowed for the recruitment of African American soldiers.
+  - A: What is the Emancipation Proclamation?  (d3)
+  - FIX: The Emancipation Proclamation did authorize Black enlistment but was not 'legislation' (it was an executive order); the specific legislation was the Militia Act
+
+## Wars  (6 issues, 5 high)
+- **#34 [factual/high]** This war, also known as the War of the Quadruple Alliance, was fought in the early 18th century.
+  - A: What is the War of the Spanish Succession?  (d4)
+  - FIX: What is the War of the Quadruple Alliance?
+- **#38 [factual/high]** This conflict, occurring from 1701 to 1704, is named after a European monarch's successor.
+  - A: What is the War of the Spanish Succession?  (d4)
+  - FIX: Correct the end date: the War of the Spanish Succession lasted from 1701 to 1714, not 1704
+- **#48 [factual/high]** The conflict that occurred in the 16th century between Protestant and Catholic states in Central Europe.
+  - A: What is the Thirty Years' War?  (d2)
+  - FIX: Change '16th century' to '17th century'; the Thirty Years' War was 1618-1648
+- **#66 [factual/high]** The conflict that was sparked by the assassination of a Duke in 1914.
+  - A: What is World War I?  (d4)
+  - FIX: Change 'Duke' to 'Archduke'; Franz Ferdinand held the rank of Archduke, not Duke
+- **#98 [factual/high]** The 16th-century war that involved England and Spain's naval forces.
+  - A: What is the Spanish Armada?  (d3)
+  - FIX: What is the Anglo-Spanish War?
+- **#92 [vague/med]** This 16th-century conflict involved Spain and the Ottoman Empire over the control of the Mediterranean.
+  - A: What is the Battle of Lepanto?  (d4)
+  - FIX: Change answer to 'What is the Ottoman-Habsburg Wars?' or rewrite question to ask specifically about the famous 1571 naval battle
+
+## World Capitals  (7 issues, 6 high)
+- **#20 [factual/high]** The capital of Kazakhstan, renamed in 2019 in honor of the former president.
+  - A: What is Nur-Sultan?  (d5)
+  - FIX: The city was renamed back to Astana in 2022. Correct the answer to 'What is Astana?' and update the clue to reflect the 2019 renaming and 2022 reversion, or rew
+- **#64 [factual/high]** The capital of Kazakhstan, moved from Almaty in 1997 and known for its futuristic skyline.
+  - A: What is Nur-Sultan?  (d5)
+  - FIX: The capital reverted to its name Astana in 2022. Answer should be 'What is Astana?'
+- **#102 [factual/high]** This South American capital is famous for its Carnival festival.
+  - A: What is Rio de Janeiro?  (d2)
+  - FIX: Rio de Janeiro is NOT the capital of Brazil — Brasília is. Rio is the largest city and famous for Carnival, but it is not a capital. Cut this clue or change the
+- **#113 [factual/high]** This African capital is the largest city of its country and known for Table Mountain.
+  - A: What is Cape Town?  (d4)
+  - FIX: Cape Town is South Africa's legislative capital but is NOT the largest city — Johannesburg is. Fix the clue: remove 'largest city of its country' or change to '
+- **#119 [factual/high]** This African capital is located in the Sahara Desert and known for its historic city center.
+  - A: What is Bamako?  (d5)
+  - FIX: Bamako, capital of Mali, is located in the Sahel/savanna region along the Niger River, not in the Sahara Desert. The Sahara is north of Bamako. Fix the clue to 
+- **#126 [factual/high]** The capital of Kazakhstan, renamed in 2019, known for its futuristic architecture.
+  - A: What is Nur-Sultan?  (d5)
+  - FIX: The city reverted to the name Astana in 2022. Update answer to 'What is Astana?' and update clue accordingly.
+- **#87 [vague/med]** The capital of Bolivia, one of the highest capitals in the world.
+  - A: What is La Paz?  (d5)
+  - FIX: Clarify: La Paz is the seat of government (executive/legislative capital), while Sucre is the constitutional/judicial capital. Clue should specify 'seat of gove
