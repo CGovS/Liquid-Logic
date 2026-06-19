@@ -1,275 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liquid Logic - The Ultimate Drinking Trivia Game</title>
-    <meta name="google-site-verification" content="RNACaTIJi-mOSihpzI2Iwtfzc6Ushb3ChMxEcWt4HpU" />
-    <meta name="description"
-        content="Liquid Logic - The Ultimate Drinking Trivia Game. Test your knowledge in a fast-paced Jeopardy-style format. For entertainment purposes only.">
-    <meta name="keywords"
-        content="drinking game, trivia, jeopardy, party game, liquid logic, alcohol trivia, entertainment, interactive game">
-
-    <link rel="canonical" href="https://liquidlogic.game/" />
-
-    <!-- Open Graph (OG) for Facebook/LinkedIn -->
-    <meta property="og:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
-    <meta property="og:description"
-        content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://liquidlogic.game">
-    <meta property="og:image" content="https://liquidlogic.game/preview.png">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
-    <meta name="twitter:description"
-        content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
-    <meta name="twitter:image" content="https://liquidlogic.game/preview.png">
-
-    <!-- Schema.org JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Liquid Logic",
-      "operatingSystem": "Web",
-      "applicationCategory": "GameApplication",
-      "genre": "Trivia",
-      "description": "Liquid Logic is the ultimate drinking trivia game, designed to test your wits in a fast-paced Jeopardy-style showdown.",
-      "url": "https://liquidlogic.game",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
-    }
-    </script>
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Press+Start+2P&family=Rye&family=Changa:wght@400;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css?v=2.7">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Logic - The Ultimate Drinking Trivia Game</title>
+  <meta name="google-site-verification" content="RNACaTIJi-mOSihpzI2Iwtfzc6Ushb3ChMxEcWt4HpU" />
+  <meta name="description" content="Liquid Logic - The Ultimate Drinking Trivia Game. Test your knowledge in a fast-paced Jeopardy-style format. Over 6,000 questions. For entertainment purposes only.">
+  <meta name="keywords" content="drinking game, trivia, jeopardy, party game, liquid logic, alcohol trivia, entertainment, interactive game">
+  <link rel="canonical" href="https://liquidlogic.game/" />
+  <meta property="og:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
+  <meta property="og:description" content="Test your knowledge with 6 teams, rapid-fire buzzing, steal mechanics, and 6,000+ questions. Play responsibly!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://liquidlogic.game">
+  <meta property="og:image" content="https://liquidlogic.game/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Liquid Logic - The Ultimate Drinking Trivia Game">
+  <meta name="twitter:description" content="Test your knowledge with 6 teams, rapid-fire buzzing, and steal mechanics. Play responsibly!">
+  <meta name="twitter:image" content="https://liquidlogic.game/preview.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Liquid Logic",
+    "operatingSystem": "Web",
+    "applicationCategory": "GameApplication",
+    "genre": "Trivia",
+    "description": "Liquid Logic is the ultimate drinking trivia game with 6,000+ questions in a fast-paced Jeopardy-style format.",
+    "url": "https://liquidlogic.game",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&family=Press+Start+2P&family=Rye&family=Changa:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=5.0">
 </head>
-
 <body data-theme="tv">
-    <div id="app">
-        <!-- Ad Placeholder -->
-        <div id="ad-placeholder"
-            style="width: 100%; height: 50px; background-color: #000; color: #333; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; letter-spacing: 1px;">
-            LIQUID LOGIC v3.7
+<div id="app">
+
+  <!-- Ad Placeholder -->
+  <div id="ad-placeholder" style="width:100%;height:50px;background:#000;display:flex;align-items:center;justify-content:center;"></div>
+
+  <!-- ── LANDING PAGE ── -->
+  <section id="landing-page" class="screen active">
+    <div class="main-container">
+      <div class="version-badge">v5.0</div>
+      <h1 class="game-title">Liquid Logic</h1>
+      <p class="game-subtitle">The Ultimate Drinking Trivia</p>
+
+      <div class="setup-steps-container">
+
+        <!-- Step 1: Theme -->
+        <div class="setup-group">
+          <h2><span class="step-num">1</span> Appearance</h2>
+          <div class="theme-selector">
+            <button class="theme-btn active" data-set-theme="tv">TV Stage</button>
+            <button class="theme-btn" data-set-theme="roller">High Roller</button>
+            <button class="theme-btn" data-set-theme="chalkboard">Chalkboard</button>
+            <button class="theme-btn" data-set-theme="arcade">Arcade</button>
+            <button class="theme-btn" data-set-theme="sportsbar">Sports Bar</button>
+          </div>
         </div>
 
-        <!-- Landing Screen -->
-        <section id="landing-page" class="screen active">
-            <div class="main-container">
-                <h1 class="game-title">Liquid Logic</h1>
-                <p class="game-subtitle">The Ultimate Drinking Trivia</p>
-
-                <div class="setup-steps-container">
-                    <div class="setup-group">
-                        <h2>1. Appearance</h2>
-                        <div class="theme-selector">
-                            <button class="theme-btn active" data-set-theme="tv" aria-label="Select TV Stage Theme">TV
-                                Stage</button>
-                            <button class="theme-btn" data-set-theme="roller" aria-label="Select High Roller Theme">High
-                                Roller</button>
-                            <button class="theme-btn" data-set-theme="chalkboard"
-                                aria-label="Select Chalkboard Theme">Chalkboard</button>
-                            <button class="theme-btn" data-set-theme="arcade"
-                                aria-label="Select Arcade Theme">Arcade</button>
-                        </div>
-                    </div>
-
-                    <div class="setup-group">
-                        <h2>2. Board Mode</h2>
-                        <select id="board-select" class="board-dropdown setup-select">
-                            <!-- Populated by JS -->
-                        </select>
-                    </div>
-
-                    <div class="setup-group">
-                        <h2>3. The Teams</h2>
-                        <div id="teams-container">
-                            <!-- Default 2 inputs -->
-                            <input type="text" class="team-input" placeholder="Team 1 Name" value="Team 1">
-                            <input type="text" class="team-input" placeholder="Team 2 Name" value="Team 2">
-                        </div>
-                        <div class="team-controls">
-                            <button id="add-team-btn" class="control-btn">+ Add Team</button>
-                            <button id="remove-team-btn" class="control-btn">- Remove</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="moderated-mode-group"
-                    style="margin: 20px 0; display: flex; align-items: center; justify-content: center; gap: 15px;">
-                    <label class="toggle-switch">
-                        <input type="checkbox" id="moderated-mode-toggle">
-                        <span class="slider"></span>
-                    </label>
-                    <span class="moderated-label"
-                        style="font-family: var(--font-primary); font-size: 1.2rem; color: #aaa;">Moderated In-Person
-                        Mode (Voice & Buzzers OFF)</span>
-                </div>
-
-                <div class="action-row">
-                    <button id="about-btn" class="secondary-btn">About</button>
-                    <button id="how-to-play-btn" class="secondary-btn">How To Play</button>
-                    <button id="start-btn" class="primary-btn">Start Game</button>
-                </div>
-            </div>
-
-            <!-- SEO Content (Dark, Subtle) -->
-            <div class="seo-footer-text">
-                <h2>What is Liquid Logic?</h2>
-                <p>Liquid Logic is the ultimate drinking trivia game, designed to test your wits (and your liver). With
-                    over <strong>6,000 questions</strong> across 50+ diverse categories, it offers endless replayability
-                    for parties and game nights.</p>
-                <h3>How to Play</h3>
-                <p>In this <strong>Jeopardy-style</strong> showdown, teams compete to buzz in first. Correct answers
-                    earn points and the right to assign sips, while wrong answers deduct points.</p>
-            </div>
-        </section>
-
-        <!-- Game Board -->
-        <section id="game-board" class="screen hidden">
-            <header class="game-header">
-                <div id="home-btn-container" class="header-left clickable">
-                    <h1 class="header-title">Liquid Logic</h1>
-                    <span id="current-board-name">Standard Jeopardy</span>
-                </div>
-                <button id="quit-btn" class="small-btn">Quit</button>
-            </header>
-
-            <div id="scoreboard" class="scoreboard">
-                <!-- Scores injected here -->
-            </div>
-
-            <div id="board-grid" class="board-grid">
-                <!-- Grid injected here -->
-            </div>
-        </section>
-
-        <!-- Question Modal -->
-        <div id="modal" class="modal hidden">
-            <div class="modal-content">
-                <span id="close-modal" class="close">&times;</span>
-
-                <!-- Phase 1: Question -->
-                <div id="modal-phase-question">
-                    <h2 id="modal-points" class="modal-header"></h2>
-                    <p id="modal-penalty" class="penalty-text"></p>
-                    <div id="modal-question" class="question-text"></div>
-                    <button id="reveal-btn" class="action-btn">Reveal Answer</button>
-                </div>
-
-                <!-- Phase 2: Answer & Scoring -->
-                <div id="modal-phase-answer" class="hidden">
-                    <div id="modal-answer" class="answer-text"></div>
-                    <div id="scoring-controls">
-                        <p class="instruction-text">Who got it right?</p>
-                        <div id="winner-buttons"></div>
-                        <button id="no-winner-btn" class="secondary-btn">No One / Skip</button>
-                    </div>
-                </div>
-
-                <!-- Phase 3: Distribute Sips -->
-                <div id="modal-phase-sips" class="hidden">
-                    <h2 class="sip-header">DISTRIBUTE SIPS!</h2>
-                    <p id="sip-instruction" class="sip-instruction"></p>
-                    <div id="target-buttons"></div>
-                </div>
-
-            </div>
+        <!-- Step 2: Board -->
+        <div class="setup-group">
+          <h2><span class="step-num">2</span> Board Mode</h2>
+          <select id="board-select" class="setup-select"></select>
+          <div class="difficulty-row">
+            <label class="mod-label">Difficulty Filter</label>
+            <select id="difficulty-filter" class="setup-select-sm">
+              <option value="all">All Difficulties</option>
+              <option value="easy">Easy Only (1–3)</option>
+              <option value="hard">Hard Only (3–5)</option>
+            </select>
+          </div>
         </div>
 
-        <!-- Rules Modal -->
-        <div id="rules-modal" class="modal hidden">
-            <div class="modal-content rules-content">
-                <span id="close-rules" class="close">&times;</span>
-                <h2>How to Play</h2>
-                <div class="help-modal">
-                    <ul>
-                        <li>
-                            <strong>Setup:</strong> Enter team names and choose a theme.
-                        </li>
-                        <li>
-                            <strong>Gameplay:</strong> Pick a category and point value.
-                        </li>
-                        <li>
-                            <strong>Buzzing:</strong> Wait for the voice! Early buzz = <strong>0.1s PENALTY</strong>.
-                            <br>Keys: <strong>1, =, 6</strong> (Top) or <strong>z, b, /</strong> (Bottom).
-                        </li>
-                        <li>
-                            <strong>Stealing:</strong> 4-second timer! If it hits 0 or answer is wrong, buzzer
-                            <strong>RE-OPENS</strong> for others!
-                        </li>
-                        <li>
-                            <strong>Answering:</strong> Click "Reveal Answer". If right, assign sips!
-                        </li>
-                        <li>
-                            <strong>Scoring:</strong>
-                            <ul>
-                                <li>Correct: Points + Assign Sips.</li>
-                                <li>Wrong: Negative Points (No Drinking).</li>
-                                <li>200-800 pts = 1-4 sips.</li>
-                                <li>1000 pts = 5 sips (The Big One).</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <strong>Winning:</strong> Most points (and fewest sips) wins!
-                        </li>
-                    </ul>
-                </div>
-                <button id="close-rules-btn" class="action-btn">Got it!</button>
-                <p><em>Drink responsibly. This is a game of logic, not liver failure. Drinking amounts should be scaled
-                        to the number of players/teams.</em></p>
-            </div>
+        <!-- Step 3: Teams -->
+        <div class="setup-group">
+          <h2><span class="step-num">3</span> The Teams</h2>
+          <div id="teams-container">
+            <input type="text" class="team-input" placeholder="Team 1 Name" value="Team 1">
+            <input type="text" class="team-input" placeholder="Team 2 Name" value="Team 2">
+          </div>
+          <div class="team-controls">
+            <button id="add-team-btn" class="control-btn">+ Add Team</button>
+            <button id="remove-team-btn" class="control-btn">- Remove</button>
+          </div>
         </div>
+      </div>
 
+      <!-- Options Row -->
+      <div class="options-row">
+        <label class="toggle-wrap">
+          <label class="toggle-switch">
+            <input type="checkbox" id="moderated-mode-toggle">
+            <span class="slider"></span>
+          </label>
+          <span class="mod-label">Moderated Mode <small>(Voice &amp; Buzzers OFF)</small></span>
+        </label>
+        <label class="toggle-wrap">
+          <label class="toggle-switch">
+            <input type="checkbox" id="sound-toggle" checked>
+            <span class="slider"></span>
+          </label>
+          <span class="mod-label">Sound Effects</span>
+        </label>
+      </div>
 
-
-        <!-- About Modal (SEO Content in Popup) -->
-        <div id="about-modal" class="modal hidden">
-            <div class="modal-content rules-content">
-                <span id="close-about" class="close">&times;</span>
-                <h2>What is Liquid Logic?</h2>
-                <div class="help-modal">
-                    <p>Liquid Logic is the ultimate drinking trivia game, designed to test your wits (and your liver).
-                    </p>
-                    <p>With over <strong>6,000 questions</strong> across 50+ diverse categories, it offers endless
-                        replayability for parties, game nights, and social gatherings.</p>
-
-                    <h3>How to Play</h3>
-                    <p>This is a fast-paced, <strong>Jeopardy-style</strong> showdown. Teams compete to buzz in first
-                        and answer trivia questions ranging from "History of Tech" to "Beers, Bars & Booze".</p>
-                    <p>Correct answers earn points and the right to assign sips to opponents. Wrong answers deduct
-                        points, raising the stakes.</p>
-                </div>
-                <button id="close-about-btn" class="action-btn">Cool, Thanks!</button>
-            </div>
-        </div>
-
-        <!-- Legal Footer -->
-        <footer class="legal-footer">
-            <p class="legal-text">&copy; 2026 Liquid Logic. For entertainment purposes only. All Rights Reserved.</p>
-            <p class="legal-disclaimer">
-                TERMS OF SERVICE: This game is intended for players of legal drinking age.
-                DO NOT PLAY THIS GAME WITH ALCOHOL.
-                Please drink responsibly (water/soda recommended). The developers assume no liability for the
-                consequences of alcohol consumption.
-                Know your limits and never drink and drive.
-            </p>
-        </footer>
-
+      <div class="action-row">
+        <button id="about-btn" class="secondary-btn">About</button>
+        <button id="how-to-play-btn" class="secondary-btn">How To Play</button>
+        <button id="start-btn" class="primary-btn">Start Game</button>
+      </div>
     </div>
-    <script type="module" src="app.js"></script>
-</body>
 
+    <div class="seo-footer-text">
+      <h2>What is Liquid Logic?</h2>
+      <p>Liquid Logic is the ultimate drinking trivia game with over <strong>6,000 questions</strong> across 50+ categories. Jeopardy-style buzzer mechanics. For entertainment only.</p>
+    </div>
+  </section>
+
+  <!-- ── GAME BOARD ── -->
+  <section id="game-board" class="screen hidden">
+    <header class="game-header">
+      <div id="home-btn-container" class="header-left">
+        <h1 class="header-title">Liquid Logic</h1>
+        <span id="current-board-name" class="board-name-tag"></span>
+      </div>
+      <div class="header-right">
+        <span id="clues-remaining" class="clues-tag"></span>
+        <button id="quit-btn" class="quit-btn">Quit</button>
+      </div>
+    </header>
+
+    <div id="scoreboard" class="scoreboard"></div>
+    <div id="board-grid" class="board-grid"></div>
+  </section>
+
+  <!-- ── QUESTION MODAL ── -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close-btn">x</span>
+
+      <!-- Phase 1: Question -->
+      <div id="modal-phase-question">
+        <div class="modal-top-bar">
+          <h2 id="modal-points" class="modal-points"></h2>
+          <span id="modal-category-label" class="modal-cat-label"></span>
+          <span id="modal-penalty" class="penalty-tag"></span>
+        </div>
+        <div id="modal-question" class="question-text"></div>
+        <div id="timer-bar-wrap" class="timer-bar-wrap hidden">
+          <div id="timer-bar" class="timer-bar"></div>
+          <span id="timer-label" class="timer-label">5</span>
+        </div>
+        <div id="buzzer-keys" class="buzzer-keys hidden"></div>
+        <button id="reveal-btn" class="action-btn">Reveal Answer</button>
+      </div>
+
+      <!-- Phase 2: Answer & Scoring -->
+      <div id="modal-phase-answer" class="hidden">
+        <div id="modal-answer" class="answer-text"></div>
+        <p class="instruction-text">Who got it right?</p>
+        <div id="winner-buttons" class="btn-flex"></div>
+        <button id="no-winner-btn" class="secondary-btn no-winner">No One / Skip</button>
+      </div>
+
+      <!-- Phase 3: Sip Distribution -->
+      <div id="modal-phase-sips" class="hidden">
+        <h2 class="sip-header">DISTRIBUTE SIPS!</h2>
+        <p id="sip-instruction" class="sip-instruction"></p>
+        <div id="target-buttons" class="btn-flex"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── END GAME OVERLAY ── -->
+  <div id="end-game-overlay" class="modal hidden">
+    <div class="modal-content end-game-content">
+      <h2 class="end-title">Game Over!</h2>
+      <div id="final-scores" class="final-scores"></div>
+      <div id="winner-announcement" class="winner-announce"></div>
+      <div class="end-btns">
+        <button id="play-again-btn" class="action-btn">Play Again (Same Teams)</button>
+        <button id="new-game-btn" class="secondary-btn">Back to Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── HOW TO PLAY MODAL ── -->
+  <div id="rules-modal" class="modal hidden">
+    <div class="modal-content rules-content">
+      <span id="close-rules" class="close-btn">x</span>
+      <h2>How to Play</h2>
+      <div class="help-modal">
+        <ul>
+          <li><strong>Setup:</strong> Enter team names, pick a theme and board mode.</li>
+          <li><strong>Pick a Clue:</strong> Click any point value on the board.</li>
+          <li><strong>Buzzing:</strong> Wait for the voice to finish reading! Buzz too early and you're <strong>frozen for 2 seconds</strong> once buzzers open.<br>
+            Keys: <span class="key-badge">1</span><span class="key-badge">=</span><span class="key-badge">6</span> (Teams 1–3) &nbsp;
+            <span class="key-badge">Z</span><span class="key-badge">B</span><span class="key-badge">/</span> (Teams 4–6)</li>
+          <li><strong>Answer Timer:</strong> Harder clues give more time — from 5 seconds at 200 up to 10 seconds at 1000. Wrong answer or timeout reopens the buzzer for other teams.</li>
+          <li><strong>Moderated Mode:</strong> A host reads the clues aloud and marks who got it right — no voice or buzzers needed. Ideal for in-person play.</li>
+          <li><strong>Scoring:</strong> Correct = points + assign sips. Wrong = lose points.</li>
+          <li><strong>Sips:</strong> 200 = 1 sip · 400 = 2 sips · 600 = 3 sips · 800 = 4 sips · 1000 = 5 sips</li>
+          <li><strong>Nobody gets it:</strong> the whole table drinks the clue's sip value.</li>
+          <li><strong>Winning:</strong> Most points when all clues are used!</li>
+        </ul>
+      </div>
+      <button id="close-rules-btn" class="action-btn">Got it!</button>
+      <p class="disclaimer-small"><em>Drink responsibly. Water or soda recommended. This is a game of logic, not liver failure.</em></p>
+    </div>
+  </div>
+
+  <!-- ── ABOUT MODAL ── -->
+  <div id="about-modal" class="modal hidden">
+    <div class="modal-content rules-content">
+      <span id="close-about" class="close-btn">x</span>
+      <h2>What is Liquid Logic?</h2>
+      <div class="help-modal">
+        <p>Liquid Logic is the ultimate drinking trivia game — a fast-paced, Jeopardy-style showdown with over <strong>6,000 questions</strong> across 50+ categories and 7 themed boards.</p>
+        <p>Teams buzz in, steal answers, assign sips, and compete for glory. Perfect for parties, game nights, and bars.</p>
+        <h3>v5.0 Features</h3>
+        <ul>
+          <li>Fully audited question set — corrected answers, retuned difficulty, no duplicate answers on a board</li>
+          <li>Scaled answer timer — more time on harder, higher-value clues</li>
+          <li>Real early-buzz penalty — jump the gun and you're frozen 2 seconds</li>
+          <li>Table-drinks rule when nobody gets the clue</li>
+          <li>5 visual themes including Sports Bar mode</li>
+          <li>Difficulty filter, live clue tracker, and end-game summary</li>
+        </ul>
+      </div>
+      <button id="close-about-btn" class="action-btn">Let's Play!</button>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer class="legal-footer">
+    <p class="legal-text">&copy; 2026 Liquid Logic. For entertainment purposes only. All Rights Reserved.</p>
+    <p class="legal-disclaimer">This game is intended for players of legal drinking age. DO NOT PLAY THIS GAME WITH ALCOHOL. Drink responsibly. The developers assume no liability for consequences of alcohol consumption.</p>
+  </footer>
+
+</div><!-- /#app -->
+
+<!-- Confetti canvas -->
+<canvas id="confetti-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;display:none;"></canvas>
+
+<script type="module" src="app.js"></script>
+</body>
 </html>

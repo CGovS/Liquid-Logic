@@ -2,7 +2,7 @@ console.log("Trivia DB Module Evaluating...");
 
 export const library = {
     themes: {
-        "standard": { name: "Standard Trivia", categories: ["Before & After", "4-Letter Words", "Science", "English", "Barroom Physics"] },
+        "standard": { name: "Standard Trivia", categories: ["Before & After", "Vocabulary", "Science", "English", "Barroom Physics"] },
         "daily": { name: "Daily Mix", categories: [] },
         "booze": { name: "Beers, Bars & Booze", categories: ["Potent Potables", "Pub Grub", "Beer Science", "Alcohol Trivia", "Famous Bars"] },
         "history": { name: "The History Vault", categories: ["US History", "Wars", "Technology", "Ancient Greece", "The 1980s"] },
@@ -39,12 +39,7 @@ export const library = {
         },
         {
             "question": "A famous Italian explorer and a heartwarming holiday movie starring Macaulay Culkin.",
-            "answer": "What is Marco Polo Alone?",
-            "difficulty": 2
-        },
-        {
-            "question": "A 16th-century English playwright and a brand of premium bottled water.",
-            "answer": "What is Shakespearean Hills?",
+            "answer": "What is Marco Polo Home Alone?",
             "difficulty": 2
         },
         {
@@ -1013,7 +1008,7 @@ export const library = {
             "difficulty": 5
         }
     ],
-    "4-Letter Words": [
+    "Vocabulary": [
         {
             "question": "This animal is often associated with the word 'meow'.",
             "answer": "What is a cat?",
@@ -1027,11 +1022,6 @@ export const library = {
         {
             "question": "This is an informal term for a father.",
             "answer": "What is a dad?",
-            "difficulty": 1
-        },
-        {
-            "question": "A large, flightless bird native to Africa.",
-            "answer": "What is an emu?",
             "difficulty": 1
         },
         {
@@ -1063,11 +1053,6 @@ export const library = {
             "question": "A type of tree known for its cone-bearing nature.",
             "answer": "What is a pine?",
             "difficulty": 2
-        },
-        {
-            "question": "A four-sided figure with opposite sides parallel.",
-            "answer": "What is a rhombus?",
-            "difficulty": 3
         },
         {
             "question": "This term describes a period of ten years.",
@@ -1122,11 +1107,6 @@ export const library = {
         {
             "question": "A term for a narrow piece of land connecting two larger land areas.",
             "answer": "What is an isthmus?",
-            "difficulty": 4
-        },
-        {
-            "question": "A word for a large, often colorful butterfly.",
-            "answer": "What is a moth?",
             "difficulty": 4
         },
         {
@@ -1286,27 +1266,12 @@ export const library = {
         },
         {
             "question": "An animal known for its long neck, often found in Africa.",
-            "answer": "What is a lion?",
+            "answer": "What is a giraffe?",
             "difficulty": 1
         },
         {
             "question": "To consume a meal.",
             "answer": "What is eat?",
-            "difficulty": 2
-        },
-        {
-            "question": "A short sleep during the day.",
-            "answer": "What is a nap?",
-            "difficulty": 2
-        },
-        {
-            "question": "A large body of saltwater.",
-            "answer": "What is a sea?",
-            "difficulty": 2
-        },
-        {
-            "question": "A young sheep.",
-            "answer": "What is a lamb?",
             "difficulty": 2
         },
         {
@@ -1316,7 +1281,7 @@ export const library = {
         },
         {
             "question": "A cooking utensil with a long handle and a flat surface.",
-            "answer": "What is a spat?",
+            "answer": "What is a spatula?",
             "difficulty": 2
         },
         {
@@ -1370,11 +1335,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A type of precipitation that falls as ice pellets.",
-            "answer": "What is hail?",
-            "difficulty": 3
-        },
-        {
             "question": "An animal known for building dams.",
             "answer": "What is a beaver?",
             "difficulty": 3
@@ -1390,11 +1350,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A word for a long, narrow cut or opening.",
-            "answer": "What is slit?",
-            "difficulty": 4
-        },
-        {
             "question": "A word meaning to go up or ascend.",
             "answer": "What is rise?",
             "difficulty": 4
@@ -1405,11 +1360,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A word for a period of ten years.",
-            "answer": "What is a decade?",
-            "difficulty": 4
-        },
-        {
             "question": "A word for a deep, prolonged sound, as of thunder or distant gunfire.",
             "answer": "What is boom?",
             "difficulty": 4
@@ -1417,11 +1367,6 @@ export const library = {
         {
             "question": "A word meaning to lean or tilt to one side.",
             "answer": "What is list?",
-            "difficulty": 4
-        },
-        {
-            "question": "A word for a small, mischievous person.",
-            "answer": "What is an imp?",
             "difficulty": 4
         },
         {
@@ -1447,11 +1392,6 @@ export const library = {
         {
             "question": "A word for a prehistoric megalithic structure.",
             "answer": "What is a dolmen?",
-            "difficulty": 5
-        },
-        {
-            "question": "A word for a small demon or mischievous child.",
-            "answer": "What is an imp?",
             "difficulty": 5
         },
         {
@@ -1660,18 +1600,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A small, portable shelter made of fabric.",
-            "answer": "What is a tent?",
-            "difficulty": 2
-        },
-        {
             "question": "A river that flows through Egypt and is the longest in the world.",
             "answer": "What is the Nile?",
             "difficulty": 2
         },
         {
             "question": "A sweet, frozen dessert made from cream and sugar.",
-            "answer": "What is a cone?",
+            "answer": "What is ice cream?",
             "difficulty": 2
         },
         {
@@ -1725,11 +1660,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A narrow passage between mountains.",
-            "answer": "What is a pass?",
-            "difficulty": 3
-        },
-        {
             "question": "A type of pepper that is often red or green and used in cooking.",
             "answer": "What is a chili?",
             "difficulty": 3
@@ -1781,7 +1711,7 @@ export const library = {
         },
         {
             "question": "A small insect known for its ability to jump and its chirping sound.",
-            "answer": "What is a flea?",
+            "answer": "What is a cricket?",
             "difficulty": 2
         },
         {
@@ -1850,11 +1780,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A type of tree known for its acorns.",
-            "answer": "What is an oak?",
-            "difficulty": 3
-        },
-        {
             "question": "A tool with a flat blade used for spreading or mixing soft substances.",
             "answer": "What is a spat?",
             "difficulty": 3
@@ -1866,7 +1791,7 @@ export const library = {
         },
         {
             "question": "The lightest of the noble gases, used in balloons.",
-            "answer": "What is neon?",
+            "answer": "What is helium?",
             "difficulty": 3
         },
         {
@@ -1887,11 +1812,6 @@ export const library = {
         {
             "question": "A place where coins are produced.",
             "answer": "What is a mint?",
-            "difficulty": 4
-        },
-        {
-            "question": "A large, flightless bird native to Australia.",
-            "answer": "What is an emu?",
             "difficulty": 4
         },
         {
@@ -1926,7 +1846,7 @@ export const library = {
         },
         {
             "question": "A small, wingless, parasitic insect that lives on the skin of mammals and birds.",
-            "answer": "What is a lice?",
+            "answer": "What is a louse?",
             "difficulty": 4
         },
         {
@@ -1956,7 +1876,7 @@ export const library = {
         },
         {
             "question": "A word used to describe something that is neither acidic nor basic.",
-            "answer": "What is pH?",
+            "answer": "What is neutral?",
             "difficulty": 5
         },
         {
@@ -2037,16 +1957,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The process by which plants make their food using sunlight.",
-            "answer": "What is photosynthesis?",
-            "difficulty": 1
-        },
-        {
-            "question": "The basic unit of life.",
-            "answer": "What is the cell?",
-            "difficulty": 1
-        },
-        {
             "question": "The organ that pumps blood throughout the body.",
             "answer": "What is the heart?",
             "difficulty": 1
@@ -2065,11 +1975,6 @@ export const library = {
             "question": "The planet known for its rings.",
             "answer": "What is Saturn?",
             "difficulty": 1
-        },
-        {
-            "question": "The scientist who developed the theory of relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 2
         },
         {
             "question": "The phase of matter with a definite volume but no definite shape.",
@@ -2097,11 +2002,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The phenomenon of light bending when passing through different mediums.",
-            "answer": "What is refraction?",
-            "difficulty": 2
-        },
-        {
             "question": "The organ in humans responsible for filtering blood and producing urine.",
             "answer": "What are the kidneys?",
             "difficulty": 2
@@ -2119,26 +2019,6 @@ export const library = {
         {
             "question": "The scientist known for the principle of buoyancy.",
             "answer": "Who is Archimedes?",
-            "difficulty": 3
-        },
-        {
-            "question": "The type of bond formed when atoms share electrons.",
-            "answer": "What is a covalent bond?",
-            "difficulty": 3
-        },
-        {
-            "question": "The smallest particle of an element that retains its chemical properties.",
-            "answer": "What is an atom?",
-            "difficulty": 3
-        },
-        {
-            "question": "The galaxy that contains our solar system.",
-            "answer": "What is the Milky Way?",
-            "difficulty": 3
-        },
-        {
-            "question": "The human body's largest organ.",
-            "answer": "What is the skin?",
             "difficulty": 3
         },
         {
@@ -2233,7 +2113,7 @@ export const library = {
         },
         {
             "question": "The branch of physics that studies the behavior of objects moving at very high speeds.",
-            "answer": "What is relativistic physics?",
+            "answer": "What is special relativity?",
             "difficulty": 5
         },
         {
@@ -2257,23 +2137,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The powerhouse of the cell.",
-            "answer": "What is the mitochondrion?",
-            "difficulty": 1
-        },
-        {
             "question": "The nearest planet to the Sun.",
             "answer": "What is Mercury?",
-            "difficulty": 1
-        },
-        {
-            "question": "The basic unit of life.",
-            "answer": "What is the cell?",
-            "difficulty": 1
-        },
-        {
-            "question": "The process plants use to convert sunlight into food.",
-            "answer": "What is photosynthesis?",
             "difficulty": 1
         },
         {
@@ -2294,11 +2159,6 @@ export const library = {
         {
             "question": "The center of an atom, containing protons and neutrons.",
             "answer": "What is the nucleus?",
-            "difficulty": 1
-        },
-        {
-            "question": "The largest planet in our solar system.",
-            "answer": "What is Jupiter?",
             "difficulty": 1
         },
         {
@@ -2337,29 +2197,14 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The natural satellite of Earth.",
-            "answer": "What is the Moon?",
-            "difficulty": 2
-        },
-        {
             "question": "The scientist known for the discovery of penicillin.",
             "answer": "Who is Alexander Fleming?",
-            "difficulty": 2
-        },
-        {
-            "question": "The force that attracts objects toward each other.",
-            "answer": "What is gravity?",
             "difficulty": 2
         },
         {
             "question": "The basic building block of proteins.",
             "answer": "What are amino acids?",
             "difficulty": 2
-        },
-        {
-            "question": "The law stating that energy cannot be created or destroyed.",
-            "answer": "What is the law of conservation of energy?",
-            "difficulty": 3
         },
         {
             "question": "The type of animal known for having a backbone or spinal column.",
@@ -2377,11 +2222,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The scientist who proposed the heliocentric model of the universe.",
-            "answer": "Who is Nicolaus Copernicus?",
-            "difficulty": 3
-        },
-        {
             "question": "The SI unit of force.",
             "answer": "What is the newton?",
             "difficulty": 3
@@ -2389,11 +2229,6 @@ export const library = {
         {
             "question": "The branch of science concerned with the study of matter and energy.",
             "answer": "What is physics?",
-            "difficulty": 3
-        },
-        {
-            "question": "The process by which a liquid changes to a gas.",
-            "answer": "What is evaporation?",
             "difficulty": 3
         },
         {
@@ -2462,11 +2297,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The scientist known for the uncertainty principle in quantum mechanics.",
-            "answer": "Who is Werner Heisenberg?",
-            "difficulty": 5
-        },
-        {
             "question": "The phenomenon where particles behave as both particles and waves.",
             "answer": "What is wave-particle duality?",
             "difficulty": 5
@@ -2497,29 +2327,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The philosopher known for the method of critical doubt and the cogito argument.",
-            "answer": "Who is Ren\u00e9 Descartes?",
-            "difficulty": 5
-        },
-        {
             "question": "The branch of mathematics dealing with the properties and relations of points, lines, surfaces, and solids.",
             "answer": "What is geometry?",
             "difficulty": 5
-        },
-        {
-            "question": "The powerhouse of the cell.",
-            "answer": "What is the mitochondrion?",
-            "difficulty": 1
-        },
-        {
-            "question": "The process plants use to convert sunlight into food.",
-            "answer": "What is photosynthesis?",
-            "difficulty": 1
-        },
-        {
-            "question": "The basic unit of life.",
-            "answer": "What is a cell?",
-            "difficulty": 1
         },
         {
             "question": "The force that keeps planets in orbit around the sun.",
@@ -2527,28 +2337,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The largest planet in our solar system.",
-            "answer": "What is Jupiter?",
-            "difficulty": 1
-        },
-        {
-            "question": "The scientist who developed the theory of general relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 2
-        },
-        {
-            "question": "The first element on the periodic table.",
-            "answer": "What is hydrogen?",
-            "difficulty": 2
-        },
-        {
             "question": "The hardest natural substance on Earth.",
             "answer": "What is diamond?",
-            "difficulty": 2
-        },
-        {
-            "question": "The organ responsible for pumping blood through the body.",
-            "answer": "What is the heart?",
             "difficulty": 2
         },
         {
@@ -2557,13 +2347,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The scientist known for his laws of motion.",
-            "answer": "Who is Isaac Newton?",
-            "difficulty": 3
-        },
-        {
             "question": "The part of the eye that controls the amount of light entering.",
-            "answer": "What is the pupil?",
+            "answer": "What is the iris?",
             "difficulty": 3
         },
         {
@@ -2582,11 +2367,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The galaxy that contains our solar system.",
-            "answer": "What is the Milky Way?",
-            "difficulty": 4
-        },
-        {
             "question": "The scientist who proposed the law of universal gravitation.",
             "answer": "Who is Isaac Newton?",
             "difficulty": 4
@@ -2599,11 +2379,6 @@ export const library = {
         {
             "question": "The first ten elements of the periodic table.",
             "answer": "What are hydrogen, helium, lithium, beryllium, boron, carbon, nitrogen, oxygen, fluorine, and neon?",
-            "difficulty": 4
-        },
-        {
-            "question": "The largest organ in the human body.",
-            "answer": "What is the skin?",
             "difficulty": 4
         },
         {
@@ -2642,11 +2417,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The largest bone in the human body.",
-            "answer": "What is the femur?",
-            "difficulty": 2
-        },
-        {
             "question": "The smallest unit of a chemical element.",
             "answer": "What is an atom?",
             "difficulty": 1
@@ -2680,11 +2450,6 @@ export const library = {
             "question": "The term for animals that are active during the night.",
             "answer": "What is nocturnal?",
             "difficulty": 2
-        },
-        {
-            "question": "The scientist who discovered penicillin.",
-            "answer": "Who is Alexander Fleming?",
-            "difficulty": 3
         },
         {
             "question": "The force that opposes motion between two surfaces in contact.",
@@ -2722,19 +2487,9 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The type of bond formed by sharing electrons between atoms.",
-            "answer": "What is a covalent bond?",
-            "difficulty": 4
-        },
-        {
             "question": "The term for the amount of matter in an object.",
             "answer": "What is mass?",
             "difficulty": 1
-        },
-        {
-            "question": "The largest artery in the human body.",
-            "answer": "What is the aorta?",
-            "difficulty": 3
         },
         {
             "question": "The natural process of breaking down rocks and minerals over time.",
@@ -2742,64 +2497,14 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The scientist who is famous for the laws of inheritance.",
-            "answer": "Who is Gregor Mendel?",
-            "difficulty": 5
-        },
-        {
-            "question": "The powerhouse of the cell.",
-            "answer": "What is the mitochondrion?",
-            "difficulty": 1
-        },
-        {
             "question": "This force keeps us on the ground.",
             "answer": "What is gravity?",
-            "difficulty": 1
-        },
-        {
-            "question": "The basic unit of life.",
-            "answer": "What is a cell?",
-            "difficulty": 1
-        },
-        {
-            "question": "The process plants use to convert sunlight into food.",
-            "answer": "What is photosynthesis?",
-            "difficulty": 1
-        },
-        {
-            "question": "The nearest star to Earth.",
-            "answer": "What is the Sun?",
-            "difficulty": 1
-        },
-        {
-            "question": "The largest planet in our solar system.",
-            "answer": "What is Jupiter?",
-            "difficulty": 1
-        },
-        {
-            "question": "The organ responsible for pumping blood through the body.",
-            "answer": "What is the heart?",
             "difficulty": 1
         },
         {
             "question": "The gas that humans need to breathe.",
             "answer": "What is oxygen?",
             "difficulty": 1
-        },
-        {
-            "question": "The number of chromosomes in a human cell.",
-            "answer": "What is 46?",
-            "difficulty": 2
-        },
-        {
-            "question": "The scientist who proposed the theory of general relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 2
-        },
-        {
-            "question": "The smallest particle of an element that retains its properties.",
-            "answer": "What is an atom?",
-            "difficulty": 2
         },
         {
             "question": "The organelle where photosynthesis occurs.",
@@ -2817,11 +2522,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The organ that produces insulin.",
-            "answer": "What is the pancreas?",
-            "difficulty": 2
-        },
-        {
             "question": "The name of the galaxy that contains our solar system.",
             "answer": "What is the Milky Way?",
             "difficulty": 2
@@ -2832,38 +2532,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The branch of science concerned with the study of matter and energy.",
-            "answer": "What is physics?",
-            "difficulty": 3
-        },
-        {
             "question": "The structure that contains the genetic material in a cell.",
             "answer": "What is the nucleus?",
             "difficulty": 3
         },
         {
-            "question": "The scientist who formulated the laws of motion.",
-            "answer": "Who is Isaac Newton?",
-            "difficulty": 3
-        },
-        {
-            "question": "The type of rock formed from cooled lava.",
-            "answer": "What is igneous rock?",
-            "difficulty": 3
-        },
-        {
-            "question": "The part of the brain responsible for memory and learning.",
-            "answer": "What is the hippocampus?",
-            "difficulty": 3
-        },
-        {
             "question": "The term for a change in a species over time.",
             "answer": "What is evolution?",
-            "difficulty": 3
-        },
-        {
-            "question": "The first element on the periodic table.",
-            "answer": "What is hydrogen?",
             "difficulty": 3
         },
         {
@@ -2892,18 +2567,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The scientist who developed the first successful polio vaccine.",
-            "answer": "Who is Jonas Salk?",
-            "difficulty": 4
-        },
-        {
             "question": "The name for a positively charged ion.",
             "answer": "What is a cation?",
-            "difficulty": 4
-        },
-        {
-            "question": "The phenomenon where light bends as it passes through different mediums.",
-            "answer": "What is refraction?",
             "difficulty": 4
         },
         {
@@ -2917,18 +2582,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The scientist who discovered penicillin.",
-            "answer": "Who is Alexander Fleming?",
-            "difficulty": 5
-        },
-        {
             "question": "The term for the study of fungi.",
             "answer": "What is mycology?",
-            "difficulty": 5
-        },
-        {
-            "question": "The type of chemical bond formed by the sharing of electrons.",
-            "answer": "What is a covalent bond?",
             "difficulty": 5
         },
         {
@@ -2947,11 +2602,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The scientist who proposed the heliocentric model of the solar system.",
-            "answer": "Who is Nicolaus Copernicus?",
-            "difficulty": 5
-        },
-        {
             "question": "The astronomical term for the point in a planet's orbit closest to the sun.",
             "answer": "What is perihelion?",
             "difficulty": 5
@@ -2962,29 +2612,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The powerhouse of the cell.",
-            "answer": "What is the mitochondrion?",
-            "difficulty": 1
-        },
-        {
             "question": "This planet is known as the Red Planet.",
             "answer": "What is Mars?",
             "difficulty": 1
-        },
-        {
-            "question": "The largest organ in the human body.",
-            "answer": "What is the skin?",
-            "difficulty": 2
-        },
-        {
-            "question": "The most abundant gas in Earth's atmosphere.",
-            "answer": "What is nitrogen?",
-            "difficulty": 2
-        },
-        {
-            "question": "He developed the theory of general relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 3
         },
         {
             "question": "The smallest unit of life.",
@@ -2997,11 +2627,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The scientist who formulated the laws of motion.",
-            "answer": "Who is Isaac Newton?",
-            "difficulty": 4
-        },
-        {
             "question": "The longest wavelength in the electromagnetic spectrum.",
             "answer": "What are radio waves?",
             "difficulty": 5
@@ -3009,7 +2634,7 @@ export const library = {
         {
             "question": "The process by which plants convert sunlight into chemical energy.",
             "answer": "What is photosynthesis?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "The rarest naturally occurring element on Earth.",
@@ -3021,11 +2646,6 @@ export const library = {
         {
             "question": "A common word used to refer to the main character in a story.",
             "answer": "What is protagonist?",
-            "difficulty": 1
-        },
-        {
-            "question": "The term for a word that has the opposite meaning of another word.",
-            "answer": "What is antonym?",
             "difficulty": 1
         },
         {
@@ -3089,11 +2709,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term for exaggeration for emphasis or effect.",
-            "answer": "What is hyperbole?",
-            "difficulty": 2
-        },
-        {
             "question": "The part of a word that is added to the end to modify its meaning.",
             "answer": "What is suffix?",
             "difficulty": 2
@@ -3101,11 +2716,6 @@ export const library = {
         {
             "question": "The term for the feeling or atmosphere that a writer creates for the reader.",
             "answer": "What is mood?",
-            "difficulty": 2
-        },
-        {
-            "question": "A comparison using 'like' or 'as'.",
-            "answer": "What is simile?",
             "difficulty": 2
         },
         {
@@ -3124,11 +2734,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The literary device that gives human traits to non-human things.",
-            "answer": "What is personification?",
-            "difficulty": 3
-        },
-        {
             "question": "The term for the repetition of the same sound at the beginning of adjacent words.",
             "answer": "What is alliteration?",
             "difficulty": 3
@@ -3139,11 +2744,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A verb form that functions as a noun.",
-            "answer": "What is gerund?",
-            "difficulty": 3
-        },
-        {
             "question": "The term for the main character's opponent in a narrative.",
             "answer": "What is antagonist?",
             "difficulty": 3
@@ -3151,16 +2751,6 @@ export const library = {
         {
             "question": "A literary work that ridicules its subject through exaggeration, often to criticize.",
             "answer": "What is satire?",
-            "difficulty": 3
-        },
-        {
-            "question": "The perspective from which a story is told.",
-            "answer": "What is point of view?",
-            "difficulty": 3
-        },
-        {
-            "question": "The term for language that appeals to the senses.",
-            "answer": "What is imagery?",
             "difficulty": 3
         },
         {
@@ -3176,11 +2766,6 @@ export const library = {
         {
             "question": "The use of a word to describe or imitate a natural sound or the sound made by an object or an action.",
             "answer": "What is onomatopoeia?",
-            "difficulty": 4
-        },
-        {
-            "question": "A figure of speech in which contradictory terms appear in conjunction.",
-            "answer": "What is oxymoron?",
             "difficulty": 4
         },
         {
@@ -3284,11 +2869,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The term for a story's main character.",
-            "answer": "What is protagonist?",
-            "difficulty": 1
-        },
-        {
             "question": "The punctuation used to end a question.",
             "answer": "What is a question mark?",
             "difficulty": 1
@@ -3326,11 +2906,6 @@ export const library = {
         {
             "question": "The lowercase letter that follows 'a'.",
             "answer": "What is b?",
-            "difficulty": 1
-        },
-        {
-            "question": "The term for a word that sounds like another but differs in meaning.",
-            "answer": "What is homophone?",
             "difficulty": 1
         },
         {
@@ -3374,11 +2949,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The term for a word with opposite meaning.",
-            "answer": "What is antonym?",
-            "difficulty": 1
-        },
-        {
             "question": "The word that describes a place of books.",
             "answer": "What is library?",
             "difficulty": 1
@@ -3399,11 +2969,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term for a group of lines forming a unit in a poem.",
-            "answer": "What is stanza?",
-            "difficulty": 2
-        },
-        {
             "question": "The system of rules that define the structure of sentences.",
             "answer": "What is grammar?",
             "difficulty": 2
@@ -3414,13 +2979,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term for a word derived from a person's name.",
-            "answer": "What is eponym?",
-            "difficulty": 2
-        },
-        {
             "question": "The form of a verb used to create continuous tenses.",
-            "answer": "What is gerund?",
+            "answer": "What is present participle?",
             "difficulty": 2
         },
         {
@@ -3459,11 +3019,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term for the repetition of a word or phrase at the beginning of successive clauses.",
-            "answer": "What is anaphora?",
-            "difficulty": 3
-        },
-        {
             "question": "The type of verb that connects a subject with its complement.",
             "answer": "What is linking verb?",
             "difficulty": 3
@@ -3474,18 +3029,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The term for the omission of a sound or syllable when speaking.",
-            "answer": "What is elision?",
-            "difficulty": 3
-        },
-        {
             "question": "The literary term for a character's main conflict or struggle.",
             "answer": "What is central conflict?",
-            "difficulty": 3
-        },
-        {
-            "question": "The term for a verb form that functions as an adjective.",
-            "answer": "What is participle?",
             "difficulty": 3
         },
         {
@@ -3501,11 +3046,6 @@ export const library = {
         {
             "question": "The term for a phrase or expression with a meaning different from the literal interpretation.",
             "answer": "What is idiom?",
-            "difficulty": 3
-        },
-        {
-            "question": "The type of irony where the audience knows something the characters do not.",
-            "answer": "What is dramatic irony?",
             "difficulty": 3
         },
         {
@@ -3526,11 +3066,6 @@ export const library = {
         {
             "question": "The term for a narrative technique that uses sensory details to evoke a sense of setting.",
             "answer": "What is imagery?",
-            "difficulty": 3
-        },
-        {
-            "question": "The term for a verb form ending in -ing that functions as a noun.",
-            "answer": "What is gerund?",
             "difficulty": 3
         },
         {
@@ -3589,16 +3124,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The term for a word formed from the initial letters of other words.",
-            "answer": "What is acronym?",
-            "difficulty": 3
-        },
-        {
-            "question": "The term for a word that has the same spelling and sound but different meanings.",
-            "answer": "What is homonym?",
-            "difficulty": 3
-        },
-        {
             "question": "This punctuation mark is used at the end of a declarative sentence.",
             "answer": "What is a period?",
             "difficulty": 1
@@ -3609,11 +3134,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This part of speech describes an action or state.",
-            "answer": "What is a verb?",
-            "difficulty": 1
-        },
-        {
             "question": "This is the term for a word that has the opposite meaning of another word.",
             "answer": "What is an antonym?",
             "difficulty": 1
@@ -3621,11 +3141,6 @@ export const library = {
         {
             "question": "The first letter of the English alphabet.",
             "answer": "What is A?",
-            "difficulty": 1
-        },
-        {
-            "question": "This is a word that sounds the same as another word but has a different meaning.",
-            "answer": "What is a homophone?",
             "difficulty": 1
         },
         {
@@ -3647,11 +3162,6 @@ export const library = {
             "question": "This is the term for a word formed from the initial letters of other words.",
             "answer": "What is an acronym?",
             "difficulty": 1
-        },
-        {
-            "question": "This term describes a comparison using 'like' or 'as'.",
-            "answer": "What is a simile?",
-            "difficulty": 2
         },
         {
             "question": "The term for a figure of speech where human qualities are given to non-human things.",
@@ -3729,11 +3239,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This part of a word is added to its end to form a derivative.",
-            "answer": "What is a suffix?",
-            "difficulty": 3
-        },
-        {
             "question": "The term for a redundant or unnecessary repetition of words in a sentence.",
             "answer": "What is tautology?",
             "difficulty": 3
@@ -3742,11 +3247,6 @@ export const library = {
             "question": "The term for a word that has the same spelling and pronunciation as another word but different meanings.",
             "answer": "What is a homonym?",
             "difficulty": 3
-        },
-        {
-            "question": "This is the term for the omission of conjunctions between parts of a sentence.",
-            "answer": "What is asyndeton?",
-            "difficulty": 4
         },
         {
             "question": "The term for a verb form used to indicate a completed action in an unfinished time period.",
@@ -3761,11 +3261,6 @@ export const library = {
         {
             "question": "The term for a word or phrase that refers to a specific person, place, or thing.",
             "answer": "What is a proper noun?",
-            "difficulty": 4
-        },
-        {
-            "question": "The term for a sentence that makes a statement or declares something.",
-            "answer": "What is a declarative sentence?",
             "difficulty": 4
         },
         {
@@ -3820,12 +3315,7 @@ export const library = {
         },
         {
             "question": "This is the term for a figure of speech where a part is made to represent the whole or vice versa.",
-            "answer": "What is a metonymy?",
-            "difficulty": 5
-        },
-        {
-            "question": "The term for the repetition of a word or phrase at the beginning of successive clauses.",
-            "answer": "What is anaphora?",
+            "answer": "What is synecdoche?",
             "difficulty": 5
         },
         {
@@ -3834,18 +3324,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This is the term for a word that has the opposite meaning of another word.",
-            "answer": "What is an antonym?",
-            "difficulty": 1
-        },
-        {
             "question": "The part of speech that describes an action or a state of being.",
             "answer": "What is a verb?",
-            "difficulty": 1
-        },
-        {
-            "question": "This punctuation mark is used to end a declarative sentence.",
-            "answer": "What is a period?",
             "difficulty": 1
         },
         {
@@ -3859,19 +3339,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The first letter of the English alphabet.",
-            "answer": "What is A?",
-            "difficulty": 1
-        },
-        {
             "question": "This is the plural form of 'child'.",
             "answer": "What is children?",
             "difficulty": 1
-        },
-        {
-            "question": "A word that sounds the same as another but has a different meaning and spelling.",
-            "answer": "What is a homophone?",
-            "difficulty": 2
         },
         {
             "question": "This is the term for a comparison using 'like' or 'as'.",
@@ -3897,16 +3367,6 @@ export const library = {
             "question": "This is the narrative technique of hinting at future events in a story.",
             "answer": "What is foreshadowing?",
             "difficulty": 2
-        },
-        {
-            "question": "The term for a verb form that functions as a noun.",
-            "answer": "What is a gerund?",
-            "difficulty": 3
-        },
-        {
-            "question": "This is the term for a word that has the same spelling and pronunciation but different meanings.",
-            "answer": "What is a homonym?",
-            "difficulty": 3
         },
         {
             "question": "The term for a sentence that makes a statement and ends with a period.",
@@ -4007,16 +3467,6 @@ export const library = {
             "question": "The term for the study of the sounds of human speech.",
             "answer": "What is phonetics?",
             "difficulty": 5
-        },
-        {
-            "question": "This is the term for a verb form that functions as an adjective.",
-            "answer": "What is a participle?",
-            "difficulty": 5
-        },
-        {
-            "question": "What is the term for a word that has the same spelling and pronunciation but different meanings?",
-            "answer": "What is a homonym?",
-            "difficulty": 3
         }
     ],
     "Barroom Physics": [
@@ -4061,11 +3511,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This term describes the resistance of any physical object to a change in its velocity.",
-            "answer": "What is inertia?",
-            "difficulty": 1
-        },
-        {
             "question": "The device, often found in homes, used to measure electric potential difference.",
             "answer": "What is a voltmeter?",
             "difficulty": 1
@@ -4081,11 +3526,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term for a material's opposition to the flow of electric current.",
-            "answer": "What is resistance?",
-            "difficulty": 2
-        },
-        {
             "question": "The type of wave where particle displacement is perpendicular to the direction of wave travel.",
             "answer": "What is a transverse wave?",
             "difficulty": 2
@@ -4096,28 +3536,18 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The name for the angle between the direction of light before and after it strikes a surface.",
-            "answer": "What is the angle of incidence?",
-            "difficulty": 2
-        },
-        {
             "question": "The point at which an object will no longer return to its original shape after being deformed.",
             "answer": "What is the elastic limit?",
             "difficulty": 2
         },
         {
             "question": "This term refers to the total energy contained within a system due to both its temperature and pressure.",
-            "answer": "What is internal energy?",
+            "answer": "What is enthalpy?",
             "difficulty": 2
         },
         {
             "question": "The physical principle that states for every action, there is an equal and opposite reaction.",
             "answer": "What is Newton's third law of motion?",
-            "difficulty": 2
-        },
-        {
-            "question": "This is the term for the change in frequency or wavelength of a wave in relation to an observer moving relative to the wave source.",
-            "answer": "What is the Doppler effect?",
             "difficulty": 2
         },
         {
@@ -4166,19 +3596,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The term for the measure of disorder or randomness in a system.",
-            "answer": "What is entropy?",
-            "difficulty": 3
-        },
-        {
             "question": "This law states that the pressure of a given mass of gas is directly proportional to its absolute temperature, provided the volume remains constant.",
             "answer": "What is Gay-Lussac's law?",
             "difficulty": 3
-        },
-        {
-            "question": "The principle that describes the buoyant force exerted on a body immersed in a fluid.",
-            "answer": "What is Archimedes' principle?",
-            "difficulty": 4
         },
         {
             "question": "The phenomenon where certain materials can generate an electric potential in response to applied mechanical stress.",
@@ -4193,11 +3613,6 @@ export const library = {
         {
             "question": "The principle that explains the behavior of ideal gases in terms of pressure, volume, and temperature.",
             "answer": "What is the ideal gas law?",
-            "difficulty": 4
-        },
-        {
-            "question": "The name for the process through which heat is directly transmitted through a substance.",
-            "answer": "What is conduction?",
             "difficulty": 4
         },
         {
@@ -4236,11 +3651,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The term for the intrinsic property of quantum systems that prevents identical particles from occupying the same state.",
-            "answer": "What is the Pauli exclusion principle?",
-            "difficulty": 5
-        },
-        {
             "question": "The concept in quantum mechanics that describes a state where a particle exists in multiple states until observed.",
             "answer": "What is superposition?",
             "difficulty": 5
@@ -4253,11 +3663,6 @@ export const library = {
         {
             "question": "The term for the apparent increase in mass of an object as its velocity approaches the speed of light.",
             "answer": "What is relativistic mass?",
-            "difficulty": 5
-        },
-        {
-            "question": "The principle stating that no two fermions can occupy the same quantum state simultaneously.",
-            "answer": "What is the Pauli exclusion principle?",
             "difficulty": 5
         },
         {
@@ -4286,29 +3691,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The measure of disorder or randomness in a system.",
-            "answer": "What is entropy?",
-            "difficulty": 3
-        },
-        {
-            "question": "The law stating that the pressure of a gas is inversely proportional to its volume.",
-            "answer": "What is Boyle's Law?",
-            "difficulty": 4
-        },
-        {
             "question": "The first law of thermodynamics is also known as the conservation of this.",
             "answer": "What is energy?",
             "difficulty": 2
-        },
-        {
-            "question": "The principle stating that the total energy in an isolated system remains constant.",
-            "answer": "What is the conservation of energy?",
-            "difficulty": 3
-        },
-        {
-            "question": "The unit of force in the International System of Units.",
-            "answer": "What is a newton?",
-            "difficulty": 1
         },
         {
             "question": "The type of bond formed by sharing electrons between atoms.",
@@ -4321,18 +3706,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The change in frequency or wavelength of a wave in relation to an observer moving relative to the source of the wave.",
-            "answer": "What is the Doppler effect?",
-            "difficulty": 3
-        },
-        {
             "question": "The device commonly used to measure atmospheric pressure.",
             "answer": "What is a barometer?",
-            "difficulty": 2
-        },
-        {
-            "question": "The phenomenon where light bends as it passes from one medium to another.",
-            "answer": "What is refraction?",
             "difficulty": 2
         },
         {
@@ -4397,7 +3772,7 @@ export const library = {
         },
         {
             "question": "The measure of a system's thermal energy per unit temperature that is unavailable for doing useful work.",
-            "answer": "What is free energy?",
+            "answer": "What is entropy?",
             "difficulty": 5
         },
         {
@@ -4461,11 +3836,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The term for the rate of change of velocity with respect to time.",
-            "answer": "What is acceleration?",
-            "difficulty": 2
-        },
-        {
             "question": "The natural satellite of the Earth.",
             "answer": "What is the Moon?",
             "difficulty": 1
@@ -4501,11 +3871,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The principle that explains the buoyant force on a submerged object.",
-            "answer": "What is Archimedes' principle?",
-            "difficulty": 3
-        },
-        {
             "question": "The theory suggesting the universe began from an extremely hot and dense state.",
             "answer": "What is the Big Bang theory?",
             "difficulty": 2
@@ -4524,11 +3889,6 @@ export const library = {
             "question": "The speed at which light travels in a vacuum.",
             "answer": "What is approximately 299,792,458 meters per second?",
             "difficulty": 2
-        },
-        {
-            "question": "This principle explains why ships float.",
-            "answer": "What is Archimedes' principle?",
-            "difficulty": 3
         },
         {
             "question": "The name of the force that opposes motion between two surfaces in contact.",
@@ -4551,11 +3911,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The type of energy stored in an object due to its height.",
-            "answer": "What is potential energy?",
-            "difficulty": 2
-        },
-        {
             "question": "This type of reaction releases energy, often in the form of heat.",
             "answer": "What is an exothermic reaction?",
             "difficulty": 3
@@ -4566,24 +3921,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The device used to measure atmospheric pressure.",
-            "answer": "What is a barometer?",
-            "difficulty": 2
-        },
-        {
-            "question": "The number denoting complete absence of matter.",
-            "answer": "What is zero (referring to vacuum)?",
-            "difficulty": 3
-        },
-        {
             "question": "The type of lens that converges light rays to a point.",
             "answer": "What is a convex lens?",
             "difficulty": 3
-        },
-        {
-            "question": "The scientist who developed the theory of relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 2
         },
         {
             "question": "The type of nuclear reaction that powers the sun.",
@@ -4624,16 +3964,6 @@ export const library = {
             "question": "The scale used to measure the intensity of sound.",
             "answer": "What is the decibel scale?",
             "difficulty": 2
-        },
-        {
-            "question": "The type of circuit where components are connected along a single path.",
-            "answer": "What is a series circuit?",
-            "difficulty": 3
-        },
-        {
-            "question": "The principle stating that energy cannot be created or destroyed.",
-            "answer": "What is the conservation of energy?",
-            "difficulty": 1
         },
         {
             "question": "The temperature at which a gas turns into a liquid.",
@@ -4686,11 +4016,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The principle that describes the buoyant force on an object submerged in a fluid.",
-            "answer": "What is Archimedes' principle?",
-            "difficulty": 2
-        },
-        {
             "question": "The term for resistance to change in motion.",
             "answer": "What is inertia?",
             "difficulty": 1
@@ -4718,11 +4043,6 @@ export const library = {
         {
             "question": "The type of electromagnetic radiation with the longest wavelength.",
             "answer": "What are radio waves?",
-            "difficulty": 3
-        },
-        {
-            "question": "The device used to measure electric potential difference.",
-            "answer": "What is a voltmeter?",
             "difficulty": 3
         },
         {
@@ -4758,7 +4078,7 @@ export const library = {
         {
             "question": "The scientist who is known for his uncertainty principle.",
             "answer": "Who is Werner Heisenberg?",
-            "difficulty": 5
+            "difficulty": 2
         },
         {
             "question": "The phenomenon where a liquid flows in narrow spaces without external forces.",
@@ -4808,16 +4128,6 @@ export const library = {
         {
             "question": "What is the measure of an object's resistance to any change in its state of motion?",
             "answer": "What is mass?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which physical law states that for every action, there is an equal and opposite reaction?",
-            "answer": "What is Newton's third law of motion?",
-            "difficulty": 2
-        },
-        {
-            "question": "What is the term for energy possessed by an object due to its motion?",
-            "answer": "What is kinetic energy?",
             "difficulty": 2
         },
         {
@@ -5001,11 +4311,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This law states that for every action, there is an equal and opposite reaction.",
-            "answer": "What is Newton's Third Law of Motion?",
-            "difficulty": 2
-        },
-        {
             "question": "The temperature scale where water freezes at 0 degrees.",
             "answer": "What is the Celsius scale?",
             "difficulty": 3
@@ -5063,11 +4368,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A spirit made primarily from juniper berries.",
-            "answer": "What is gin?",
-            "difficulty": 1
-        },
-        {
             "question": "An Italian wine region famous for its sparkling wine.",
             "answer": "What is Prosecco?",
             "difficulty": 2
@@ -5080,11 +4380,6 @@ export const library = {
         {
             "question": "A traditional Japanese rice wine.",
             "answer": "What is sake?",
-            "difficulty": 2
-        },
-        {
-            "question": "This classic cocktail is made with bourbon, bitters, sugar, and water.",
-            "answer": "What is an Old Fashioned?",
             "difficulty": 2
         },
         {
@@ -5108,11 +4403,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A popular cocktail made with gin, vermouth, and an olive.",
-            "answer": "What is a martini?",
-            "difficulty": 2
-        },
-        {
             "question": "This beverage is considered the national drink of Scotland.",
             "answer": "What is Scotch whisky?",
             "difficulty": 2
@@ -5130,11 +4420,6 @@ export const library = {
         {
             "question": "This type of beer is known for its high hop content and bitterness.",
             "answer": "What is an IPA (India Pale Ale)?",
-            "difficulty": 3
-        },
-        {
-            "question": "A distilled spirit made from blue agave, primarily in Jalisco, Mexico.",
-            "answer": "What is tequila?",
             "difficulty": 3
         },
         {
@@ -5178,11 +4463,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A Scandinavian spirit that is traditionally flavored with caraway seeds.",
-            "answer": "What is aquavit?",
-            "difficulty": 4
-        },
-        {
             "question": "A French spirit distilled from apple cider.",
             "answer": "What is Calvados?",
             "difficulty": 4
@@ -5195,11 +4475,6 @@ export const library = {
         {
             "question": "The primary ingredient in the Japanese distilled spirit sh\u014dch\u016b.",
             "answer": "What is barley or sweet potatoes?",
-            "difficulty": 4
-        },
-        {
-            "question": "This South American spirit is made from the pomace of grapes.",
-            "answer": "What is pisco?",
             "difficulty": 4
         },
         {
@@ -5233,28 +4508,13 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This drink's name means 'little water' in Italian, and it is a type of brandy.",
-            "answer": "What is grappa?",
-            "difficulty": 5
-        },
-        {
             "question": "A distilled alcoholic beverage made from juniper berries and known for its London Dry variety.",
             "answer": "What is gin?",
             "difficulty": 5
         },
         {
-            "question": "The cocktail made with gin, Campari, and sweet vermouth.",
-            "answer": "What is a Negroni?",
-            "difficulty": 5
-        },
-        {
             "question": "A Hungarian fruit brandy made from plums.",
             "answer": "What is Slivovitz?",
-            "difficulty": 5
-        },
-        {
-            "question": "A type of absinthe that originated in Switzerland, known for its green color.",
-            "answer": "What is La Bleue?",
             "difficulty": 5
         },
         {
@@ -5265,11 +4525,6 @@ export const library = {
         {
             "question": "This popular Mexican cocktail is made with tequila and lime juice, typically served in a glass with a salted rim.",
             "answer": "What is a margarita?",
-            "difficulty": 1
-        },
-        {
-            "question": "A classic cocktail made with gin, vermouth, and an olive or lemon twist.",
-            "answer": "What is a martini?",
             "difficulty": 1
         },
         {
@@ -5290,11 +4545,6 @@ export const library = {
         {
             "question": "A traditional German beverage made by fermenting malted barley, hops, and water.",
             "answer": "What is beer?",
-            "difficulty": 1
-        },
-        {
-            "question": "This distilled spirit, often associated with Russia, is made from fermented grains or potatoes.",
-            "answer": "What is vodka?",
             "difficulty": 1
         },
         {
@@ -5333,11 +4583,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A Japanese alcoholic beverage made from fermented rice.",
-            "answer": "What is sake?",
-            "difficulty": 2
-        },
-        {
             "question": "This tropical cocktail is made with white rum, lime juice, and sugar, served in a highball glass with mint leaves.",
             "answer": "What is a mojito?",
             "difficulty": 2
@@ -5345,11 +4590,6 @@ export const library = {
         {
             "question": "This is a potent alcoholic drink traditionally served in a boot-shaped glass in Germany during Oktoberfest.",
             "answer": "What is a Ma\u00df?",
-            "difficulty": 2
-        },
-        {
-            "question": "This traditional Mexican spirit is made from the fermented juice of the blue agave plant.",
-            "answer": "What is tequila?",
             "difficulty": 2
         },
         {
@@ -5374,7 +4614,7 @@ export const library = {
         },
         {
             "question": "This classic Cuban cocktail is made with white rum, lime juice, and mint leaves.",
-            "answer": "What is a Daiquiri?",
+            "answer": "What is a mojito?",
             "difficulty": 3
         },
         {
@@ -5400,11 +4640,6 @@ export const library = {
         {
             "question": "This cocktail is made with vodka, ginger beer, and lime juice, and traditionally served in a copper mug.",
             "answer": "What is a Moscow Mule?",
-            "difficulty": 3
-        },
-        {
-            "question": "This is a distilled spirit made using the blue agave plant in a specific region of Mexico.",
-            "answer": "What is tequila?",
             "difficulty": 3
         },
         {
@@ -5528,33 +4763,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This traditional Japanese drink is made from fermented rice.",
-            "answer": "What is sake?",
-            "difficulty": 1
-        },
-        {
-            "question": "This cocktail involves white rum, sugar, lime juice, soda water, and mint.",
-            "answer": "What is a mojito?",
-            "difficulty": 1
-        },
-        {
-            "question": "This alcoholic beverage is traditionally made by fermenting honey with water.",
-            "answer": "What is mead?",
-            "difficulty": 2
-        },
-        {
-            "question": "This classic cocktail is made with gin, vermouth, and a twist of lemon or an olive.",
-            "answer": "What is a martini?",
-            "difficulty": 2
-        },
-        {
             "question": "This drink is made by distilling a mash of malted barley and is a staple of Scotland.",
             "answer": "What is Scotch whisky?",
-            "difficulty": 2
-        },
-        {
-            "question": "This type of beer is typically known for its dark color and roasted malt flavor.",
-            "answer": "What is stout?",
             "difficulty": 2
         },
         {
@@ -5565,11 +4775,6 @@ export const library = {
         {
             "question": "This spirit is made by distilling wine and is often associated with France's Cognac region.",
             "answer": "What is brandy?",
-            "difficulty": 2
-        },
-        {
-            "question": "This cocktail is made with tequila, lime juice, and orange liqueur, usually served with a salted rim.",
-            "answer": "What is a margarita?",
             "difficulty": 2
         },
         {
@@ -5605,11 +4810,6 @@ export const library = {
         {
             "question": "This type of sherry, known for its pale color and dry taste, is primarily produced in Spain.",
             "answer": "What is Fino?",
-            "difficulty": 3
-        },
-        {
-            "question": "This popular citrus-flavored cocktail originated in Cuba and shares its name with a type of music.",
-            "answer": "What is a Daiquiri?",
             "difficulty": 3
         },
         {
@@ -5688,11 +4888,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This herbal liqueur is made from 27 different herbs and is a key ingredient in the cocktail called a Last Word.",
-            "answer": "What is Chartreuse?",
-            "difficulty": 4
-        },
-        {
             "question": "This Spanish fortified wine is often served chilled and comes in varieties like fino and oloroso.",
             "answer": "What is sherry?",
             "difficulty": 2
@@ -5768,11 +4963,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A popular Mexican spirit made from the blue agave plant.",
-            "answer": "What is tequila?",
-            "difficulty": 1
-        },
-        {
             "question": "This dark, rich spirit is often associated with pirates and the Caribbean.",
             "answer": "What is rum?",
             "difficulty": 1
@@ -5803,11 +4993,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This cocktail consists of whiskey, sweet vermouth, and bitters.",
-            "answer": "What is a Manhattan?",
-            "difficulty": 2
-        },
-        {
             "question": "The process of making spirits stronger by heating and cooling.",
             "answer": "What is distillation?",
             "difficulty": 2
@@ -5815,11 +5000,6 @@ export const library = {
         {
             "question": "This red wine is named after a region in France and is often full-bodied.",
             "answer": "What is Bordeaux?",
-            "difficulty": 3
-        },
-        {
-            "question": "A famous French cocktail made with absinthe and sugar.",
-            "answer": "What is a Sazerac?",
             "difficulty": 3
         },
         {
@@ -5893,16 +5073,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A traditional German spirit made from juniper berries.",
-            "answer": "What is gin?",
-            "difficulty": 4
-        },
-        {
-            "question": "This cocktail is made with vodka, coffee liqueur, and cream.",
-            "answer": "What is a White Russian?",
-            "difficulty": 4
-        },
-        {
             "question": "This classic cocktail is made with rye whiskey, sweet vermouth, and bitters.",
             "answer": "What is a Manhattan?",
             "difficulty": 4
@@ -5953,11 +5123,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This strong distilled spirit from Eastern Europe is often made from potatoes or grains.",
-            "answer": "What is vodka?",
-            "difficulty": 5
-        },
-        {
             "question": "This cocktail is typically made with rum, lime juice, sugar, mint, and soda water.",
             "answer": "What is a mojito?",
             "difficulty": 5
@@ -5981,16 +5146,6 @@ export const library = {
             "question": "This type of whiskey is known for being smooth and is made in Ireland.",
             "answer": "What is Irish whiskey?",
             "difficulty": 5
-        },
-        {
-            "question": "This Spanish wine is often fortified and comes in styles from dry to very sweet.",
-            "answer": "What is sherry?",
-            "difficulty": 5
-        },
-        {
-            "question": "This beverage is traditionally made from fermented grapes.",
-            "answer": "What is wine?",
-            "difficulty": 1
         },
         {
             "question": "This classic cocktail is made with gin, vermouth, and often garnished with an olive or a lemon twist.",
@@ -6035,19 +5190,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A Scottish dish consisting of a sheep's stomach stuffed with minced offal.",
-            "answer": "What is haggis?",
-            "difficulty": 2
-        },
-        {
             "question": "An Italian dish made of thinly sliced raw meat or fish.",
             "answer": "What is carpaccio?",
             "difficulty": 2
-        },
-        {
-            "question": "A Mexican dish consisting of a folded or rolled tortilla filled with various mixtures.",
-            "answer": "What is a burrito?",
-            "difficulty": 1
         },
         {
             "question": "This popular appetizer consists of seasoned mashed avocado.",
@@ -6057,11 +5202,6 @@ export const library = {
         {
             "question": "A type of German sausage often served with sauerkraut.",
             "answer": "What is bratwurst?",
-            "difficulty": 1
-        },
-        {
-            "question": "A crispy, golden-fried potato dish, often served as a side.",
-            "answer": "What are French fries?",
             "difficulty": 1
         },
         {
@@ -6077,11 +5217,6 @@ export const library = {
         {
             "question": "A Japanese dish consisting of cooked vinegared rice accompanied by various ingredients.",
             "answer": "What is sushi?",
-            "difficulty": 1
-        },
-        {
-            "question": "A savory pie filled with minced meat and a mashed potato topping.",
-            "answer": "What is shepherd's pie?",
             "difficulty": 1
         },
         {
@@ -6108,11 +5243,6 @@ export const library = {
             "question": "A classic Italian-American dish made with breaded meat, tomato sauce, and cheese.",
             "answer": "What is chicken parmesan?",
             "difficulty": 2
-        },
-        {
-            "question": "This type of salad is named after a Roman leader.",
-            "answer": "What is Caesar salad?",
-            "difficulty": 1
         },
         {
             "question": "A dish originating from Britain, consisting of minced beef or lamb topped with mashed potatoes.",
@@ -6147,11 +5277,6 @@ export const library = {
         {
             "question": "A Greek dish made with layers of eggplant and ground meat.",
             "answer": "What is moussaka?",
-            "difficulty": 3
-        },
-        {
-            "question": "A type of dumpling from Poland, often filled with potatoes or cheese.",
-            "answer": "What are pierogi?",
             "difficulty": 3
         },
         {
@@ -6245,19 +5370,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A classic Italian soup made with beans, pasta, and vegetables.",
-            "answer": "What is minestrone?",
-            "difficulty": 2
-        },
-        {
             "question": "A traditional South African method of cooking meat over an open fire.",
             "answer": "What is braai?",
             "difficulty": 5
-        },
-        {
-            "question": "A dish made from shredded beef or pork, often used in Mexican cuisine.",
-            "answer": "What is carnitas?",
-            "difficulty": 3
         },
         {
             "question": "This Spanish dish is a cold soup made from blended vegetables.",
@@ -6267,11 +5382,6 @@ export const library = {
         {
             "question": "A type of French bread characterized by its long, narrow shape.",
             "answer": "What is a baguette?",
-            "difficulty": 1
-        },
-        {
-            "question": "A Canadian dish made with fries, cheese curds, and gravy.",
-            "answer": "What is poutine?",
             "difficulty": 1
         },
         {
@@ -6380,11 +5490,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A type of stew made with beef and Guinness beer.",
-            "answer": "What is Irish stew?",
-            "difficulty": 3
-        },
-        {
             "question": "A dish made with raw fish cured in lime juice, popular in Latin America.",
             "answer": "What is ceviche?",
             "difficulty": 3
@@ -6410,13 +5515,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A popular Indian bread cooked in a tandoor.",
-            "answer": "What is naan?",
-            "difficulty": 3
-        },
-        {
             "question": "A Scottish savory pudding dish made from oatmeal and meat.",
-            "answer": "What is black pudding?",
+            "answer": "What is haggis?",
             "difficulty": 3
         },
         {
@@ -6477,11 +5577,6 @@ export const library = {
         {
             "question": "A classic French dish of slow-cooked duck confit, typically served with garlic and herbs.",
             "answer": "What is cassoulet?",
-            "difficulty": 5
-        },
-        {
-            "question": "A Russian dish made from finely chopped raw meat, traditionally seasoned with onions and spices.",
-            "answer": "What is steak tartare?",
             "difficulty": 5
         },
         {
@@ -6570,11 +5665,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A British dish made with mashed potatoes and leftover vegetables, fried together.",
-            "answer": "What is bubble and squeak?",
-            "difficulty": 3
-        },
-        {
             "question": "A popular bar snack in the UK, made from boiled eggs wrapped in sausage meat and breadcrumbs.",
             "answer": "What is a Scotch egg?",
             "difficulty": 3
@@ -6653,11 +5743,6 @@ export const library = {
             "question": "A crispy, thinly sliced potato snack, often found in bags.",
             "answer": "What are potato chips?",
             "difficulty": 1
-        },
-        {
-            "question": "A Spanish dish consisting of rice, saffron, and various meats and seafood.",
-            "answer": "What is paella?",
-            "difficulty": 4
         },
         {
             "question": "A dish made from mashed chickpeas, tahini, lemon juice, and garlic, often served with pita.",
@@ -6750,11 +5835,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A sandwich named after the Italian explorer, consisting of corned beef, Swiss cheese, sauerkraut, and Russian dressing on rye bread.",
-            "answer": "What is a Reuben sandwich?",
-            "difficulty": 2
-        },
-        {
             "question": "This popular bar snack is made from chicken wings that are deep-fried and coated in a spicy sauce.",
             "answer": "What are Buffalo wings?",
             "difficulty": 1
@@ -6841,7 +5921,7 @@ export const library = {
         },
         {
             "question": "This savory pie is filled with minced beef and topped with mashed potatoes, commonly eaten in British pubs.",
-            "answer": "What is shepherd's pie?",
+            "answer": "What is cottage pie?",
             "difficulty": 2
         },
         {
@@ -7005,16 +6085,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A type of British pie that typically contains steak and a specific kind of fungus.",
-            "answer": "What is steak and kidney pie?",
-            "difficulty": 3
-        },
-        {
-            "question": "A hearty soup originating from Scotland, often containing leeks and potatoes.",
-            "answer": "What is cullen skink?",
-            "difficulty": 4
-        },
-        {
             "question": "This Scottish delicacy consists of a sheep's stomach stuffed with a mixture of minced heart, liver, and lungs.",
             "answer": "What is haggis?",
             "difficulty": 3
@@ -7027,18 +6097,13 @@ export const library = {
     ],
     "Beer Science": [
         {
-            "question": "The primary grain used in the production of most beer.",
-            "answer": "What is barley?",
-            "difficulty": 1
-        },
-        {
             "question": "This microorganism is responsible for fermenting sugars into alcohol in beer production.",
             "answer": "What is yeast?",
             "difficulty": 1
         },
         {
             "question": "The process of soaking grains in water to prepare them for brewing.",
-            "answer": "What is mashing?",
+            "answer": "What is steeping?",
             "difficulty": 1
         },
         {
@@ -7057,11 +6122,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The device used to measure the specific gravity of beer.",
-            "answer": "What is a hydrometer?",
-            "difficulty": 2
-        },
-        {
             "question": "This German beer purity law was enacted in 1516.",
             "answer": "What is the Reinheitsgebot?",
             "difficulty": 2
@@ -7069,11 +6129,6 @@ export const library = {
         {
             "question": "The step in brewing where wort is boiled and hops are added.",
             "answer": "What is the boiling stage?",
-            "difficulty": 2
-        },
-        {
-            "question": "The protein-rich foam that forms on top of beer when poured.",
-            "answer": "What is the head?",
             "difficulty": 2
         },
         {
@@ -7109,11 +6164,6 @@ export const library = {
         {
             "question": "The protein and polyphenol compounds that cause haze in beer.",
             "answer": "What are chill haze?",
-            "difficulty": 4
-        },
-        {
-            "question": "This enzyme breaks down starches into sugars during mashing.",
-            "answer": "What is amylase?",
             "difficulty": 4
         },
         {
@@ -7168,7 +6218,7 @@ export const library = {
         },
         {
             "question": "The main carbohydrate found in barley that is converted into fermentable sugars.",
-            "answer": "What is maltose?",
+            "answer": "What is starch?",
             "difficulty": 5
         },
         {
@@ -7212,11 +6262,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This ingredient is used to stabilize foam in beer.",
-            "answer": "What is isinglass?",
-            "difficulty": 5
-        },
-        {
             "question": "The term for beer with low alcohol content, typically below 2.5% ABV.",
             "answer": "What is small beer?",
             "difficulty": 4
@@ -7234,11 +6279,6 @@ export const library = {
         {
             "question": "The process of adding sugar and yeast to beer before bottling to produce carbonation.",
             "answer": "What is priming?",
-            "difficulty": 3
-        },
-        {
-            "question": "This term describes the creamy texture of beer head.",
-            "answer": "What is lacing?",
             "difficulty": 3
         },
         {
@@ -7352,19 +6392,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The term used to describe a beer's aroma and flavor profile.",
-            "answer": "What is bouquet?",
-            "difficulty": 2
-        },
-        {
             "question": "The name for a secondary fermentation process to carbonate beer naturally.",
             "answer": "What is bottle conditioning?",
             "difficulty": 3
-        },
-        {
-            "question": "The process of cooling the wort rapidly after boiling.",
-            "answer": "What is chilling?",
-            "difficulty": 2
         },
         {
             "question": "The name for the byproduct of yeast that contributes to beer's carbonation.",
@@ -7433,7 +6463,7 @@ export const library = {
         },
         {
             "question": "The specific pH range that is ideal for brewing beer.",
-            "answer": "What is 4.0 to 5.0?",
+            "answer": "What is 5.2 to 5.6?",
             "difficulty": 4
         },
         {
@@ -7502,23 +6532,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The process by which yeast converts sugars into alcohol and carbon dioxide.",
-            "answer": "What is fermentation?",
-            "difficulty": 1
-        },
-        {
-            "question": "The primary grain used in beer production.",
-            "answer": "What is barley?",
-            "difficulty": 1
-        },
-        {
             "question": "The part of the hops plant used in brewing to add bitterness.",
             "answer": "What are hop cones?",
-            "difficulty": 1
-        },
-        {
-            "question": "The device used to measure the specific gravity of wort.",
-            "answer": "What is a hydrometer?",
             "difficulty": 1
         },
         {
@@ -7597,28 +6612,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The compound responsible for the skunky aroma in beer when exposed to light.",
-            "answer": "What is 3-methyl-2-butene-1-thiol?",
-            "difficulty": 3
-        },
-        {
             "question": "The scale used to measure the acidity of beer.",
             "answer": "What is the pH scale?",
             "difficulty": 3
         },
         {
-            "question": "The term for the foam stability in beer.",
-            "answer": "What is head retention?",
-            "difficulty": 4
-        },
-        {
             "question": "The substance in beer that acts as a natural preservative.",
             "answer": "What are hops?",
-            "difficulty": 4
-        },
-        {
-            "question": "The specific enzyme in malt that breaks down starches into fermentable sugars.",
-            "answer": "What is amylase?",
             "difficulty": 4
         },
         {
@@ -7737,11 +6737,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This microorganism is essential for fermenting sugars into alcohol.",
-            "answer": "What is yeast?",
-            "difficulty": 1
-        },
-        {
             "question": "This ingredient is used to add bitterness to beer.",
             "answer": "What are hops?",
             "difficulty": 1
@@ -7779,11 +6774,6 @@ export const library = {
         {
             "question": "A byproduct of fermentation responsible for the distinctive taste of wheat beers.",
             "answer": "What is isoamyl acetate?",
-            "difficulty": 3
-        },
-        {
-            "question": "This biochemical process converts sugars into alcohol and carbon dioxide.",
-            "answer": "What is fermentation?",
             "difficulty": 3
         },
         {
@@ -7888,7 +6878,7 @@ export const library = {
         },
         {
             "question": "The optimal temperature range for fermenting lager yeast.",
-            "answer": "What is 45-55\u00b0F (7-13\u00b0C)?",
+            "answer": "What is 35-50\u00b0F (2-10\u00b0C)?",
             "difficulty": 4
         },
         {
@@ -7905,11 +6895,6 @@ export const library = {
             "question": "This term refers to the practice of adding sugar to the wort to increase alcohol content.",
             "answer": "What is chaptalization?",
             "difficulty": 5
-        },
-        {
-            "question": "This is the main carbohydrate found in malted barley.",
-            "answer": "What is maltose?",
-            "difficulty": 3
         },
         {
             "question": "This compound causes the 'skunky' aroma in light-struck beer.",
@@ -7938,18 +6923,13 @@ export const library = {
         },
         {
             "question": "This term refers to the microbial process of converting sugars to alcohol in the absence of oxygen.",
-            "answer": "What is anaerobic respiration?",
+            "answer": "What is fermentation?",
             "difficulty": 4
         },
         {
             "question": "This compound, often found in dark beers, contributes to coffee and chocolate flavors.",
             "answer": "What are melanoidins?",
             "difficulty": 4
-        },
-        {
-            "question": "This enzyme breaks down starches into fermentable sugars.",
-            "answer": "What is amylase?",
-            "difficulty": 3
         },
         {
             "question": "The typical pH range for wort during the mashing process.",
@@ -7962,16 +6942,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This microorganism is responsible for fermentation in beer production.",
-            "answer": "What is yeast?",
-            "difficulty": 1
-        },
-        {
-            "question": "This is the process by which yeast converts sugars into alcohol and carbon dioxide.",
-            "answer": "What is fermentation?",
-            "difficulty": 1
-        },
-        {
             "question": "This scale measures the bitterness of beer.",
             "answer": "What is IBU (International Bitterness Units)?",
             "difficulty": 2
@@ -7979,11 +6949,6 @@ export const library = {
         {
             "question": "The specific type of alcohol found in beer.",
             "answer": "What is ethanol?",
-            "difficulty": 2
-        },
-        {
-            "question": "This acid in hops contributes to beer's bitterness.",
-            "answer": "What are alpha acids?",
             "difficulty": 2
         },
         {
@@ -8039,18 +7004,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This popular Mexican spirit is made from the blue agave plant.",
-            "answer": "What is tequila?",
-            "difficulty": 1
-        },
-        {
             "question": "This beer is known for its dark color and is often linked to Ireland.",
             "answer": "What is stout?",
-            "difficulty": 1
-        },
-        {
-            "question": "This popular type of cocktail includes rum, mint, lime, soda, and sugar.",
-            "answer": "What is a mojito?",
             "difficulty": 1
         },
         {
@@ -8086,11 +7041,6 @@ export const library = {
         {
             "question": "This famous cocktail consists of gin, vermouth, and is often garnished with an olive or a lemon twist.",
             "answer": "What is a Martini?",
-            "difficulty": 3
-        },
-        {
-            "question": "This classic cocktail is made with bourbon, sugar, water, bitters, and is garnished with an orange slice and a cherry.",
-            "answer": "What is an Old Fashioned?",
             "difficulty": 3
         },
         {
@@ -8134,18 +7084,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This is the name of a spirit made from sugarcane juice or molasses, often associated with the Caribbean.",
-            "answer": "What is rum?",
-            "difficulty": 5
-        },
-        {
             "question": "This traditional Korean alcoholic beverage is made from rice and is known for its milky appearance.",
             "answer": "What is makgeolli?",
-            "difficulty": 5
-        },
-        {
-            "question": "This term refers to a high-proof spirit made by distilling wine, often used in cooking and cocktails.",
-            "answer": "What is brandy?",
             "difficulty": 5
         },
         {
@@ -8199,11 +7139,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This type of cocktail is made by muddling sugar with bitters, adding whiskey, and garnishing with a twist.",
-            "answer": "What is a Sazerac?",
-            "difficulty": 5
-        },
-        {
             "question": "This type of rum, referred to as agricole, is made from sugarcane juice rather than molasses.",
             "answer": "What is Rhum Agricole?",
             "difficulty": 5
@@ -8234,24 +7169,14 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This classic cocktail is made with gin, tonic water, and a wedge of lime.",
-            "answer": "What is a Gin and Tonic?",
-            "difficulty": 3
-        },
-        {
-            "question": "This is the traditional Japanese alcoholic beverage made from fermented rice and often served warm.",
-            "answer": "What is sake?",
-            "difficulty": 4
-        },
-        {
             "question": "This is the name of a distilled beverage made from sugarcane juice or molasses, typically associated with the Caribbean.",
             "answer": "What is rum?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "This is the term for a high-proof spirit distilled from wine or fermented fruit juice, often used in cooking and cocktails.",
             "answer": "What is brandy?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "This is the primary ingredient in beer.",
@@ -8261,11 +7186,6 @@ export const library = {
         {
             "question": "This spirit is known for being clear and odorless, often used in cocktails.",
             "answer": "What is vodka?",
-            "difficulty": 1
-        },
-        {
-            "question": "This is the popular Mexican spirit made from blue agave.",
-            "answer": "What is tequila?",
             "difficulty": 1
         },
         {
@@ -8324,23 +7244,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This famous cocktail contains rum, mint, lime, sugar, and soda water.",
-            "answer": "What is a Mojito?",
-            "difficulty": 3
-        },
-        {
-            "question": "This is the French region renowned for its sparkling wine.",
-            "answer": "What is Champagne?",
-            "difficulty": 4
-        },
-        {
             "question": "This is the Irish spirit known for its triple distillation process.",
             "answer": "What is Irish whiskey?",
-            "difficulty": 4
-        },
-        {
-            "question": "This is the name of the traditional Japanese alcoholic beverage made from fermented rice.",
-            "answer": "What is sake?",
             "difficulty": 4
         },
         {
@@ -8356,11 +7261,6 @@ export const library = {
         {
             "question": "This is the name of the dry Italian sparkling wine often compared to champagne.",
             "answer": "What is Prosecco?",
-            "difficulty": 4
-        },
-        {
-            "question": "This is the name of the cocktail made with gin, vermouth, and Campari.",
-            "answer": "What is a Negroni?",
             "difficulty": 4
         },
         {
@@ -8409,11 +7309,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This is the American cocktail made with rye whiskey, sweet vermouth, and bitters.",
-            "answer": "What is a Manhattan?",
-            "difficulty": 5
-        },
-        {
             "question": "This is the name of the German beer style that is characterized by a low alcohol content and a sour taste.",
             "answer": "What is Berliner Weisse?",
             "difficulty": 5
@@ -8432,11 +7327,6 @@ export const library = {
             "question": "This is the term for the Spanish fortified wine aged in a solera system.",
             "answer": "What is Sherry?",
             "difficulty": 5
-        },
-        {
-            "question": "This is the term for a cocktail made with vodka, tomato juice, and various spices.",
-            "answer": "What is a Bloody Mary?",
-            "difficulty": 1
         },
         {
             "question": "This is the Italian sparkling wine often served as an aperitif or dessert wine.",
@@ -8564,11 +7454,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This cocktail is made with bourbon, bitters, sugar, and water.",
-            "answer": "What is an Old Fashioned?",
-            "difficulty": 2
-        },
-        {
             "question": "This Italian liqueur is known for its distinct almond flavor.",
             "answer": "What is Amaretto?",
             "difficulty": 2
@@ -8576,11 +7461,6 @@ export const library = {
         {
             "question": "This popular spirit is made from sugarcane byproducts like molasses.",
             "answer": "What is rum?",
-            "difficulty": 2
-        },
-        {
-            "question": "This is the most densely populated country where wine is produced.",
-            "answer": "What is Italy?",
             "difficulty": 2
         },
         {
@@ -8629,24 +7509,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This cocktail is made with gin, sweet vermouth, and Campari.",
-            "answer": "What is a Negroni?",
-            "difficulty": 3
-        },
-        {
             "question": "This is the term for the annual grape harvest in the wine industry.",
             "answer": "What is vintage?",
             "difficulty": 3
-        },
-        {
-            "question": "This cocktail, often garnished with an olive, is made with gin and vermouth.",
-            "answer": "What is a Martini?",
-            "difficulty": 4
-        },
-        {
-            "question": "This is the oldest known alcoholic beverage, discovered in China.",
-            "answer": "What is mead?",
-            "difficulty": 4
         },
         {
             "question": "This type of whiskey is known for its peaty flavor and originates from a Scottish island.",
@@ -8679,11 +7544,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This ancient civilization is credited with the first known production of beer.",
-            "answer": "What are the Sumerians?",
-            "difficulty": 5
-        },
-        {
             "question": "This type of tequila is aged in oak barrels for at least one year.",
             "answer": "What is A\u00f1ejo?",
             "difficulty": 5
@@ -8700,7 +7560,7 @@ export const library = {
         },
         {
             "question": "This is the name of a spirit made from the fermented juice of the blue agave plant.",
-            "answer": "What is Mezcal?",
+            "answer": "What is tequila?",
             "difficulty": 5
         },
         {
@@ -8714,28 +7574,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This cocktail is made with rye whiskey, sweet vermouth, and bitters.",
-            "answer": "What is a Manhattan?",
-            "difficulty": 5
-        },
-        {
-            "question": "This spirit is made primarily from juniper berries.",
-            "answer": "What is gin?",
-            "difficulty": 1
-        },
-        {
             "question": "This country is known for its production of tequila.",
             "answer": "What is Mexico?",
-            "difficulty": 1
-        },
-        {
-            "question": "This alcoholic beverage is made from fermented grapes.",
-            "answer": "What is wine?",
-            "difficulty": 1
-        },
-        {
-            "question": "This popular cocktail features rum, mint, and lime.",
-            "answer": "What is a mojito?",
             "difficulty": 1
         },
         {
@@ -8764,18 +7604,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This cocktail contains gin, vermouth, and is often garnished with an olive or a lemon twist.",
-            "answer": "What is a martini?",
-            "difficulty": 1
-        },
-        {
             "question": "This spirit is distilled from malted barley and originated in Ireland.",
             "answer": "What is Irish whiskey?",
-            "difficulty": 2
-        },
-        {
-            "question": "This traditional Japanese alcoholic beverage is made from fermented rice.",
-            "answer": "What is sake?",
             "difficulty": 2
         },
         {
@@ -8799,11 +7629,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This popular spirit is made from sugarcane or molasses.",
-            "answer": "What is rum?",
-            "difficulty": 2
-        },
-        {
             "question": "This country is famous for producing the sparkling wine Prosecco.",
             "answer": "What is Italy?",
             "difficulty": 2
@@ -8817,11 +7642,6 @@ export const library = {
             "question": "This type of wine, often considered dessert wine, is sweet and often served at the end of a meal.",
             "answer": "What is port?",
             "difficulty": 2
-        },
-        {
-            "question": "This cocktail features whiskey, sweet vermouth, and bitters.",
-            "answer": "What is a Manhattan?",
-            "difficulty": 3
         },
         {
             "question": "This type of beer is known for its bitterness and is often dry-hopped for extra aroma.",
@@ -8869,11 +7689,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This cocktail is made by mixing gin, lemon juice, sugar, and soda water.",
-            "answer": "What is a Tom Collins?",
-            "difficulty": 4
-        },
-        {
             "question": "This term refers to the period a wine is allowed to age in barrels or bottles before consumption.",
             "answer": "What is aging?",
             "difficulty": 4
@@ -8881,11 +7696,6 @@ export const library = {
         {
             "question": "This clear, anise-flavored spirit is often associated with France and has a reputation for its hallucinogenic effects.",
             "answer": "What is absinthe?",
-            "difficulty": 4
-        },
-        {
-            "question": "This Italian cocktail is made with Campari, sweet vermouth, and gin.",
-            "answer": "What is a Negroni?",
             "difficulty": 4
         },
         {
@@ -8920,12 +7730,7 @@ export const library = {
         },
         {
             "question": "This technique involves using a candle to detect sediment in an aged wine bottle.",
-            "answer": "What is decanting?",
-            "difficulty": 5
-        },
-        {
-            "question": "This grape variety is known for being used in the production of Grappa.",
-            "answer": "What is pomace?",
+            "answer": "What is candling?",
             "difficulty": 5
         },
         {
@@ -8944,11 +7749,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This process involves heating a liquid to create vapor and then cooling to collect the liquid, crucial in spirit production.",
-            "answer": "What is distillation?",
-            "difficulty": 5
-        },
-        {
             "question": "This French term describes the unique characteristic of a wine derived from its environment.",
             "answer": "What is terroir?",
             "difficulty": 5
@@ -8956,16 +7756,6 @@ export const library = {
         {
             "question": "This distilled beverage is primarily made from fermented grain mash.",
             "answer": "What is whiskey?",
-            "difficulty": 1
-        },
-        {
-            "question": "This popular Mexican spirit is made from the blue agave plant.",
-            "answer": "What is tequila?",
-            "difficulty": 1
-        },
-        {
-            "question": "This Italian sparkling wine is often compared to champagne.",
-            "answer": "What is Prosecco?",
             "difficulty": 1
         },
         {
@@ -8979,11 +7769,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This term describes a cocktail of vodka, tomato juice, and various spices.",
-            "answer": "What is a Bloody Mary?",
-            "difficulty": 2
-        },
-        {
             "question": "The type of alcohol used in most cocktails, derived from sugarcane.",
             "answer": "What is rum?",
             "difficulty": 2
@@ -8994,28 +7779,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This classic cocktail consists of bourbon, bitters, sugar, and water.",
-            "answer": "What is an Old Fashioned?",
-            "difficulty": 3
-        },
-        {
             "question": "This fruit is traditionally used to flavor gin.",
             "answer": "What is juniper berry?",
             "difficulty": 3
         },
         {
-            "question": "This Japanese alcoholic beverage is made from fermented rice.",
-            "answer": "What is sake?",
-            "difficulty": 3
-        },
-        {
             "question": "This type of sherry, known for its dry and nutty flavor, comes from Spain.",
             "answer": "What is Amontillado?",
-            "difficulty": 4
-        },
-        {
-            "question": "This process involves heating a liquid to create vapor and then cooling to collect the liquid again.",
-            "answer": "What is distillation?",
             "difficulty": 4
         },
         {
@@ -9030,16 +7800,6 @@ export const library = {
         }
     ],
     "Famous Bars": [
-        {
-            "question": "What famous bar in New York City was a frequent haunt of writers like Ernest Hemingway and F. Scott Fitzgerald?",
-            "answer": "What is the Algonquin Hotel's Round Table?",
-            "difficulty": 4
-        },
-        {
-            "question": "Which bar in Los Angeles is renowned for its celebrity clientele and art deco design, and was a favorite of Frank Sinatra?",
-            "answer": "What is the Rainbow Bar & Grill?",
-            "difficulty": 3
-        },
         {
             "question": "This location in Havana, Cuba, is famous for its daiquiris and association with a Nobel Prize-winning author.",
             "answer": "What is El Floridita?",
@@ -9111,11 +7871,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This famous bar in Reykjavik, Iceland, is named after a notorious pirate and is known for its unique cocktails.",
-            "answer": "What is The Dubliner?",
-            "difficulty": 5
-        },
-        {
             "question": "Which bar in Los Angeles is known for its rooftop views and pool parties?",
             "answer": "What is The Standard?",
             "difficulty": 1
@@ -9154,11 +7909,6 @@ export const library = {
             "question": "Which bar in Havana, Cuba, was a favorite of Ernest Hemingway and is known for its mojitos?",
             "answer": "What is La Bodeguita del Medio?",
             "difficulty": 2
-        },
-        {
-            "question": "This iconic bar in Nashville is known for its live country music performances.",
-            "answer": "What is Tootsie's Orchid Lounge?",
-            "difficulty": 1
         },
         {
             "question": "What bar in Las Vegas is known for its rotating bar and views of the cityscape?",
@@ -9246,11 +7996,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "What bar in Sydney is known for its views of the famous bridge and opera house?",
-            "answer": "What is the Opera Bar?",
-            "difficulty": 1
-        },
-        {
             "question": "This bar in Prague is known for its medieval theme and old-world charm.",
             "answer": "What is U Medv\u00eddk\u016f?",
             "difficulty": 5
@@ -9266,29 +8011,14 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This establishment in New Orleans claims to be the oldest continuously operating bar in America.",
-            "answer": "What is Lafitte's Blacksmith Shop Bar?",
-            "difficulty": 2
-        },
-        {
             "question": "Which bar in New York City is known for its speakeasy style and hidden entrance?",
             "answer": "What is Angel's Share?",
             "difficulty": 4
         },
         {
-            "question": "This New York City watering hole is known for its literary clientele, including Ernest Hemingway and F. Scott Fitzgerald.",
-            "answer": "What is the White Horse Tavern?",
-            "difficulty": 3
-        },
-        {
             "question": "A famous bar in New Orleans that's credited with creating the Hurricane cocktail.",
             "answer": "What is Pat O'Brien's?",
             "difficulty": 2
-        },
-        {
-            "question": "This Paris establishment is where Ernest Hemingway wrote 'A Moveable Feast'.",
-            "answer": "What is La Closerie des Lilas?",
-            "difficulty": 5
         },
         {
             "question": "This Boston bar inspired the setting for a popular sitcom about a place where 'everybody knows your name'.",
@@ -9304,11 +8034,6 @@ export const library = {
             "question": "This London pub is famous for being frequented by Charles Dickens.",
             "answer": "What is The George Inn?",
             "difficulty": 4
-        },
-        {
-            "question": "A renowned Irish pub in Dublin, known for its literary figures and tourists.",
-            "answer": "What is The Temple Bar?",
-            "difficulty": 2
         },
         {
             "question": "This bar in New York City is known for its prohibition-era decor and cocktails.",
@@ -9346,11 +8071,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A bar in Sydney famous for its panoramic views of the harbor and the Sydney Opera House.",
-            "answer": "What is Opera Bar?",
-            "difficulty": 2
-        },
-        {
             "question": "This legendary bar in New York is famous for the Stingers cocktail and its role in the film 'The Godfather'.",
             "answer": "What is The Stork Club?",
             "difficulty": 4
@@ -9381,29 +8101,14 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This New Orleans bar claims to be the oldest continuously operating bar in America.",
-            "answer": "What is Lafitte's Blacksmith Shop Bar?",
-            "difficulty": 3
-        },
-        {
             "question": "A famous bar in Dublin located in the historic district known for its live Irish music.",
             "answer": "What is The Brazen Head?",
             "difficulty": 2
         },
         {
-            "question": "This bar in Barcelona is known for its Gaud\u00ed-inspired architecture and artistic cocktails.",
-            "answer": "What is Bar Marsella?",
-            "difficulty": 4
-        },
-        {
             "question": "An iconic beach bar in Mykonos known for its celebrity patrons and sunset views.",
             "answer": "What is Nammos?",
             "difficulty": 5
-        },
-        {
-            "question": "This New York City bar is famous for its association with the punk rock movement.",
-            "answer": "What is CBGB?",
-            "difficulty": 1
         },
         {
             "question": "A historic bar in Edinburgh known for its literary connections and traditional Scottish ales.",
@@ -9439,16 +8144,6 @@ export const library = {
             "question": "A popular bar in London known for its eclectic cocktails and hidden location.",
             "answer": "What is The Mayor of Scaredy Cat Town?",
             "difficulty": 5
-        },
-        {
-            "question": "This famous bar in Nashville is known for its honky-tonk music and neon signs.",
-            "answer": "What is Tootsie's Orchid Lounge?",
-            "difficulty": 2
-        },
-        {
-            "question": "An iconic bar in Havana known for its mojitos and Hemingway's endorsement.",
-            "answer": "What is La Bodeguita del Medio?",
-            "difficulty": 3
         },
         {
             "question": "This renowned bar in New York City's East Village is famous for its craft cocktails and mixology.",
@@ -9513,11 +8208,6 @@ export const library = {
         {
             "question": "This iconic bar in Toronto is known for its rock and roll history and live performances.",
             "answer": "What is The Horseshoe Tavern?",
-            "difficulty": 3
-        },
-        {
-            "question": "This bar in New York is known as the birthplace of the Bloody Mary.",
-            "answer": "What is the King Cole Bar?",
             "difficulty": 3
         },
         {
@@ -9619,11 +8309,6 @@ export const library = {
             "question": "This bar in Prague is one of the oldest continuously operating bars in the world.",
             "answer": "What is U Fleku?",
             "difficulty": 3
-        },
-        {
-            "question": "A famous bar in Nashville known for its live country music and history.",
-            "answer": "What is Tootsie's Orchid Lounge?",
-            "difficulty": 2
         },
         {
             "question": "A New York City bar famous for its literary clientele, including Jack Kerouac and Allen Ginsberg.",
@@ -9746,11 +8431,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A famous bar in Havana known for its daiquiris and association with Hemingway.",
-            "answer": "What is El Floridita?",
-            "difficulty": 3
-        },
-        {
             "question": "This bar in St. Petersburg is known for its vodka selection and Russian snacks.",
             "answer": "What is Russkaya Ryumochnaya No. 1?",
             "difficulty": 4
@@ -9767,12 +8447,7 @@ export const library = {
         },
         {
             "question": "This bar in New York City is known for being the inspiration for the TV show 'Cheers'.",
-            "answer": "What is McSorley's Old Ale House?",
-            "difficulty": 1
-        },
-        {
-            "question": "Located in Havana, this bar is famous for its association with Ernest Hemingway.",
-            "answer": "What is El Floridita?",
+            "answer": "What is the Bull & Finch Pub (Boston)?",
             "difficulty": 1
         },
         {
@@ -9786,18 +8461,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This New Orleans bar claims to be the oldest continuously operating bar in the United States.",
-            "answer": "What is Lafitte's Blacksmith Shop Bar?",
-            "difficulty": 1
-        },
-        {
             "question": "Located in Bangkok, this bar is famous for its appearance in 'The Hangover Part II'.",
             "answer": "What is Sky Bar?",
-            "difficulty": 2
-        },
-        {
-            "question": "This bar in Havana is known for its mojitos and was frequented by Hemingway.",
-            "answer": "What is La Bodeguita del Medio?",
             "difficulty": 2
         },
         {
@@ -9866,18 +8531,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This Las Vegas bar is known for its ice bar where everything is made of ice.",
-            "answer": "What is Minus5 Ice Bar?",
-            "difficulty": 5
-        },
-        {
             "question": "This bar in Prague is famous for its extensive beer selection and medieval ambiance.",
             "answer": "What is U Flek\u016f?",
-            "difficulty": 5
-        },
-        {
-            "question": "This Havana bar is famous for its daiquiris and was a favorite of Hemingway.",
-            "answer": "What is El Floridita?",
             "difficulty": 5
         },
         {
@@ -10016,11 +8671,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A Havana bar that was frequented by a famous American writer and is known for its mojitos.",
-            "answer": "What is La Bodeguita del Medio?",
-            "difficulty": 4
-        },
-        {
             "question": "Located in Tokyo, this bar is renowned for its dedication to the craft of ice carving for drinks.",
             "answer": "What is Bar High Five?",
             "difficulty": 5
@@ -10058,11 +8708,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This purchase in 1803 doubled the size of the United States.",
-            "answer": "What is the Louisiana Purchase?",
-            "difficulty": 1
-        },
-        {
             "question": "This American city was the first capital of the United States.",
             "answer": "What is New York City?",
             "difficulty": 1
@@ -10085,11 +8730,6 @@ export const library = {
         {
             "question": "This event in 1929 marked the beginning of the Great Depression.",
             "answer": "What is the Stock Market Crash?",
-            "difficulty": 2
-        },
-        {
-            "question": "This battle is considered the turning point of the American Revolutionary War.",
-            "answer": "What is the Battle of Saratoga?",
             "difficulty": 2
         },
         {
@@ -10150,11 +8790,6 @@ export const library = {
         {
             "question": "This U.S. President was known for his New Deal policies during the Great Depression.",
             "answer": "Who is Franklin D. Roosevelt?",
-            "difficulty": 3
-        },
-        {
-            "question": "This landmark 1803 case established the principle of judicial review in the United States.",
-            "answer": "What is Marbury v. Madison?",
             "difficulty": 3
         },
         {
@@ -10278,11 +8913,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The document that declared American independence in 1776.",
-            "answer": "What is the Declaration of Independence?",
-            "difficulty": 1
-        },
-        {
             "question": "The first President of the United States.",
             "answer": "Who is George Washington?",
             "difficulty": 1
@@ -10333,11 +8963,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The first ten amendments to the US Constitution.",
-            "answer": "What is the Bill of Rights?",
-            "difficulty": 2
-        },
-        {
             "question": "The scandal in the early 1970s leading to the resignation of a US President.",
             "answer": "What is Watergate?",
             "difficulty": 2
@@ -10368,16 +8993,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The US Supreme Court case that established judicial review in 1803.",
-            "answer": "What is Marbury v. Madison?",
-            "difficulty": 2
-        },
-        {
-            "question": "The President known for the New Deal programs during the Great Depression.",
-            "answer": "Who is Franklin D. Roosevelt?",
-            "difficulty": 2
-        },
-        {
             "question": "The 13th-century legal charter that influenced the US Constitution.",
             "answer": "What is the Magna Carta?",
             "difficulty": 3
@@ -10390,11 +9005,6 @@ export const library = {
         {
             "question": "The speech delivered by Abraham Lincoln at the dedication of a battlefield in 1863.",
             "answer": "What is the Gettysburg Address?",
-            "difficulty": 3
-        },
-        {
-            "question": "The Supreme Court decision in 1954 that declared segregation in public schools unconstitutional.",
-            "answer": "What is Brown v. Board of Education?",
             "difficulty": 3
         },
         {
@@ -10433,11 +9043,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The amendment that abolished slavery in the United States.",
-            "answer": "What is the 13th Amendment?",
-            "difficulty": 4
-        },
-        {
             "question": "The 1969 event marking a major achievement in space exploration by the US.",
             "answer": "What is the Apollo 11 moon landing?",
             "difficulty": 4
@@ -10463,18 +9068,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The author of the Federalist Papers who later became Chief Justice of the Supreme Court.",
-            "answer": "Who is John Jay?",
-            "difficulty": 4
-        },
-        {
             "question": "The 1898 conflict between the US and Spain resulting in US control over territories in the Caribbean and Pacific.",
             "answer": "What is the Spanish-American War?",
-            "difficulty": 4
-        },
-        {
-            "question": "The 1786-1787 armed uprising in Massachusetts challenging economic injustices.",
-            "answer": "What is Shays' Rebellion?",
             "difficulty": 4
         },
         {
@@ -10495,11 +9090,6 @@ export const library = {
         {
             "question": "The 1830 policy signed by Andrew Jackson leading to the removal of Native American tribes.",
             "answer": "What is the Indian Removal Act?",
-            "difficulty": 5
-        },
-        {
-            "question": "The early 19th-century US policy warning European powers against colonization in the Americas.",
-            "answer": "What is the Monroe Doctrine?",
             "difficulty": 5
         },
         {
@@ -10533,23 +9123,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The first President of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
             "question": "This event in 1620 involved the establishment of a settlement in what is now Massachusetts.",
             "answer": "What is the landing of the Pilgrims at Plymouth?",
-            "difficulty": 1
-        },
-        {
-            "question": "The war between the North and South regions of the US from 1861 to 1865.",
-            "answer": "What is the Civil War?",
-            "difficulty": 1
-        },
-        {
-            "question": "This famous speech was delivered by Abraham Lincoln in 1863.",
-            "answer": "What is the Gettysburg Address?",
             "difficulty": 1
         },
         {
@@ -10588,28 +9163,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This amendment to the US Constitution abolished slavery.",
-            "answer": "What is the 13th Amendment?",
-            "difficulty": 2
-        },
-        {
             "question": "This 1804-1806 expedition explored the western territories of the US.",
             "answer": "What is the Lewis and Clark Expedition?",
             "difficulty": 2
         },
         {
-            "question": "This landmark Supreme Court case in 1954 declared school segregation unconstitutional.",
-            "answer": "What is Brown v. Board of Education?",
-            "difficulty": 2
-        },
-        {
             "question": "This US President was in office during the American Civil War.",
             "answer": "Who is Abraham Lincoln?",
-            "difficulty": 2
-        },
-        {
-            "question": "The first ten amendments to the US Constitution are collectively known as this.",
-            "answer": "What is the Bill of Rights?",
             "difficulty": 2
         },
         {
@@ -10658,21 +9218,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This event in 1773 was a protest against British taxation on tea.",
-            "answer": "What is the Boston Tea Party?",
-            "difficulty": 3
-        },
-        {
-            "question": "The 1863 US legislation that allowed for the recruitment of African American soldiers.",
-            "answer": "What is the Emancipation Proclamation?",
-            "difficulty": 3
-        },
-        {
-            "question": "The 1607 settlement that was the first permanent English colony in America.",
-            "answer": "What is Jamestown?",
-            "difficulty": 3
-        },
-        {
             "question": "This 1857 decision stated that African Americans could not be citizens.",
             "answer": "What is the Dred Scott decision?",
             "difficulty": 3
@@ -10698,11 +9243,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The 1962 crisis that brought the US and the Soviet Union close to nuclear war.",
-            "answer": "What is the Cuban Missile Crisis?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1850 legislation aimed to resolve tensions between slave and free states.",
             "answer": "What is the Compromise of 1850?",
             "difficulty": 4
@@ -10710,11 +9250,6 @@ export const library = {
         {
             "question": "The 19th-century movement that sought to end the consumption of alcohol in the US.",
             "answer": "What is the Temperance Movement?",
-            "difficulty": 4
-        },
-        {
-            "question": "The legislative act that admitted Missouri as a slave state and Maine as a free state.",
-            "answer": "What is the Missouri Compromise?",
             "difficulty": 4
         },
         {
@@ -10738,18 +9273,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The US Supreme Court case that established judicial review.",
-            "answer": "What is Marbury v. Madison?",
-            "difficulty": 5
-        },
-        {
             "question": "The 1814 battle that inspired the writing of the US national anthem.",
             "answer": "What is the Battle of Fort McHenry?",
-            "difficulty": 5
-        },
-        {
-            "question": "The 1965 act that aimed to overcome barriers preventing African Americans from voting.",
-            "answer": "What is the Voting Rights Act?",
             "difficulty": 5
         },
         {
@@ -10778,11 +9303,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The first President of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
             "question": "The year the Declaration of Independence was signed.",
             "answer": "What is 1776?",
             "difficulty": 1
@@ -10803,11 +9323,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The purchase from France that doubled the size of the US in 1803.",
-            "answer": "What is the Louisiana Purchase?",
-            "difficulty": 2
-        },
-        {
             "question": "The state where the first shots of the Civil War were fired.",
             "answer": "What is South Carolina?",
             "difficulty": 2
@@ -10825,16 +9340,6 @@ export const library = {
         {
             "question": "This US state was once an independent republic before joining the union.",
             "answer": "What is Texas?",
-            "difficulty": 2
-        },
-        {
-            "question": "The first ten amendments to the US Constitution are collectively known as what?",
-            "answer": "What is the Bill of Rights?",
-            "difficulty": 2
-        },
-        {
-            "question": "This President issued the Emancipation Proclamation.",
-            "answer": "Who is Abraham Lincoln?",
             "difficulty": 2
         },
         {
@@ -10888,23 +9393,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The economic crisis that began in 1929.",
-            "answer": "What is the Great Depression?",
-            "difficulty": 3
-        },
-        {
-            "question": "The President known for the New Deal programs.",
-            "answer": "Who is Franklin D. Roosevelt?",
-            "difficulty": 3
-        },
-        {
             "question": "The first Secretary of the Treasury who was killed in a duel.",
             "answer": "Who is Alexander Hamilton?",
-            "difficulty": 4
-        },
-        {
-            "question": "The landmark Supreme Court case that established judicial review.",
-            "answer": "What is Marbury v. Madison?",
             "difficulty": 4
         },
         {
@@ -10918,23 +9408,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The 1962 crisis that brought the US and USSR close to nuclear war.",
-            "answer": "What is the Cuban Missile Crisis?",
-            "difficulty": 4
-        },
-        {
-            "question": "The US Supreme Court decision that declared school segregation unconstitutional.",
-            "answer": "What is Brown v. Board of Education?",
-            "difficulty": 4
-        },
-        {
             "question": "The only US President to serve more than two terms.",
             "answer": "Who is Franklin D. Roosevelt?",
-            "difficulty": 4
-        },
-        {
-            "question": "This abolitionist led a raid on Harpers Ferry in 1859.",
-            "answer": "Who is John Brown?",
             "difficulty": 4
         },
         {
@@ -10968,11 +9443,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The battle considered the last major conflict of the Revolutionary War.",
-            "answer": "What is the Battle of Yorktown?",
-            "difficulty": 5
-        },
-        {
             "question": "The political scandal involving the DNC headquarters break-in.",
             "answer": "What is Watergate?",
             "difficulty": 5
@@ -10983,22 +9453,12 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The location of the first permanent English settlement in America.",
-            "answer": "What is Jamestown?",
-            "difficulty": 5
-        },
-        {
-            "question": "The 1857 Supreme Court decision that denied citizenship to African Americans.",
-            "answer": "What is Dred Scott v. Sandford?",
-            "difficulty": 5
-        },
-        {
             "question": "The US doctrine that warned European nations against colonizing the Americas.",
             "answer": "What is the Monroe Doctrine?",
             "difficulty": 5
         },
         {
-            "question": "The US President who issued the Monroe Doctrine.",
+            "question": "This fifth U.S. President issued an 1823 doctrine warning European powers against further colonization of the Americas.",
             "answer": "Who is James Monroe?",
             "difficulty": 5
         },
@@ -11006,21 +9466,6 @@ export const library = {
             "question": "The treaty that ended the Mexican-American War.",
             "answer": "What is the Treaty of Guadalupe Hidalgo?",
             "difficulty": 5
-        },
-        {
-            "question": "The first President of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
-            "question": "The document signed in 1776 declaring the American colonies' independence.",
-            "answer": "What is the Declaration of Independence?",
-            "difficulty": 2
-        },
-        {
-            "question": "The purchase made in 1803 that doubled the size of the United States.",
-            "answer": "What is the Louisiana Purchase?",
-            "difficulty": 3
         },
         {
             "question": "The year the stock market crash occurred, leading to the Great Depression.",
@@ -11035,18 +9480,8 @@ export const library = {
     ],
     "Wars": [
         {
-            "question": "This major world conflict took place from 1939 to 1945.",
-            "answer": "What is World War II?",
-            "difficulty": 1
-        },
-        {
             "question": "This war saw the thirteen American colonies win independence from Britain.",
             "answer": "What is the American Revolutionary War?",
-            "difficulty": 1
-        },
-        {
-            "question": "This conflict is known for its trench warfare and began in 1914.",
-            "answer": "What is World War I?",
             "difficulty": 1
         },
         {
@@ -11058,11 +9493,6 @@ export const library = {
             "question": "This conflict, lasting from 1955 to 1975, involved the United States in Southeast Asia.",
             "answer": "What is the Vietnam War?",
             "difficulty": 1
-        },
-        {
-            "question": "This 16th-century war was fought between Protestant and Catholic states in the Holy Roman Empire.",
-            "answer": "What is the Thirty Years' War?",
-            "difficulty": 2
         },
         {
             "question": "This 19th-century conflict was fought over trade imbalances between China and Great Britain.",
@@ -11221,7 +9651,7 @@ export const library = {
         },
         {
             "question": "This war, also known as the War of the Quadruple Alliance, was fought in the early 18th century.",
-            "answer": "What is the War of the Spanish Succession?",
+            "answer": "What is the War of the Quadruple Alliance?",
             "difficulty": 4
         },
         {
@@ -11240,7 +9670,7 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This conflict, occurring from 1701 to 1704, is named after a European monarch's successor.",
+            "question": "This conflict, occurring from 1701 to 1714, is named after a European monarch's successor.",
             "answer": "What is the War of the Spanish Succession?",
             "difficulty": 4
         },
@@ -11270,16 +9700,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The global conflict from 1939 to 1945.",
-            "answer": "What is World War II?",
-            "difficulty": 1
-        },
-        {
-            "question": "The war between the North and South regions of the United States.",
-            "answer": "What is the American Civil War?",
-            "difficulty": 1
-        },
-        {
             "question": "The conflict fought primarily in Vietnam in the 1960s and 70s.",
             "answer": "What is the Vietnam War?",
             "difficulty": 1
@@ -11300,12 +9720,7 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The war fought between the United States and Mexico from 1846 to 1848.",
-            "answer": "What is the Mexican-American War?",
-            "difficulty": 2
-        },
-        {
-            "question": "The conflict that occurred in the 16th century between Protestant and Catholic states in Central Europe.",
+            "question": "The conflict that occurred in the 17th century between Protestant and Catholic states in Central Europe.",
             "answer": "What is the Thirty Years' War?",
             "difficulty": 2
         },
@@ -11330,11 +9745,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The conflict that led to the independence of the United States.",
-            "answer": "What is the American Revolutionary War?",
-            "difficulty": 2
-        },
-        {
             "question": "The 20th-century war where trench warfare became a defining feature.",
             "answer": "What is World War I?",
             "difficulty": 2
@@ -11345,18 +9755,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The ancient conflict between Athens and Sparta.",
-            "answer": "What is the Peloponnesian War?",
-            "difficulty": 3
-        },
-        {
             "question": "The series of religious wars between Christians and Muslims in the medieval period.",
             "answer": "What are the Crusades?",
-            "difficulty": 3
-        },
-        {
-            "question": "The war fought between the English and French from 1337 to 1453.",
-            "answer": "What is the Hundred Years' War?",
             "difficulty": 3
         },
         {
@@ -11385,11 +9785,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The 19th-century conflict fought over the forced trade of a narcotic in China.",
-            "answer": "What are the Opium Wars?",
-            "difficulty": 3
-        },
-        {
             "question": "The 16th-century conflict where the Spanish Armada was famously defeated.",
             "answer": "What is the Anglo-Spanish War?",
             "difficulty": 3
@@ -11415,18 +9810,13 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The conflict that was sparked by the assassination of a Duke in 1914.",
+            "question": "The conflict that was sparked by the assassination of an Archduke in 1914.",
             "answer": "What is World War I?",
             "difficulty": 4
         },
         {
             "question": "The 17th-century conflict that led to the establishment of the English Commonwealth.",
             "answer": "What is the English Civil War?",
-            "difficulty": 4
-        },
-        {
-            "question": "The 19th-century conflict that resulted in the unification of Germany under Prussian leadership.",
-            "answer": "What is the Franco-Prussian War?",
             "difficulty": 4
         },
         {
@@ -11490,19 +9880,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The war that saw the first use of tanks at the Battle of the Somme.",
-            "answer": "What is World War I?",
-            "difficulty": 5
-        },
-        {
             "question": "The conflict that resulted in the independence of the thirteen American colonies.",
             "answer": "What is the American Revolutionary War?",
             "difficulty": 5
-        },
-        {
-            "question": "The global conflict that lasted from 1939 to 1945.",
-            "answer": "What is World War II?",
-            "difficulty": 1
         },
         {
             "question": "This conflict was fought between the North and South regions of the United States from 1861 to 1865.",
@@ -11528,11 +9908,6 @@ export const library = {
             "question": "A conflict in the early 20th century that involved many European nations and is known as 'The Great War'.",
             "answer": "What is World War I?",
             "difficulty": 1
-        },
-        {
-            "question": "This war was fought between France and England from 1337 to 1453.",
-            "answer": "What is the Hundred Years' War?",
-            "difficulty": 3
         },
         {
             "question": "The series of military campaigns during the 11th, 12th, and 13th centuries where Western European Christians sought to reclaim control of the Holy Lands.",
@@ -11565,11 +9940,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This 16th-century conflict involved Spain and the Ottoman Empire over the control of the Mediterranean.",
-            "answer": "What is the Battle of Lepanto?",
-            "difficulty": 4
-        },
-        {
             "question": "The 20th-century conflict that pitted the Allies against the Axis powers.",
             "answer": "What is World War II?",
             "difficulty": 1
@@ -11596,7 +9966,7 @@ export const library = {
         },
         {
             "question": "The 16th-century war that involved England and Spain's naval forces.",
-            "answer": "What is the Spanish Armada?",
+            "answer": "What is the Anglo-Spanish War?",
             "difficulty": 3
         },
         {
@@ -11680,11 +10050,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The 17th-century war between the Parliamentarians and Royalists in England, Scotland, and Ireland.",
-            "answer": "What are the English Civil Wars?",
-            "difficulty": 4
-        },
-        {
             "question": "The 19th-century conflict that marked the United States' acquisition of California and New Mexico.",
             "answer": "What is the Mexican-American War?",
             "difficulty": 3
@@ -11743,11 +10108,6 @@ export const library = {
             "question": "The 17th-century war that was fought primarily on the Iberian Peninsula, leading to the independence of Portugal from Spain.",
             "answer": "What is the Portuguese Restoration War?",
             "difficulty": 5
-        },
-        {
-            "question": "This global conflict lasted from 1939 to 1945.",
-            "answer": "What is World War II?",
-            "difficulty": 1
         },
         {
             "question": "This fortress was famously stormed on July 14, 1789, marking the start of a major revolution.",
@@ -11870,11 +10230,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This modern conflict began in 2003 with the invasion of a Middle Eastern country.",
-            "answer": "What is the Iraq War?",
-            "difficulty": 3
-        },
-        {
             "question": "This 20th-century conflict is known for its use of nuclear weapons in its closing days.",
             "answer": "What is World War II?",
             "difficulty": 2
@@ -11895,16 +10250,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This conflict from 1642 to 1651 involved a series of armed conflicts and political machinations between Parliamentarians and Royalists.",
-            "answer": "What is the English Civil War?",
-            "difficulty": 4
-        },
-        {
-            "question": "This 19th-century conflict was fought between the British Empire and the Zulu Kingdom.",
-            "answer": "What is the Anglo-Zulu War?",
-            "difficulty": 3
-        },
-        {
             "question": "This 20th-century conflict involved a major naval battle known as the Battle of Jutland.",
             "answer": "What is World War I?",
             "difficulty": 2
@@ -11915,19 +10260,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This was the first major conflict of the Cold War, involving a divided Asian peninsula.",
-            "answer": "What is the Korean War?",
-            "difficulty": 3
-        },
-        {
             "question": "This battle in 480 BC was fought between an alliance of Greek city-states and the Persian Empire.",
             "answer": "What is the Battle of Thermopylae?",
             "difficulty": 4
-        },
-        {
-            "question": "This 20th-century conflict saw the first use of tanks in battle.",
-            "answer": "What is World War I?",
-            "difficulty": 3
         },
         {
             "question": "This 19th-century conflict, fought in Southern Africa, was caused by the British desire to annex Boer territories.",
@@ -11995,11 +10330,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This war was primarily between Athens and Sparta in ancient Greece.",
-            "answer": "What is the Peloponnesian War?",
-            "difficulty": 2
-        },
-        {
             "question": "A war that began with an invasion of a Middle Eastern country in 1990.",
             "answer": "What is the Gulf War?",
             "difficulty": 2
@@ -12025,11 +10355,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A war that took place from 1618 to 1648 and involved many European powers.",
-            "answer": "What is the Thirty Years' War?",
-            "difficulty": 5
-        },
-        {
             "question": "This conflict, occurring from 1853 to 1856, involved an alliance including France and the Ottoman Empire.",
             "answer": "What is the Crimean War?",
             "difficulty": 5
@@ -12037,18 +10362,8 @@ export const library = {
     ],
     "Technology": [
         {
-            "question": "The company that introduced the iPhone in 2007.",
-            "answer": "What is Apple?",
-            "difficulty": 1
-        },
-        {
             "question": "This social media platform limits messages to 280 characters.",
             "answer": "What is Twitter?",
-            "difficulty": 1
-        },
-        {
-            "question": "The operating system developed by Microsoft.",
-            "answer": "What is Windows?",
             "difficulty": 1
         },
         {
@@ -12093,7 +10408,7 @@ export const library = {
         },
         {
             "question": "This company is the largest producer of semiconductors globally.",
-            "answer": "What is Intel?",
+            "answer": "What is TSMC?",
             "difficulty": 2
         },
         {
@@ -12109,11 +10424,6 @@ export const library = {
         {
             "question": "This company's smartphones are known for the Galaxy series.",
             "answer": "What is Samsung?",
-            "difficulty": 2
-        },
-        {
-            "question": "This programming language is named after a comedy group.",
-            "answer": "What is Python?",
             "difficulty": 2
         },
         {
@@ -12142,11 +10452,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This company was formerly known as Blue Ribbon Sports.",
-            "answer": "What is Nike?",
-            "difficulty": 3
-        },
-        {
             "question": "The term for a machine learning model that simulates human decision-making.",
             "answer": "What is a neural network?",
             "difficulty": 3
@@ -12157,18 +10462,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The world's first cryptocurrency introduced in 2009.",
-            "answer": "What is Bitcoin?",
-            "difficulty": 3
-        },
-        {
             "question": "This British scientist is credited with inventing the World Wide Web.",
             "answer": "Who is Tim Berners-Lee?",
             "difficulty": 4
         },
         {
             "question": "This algorithm helps secure digital currencies by solving mathematical problems.",
-            "answer": "What is blockchain?",
+            "answer": "What is proof-of-work?",
             "difficulty": 4
         },
         {
@@ -12192,11 +10492,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The first computer virus, created in 1971.",
-            "answer": "What is the Creeper virus?",
-            "difficulty": 5
-        },
-        {
             "question": "This document-based database program is known for its flexibility.",
             "answer": "What is MongoDB?",
             "difficulty": 5
@@ -12204,7 +10499,7 @@ export const library = {
         {
             "question": "A programming paradigm based on the concept of 'objects'.",
             "answer": "What is object-oriented programming?",
-            "difficulty": 5
+            "difficulty": 2
         },
         {
             "question": "This scientist's architecture is the basis for most computer systems today.",
@@ -12219,7 +10514,7 @@ export const library = {
         {
             "question": "This term refers to the maximum rate of data transfer across a network.",
             "answer": "What is bandwidth?",
-            "difficulty": 5
+            "difficulty": 2
         },
         {
             "question": "The year the first email was sent.",
@@ -12244,12 +10539,12 @@ export const library = {
         {
             "question": "This term describes the process of protecting networks from unauthorized access.",
             "answer": "What is cybersecurity?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "The field of study focused on the design and use of robots.",
             "answer": "What is robotics?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "This type of database uses tables to store data and relationships.",
@@ -12347,11 +10642,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This is a type of malicious software designed to harm, exploit, or otherwise compromise a device.",
-            "answer": "What is malware?",
-            "difficulty": 2
-        },
-        {
             "question": "This is the process of improving a website's visibility in search engines.",
             "answer": "What is SEO?",
             "difficulty": 2
@@ -12387,11 +10677,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This company developed the Android operating system.",
-            "answer": "What is Google?",
-            "difficulty": 3
-        },
-        {
             "question": "This is the term for the physical components of a computer system.",
             "answer": "What is hardware?",
             "difficulty": 3
@@ -12407,18 +10692,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This company is known for its ThinkPad line of laptops.",
-            "answer": "What is Lenovo?",
-            "difficulty": 3
-        },
-        {
             "question": "This is the term for the data structure that stores data in a key-value pair format.",
             "answer": "What is a hash table?",
-            "difficulty": 4
-        },
-        {
-            "question": "This is the name of the first electronic general-purpose computer.",
-            "answer": "What is ENIAC?",
             "difficulty": 4
         },
         {
@@ -12477,11 +10752,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This is the term for a method of storing data in which each bit is assigned a unique address.",
-            "answer": "What is memory-mapped I/O?",
-            "difficulty": 5
-        },
-        {
             "question": "This is the name of the first programming language designed for artificial intelligence.",
             "answer": "What is Lisp?",
             "difficulty": 5
@@ -12493,17 +10763,12 @@ export const library = {
         },
         {
             "question": "This is the name of the first computer virus that spread in the wild.",
-            "answer": "What is the Brain virus?",
+            "answer": "What is the Elk Cloner?",
             "difficulty": 5
         },
         {
             "question": "This is the term for a quantum computing concept that allows a qubit to be in multiple states at once.",
             "answer": "What is superposition?",
-            "difficulty": 5
-        },
-        {
-            "question": "This is the name of the algorithm that underpins the RSA encryption technique.",
-            "answer": "What is the RSA algorithm?",
             "difficulty": 5
         },
         {
@@ -12517,16 +10782,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The social media platform known for its 280-character limit.",
-            "answer": "What is Twitter?",
-            "difficulty": 1
-        },
-        {
-            "question": "A search engine established by Larry Page and Sergey Brin.",
-            "answer": "What is Google?",
-            "difficulty": 1
-        },
-        {
             "question": "The app used for video conferencing that became popular in 2020.",
             "answer": "What is Zoom?",
             "difficulty": 1
@@ -12537,18 +10792,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The company known for its Windows operating system.",
-            "answer": "What is Microsoft?",
-            "difficulty": 1
-        },
-        {
             "question": "The smartphone brand with a fruit logo.",
             "answer": "What is Apple?",
-            "difficulty": 1
-        },
-        {
-            "question": "The American electric vehicle and clean energy company founded by Elon Musk.",
-            "answer": "What is Tesla?",
             "difficulty": 1
         },
         {
@@ -12583,7 +10828,7 @@ export const library = {
         },
         {
             "question": "The type of artificial intelligence that mimics human cognitive functions.",
-            "answer": "What is machine learning?",
+            "answer": "What is artificial intelligence?",
             "difficulty": 2
         },
         {
@@ -12637,11 +10882,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The open-source operating system based on Unix.",
-            "answer": "What is Linux?",
-            "difficulty": 3
-        },
-        {
             "question": "The company known for its cloud computing service called AWS.",
             "answer": "What is Amazon?",
             "difficulty": 3
@@ -12662,18 +10902,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The programming paradigm based on the concept of objects.",
-            "answer": "What is object-oriented programming?",
-            "difficulty": 4
-        },
-        {
             "question": "The first electronic general-purpose computer developed during World War II.",
             "answer": "What is ENIAC?",
-            "difficulty": 4
-        },
-        {
-            "question": "The protocol suite used for the Internet and similar networks.",
-            "answer": "What is TCP/IP?",
             "difficulty": 4
         },
         {
@@ -12717,11 +10947,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The computer scientist credited with inventing the World Wide Web.",
-            "answer": "Who is Tim Berners-Lee?",
-            "difficulty": 5
-        },
-        {
             "question": "The cryptographic method that uses two different keys, one public and one private.",
             "answer": "What is asymmetric encryption?",
             "difficulty": 5
@@ -12755,11 +10980,6 @@ export const library = {
             "question": "The term for a network that connects computers within a limited area such as a residence.",
             "answer": "What is a local area network (LAN)?",
             "difficulty": 5
-        },
-        {
-            "question": "The search engine founded by Larry Page and Sergey Brin.",
-            "answer": "What is Google?",
-            "difficulty": 1
         },
         {
             "question": "This company is known for its iPhone product line.",
@@ -12837,11 +11057,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "An open-source operating system based on UNIX, widely used in servers.",
-            "answer": "What is Linux?",
-            "difficulty": 2
-        },
-        {
             "question": "This technology uses radio waves to read and capture information stored on a tag attached to an object.",
             "answer": "What is RFID?",
             "difficulty": 2
@@ -12887,23 +11102,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A high-level programming language named after a French mathematician, commonly used in mathematics and science.",
-            "answer": "What is Pascal?",
-            "difficulty": 3
-        },
-        {
-            "question": "The technology standard for wireless local area networks.",
-            "answer": "What is Wi-Fi?",
-            "difficulty": 3
-        },
-        {
             "question": "A graphical language used for specifying, visualizing, and documenting models of software systems.",
             "answer": "What is UML?",
-            "difficulty": 3
-        },
-        {
-            "question": "This is the process of converting data into a code to prevent unauthorized access.",
-            "answer": "What is encryption?",
             "difficulty": 3
         },
         {
@@ -12934,11 +11134,6 @@ export const library = {
         {
             "question": "This is a quantum mechanical phenomenon used in quantum computing.",
             "answer": "What is entanglement?",
-            "difficulty": 4
-        },
-        {
-            "question": "The first electronic general-purpose computer built in the 1940s.",
-            "answer": "What is ENIAC?",
             "difficulty": 4
         },
         {
@@ -13017,11 +11212,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The first electronic general-purpose computer, developed in the 1940s.",
-            "answer": "What is ENIAC?",
-            "difficulty": 3
-        },
-        {
             "question": "The programming language developed by Guido van Rossum in the late 1980s, named after a British comedy group.",
             "answer": "What is Python?",
             "difficulty": 3
@@ -13069,21 +11259,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The philosopher who tutored Alexander the Great.",
-            "answer": "Who is Aristotle?",
-            "difficulty": 2
-        },
-        {
-            "question": "The ancient Greek goddess of wisdom and warfare.",
-            "answer": "Who is Athena?",
-            "difficulty": 2
-        },
-        {
-            "question": "The term for a heavily armed foot soldier in ancient Greece.",
-            "answer": "What is a hoplite?",
-            "difficulty": 2
-        },
-        {
             "question": "The island associated with the ancient Minoan civilization and the myth of the Minotaur.",
             "answer": "What is Crete?",
             "difficulty": 2
@@ -13094,18 +11269,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The ancient Greek who is considered the 'Father of History'.",
-            "answer": "Who is Herodotus?",
-            "difficulty": 3
-        },
-        {
             "question": "The structure on the Athenian Acropolis dedicated to the goddess of wisdom.",
             "answer": "What is the Parthenon?",
-            "difficulty": 3
-        },
-        {
-            "question": "The philosopher known for his method of questioning and dialogue.",
-            "answer": "Who is Socrates?",
             "difficulty": 3
         },
         {
@@ -13124,11 +11289,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The ancient Greek philosopher known for his theory of forms.",
-            "answer": "Who is Plato?",
-            "difficulty": 4
-        },
-        {
             "question": "The blind poet from Chios credited with composing epic tales.",
             "answer": "Who is Homer?",
             "difficulty": 4
@@ -13137,11 +11297,6 @@ export const library = {
             "question": "The name of the league led by Athens to defend against Persian aggression.",
             "answer": "What is the Delian League?",
             "difficulty": 4
-        },
-        {
-            "question": "The philosopher who founded the Academy in Athens.",
-            "answer": "Who is Plato?",
-            "difficulty": 5
         },
         {
             "question": "The naval battle where the Greek fleet defeated the Persians in 480 BC.",
@@ -13159,24 +11314,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The ancient Greek mathematician known for his theorem on right triangles.",
-            "answer": "Who is Pythagoras?",
-            "difficulty": 5
-        },
-        {
             "question": "The battle that marked the end of Persian invasions into mainland Greece.",
             "answer": "What is the Battle of Plataea?",
             "difficulty": 5
-        },
-        {
-            "question": "The city-state known for its strict military training and discipline.",
-            "answer": "What is Sparta?",
-            "difficulty": 1
-        },
-        {
-            "question": "The highest mountain in Greece, home to the gods in mythology.",
-            "answer": "What is Mount Olympus?",
-            "difficulty": 1
         },
         {
             "question": "The marketplace and civic center of ancient Athens.",
@@ -13204,11 +11344,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The ancient Greek god of the sea.",
-            "answer": "Who is Poseidon?",
-            "difficulty": 2
-        },
-        {
             "question": "The legendary king of Ithaca and hero of the Odyssey.",
             "answer": "Who is Odysseus?",
             "difficulty": 2
@@ -13221,11 +11356,6 @@ export const library = {
         {
             "question": "The era of Greek history following the conquest of Alexander the Great.",
             "answer": "What is the Hellenistic Period?",
-            "difficulty": 3
-        },
-        {
-            "question": "The Greek god associated with music, arts, and knowledge.",
-            "answer": "Who is Apollo?",
             "difficulty": 3
         },
         {
@@ -13244,16 +11374,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The playwright known for tragedies such as 'Oedipus Rex'.",
-            "answer": "Who is Sophocles?",
-            "difficulty": 4
-        },
-        {
-            "question": "The philosopher known for his allegory of the cave.",
-            "answer": "Who is Plato?",
-            "difficulty": 4
-        },
-        {
             "question": "The region in northern Greece that became a powerful kingdom under Philip II.",
             "answer": "What is Macedonia?",
             "difficulty": 4
@@ -13269,16 +11389,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The philosopher who asserted that 'man is the measure of all things'.",
-            "answer": "Who is Protagoras?",
-            "difficulty": 5
-        },
-        {
-            "question": "The mathematician and engineer known for his work in geometry and mechanics.",
-            "answer": "Who is Archimedes?",
-            "difficulty": 5
-        },
-        {
             "question": "The strategic pass where Spartans and allies held off the Persian army.",
             "answer": "What is Thermopylae?",
             "difficulty": 5
@@ -13287,11 +11397,6 @@ export const library = {
             "question": "The Athenian statesman who led during the golden age of Athens.",
             "answer": "Who is Pericles?",
             "difficulty": 5
-        },
-        {
-            "question": "This famous structure in Athens is dedicated to the goddess Athena.",
-            "answer": "What is the Parthenon?",
-            "difficulty": 1
         },
         {
             "question": "This leader of Macedonia conquered much of the known world in the 4th century BC.",
@@ -13324,16 +11429,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This is the term for a Greek city-state.",
-            "answer": "What is a polis?",
-            "difficulty": 2
-        },
-        {
-            "question": "This philosopher wrote 'The Republic', which outlines an ideal society.",
-            "answer": "Who is Plato?",
-            "difficulty": 2
-        },
-        {
             "question": "This ancient Greek historian is often called the 'Father of History'.",
             "answer": "Who is Herodotus?",
             "difficulty": 2
@@ -13341,11 +11436,6 @@ export const library = {
         {
             "question": "This Greek philosopher founded the Lyceum and tutored Alexander the Great.",
             "answer": "Who is Aristotle?",
-            "difficulty": 3
-        },
-        {
-            "question": "This was the primary gathering place and marketplace in ancient Greek city-states.",
-            "answer": "What is the agora?",
             "difficulty": 3
         },
         {
@@ -13366,11 +11456,6 @@ export const library = {
         {
             "question": "The Peloponnesian War was fought primarily between these two city-states.",
             "answer": "What are Athens and Sparta?",
-            "difficulty": 4
-        },
-        {
-            "question": "This Greek physician is often called the 'Father of Medicine'.",
-            "answer": "Who is Hippocrates?",
             "difficulty": 4
         },
         {
@@ -13427,11 +11512,6 @@ export const library = {
             "question": "This Greek god is known as the ruler of the sea.",
             "answer": "Who is Poseidon?",
             "difficulty": 1
-        },
-        {
-            "question": "This is the term for the high city or citadel of an ancient Greek city.",
-            "answer": "What is an acropolis?",
-            "difficulty": 2
         },
         {
             "question": "This philosopher's work 'Nicomachean Ethics' explores the concept of virtue ethics.",
@@ -13509,11 +11589,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This ancient Greek philosopher founded the Academy in Athens.",
-            "answer": "Who is Plato?",
-            "difficulty": 3
-        },
-        {
             "question": "This is the term for the trireme, a type of ancient Greek warship with three rows of oars.",
             "answer": "What is a trireme?",
             "difficulty": 3
@@ -13534,21 +11609,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The famous battle where 300 Spartans fought against a much larger army.",
-            "answer": "What is the Battle of Thermopylae?",
-            "difficulty": 1
-        },
-        {
-            "question": "This philosopher taught Alexander the Great.",
-            "answer": "Who is Aristotle?",
-            "difficulty": 1
-        },
-        {
-            "question": "The epic poems 'The Iliad' and 'The Odyssey' are attributed to this poet.",
-            "answer": "Who is Homer?",
-            "difficulty": 1
-        },
-        {
             "question": "This structure was dedicated to the goddess Athena and is one of the most famous landmarks in Greece.",
             "answer": "What is the Parthenon?",
             "difficulty": 1
@@ -13559,23 +11619,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This ancient Greek philosopher founded the Academy in Athens.",
-            "answer": "Who is Plato?",
-            "difficulty": 1
-        },
-        {
             "question": "The highest peak in Greece, home to the gods in Greek mythology.",
             "answer": "What is Mount Olympus?",
-            "difficulty": 1
-        },
-        {
-            "question": "This war was fought between Athens and Sparta in the 5th century BC.",
-            "answer": "What is the Peloponnesian War?",
-            "difficulty": 1
-        },
-        {
-            "question": "The Greek god of the sea.",
-            "answer": "Who is Poseidon?",
             "difficulty": 1
         },
         {
@@ -13594,19 +11639,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The Greek goddess of wisdom, warfare, and handicraft.",
-            "answer": "Who is Athena?",
-            "difficulty": 1
-        },
-        {
             "question": "This leader is credited with spreading Greek culture throughout the known world.",
             "answer": "Who is Alexander the Great?",
             "difficulty": 1
-        },
-        {
-            "question": "The historian known as the 'Father of History'.",
-            "answer": "Who is Herodotus?",
-            "difficulty": 2
         },
         {
             "question": "The playwright who authored 'Oedipus Rex'.",
@@ -13624,11 +11659,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This term refers to a heavily armed foot soldier of ancient Greece.",
-            "answer": "What is a hoplite?",
-            "difficulty": 2
-        },
-        {
             "question": "The mathematician who is often called the 'Father of Geometry'.",
             "answer": "Who is Euclid?",
             "difficulty": 2
@@ -13639,33 +11669,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The famous Greek physician known as the 'Father of Medicine'.",
-            "answer": "Who is Hippocrates?",
-            "difficulty": 2
-        },
-        {
-            "question": "The Greek term for a city-state.",
-            "answer": "What is a polis?",
-            "difficulty": 2
-        },
-        {
             "question": "The battle where the Greeks defeated the Persian navy in 480 BC.",
             "answer": "What is the Battle of Salamis?",
             "difficulty": 2
         },
         {
-            "question": "This philosopher wrote 'The Republic', detailing his vision of a just society.",
-            "answer": "Who is Plato?",
-            "difficulty": 3
-        },
-        {
             "question": "The Persian king who led the second invasion of Greece in 480 BC.",
             "answer": "Who is Xerxes I?",
-            "difficulty": 3
-        },
-        {
-            "question": "The Athenian statesman who led during the Golden Age of Athens.",
-            "answer": "Who is Pericles?",
             "difficulty": 3
         },
         {
@@ -13706,11 +11716,6 @@ export const library = {
         {
             "question": "The ruler of Macedon who defeated the Greek city-states at the Battle of Chaeronea.",
             "answer": "Who is Philip II?",
-            "difficulty": 4
-        },
-        {
-            "question": "The Greek mathematician known for his theorem involving right triangles.",
-            "answer": "Who is Pythagoras?",
             "difficulty": 4
         },
         {
@@ -13769,11 +11774,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The philosopher who founded the school of thought known as Cynicism.",
-            "answer": "Who is Diogenes?",
-            "difficulty": 5
-        },
-        {
             "question": "The city where the Parthenon is located.",
             "answer": "What is Athens?",
             "difficulty": 1
@@ -13809,18 +11809,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The author of the epic poems 'The Iliad' and 'The Odyssey'.",
-            "answer": "Who is Homer?",
-            "difficulty": 2
-        },
-        {
             "question": "The hill in Athens that served as the center of ancient Greek democracy.",
-            "answer": "What is the Acropolis?",
-            "difficulty": 2
-        },
-        {
-            "question": "The philosopher who founded the Academy in Athens.",
-            "answer": "Who is Plato?",
+            "answer": "What is the Pnyx?",
             "difficulty": 2
         },
         {
@@ -13831,16 +11821,6 @@ export const library = {
         {
             "question": "The prominent Greek mathematician known for his work in geometry.",
             "answer": "Who is Euclid?",
-            "difficulty": 3
-        },
-        {
-            "question": "The name of the Greek goddess of wisdom and warfare.",
-            "answer": "Who is Athena?",
-            "difficulty": 3
-        },
-        {
-            "question": "The philosopher who tutored Alexander the Great.",
-            "answer": "Who is Aristotle?",
             "difficulty": 3
         },
         {
@@ -13864,11 +11844,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The playwright known for works such as 'Oedipus Rex' and 'Antigone'.",
-            "answer": "Who is Sophocles?",
-            "difficulty": 4
-        },
-        {
             "question": "The location of the famous oracle consulted in ancient Greece.",
             "answer": "What is Delphi?",
             "difficulty": 4
@@ -13881,7 +11856,7 @@ export const library = {
         {
             "question": "The chief deity in Greek mythology, ruler of Mount Olympus.",
             "answer": "Who is Zeus?",
-            "difficulty": 5
+            "difficulty": 1
         },
         {
             "question": "The historian known for writing about the Peloponnesian War.",
@@ -13889,39 +11864,14 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The Athenian statesman who led the city during its Golden Age.",
-            "answer": "Who is Pericles?",
-            "difficulty": 5
-        },
-        {
             "question": "The term for the heavily armed foot soldiers of ancient Greece.",
             "answer": "What is hoplites?",
-            "difficulty": 5
+            "difficulty": 3
         },
         {
             "question": "The ancient Greek philosopher known for his paradoxes.",
             "answer": "Who is Zeno of Elea?",
             "difficulty": 5
-        },
-        {
-            "question": "The sculptor who created the statue of Zeus at Olympia, one of the Seven Wonders.",
-            "answer": "Who is Phidias?",
-            "difficulty": 5
-        },
-        {
-            "question": "The festival held every four years at Olympia in honor of Zeus.",
-            "answer": "What are the Olympic Games?",
-            "difficulty": 2
-        },
-        {
-            "question": "The philosopher who believed in the theory of forms or ideas.",
-            "answer": "Who is Plato?",
-            "difficulty": 2
-        },
-        {
-            "question": "The naval battle where the Greek fleet defeated the Persians in 480 BC.",
-            "answer": "What is the Battle of Salamis?",
-            "difficulty": 3
         },
         {
             "question": "The term for a city-state in ancient Greece.",
@@ -14004,16 +11954,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The ancient Greek historian known as the 'Father of History'.",
-            "answer": "Who is Herodotus?",
-            "difficulty": 3
-        },
-        {
-            "question": "The war-like people who lived on the island of Crete and influenced early Greek culture.",
-            "answer": "Who are the Minoans?",
-            "difficulty": 4
-        },
-        {
             "question": "This city-state was known for its powerful military and rivaled Athens in ancient Greece.",
             "answer": "What is Sparta?",
             "difficulty": 1
@@ -14027,11 +11967,6 @@ export const library = {
             "question": "This philosopher, a student of Socrates, founded the Academy in Athens.",
             "answer": "Who is Plato?",
             "difficulty": 3
-        },
-        {
-            "question": "This ancient Greek mathematician is known for his theorem related to right triangles.",
-            "answer": "Who is Pythagoras?",
-            "difficulty": 4
         },
         {
             "question": "This battle in 490 BCE saw a surprising victory for the Greeks against a much larger Persian force.",
@@ -14096,18 +12031,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This 1980 film features a disaster at a nuclear power plant and stars Jane Fonda.",
-            "answer": "What is The China Syndrome?",
-            "difficulty": 2
-        },
-        {
             "question": "This fashion trend of the 1980s was characterized by brightly colored, often oversized clothing.",
             "answer": "What is neon?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1989 film directed by Spike Lee explores racial tensions in Brooklyn.",
-            "answer": "What is Do the Right Thing?",
             "difficulty": 2
         },
         {
@@ -14118,11 +12043,6 @@ export const library = {
         {
             "question": "This popular 1980s arcade game involves a frog crossing a busy road.",
             "answer": "What is Frogger?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1985 charity single featured multiple artists and raised funds for African famine relief.",
-            "answer": "What is We Are the World?",
             "difficulty": 2
         },
         {
@@ -14139,11 +12059,6 @@ export const library = {
             "question": "This 1987 film is a romantic drama centered around dance and a summer resort.",
             "answer": "What is Dirty Dancing?",
             "difficulty": 2
-        },
-        {
-            "question": "This 1987-1990 TV series starred Richard Dean Anderson as a resourceful secret agent.",
-            "answer": "What is MacGyver?",
-            "difficulty": 3
         },
         {
             "question": "This 1986 song by Peter Gabriel features a groundbreaking stop-motion music video.",
@@ -14206,11 +12121,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This 1987 film, directed by Rob Reiner, is based on a Stephen King novella about four boys on a journey.",
-            "answer": "What is Stand by Me?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1989 video game introduced a Russian puzzle game to the world.",
             "answer": "What is Tetris?",
             "difficulty": 4
@@ -14236,12 +12146,12 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This 1980s film features a high school detention on a Saturday morning.",
+            "question": "This 1985 John Hughes film puts five teenage stereotypes in Saturday detention together.",
             "answer": "What is The Breakfast Club?",
             "difficulty": 4
         },
         {
-            "question": "This 1980s TV series follows a Miami-based vice squad.",
+            "question": "This 1980s TV series follows two stylish undercover detectives battling drug traffickers in a pastel-soaked Florida city.",
             "answer": "What is Miami Vice?",
             "difficulty": 5
         },
@@ -14286,28 +12196,13 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "She was the first female British Prime Minister, serving throughout the 1980s.",
-            "answer": "Who is Margaret Thatcher?",
-            "difficulty": 1
-        },
-        {
             "question": "This animated TV show featuring characters like Optimus Prime debuted in 1984.",
             "answer": "What is Transformers?",
             "difficulty": 1
         },
         {
-            "question": "This iconic 1985 film features a DeLorean time machine.",
-            "answer": "What is Back to the Future?",
-            "difficulty": 1
-        },
-        {
             "question": "This artist released the album 'Thriller' in the early 1980s.",
             "answer": "Who is Michael Jackson?",
-            "difficulty": 1
-        },
-        {
-            "question": "This arcade game featuring ghosts and a yellow character was released in 1980.",
-            "answer": "What is Pac-Man?",
             "difficulty": 1
         },
         {
@@ -14411,11 +12306,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This 1982 album by Bruce Springsteen features the hit 'Hungry Heart'.",
-            "answer": "What is 'The River'?",
-            "difficulty": 3
-        },
-        {
             "question": "This 1985 film features a young boy and his dog-like robot in a post-apocalyptic world.",
             "answer": "What is A Boy and His Dog?",
             "difficulty": 3
@@ -14451,11 +12341,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This 1989 film features a club singer hiding out in a convent after witnessing a murder.",
-            "answer": "What is Sister Act?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1980 album by AC/DC includes the hit 'You Shook Me All Night Long'.",
             "answer": "What is Back in Black?",
             "difficulty": 4
@@ -14471,11 +12356,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This 1982 Steven Spielberg film features a haunted suburban home.",
-            "answer": "What is Poltergeist?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1986 event was the world's worst nuclear disaster.",
             "answer": "What is the Chernobyl disaster?",
             "difficulty": 5
@@ -14483,11 +12363,6 @@ export const library = {
         {
             "question": "This 1984 sci-fi film features a dystopian future where humans are harvested by machines.",
             "answer": "What is The Terminator?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1989 film by Spike Lee explores racial tension in Brooklyn.",
-            "answer": "What is Do the Right Thing?",
             "difficulty": 5
         },
         {
@@ -14508,11 +12383,6 @@ export const library = {
         {
             "question": "This 1984 film involves a group of kids searching for a pirate's treasure in Oregon.",
             "answer": "What is The Goonies?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1988 film directed by Tim Burton features a 'bio-exorcist'.",
-            "answer": "What is Beetlejuice?",
             "difficulty": 5
         },
         {
@@ -14571,11 +12441,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The Rubik's Cube became a worldwide craze in this decade.",
-            "answer": "What is the 1980s?",
-            "difficulty": 1
-        },
-        {
             "question": "This British band had a hit with 'Every Breath You Take' in 1983.",
             "answer": "Who are The Police?",
             "difficulty": 2
@@ -14596,7 +12461,7 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The American astronaut who became the first woman to travel into space in 1983.",
+            "question": "The American astronaut who became the first American woman to travel into space in 1983.",
             "answer": "Who is Sally Ride?",
             "difficulty": 3
         },
@@ -14609,11 +12474,6 @@ export const library = {
             "question": "This long-running animated TV show, featuring a yellow family, first appeared in 1989.",
             "answer": "What is 'The Simpsons'?",
             "difficulty": 2
-        },
-        {
-            "question": "This 1980s movie involves a group of kids searching for pirate treasure in Oregon.",
-            "answer": "What is 'The Goonies'?",
-            "difficulty": 3
         },
         {
             "question": "This soft drink, introduced in 1985, was a major marketing failure.",
@@ -14673,11 +12533,6 @@ export const library = {
         {
             "question": "The 1986 movie that involves a fighter pilot call-sign 'Maverick'.",
             "answer": "What is 'Top Gun'?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1980s handheld gaming device was introduced by Nintendo.",
-            "answer": "What is the Game Boy?",
             "difficulty": 2
         },
         {
@@ -14766,11 +12621,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The 1980 movie that launched the career of actor Tom Hanks.",
-            "answer": "What is 'Splash'?",
-            "difficulty": 3
-        },
-        {
             "question": "The event in 1989 where thousands gathered to demand political reform in China's capital.",
             "answer": "What is the Tiananmen Square protests?",
             "difficulty": 3
@@ -14806,11 +12656,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The 1982 film that features a sentient extraterrestrial stranded on Earth.",
-            "answer": "What is 'E.T. the Extra-Terrestrial'?",
-            "difficulty": 1
-        },
-        {
             "question": "The first female British Prime Minister, elected in the late 1970s and serving through the 1980s.",
             "answer": "Who is Margaret Thatcher?",
             "difficulty": 2
@@ -14839,11 +12684,6 @@ export const library = {
             "question": "The year the Berlin Wall fell, marking the beginning of the end for the Cold War.",
             "answer": "What is 1989?",
             "difficulty": 1
-        },
-        {
-            "question": "The first video game character to have a balloon-based arcade game released by Namco in 1982.",
-            "answer": "Who is Dig Dug?",
-            "difficulty": 4
         },
         {
             "question": "The fashion accessory, popularized in the 1980s, known for its bright colors and the ability to hold up hair.",
@@ -14891,11 +12731,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The 1986 space shuttle disaster where the Challenger exploded shortly after launch.",
-            "answer": "What is the Challenger disaster?",
-            "difficulty": 2
-        },
-        {
             "question": "The 1982 album by Fleetwood Mac that includes the track 'Gypsy'.",
             "answer": "What is 'Mirage'?",
             "difficulty": 3
@@ -14904,11 +12739,6 @@ export const library = {
             "question": "The 1980s TV series featuring four older women living together in Miami.",
             "answer": "What is 'The Golden Girls'?",
             "difficulty": 2
-        },
-        {
-            "question": "The 1987 film starring Kevin Costner as an agent fighting against organized crime in Chicago.",
-            "answer": "What is 'The Untouchables'?",
-            "difficulty": 3
         },
         {
             "question": "The 1985 film about a group of teenagers serving detention on a Saturday.",
@@ -15011,11 +12841,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This arcade game, released in 1980, features a yellow character navigating mazes.",
-            "answer": "What is Pac-Man?",
-            "difficulty": 1
-        },
-        {
             "question": "This 1983 US-Soviet nuclear war simulation film starred Matthew Broderick.",
             "answer": "What is WarGames?",
             "difficulty": 2
@@ -15026,19 +12851,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This space shuttle disaster occurred in 1986 shortly after launch.",
-            "answer": "What is the Challenger disaster?",
-            "difficulty": 3
-        },
-        {
             "question": "This Nintendo video game console, introduced in 1985, helped revive the gaming industry.",
             "answer": "What is the Nintendo Entertainment System (NES)?",
             "difficulty": 3
-        },
-        {
-            "question": "This 1982 album by Michael Jackson became the best-selling album of all time.",
-            "answer": "What is 'Thriller'?",
-            "difficulty": 4
         },
         {
             "question": "In 1987, this treaty was signed to eliminate intermediate-range nuclear weapons.",
@@ -15073,11 +12888,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A 1994 film set in a prison and based on a Stephen King novella.",
-            "answer": "What is The Shawshank Redemption?",
-            "difficulty": 2
-        },
-        {
             "question": "This 2003 film features a pirate seeking revenge for being cursed with immortality.",
             "answer": "What is Pirates of the Caribbean: The Curse of the Black Pearl?",
             "difficulty": 2
@@ -15090,11 +12900,6 @@ export const library = {
         {
             "question": "This 2012 superhero ensemble film features a group of heroes defending New York.",
             "answer": "What is The Avengers?",
-            "difficulty": 2
-        },
-        {
-            "question": "A 2008 film about a clown-faced villain terrorizing Gotham City.",
-            "answer": "What is The Dark Knight?",
             "difficulty": 2
         },
         {
@@ -15123,18 +12928,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A 1995 film where a group of toys must rescue one of their own from a collector.",
-            "answer": "What is Toy Story 2?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1975 film is known for its suspenseful scenes involving a great white predator.",
             "answer": "What is Jaws?",
-            "difficulty": 4
-        },
-        {
-            "question": "A 2003 film where a young girl falls through a rabbit hole into a fantastical world.",
-            "answer": "What is Alice in Wonderland?",
             "difficulty": 4
         },
         {
@@ -15171,11 +12966,6 @@ export const library = {
             "question": "This 2001 film begins a trilogy about a quest to destroy a powerful ring.",
             "answer": "What is The Lord of the Rings: The Fellowship of the Ring?",
             "difficulty": 5
-        },
-        {
-            "question": "A 1991 film where a cyborg is sent back in time to protect a future leader.",
-            "answer": "What is Terminator 2: Judgment Day?",
-            "difficulty": 1
         },
         {
             "question": "This 2010 film involves dreams within dreams as a means of corporate espionage.",
@@ -15258,16 +13048,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This 1954 film features a dockworker who stands up against a corrupt union boss.",
-            "answer": "What is On the Waterfront?",
-            "difficulty": 1
-        },
-        {
-            "question": "A 1998 film about a man who lives the same day repeatedly.",
-            "answer": "What is Groundhog Day?",
-            "difficulty": 1
-        },
-        {
             "question": "This 1996 alien invasion film features a coordinated worldwide counterattack.",
             "answer": "What is Independence Day?",
             "difficulty": 1
@@ -15276,16 +13056,6 @@ export const library = {
             "question": "A 1990 film about a young boy who defends his home from burglars during Christmas.",
             "answer": "What is Home Alone?",
             "difficulty": 2
-        },
-        {
-            "question": "A 1980 film featuring a boarding school for boys and an inspiring English teacher.",
-            "answer": "What is Dead Poets Society?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1997 film features a ship on its maiden voyage across the Atlantic.",
-            "answer": "What is Titanic?",
-            "difficulty": 1
         },
         {
             "question": "This 2009 science fiction movie became the highest-grossing film at the time.",
@@ -15300,11 +13070,6 @@ export const library = {
         {
             "question": "This 1985 film involves a teenager who travels back in time using a DeLorean.",
             "answer": "What is Back to the Future?",
-            "difficulty": 1
-        },
-        {
-            "question": "A 1993 dinosaur-themed blockbuster directed by Steven Spielberg.",
-            "answer": "What is Jurassic Park?",
             "difficulty": 1
         },
         {
@@ -15423,11 +13188,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This 1998 animated film features a cowboy doll and a space ranger action figure.",
-            "answer": "What is Toy Story 2?",
-            "difficulty": 3
-        },
-        {
             "question": "A 1998 film following a soldier's journey after the Normandy Invasion during WWII.",
             "answer": "What is Saving Private Ryan?",
             "difficulty": 3
@@ -15503,11 +13263,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This 2007 film adapts a non-fiction book about a single mother fighting the oil industry.",
-            "answer": "What is Erin Brockovich?",
-            "difficulty": 5
-        },
-        {
             "question": "A 2006 film about a former undercover cop trying to take down a dangerous gang from within.",
             "answer": "What is The Departed?",
             "difficulty": 5
@@ -15548,11 +13303,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "A 1993 dinosaur-themed movie directed by Spielberg.",
-            "answer": "What is Jurassic Park?",
-            "difficulty": 1
-        },
-        {
             "question": "The 2009 film set on the moon Pandora.",
             "answer": "What is Avatar?",
             "difficulty": 1
@@ -15574,7 +13324,7 @@ export const library = {
         },
         {
             "question": "This 2008 film is the beginning of a dark knight trilogy.",
-            "answer": "What is The Dark Knight?",
+            "answer": "What is Batman Begins?",
             "difficulty": 2
         },
         {
@@ -15596,11 +13346,6 @@ export const library = {
             "question": "The 1994 film about two hitmen and their philosophical discussions.",
             "answer": "What is Pulp Fiction?",
             "difficulty": 2
-        },
-        {
-            "question": "This 1999 sci-fi film is known for its bullet-dodging scene.",
-            "answer": "What is The Matrix?",
-            "difficulty": 1
         },
         {
             "question": "The 1993 film about a wealthy man's dinosaur theme park.",
@@ -15633,19 +13378,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The 2003 film about a clownfish searching for his son.",
-            "answer": "What is Finding Nemo?",
-            "difficulty": 1
-        },
-        {
             "question": "The 1965 musical film about a singing family in Austria.",
             "answer": "What is The Sound of Music?",
             "difficulty": 1
-        },
-        {
-            "question": "A 2001 film featuring a quest to destroy a powerful ring.",
-            "answer": "What is The Lord of the Rings: The Fellowship of the Ring?",
-            "difficulty": 2
         },
         {
             "question": "The 1980 film with a famous line about a father-son revelation.",
@@ -15653,28 +13388,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This 1990 film features a young boy defending his home from burglars.",
-            "answer": "What is Home Alone?",
-            "difficulty": 1
-        },
-        {
             "question": "A 1997 film where a secret government agency deals with extraterrestrials.",
             "answer": "What is Men in Black?",
             "difficulty": 1
         },
         {
-            "question": "The 1994 film starring a computer hacker who learns the true nature of reality.",
-            "answer": "What is The Matrix?",
-            "difficulty": 2
-        },
-        {
             "question": "A 1981 film featuring an archaeologist with a whip and a hat.",
             "answer": "What is Raiders of the Lost Ark?",
-            "difficulty": 1
-        },
-        {
-            "question": "The 1991 film about a cyborg sent back to protect a boy.",
-            "answer": "What is Terminator 2: Judgment Day?",
             "difficulty": 1
         },
         {
@@ -15768,11 +13488,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The 1999 film about a high school student living next to a mob boss.",
-            "answer": "What is American Beauty?",
-            "difficulty": 4
-        },
-        {
             "question": "A 1988 film about an animated detective solving a toon murder.",
             "answer": "What is Who Framed Roger Rabbit?",
             "difficulty": 3
@@ -15828,11 +13543,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The 1985 film where a teenager travels back in time in a DeLorean.",
-            "answer": "What is Back to the Future?",
-            "difficulty": 2
-        },
-        {
             "question": "This 1999 horror film was a low-budget hit featuring found footage style.",
             "answer": "What is The Blair Witch Project?",
             "difficulty": 2
@@ -15850,11 +13560,6 @@ export const library = {
         {
             "question": "The 1986 fighter jet movie starring Tom Cruise.",
             "answer": "What is Top Gun?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1990 Christmas comedy features a young boy defending his home from burglars.",
-            "answer": "What is Home Alone?",
             "difficulty": 2
         },
         {
@@ -15913,28 +13618,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This 2004 romantic comedy features a woman who wakes up in a different man's body every day.",
-            "answer": "What is 13 Going on 30?",
-            "difficulty": 3
-        },
-        {
             "question": "A 1975 thriller about a small town terrorized by a great white shark.",
             "answer": "What is Jaws?",
             "difficulty": 3
         },
         {
-            "question": "The 1995 crime film with the famous line \"I'm the king of the world!\".",
-            "answer": "What is Casino?",
-            "difficulty": 3
-        },
-        {
             "question": "A 1999 satirical comedy about office workers who hate their jobs in a corporate environment.",
             "answer": "What is Office Space?",
-            "difficulty": 4
-        },
-        {
-            "question": "The 1980 horror film directed by Stanley Kubrick, set in a haunted hotel.",
-            "answer": "What is The Shining?",
             "difficulty": 4
         },
         {
@@ -15978,11 +13668,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The 1982 film about a young man and his sentient motorcycle in a dystopian future.",
-            "answer": "What is Tron?",
-            "difficulty": 5
-        },
-        {
             "question": "This 1981 Italian horror film is the second in a trilogy about witches.",
             "answer": "What is Inferno?",
             "difficulty": 5
@@ -15998,23 +13683,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "A 1974 French-Italian film that details the life of a famous British author.",
-            "answer": "What is The Night Porter?",
-            "difficulty": 5
-        },
-        {
             "question": "The 1971 film directed by Stanley Kubrick, based on a dystopian novel about a delinquent's rehabilitation.",
             "answer": "What is A Clockwork Orange?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1985 British historical drama involves a young Englishman and his adventures in India during British colonial rule.",
-            "answer": "What is A Passage to India?",
-            "difficulty": 5
-        },
-        {
-            "question": "The 1984 film that is a surrealist adventure featuring a character named Jack in a world of bizarre fantasy landscapes.",
-            "answer": "What is The NeverEnding Story?",
             "difficulty": 5
         },
         {
@@ -16180,13 +13850,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A reality competition where artists are challenged to create large-scale sculptures.",
-            "answer": "What is Blown Away?",
-            "difficulty": 3
-        },
-        {
             "question": "This documentary-style reality series follows the life of a famous professional wrestler and his family.",
-            "answer": "What is Total Divas?",
+            "answer": "What is Hogan Knows Best?",
             "difficulty": 3
         },
         {
@@ -16220,11 +13885,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "A reality series that showcases the lives of a famous music manager and his family.",
-            "answer": "What is The Osbournes?",
-            "difficulty": 4
-        },
-        {
             "question": "This series follows a famous wrestler as he navigates his personal and professional life post-retirement.",
             "answer": "What is Hogan Knows Best?",
             "difficulty": 4
@@ -16232,11 +13892,6 @@ export const library = {
         {
             "question": "A reality series that follows the high-stakes world of competitive fishing.",
             "answer": "What is Wicked Tuna?",
-            "difficulty": 4
-        },
-        {
-            "question": "This series documents the lives of people who are obsessed with cleaning and organizing.",
-            "answer": "What is Hoarders?",
             "difficulty": 4
         },
         {
@@ -16248,11 +13903,6 @@ export const library = {
             "question": "This show follows the lives of a group of friends living in a luxury summer destination.",
             "answer": "What is Southern Charm?",
             "difficulty": 4
-        },
-        {
-            "question": "A competition series where contestants are eliminated by a panel of judges after each challenge.",
-            "answer": "What is RuPaul's Drag Race?",
-            "difficulty": 5
         },
         {
             "question": "This show follows the lives of a group of siblings as they run their family business in New Orleans.",
@@ -16285,11 +13935,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This reality series documents the journey of a family adopting a healthier lifestyle.",
-            "answer": "What is 1000-lb Sisters?",
-            "difficulty": 5
-        },
-        {
             "question": "This reality show features contestants stranded in isolated locations, competing for survival.",
             "answer": "What is Survivor?",
             "difficulty": 1
@@ -16307,11 +13952,6 @@ export const library = {
         {
             "question": "This show involves chefs competing in culinary challenges under the watch of celebrity judges.",
             "answer": "What is MasterChef?",
-            "difficulty": 1
-        },
-        {
-            "question": "This popular show has entrepreneurs pitch business ideas to a panel of investors.",
-            "answer": "What is Shark Tank?",
             "difficulty": 1
         },
         {
@@ -16365,18 +14005,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This series has families compete in various challenges to win a family vacation.",
-            "answer": "What is Family Feud?",
-            "difficulty": 3
-        },
-        {
             "question": "This show features individuals preparing extreme survival plans for potential disasters.",
             "answer": "What is Doomsday Preppers?",
-            "difficulty": 3
-        },
-        {
-            "question": "This series involves teams racing around the world, completing tasks in different countries.",
-            "answer": "What is The Amazing Race?",
             "difficulty": 3
         },
         {
@@ -16436,7 +14066,7 @@ export const library = {
         },
         {
             "question": "This show involves teams of two competing in a series of challenges, hosted by Phil Keoghan.",
-            "answer": "What is The Amazing Race Australia?",
+            "answer": "What is The Amazing Race?",
             "difficulty": 4
         },
         {
@@ -16537,16 +14167,6 @@ export const library = {
         {
             "question": "Which show features celebrities dancing with professional partners?",
             "answer": "What is Dancing with the Stars?",
-            "difficulty": 1
-        },
-        {
-            "question": "This competition involves teams racing around the world for a million dollars.",
-            "answer": "What is The Amazing Race?",
-            "difficulty": 1
-        },
-        {
-            "question": "On this show, entrepreneurs pitch their business ideas to wealthy investors.",
-            "answer": "What is Shark Tank?",
             "difficulty": 1
         },
         {
@@ -16765,11 +14385,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Contestants on this show attempt to win a large sum of money by answering questions.",
-            "answer": "What is Who Wants to Be a Millionaire?",
-            "difficulty": 1
-        },
-        {
             "question": "This series features individuals swapping lives with someone from a very different background.",
             "answer": "What is Wife Swap?",
             "difficulty": 1
@@ -16790,11 +14405,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This show follows the lives of the Kardashian-Jenner family.",
-            "answer": "What is Keeping Up with the Kardashians?",
-            "difficulty": 1
-        },
-        {
             "question": "This competition show involves teams racing around the world to win a grand prize.",
             "answer": "What is The Amazing Race?",
             "difficulty": 2
@@ -16807,11 +14417,6 @@ export const library = {
         {
             "question": "This series features a group of skilled dancers competing for a cash prize.",
             "answer": "What is So You Think You Can Dance?",
-            "difficulty": 2
-        },
-        {
-            "question": "This show features entrepreneurs pitching their business ideas to investors.",
-            "answer": "What is Shark Tank?",
             "difficulty": 2
         },
         {
@@ -16838,11 +14443,6 @@ export const library = {
             "question": "This UK-based competition involves amateur bakers facing weekly baking challenges.",
             "answer": "What is The Great British Bake Off?",
             "difficulty": 2
-        },
-        {
-            "question": "This show features teams attempting to win cash by answering trivia questions while on the move.",
-            "answer": "What is Cash Cab?",
-            "difficulty": 3
         },
         {
             "question": "This competition series involves makeup artists recreating iconic film characters.",
@@ -16990,11 +14590,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This competition involves teams racing around the world for a cash prize.",
-            "answer": "What is The Amazing Race?",
-            "difficulty": 2
-        },
-        {
             "question": "A singing competition where the judges can't see the contestants.",
             "answer": "What is The Voice?",
             "difficulty": 2
@@ -17067,11 +14662,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This brand's motto is 'Because You're Worth It.'",
-            "answer": "What is L'Or\u00e9al?",
-            "difficulty": 1
-        },
-        {
             "question": "This technology giant uses the tagline 'Think Different.'",
             "answer": "What is Apple?",
             "difficulty": 1
@@ -17102,11 +14692,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This company's slogan is 'The Quicker Picker Upper.'",
-            "answer": "What is Bounty?",
-            "difficulty": 1
-        },
-        {
             "question": "Which brand is known for 'It Keeps Going, and Going, and Going'?",
             "answer": "What is Energizer?",
             "difficulty": 1
@@ -17117,33 +14702,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Which company uses the tagline 'The Best a Man Can Get'?",
-            "answer": "What is Gillette?",
-            "difficulty": 1
-        },
-        {
             "question": "This brand's advertising says 'Snap! Crackle! Pop!'",
             "answer": "What is Rice Krispies?",
             "difficulty": 1
         },
         {
-            "question": "This insurance company uses the slogan '15 minutes could save you 15% or more.'",
-            "answer": "What is GEICO?",
-            "difficulty": 1
-        },
-        {
             "question": "Which company encourages you to 'Taste the Rainbow'?",
             "answer": "What is Skittles?",
-            "difficulty": 1
-        },
-        {
-            "question": "This tech company uses the tagline 'Don't be evil.'",
-            "answer": "What is Google?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which brand invites you to 'Have a Break, Have a...'",
-            "answer": "What is KitKat?",
             "difficulty": 1
         },
         {
@@ -17182,11 +14747,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "Which airline's slogan is 'Fly the Friendly Skies'?",
-            "answer": "What is United Airlines?",
-            "difficulty": 2
-        },
-        {
             "question": "This brand's advertising slogan is 'Can you hear me now?'",
             "answer": "What is Verizon?",
             "difficulty": 2
@@ -17219,11 +14779,6 @@ export const library = {
         {
             "question": "This brand is associated with the tagline 'The Relentless Pursuit of Perfection.'",
             "answer": "What is Lexus?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which brand uses the slogan 'The Ultimate Driving Machine'?",
-            "answer": "What is BMW?",
             "difficulty": 2
         },
         {
@@ -17287,18 +14842,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "Which company uses the tagline 'The Few. The Proud.'?",
-            "answer": "Who are the U.S. Marine Corps?",
-            "difficulty": 3
-        },
-        {
             "question": "This company's slogan is 'Just Do It'.",
             "answer": "What is Nike?",
-            "difficulty": 1
-        },
-        {
-            "question": "Known for 'I'm Lovin' It'.",
-            "answer": "What is McDonald's?",
             "difficulty": 1
         },
         {
@@ -17327,23 +14872,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "A telecommunications company known for 'Can You Hear Me Now?'",
-            "answer": "What is Verizon?",
-            "difficulty": 2
-        },
-        {
-            "question": "This brand's slogan is 'Because You're Worth It'.",
-            "answer": "What is L'Or\u00e9al?",
-            "difficulty": 2
-        },
-        {
             "question": "The phrase 'Breakfast of Champions' is linked to this cereal.",
             "answer": "What is Wheaties?",
-            "difficulty": 2
-        },
-        {
-            "question": "Known for 'The Quicker Picker Upper'.",
-            "answer": "What is Bounty?",
             "difficulty": 2
         },
         {
@@ -17359,21 +14889,6 @@ export const library = {
         {
             "question": "This brand says 'The Happiest Place on Earth'.",
             "answer": "What is Disneyland?",
-            "difficulty": 3
-        },
-        {
-            "question": "Known for 'Taste the Rainbow'.",
-            "answer": "What are Skittles?",
-            "difficulty": 3
-        },
-        {
-            "question": "This company's slogan is 'Like a Good Neighbor'.",
-            "answer": "What is State Farm?",
-            "difficulty": 3
-        },
-        {
-            "question": "This computer company uses 'Innovation that Excites'.",
-            "answer": "What is Nissan?",
             "difficulty": 3
         },
         {
@@ -17397,11 +14912,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This airline uses 'Fly the Friendly Skies'.",
-            "answer": "What is United Airlines?",
-            "difficulty": 3
-        },
-        {
             "question": "Known for the phrase 'The King of Beers'.",
             "answer": "What is Budweiser?",
             "difficulty": 3
@@ -17417,34 +14927,14 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This insurance company states 'Like a Rock'.",
-            "answer": "What is Chevrolet?",
-            "difficulty": 4
-        },
-        {
             "question": "A cosmetic brand with 'Easy, Breezy, Beautiful'.",
             "answer": "What is CoverGirl?",
             "difficulty": 3
         },
         {
-            "question": "This tech company uses 'Empowering Us All'.",
-            "answer": "What is Microsoft?",
-            "difficulty": 4
-        },
-        {
-            "question": "The car rental company with 'We'll Pick You Up'.",
-            "answer": "What is Enterprise?",
-            "difficulty": 4
-        },
-        {
             "question": "This beverage brand says 'The Pause That Refreshes'.",
             "answer": "What is Coca-Cola?",
             "difficulty": 4
-        },
-        {
-            "question": "The brand known for 'Have It Your Way'.",
-            "answer": "What is Burger King?",
-            "difficulty": 2
         },
         {
             "question": "This brand's slogan is 'Challenge Everything'.",
@@ -17457,39 +14947,14 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The insurance company that uses '15 Minutes Could Save You 15%'.",
-            "answer": "What is Geico?",
-            "difficulty": 1
-        },
-        {
-            "question": "This company's slogan is 'Connecting People'.",
-            "answer": "What is Nokia?",
-            "difficulty": 4
-        },
-        {
             "question": "The brand that uses 'Belong Anywhere'.",
             "answer": "What is Airbnb?",
             "difficulty": 5
         },
         {
-            "question": "The brand that uses the slogan 'Impossible is Nothing'.",
-            "answer": "What is Adidas?",
-            "difficulty": 3
-        },
-        {
-            "question": "This brand says 'The Best a Man Can Get'.",
-            "answer": "What is Gillette?",
-            "difficulty": 2
-        },
-        {
             "question": "Known for 'Good to the Last Drop'.",
             "answer": "What is Maxwell House?",
             "difficulty": 4
-        },
-        {
-            "question": "This company uses 'Think Small'.",
-            "answer": "What is Volkswagen?",
-            "difficulty": 5
         },
         {
             "question": "A brand known for saying 'Let's Go Places'.",
@@ -17502,29 +14967,14 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This company's slogan is 'Snap! Crackle! Pop!'",
-            "answer": "What are Rice Krispies?",
-            "difficulty": 2
-        },
-        {
             "question": "The tech company known for 'Don't Be Evil'.",
             "answer": "What is Google?",
             "difficulty": 5
         },
         {
-            "question": "The company with the tagline 'The Power of Dreams'.",
-            "answer": "What is Honda?",
-            "difficulty": 4
-        },
-        {
             "question": "This brand uses the slogan 'Every Little Helps'.",
             "answer": "What is Tesco?",
             "difficulty": 5
-        },
-        {
-            "question": "The company with 'The Relentless Pursuit of Perfection'.",
-            "answer": "What is Lexus?",
-            "difficulty": 4
         },
         {
             "question": "The brand known for 'It's Everywhere You Want to Be'.",
@@ -17534,16 +14984,6 @@ export const library = {
         {
             "question": "Which beverage brand is known for the slogan 'Open Happiness'?",
             "answer": "What is Coca-Cola?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which fast-food chain uses the slogan 'I'm Lovin' It'?",
-            "answer": "What is McDonald's?",
-            "difficulty": 1
-        },
-        {
-            "question": "What brand's slogan is 'Just Do It'?",
-            "answer": "What is Nike?",
             "difficulty": 1
         },
         {
@@ -17557,18 +14997,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Which automotive brand uses 'The Ultimate Driving Machine' as its slogan?",
-            "answer": "What is BMW?",
-            "difficulty": 1
-        },
-        {
             "question": "What fast-food chain's slogan is 'Have It Your Way'?",
             "answer": "What is Burger King?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which technology company uses the slogan 'Empowering Us All'?",
-            "answer": "What is Microsoft?",
             "difficulty": 1
         },
         {
@@ -17587,18 +15017,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "Which brand's slogan is 'The Quicker Picker Upper'?",
-            "answer": "What is Bounty?",
-            "difficulty": 2
-        },
-        {
             "question": "What is the brand behind the tagline 'The Best a Man Can Get'?",
             "answer": "What is Gillette?",
-            "difficulty": 2
-        },
-        {
-            "question": "What beer brand uses the slogan 'The King of Beers'?",
-            "answer": "What is Budweiser?",
             "difficulty": 2
         },
         {
@@ -17609,31 +15029,6 @@ export const library = {
         {
             "question": "Which brand is known for the tagline 'Breakfast of Champions'?",
             "answer": "What is Wheaties?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which brand uses the slogan 'Like a Good Neighbor'?",
-            "answer": "What is State Farm?",
-            "difficulty": 2
-        },
-        {
-            "question": "What is the brand associated with 'Betcha Can't Eat Just One'?",
-            "answer": "What is Lay's?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which company uses the slogan 'It's Everywhere You Want to Be'?",
-            "answer": "What is Visa?",
-            "difficulty": 2
-        },
-        {
-            "question": "What brand's slogan is 'Snap! Crackle! Pop!'?",
-            "answer": "What is Rice Krispies?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which company is known for the slogan 'The Happiest Place on Earth'?",
-            "answer": "What is Disneyland?",
             "difficulty": 2
         },
         {
@@ -17657,23 +15052,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "Which brand's slogan is 'The Toughest Job You'll Ever Love'?",
-            "answer": "What is the Peace Corps?",
-            "difficulty": 3
-        },
-        {
-            "question": "Which technology company uses 'Do No Evil' as an informal motto?",
-            "answer": "What is Google?",
-            "difficulty": 3
-        },
-        {
             "question": "Which brand is known for the slogan 'Strong Enough for a Man, Made for a Woman'?",
             "answer": "What is Secret?",
-            "difficulty": 3
-        },
-        {
-            "question": "What is the brand behind 'Eat Fresh'?",
-            "answer": "What is Subway?",
             "difficulty": 3
         },
         {
@@ -17692,18 +15072,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "What is the brand associated with the slogan 'Have a Break, Have a...'",
-            "answer": "What is Kit Kat?",
-            "difficulty": 4
-        },
-        {
             "question": "Which brand's slogan is 'Choosy Moms Choose...'",
             "answer": "What is Jif?",
-            "difficulty": 4
-        },
-        {
-            "question": "Which company uses 'We Try Harder' in its advertising?",
-            "answer": "What is Avis?",
             "difficulty": 4
         },
         {
@@ -17729,11 +15099,6 @@ export const library = {
         {
             "question": "Which brand's slogan is 'Obey Your Thirst'?",
             "answer": "What is Sprite?",
-            "difficulty": 4
-        },
-        {
-            "question": "What is the brand behind the tagline 'Keeps Going and Going and Going'?",
-            "answer": "What is Energizer?",
             "difficulty": 4
         },
         {
@@ -17782,11 +15147,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "What company uses the tagline 'I'm Lovin' It'?",
-            "answer": "What is McDonald's?",
-            "difficulty": 1
-        },
-        {
             "question": "Which soft drink brand uses the slogan 'Open Happiness'?",
             "answer": "What is Coca-Cola?",
             "difficulty": 1
@@ -17802,33 +15162,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "What brand uses the slogan 'Because You're Worth It'?",
-            "answer": "What is L'Or\u00e9al?",
-            "difficulty": 1
-        },
-        {
-            "question": "What automobile brand is associated with 'The Ultimate Driving Machine'?",
-            "answer": "What is BMW?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which company's slogan is 'Melts in Your Mouth, Not in Your Hands'?",
-            "answer": "What is M&M's?",
-            "difficulty": 1
-        },
-        {
-            "question": "What brand uses the slogan 'It Gives You Wings'?",
-            "answer": "What is Red Bull?",
-            "difficulty": 1
-        },
-        {
             "question": "Which company promotes with the phrase 'Every Little Helps'?",
             "answer": "What is Tesco?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which brand is known for the slogan 'The Best a Man Can Get'?",
-            "answer": "What is Gillette?",
             "difficulty": 1
         },
         {
@@ -17857,11 +15192,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "What brand's slogan is 'Keeps Going and Going and Going'?",
-            "answer": "What is Energizer?",
-            "difficulty": 1
-        },
-        {
             "question": "Which car rental company uses the slogan 'We Try Harder'?",
             "answer": "What is Avis?",
             "difficulty": 1
@@ -17872,23 +15202,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "What laundry detergent brand claims 'Tough on Stains, Gentle on Clothes'?",
-            "answer": "What is Tide?",
-            "difficulty": 1
-        },
-        {
             "question": "Which luxury watch brand uses the slogan 'A Crown for Every Achievement'?",
             "answer": "What is Rolex?",
-            "difficulty": 2
-        },
-        {
-            "question": "What chocolate brand uses the slogan 'Have a Break, Have a ____'?",
-            "answer": "What is Kit Kat?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which brand's slogan is 'Taste the Rainbow'?",
-            "answer": "What is Skittles?",
             "difficulty": 2
         },
         {
@@ -17897,23 +15212,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "What credit card company uses the slogan 'Don't Leave Home Without It'?",
-            "answer": "What is American Express?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which telecommunications company uses the slogan 'Can You Hear Me Now?'?",
-            "answer": "What is Verizon?",
-            "difficulty": 2
-        },
-        {
             "question": "Which airline company is known for the slogan 'Fly the Friendly Skies'?",
             "answer": "What is United Airlines?",
-            "difficulty": 2
-        },
-        {
-            "question": "What company uses the tagline 'The Happiest Place on Earth'?",
-            "answer": "What is Disneyland?",
             "difficulty": 2
         },
         {
@@ -17925,16 +15225,6 @@ export const library = {
             "question": "What company uses the advertising slogan 'It's Everywhere You Want to Be'?",
             "answer": "What is VISA?",
             "difficulty": 2
-        },
-        {
-            "question": "Which company uses the slogan 'Betcha Can't Eat Just One'?",
-            "answer": "What is Lay's?",
-            "difficulty": 2
-        },
-        {
-            "question": "Which company uses the slogan 'The Night Time, Sniffling, Sneezing, Coughing, Aching, Stuffy Head, Fever, So You Can Rest Medicine'?",
-            "answer": "What is NyQuil?",
-            "difficulty": 3
         },
         {
             "question": "Which brand of luggage uses the tagline 'Life's a Journey'?",
@@ -17952,18 +15242,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "Which brand uses the slogan 'The Best Part of Waking Up'?",
-            "answer": "What is Folgers?",
-            "difficulty": 3
-        },
-        {
             "question": "What company promotes with 'The Document Company'?",
             "answer": "What is Xerox?",
-            "difficulty": 3
-        },
-        {
-            "question": "Which company uses the slogan 'The Power of Dreams'?",
-            "answer": "What is Honda?",
             "difficulty": 3
         },
         {
@@ -17997,11 +15277,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "Which brand uses the phrase 'The World's Online Marketplace'?",
-            "answer": "What is eBay?",
-            "difficulty": 4
-        },
-        {
             "question": "What company promotes with 'The Relentless Pursuit of Perfection'?",
             "answer": "What is Lexus?",
             "difficulty": 4
@@ -18015,11 +15290,6 @@ export const library = {
             "question": "Which company has the slogan 'The World's Local Bank'?",
             "answer": "What is HSBC?",
             "difficulty": 4
-        },
-        {
-            "question": "Which brand uses the slogan 'The Ultimate Driving Machine'?",
-            "answer": "What is BMW?",
-            "difficulty": 5
         },
         {
             "question": "What brand uses the slogan 'We Bring Good Things to Life'?",
@@ -18037,32 +15307,12 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "Which brand's slogan promises 'Because You're Worth It'?",
-            "answer": "What is L'Or\u00e9al?",
-            "difficulty": 3
-        },
-        {
-            "question": "Identify the brand that uses the phrase 'The Ultimate Driving Machine'.",
-            "answer": "What is BMW?",
-            "difficulty": 4
-        },
-        {
             "question": "This brand's slogan, 'For the Bold', is associated with a beverage originally introduced as 'Brad's Drink'.",
             "answer": "What is Pepsi?",
             "difficulty": 5
         }
     ],
     "Current Events": [
-        {
-            "question": "This is the current President of the United States.",
-            "answer": "Who is Joe Biden?",
-            "difficulty": 1
-        },
-        {
-            "question": "This country hosted the 2021 Summer Olympics.",
-            "answer": "What is Japan?",
-            "difficulty": 1
-        },
         {
             "question": "This social media platform changed its name to Meta in 2021.",
             "answer": "What is Facebook?",
@@ -18129,11 +15379,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This Asian country has the world's largest population.",
-            "answer": "What is China?",
-            "difficulty": 2
-        },
-        {
             "question": "This is the smallest country in the world by land area.",
             "answer": "What is Vatican City?",
             "difficulty": 2
@@ -18150,7 +15395,7 @@ export const library = {
         },
         {
             "question": "This is the main ingredient in traditional Japanese miso soup.",
-            "answer": "What is Tofu?",
+            "answer": "What is miso paste?",
             "difficulty": 2
         },
         {
@@ -18299,11 +15544,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This person is currently serving as the President of the United States.",
-            "answer": "Who is Joe Biden?",
-            "difficulty": 1
-        },
-        {
             "question": "This city hosted the 2020 Summer Olympics, which were delayed to 2021.",
             "answer": "What is Tokyo?",
             "difficulty": 1
@@ -18325,7 +15565,7 @@ export const library = {
         },
         {
             "question": "This Asian country is the world's most populous.",
-            "answer": "What is China?",
+            "answer": "What is India?",
             "difficulty": 2
         },
         {
@@ -18347,11 +15587,6 @@ export const library = {
             "question": "This renowned online retailer was founded by Jeff Bezos.",
             "answer": "What is Amazon?",
             "difficulty": 2
-        },
-        {
-            "question": "This global pandemic began in late 2019.",
-            "answer": "What is COVID-19?",
-            "difficulty": 3
         },
         {
             "question": "This cryptocurrency is often referred to as digital gold.",
@@ -18404,11 +15639,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This Middle Eastern country experienced a civil war beginning in 2011.",
-            "answer": "What is Syria?",
-            "difficulty": 5
-        },
-        {
             "question": "This initiative aims to provide universal internet access using satellites.",
             "answer": "What is Starlink?",
             "difficulty": 5
@@ -18457,11 +15687,6 @@ export const library = {
             "question": "This South Korean pop group achieved global fame with their hit songs.",
             "answer": "Who is BTS?",
             "difficulty": 1
-        },
-        {
-            "question": "This country hosted the 2022 FIFA World Cup.",
-            "answer": "What is Qatar?",
-            "difficulty": 2
         },
         {
             "question": "This major river runs through Brazil and is the largest by discharge volume.",
@@ -18514,11 +15739,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This Asian country has the world's second-largest economy.",
-            "answer": "What is China?",
-            "difficulty": 5
-        },
-        {
             "question": "This South American country was led by Hugo Ch\u00e1vez from 1999 until his death in 2013.",
             "answer": "What is Venezuela?",
             "difficulty": 5
@@ -18527,11 +15747,6 @@ export const library = {
             "question": "This European capital city is also a major financial center and hosts many international organizations.",
             "answer": "What is Brussels?",
             "difficulty": 5
-        },
-        {
-            "question": "The current President of the United States.",
-            "answer": "Who is Joe Biden?",
-            "difficulty": 1
         },
         {
             "question": "The capital city of France.",
@@ -18544,38 +15759,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The currency used by Japan.",
-            "answer": "What is the Yen?",
-            "difficulty": 1
-        },
-        {
             "question": "The largest country in the world by land area.",
             "answer": "What is Russia?",
-            "difficulty": 1
-        },
-        {
-            "question": "The location of the United Nations headquarters.",
-            "answer": "What is New York City?",
-            "difficulty": 1
-        },
-        {
-            "question": "The host city of the 2020 Summer Olympics.",
-            "answer": "What is Tokyo?",
-            "difficulty": 1
-        },
-        {
-            "question": "The country known for its maple syrup production.",
-            "answer": "What is Canada?",
-            "difficulty": 1
-        },
-        {
-            "question": "The country with the largest population.",
-            "answer": "What is China?",
-            "difficulty": 1
-        },
-        {
-            "question": "The world's longest river.",
-            "answer": "What is the Nile?",
             "difficulty": 1
         },
         {
@@ -18584,28 +15769,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The British monarch as of 2023.",
-            "answer": "Who is King Charles III?",
-            "difficulty": 2
-        },
-        {
             "question": "The current Prime Minister of the United Kingdom.",
-            "answer": "Who is Rishi Sunak?",
+            "answer": "Who is Keir Starmer?",
             "difficulty": 2
         },
         {
             "question": "The country where the Amazon rainforest is primarily located.",
             "answer": "What is Brazil?",
-            "difficulty": 2
-        },
-        {
-            "question": "The host country of the 2022 FIFA World Cup.",
-            "answer": "What is Qatar?",
-            "difficulty": 2
-        },
-        {
-            "question": "The first female Vice President of the United States.",
-            "answer": "Who is Kamala Harris?",
             "difficulty": 2
         },
         {
@@ -18624,23 +15794,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The leader of the Catholic Church.",
-            "answer": "Who is Pope Francis?",
-            "difficulty": 2
-        },
-        {
             "question": "The current Chancellor of Germany.",
             "answer": "Who is Olaf Scholz?",
-            "difficulty": 3
-        },
-        {
-            "question": "The country where the Chernobyl disaster occurred.",
-            "answer": "What is Ukraine?",
-            "difficulty": 3
-        },
-        {
-            "question": "The organization responsible for global health issues.",
-            "answer": "What is the World Health Organization?",
             "difficulty": 3
         },
         {
@@ -18654,18 +15809,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The country with the second largest economy in the world.",
-            "answer": "What is China?",
-            "difficulty": 3
-        },
-        {
             "question": "The organization that awarded the Nobel Peace Prize.",
             "answer": "What is the Norwegian Nobel Committee?",
             "difficulty": 3
         },
         {
             "question": "The current Prime Minister of Canada.",
-            "answer": "Who is Justin Trudeau?",
+            "answer": "Who is Mark Carney?",
             "difficulty": 3
         },
         {
@@ -18699,11 +15849,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The nation that exited the European Union in 2020.",
-            "answer": "What is the United Kingdom?",
-            "difficulty": 4
-        },
-        {
             "question": "The first female Chancellor of Germany.",
             "answer": "Who was Angela Merkel?",
             "difficulty": 4
@@ -18714,11 +15859,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The country where the city of Timbuktu is located.",
-            "answer": "What is Mali?",
-            "difficulty": 4
-        },
-        {
             "question": "The country leading the Belt and Road Initiative.",
             "answer": "What is China?",
             "difficulty": 4
@@ -18726,11 +15866,6 @@ export const library = {
         {
             "question": "The first Arab nation to reach Mars with a space mission.",
             "answer": "What is the United Arab Emirates?",
-            "difficulty": 4
-        },
-        {
-            "question": "The world leader known for the 'Green New Deal'.",
-            "answer": "Who is Alexandria Ocasio-Cortez?",
             "difficulty": 4
         },
         {
@@ -18769,19 +15904,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The country where the ancient city of Petra is located.",
-            "answer": "What is Jordan?",
-            "difficulty": 5
-        },
-        {
             "question": "The technological company that developed the first smartphone.",
             "answer": "What is IBM?",
             "difficulty": 5
-        },
-        {
-            "question": "The current president of the United States.",
-            "answer": "Who is Joe Biden?",
-            "difficulty": 1
         },
         {
             "question": "The international event held every four years featuring summer and winter sports.",
@@ -18821,11 +15946,6 @@ export const library = {
         {
             "question": "The planet in our solar system known as the Red Planet.",
             "answer": "What is Mars?",
-            "difficulty": 1
-        },
-        {
-            "question": "The social media platform acquired by Elon Musk in 2022.",
-            "answer": "What is Twitter?",
             "difficulty": 1
         },
         {
@@ -18909,11 +16029,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The European country known for its fjords and Viking history.",
-            "answer": "What is Norway?",
-            "difficulty": 3
-        },
-        {
             "question": "The South American country with Angel Falls, the world's highest waterfall.",
             "answer": "What is Venezuela?",
             "difficulty": 3
@@ -18935,7 +16050,7 @@ export const library = {
         },
         {
             "question": "The Asian country with the world's largest population as of 2023.",
-            "answer": "What is China?",
+            "answer": "What is India?",
             "difficulty": 4
         },
         {
@@ -19004,24 +16119,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The largest island in the Mediterranean Sea.",
-            "answer": "What is Sicily?",
-            "difficulty": 5
-        },
-        {
             "question": "The European city known for its canals and the Anne Frank House.",
             "answer": "What is Amsterdam?",
             "difficulty": 5
-        },
-        {
-            "question": "The current President of the United States as of 2023.",
-            "answer": "Who is Joe Biden?",
-            "difficulty": 1
-        },
-        {
-            "question": "The capital city of the country that hosted the 2023 FIFA Women's World Cup.",
-            "answer": "What is Wellington?",
-            "difficulty": 2
         },
         {
             "question": "The newly appointed CEO of Twitter in 2023.",
@@ -19061,11 +16161,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The first president of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
             "question": "This theoretical physicist developed the theory of relativity.",
             "answer": "Who is Albert Einstein?",
             "difficulty": 1
@@ -19086,11 +16181,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This woman was the first female Prime Minister of the United Kingdom.",
-            "answer": "Who is Margaret Thatcher?",
-            "difficulty": 2
-        },
-        {
             "question": "He was an Italian artist and scientist, famous for paintings like the Mona Lisa.",
             "answer": "Who is Leonardo da Vinci?",
             "difficulty": 2
@@ -19104,16 +16194,6 @@ export const library = {
             "question": "This leader is famous for his rule over the Soviet Union during World War II.",
             "answer": "Who is Joseph Stalin?",
             "difficulty": 2
-        },
-        {
-            "question": "The first woman to fly solo across the Atlantic Ocean.",
-            "answer": "Who is Amelia Earhart?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Mexican artist is known for her self-portraits and marriage to Diego Rivera.",
-            "answer": "Who is Frida Kahlo?",
-            "difficulty": 3
         },
         {
             "question": "This Greek philosopher taught Alexander the Great and wrote on various subjects like metaphysics.",
@@ -19151,7 +16231,7 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This scientist is known for his work on radioactivity and won two Nobel Prizes in Physics and Chemistry.",
+            "question": "This scientist is known for her work on radioactivity and won two Nobel Prizes in Physics and Chemistry.",
             "answer": "Who is Marie Curie?",
             "difficulty": 4
         },
@@ -19226,7 +16306,7 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This Russian physicist and chemist is best known for creating the periodic table.",
+            "question": "This Russian chemist is best known for creating the periodic table.",
             "answer": "Who is Dmitri Mendeleev?",
             "difficulty": 4
         },
@@ -19296,11 +16376,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This inventor is known for the light bulb and phonograph.",
-            "answer": "Who is Thomas Edison?",
-            "difficulty": 1
-        },
-        {
             "question": "This leader was the first President of the United States.",
             "answer": "Who is George Washington?",
             "difficulty": 1
@@ -19311,23 +16386,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This physicist developed the theory of relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 1
-        },
-        {
-            "question": "This civil rights leader gave the 'I Have a Dream' speech.",
-            "answer": "Who is Martin Luther King Jr.?",
-            "difficulty": 1
-        },
-        {
             "question": "This actress starred in the movie 'Breakfast at Tiffany's'.",
             "answer": "Who is Audrey Hepburn?",
-            "difficulty": 2
-        },
-        {
-            "question": "This singer is known as the 'King of Pop'.",
-            "answer": "Who is Michael Jackson?",
             "difficulty": 2
         },
         {
@@ -19336,38 +16396,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This explorer completed four voyages across the Atlantic Ocean.",
-            "answer": "Who is Christopher Columbus?",
-            "difficulty": 2
-        },
-        {
-            "question": "This French leader rose to prominence during the French Revolution.",
-            "answer": "Who is Napoleon Bonaparte?",
-            "difficulty": 2
-        },
-        {
             "question": "This physicist won the Nobel Prize for the photoelectric effect.",
             "answer": "Who is Albert Einstein?",
             "difficulty": 3
         },
         {
-            "question": "This British Prime Minister led the country during World War II.",
-            "answer": "Who is Winston Churchill?",
-            "difficulty": 3
-        },
-        {
             "question": "This scientist is known for their work on radioactivity.",
             "answer": "Who is Marie Curie?",
-            "difficulty": 3
-        },
-        {
-            "question": "This South African leader fought against apartheid.",
-            "answer": "Who is Nelson Mandela?",
-            "difficulty": 3
-        },
-        {
-            "question": "This author created the detective Sherlock Holmes.",
-            "answer": "Who is Arthur Conan Doyle?",
             "difficulty": 3
         },
         {
@@ -19411,16 +16446,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This aviator completed the first solo transatlantic flight.",
-            "answer": "Who is Charles Lindbergh?",
-            "difficulty": 5
-        },
-        {
-            "question": "This person is known as the 'Father of Modern Physics'.",
-            "answer": "Who is Galileo Galilei?",
-            "difficulty": 3
-        },
-        {
             "question": "This explorer is credited with the first circumnavigation of the Earth.",
             "answer": "Who is Ferdinand Magellan?",
             "difficulty": 4
@@ -19451,24 +16476,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This British monarch had the longest reign before Queen Elizabeth II.",
-            "answer": "Who is Queen Victoria?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Greek philosopher taught Alexander the Great.",
-            "answer": "Who is Aristotle?",
-            "difficulty": 3
-        },
-        {
             "question": "This Roman general crossed the Rubicon, sparking a civil war.",
             "answer": "Who is Julius Caesar?",
             "difficulty": 4
-        },
-        {
-            "question": "This English naturalist developed the theory of evolution by natural selection.",
-            "answer": "Who is Charles Darwin?",
-            "difficulty": 2
         },
         {
             "question": "This leader was the first female Prime Minister of the United Kingdom.",
@@ -19483,11 +16493,6 @@ export const library = {
         {
             "question": "This American aviator was the first woman to fly solo across the Atlantic Ocean.",
             "answer": "Who is Amelia Earhart?",
-            "difficulty": 2
-        },
-        {
-            "question": "This French military leader became Emperor of the French.",
-            "answer": "Who is Napoleon Bonaparte?",
             "difficulty": 2
         },
         {
@@ -19531,28 +16536,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This physicist developed the theory of relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 1
-        },
-        {
-            "question": "The first President of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
             "question": "This pop icon was known as the 'King of Pop'.",
             "answer": "Who is Michael Jackson?",
-            "difficulty": 1
-        },
-        {
-            "question": "She was the first woman to pilot a plane solo across the Atlantic Ocean.",
-            "answer": "Who is Amelia Earhart?",
-            "difficulty": 1
-        },
-        {
-            "question": "This British author wrote 'Harry Potter'.",
-            "answer": "Who is J.K. Rowling?",
             "difficulty": 1
         },
         {
@@ -19563,11 +16548,6 @@ export const library = {
         {
             "question": "The artist who painted the 'Mona Lisa'.",
             "answer": "Who is Leonardo da Vinci?",
-            "difficulty": 2
-        },
-        {
-            "question": "This American inventor is known for creating the light bulb.",
-            "answer": "Who is Thomas Edison?",
             "difficulty": 2
         },
         {
@@ -19586,29 +16566,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The first female Prime Minister of the United Kingdom.",
-            "answer": "Who is Margaret Thatcher?",
-            "difficulty": 3
-        },
-        {
-            "question": "She was the first African American woman to win the Nobel Prize in Literature.",
-            "answer": "Who is Toni Morrison?",
-            "difficulty": 3
-        },
-        {
             "question": "This Austrian composer created 'The Magic Flute' and 'Don Giovanni'.",
             "answer": "Who is Wolfgang Amadeus Mozart?",
             "difficulty": 3
-        },
-        {
-            "question": "He is known for his theory of evolution by natural selection.",
-            "answer": "Who is Charles Darwin?",
-            "difficulty": 3
-        },
-        {
-            "question": "This American civil rights leader delivered the 'I Have a Dream' speech.",
-            "answer": "Who is Martin Luther King Jr.?",
-            "difficulty": 4
         },
         {
             "question": "She was the longest-reigning British monarch before Queen Elizabeth II.",
@@ -19631,16 +16591,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This French military leader became Emperor of the French.",
-            "answer": "Who is Napoleon Bonaparte?",
-            "difficulty": 5
-        },
-        {
-            "question": "This leader is known for founding the People's Republic of China.",
-            "answer": "Who is Mao Zedong?",
-            "difficulty": 5
-        },
-        {
             "question": "This Roman general became dictator for life before his assassination.",
             "answer": "Who is Julius Caesar?",
             "difficulty": 5
@@ -19656,11 +16606,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This American aviator completed the first solo transatlantic flight.",
-            "answer": "Who is Charles Lindbergh?",
-            "difficulty": 1
-        },
-        {
             "question": "He was a leading figure of the Soviet Union during the Cuban Missile Crisis.",
             "answer": "Who is Nikita Khrushchev?",
             "difficulty": 3
@@ -19669,26 +16614,6 @@ export const library = {
             "question": "This artist is known for his Blue Period and helped develop Cubism.",
             "answer": "Who is Pablo Picasso?",
             "difficulty": 2
-        },
-        {
-            "question": "This scientist is known for his laws of motion and universal gravitation.",
-            "answer": "Who is Isaac Newton?",
-            "difficulty": 2
-        },
-        {
-            "question": "The first woman to fly solo nonstop across the Atlantic from west to east.",
-            "answer": "Who is Beryl Markham?",
-            "difficulty": 4
-        },
-        {
-            "question": "This American author wrote 'The Great Gatsby'.",
-            "answer": "Who is F. Scott Fitzgerald?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Italian explorer completed four voyages across the Atlantic Ocean.",
-            "answer": "Who is Christopher Columbus?",
-            "difficulty": 1
         },
         {
             "question": "This German philosopher is known for his critique of pure reason.",
@@ -19731,11 +16656,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This Russian novelist wrote 'War and Peace'.",
-            "answer": "Who is Leo Tolstoy?",
-            "difficulty": 3
-        },
-        {
             "question": "This Spanish conquistador led the expedition that caused the fall of the Aztec Empire.",
             "answer": "Who is Hern\u00e1n Cort\u00e9s?",
             "difficulty": 4
@@ -19744,11 +16664,6 @@ export const library = {
             "question": "This French scientist developed the pasteurization process.",
             "answer": "Who is Louis Pasteur?",
             "difficulty": 2
-        },
-        {
-            "question": "This Greek philosopher founded the Academy in Athens.",
-            "answer": "Who is Plato?",
-            "difficulty": 3
         },
         {
             "question": "This American statesman was a leading author of the Declaration of Independence.",
@@ -19761,38 +16676,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This French military and political leader rose to prominence during the French Revolution.",
-            "answer": "Who is Napoleon Bonaparte?",
-            "difficulty": 5
-        },
-        {
             "question": "This novelist is known for 'Moby-Dick'.",
             "answer": "Who is Herman Melville?",
             "difficulty": 3
         },
         {
-            "question": "This scientist developed the theory of relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 1
-        },
-        {
-            "question": "The first President of the United States.",
-            "answer": "Who is George Washington?",
-            "difficulty": 1
-        },
-        {
             "question": "This British author wrote the 'Harry Potter' series.",
             "answer": "Who is J.K. Rowling?",
-            "difficulty": 1
-        },
-        {
-            "question": "The artist who painted the Mona Lisa.",
-            "answer": "Who is Leonardo da Vinci?",
-            "difficulty": 1
-        },
-        {
-            "question": "This civil rights leader delivered the 'I Have a Dream' speech.",
-            "answer": "Who is Martin Luther King Jr.?",
             "difficulty": 1
         },
         {
@@ -19821,33 +16711,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This American inventor is famous for the light bulb.",
-            "answer": "Who is Thomas Edison?",
-            "difficulty": 2
-        },
-        {
             "question": "This Russian leader is known for the policy of Perestroika.",
             "answer": "Who is Mikhail Gorbachev?",
             "difficulty": 2
         },
         {
-            "question": "This woman was the first to fly solo across the Atlantic Ocean.",
-            "answer": "Who is Amelia Earhart?",
-            "difficulty": 2
-        },
-        {
             "question": "This actor played the titular role in 'The Matrix'.",
             "answer": "Who is Keanu Reeves?",
-            "difficulty": 2
-        },
-        {
-            "question": "This English playwright is known for works like 'Hamlet' and 'Macbeth'.",
-            "answer": "Who is William Shakespeare?",
-            "difficulty": 2
-        },
-        {
-            "question": "This musician is known as the 'King of Pop'.",
-            "answer": "Who is Michael Jackson?",
             "difficulty": 2
         },
         {
@@ -19861,19 +16731,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This French military leader became Emperor in 1804.",
-            "answer": "Who is Napoleon Bonaparte?",
-            "difficulty": 2
-        },
-        {
             "question": "This American billionaire is known for founding Amazon.",
             "answer": "Who is Jeff Bezos?",
             "difficulty": 2
-        },
-        {
-            "question": "This Austrian composer wrote 'The Magic Flute'.",
-            "answer": "Who is Wolfgang Amadeus Mozart?",
-            "difficulty": 3
         },
         {
             "question": "This British physicist is known for formulating the laws of motion.",
@@ -19891,11 +16751,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This American industrialist founded the Ford Motor Company.",
-            "answer": "Who is Henry Ford?",
-            "difficulty": 3
-        },
-        {
             "question": "This British Prime Minister led the UK during most of World War II.",
             "answer": "Who is Winston Churchill?",
             "difficulty": 3
@@ -19908,16 +16763,6 @@ export const library = {
         {
             "question": "This American inventor is famous for the phonograph and motion pictures.",
             "answer": "Who is Thomas Edison?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Greek philosopher taught Alexander the Great.",
-            "answer": "Who is Aristotle?",
-            "difficulty": 3
-        },
-        {
-            "question": "This American author wrote 'The Great Gatsby'.",
-            "answer": "Who is F. Scott Fitzgerald?",
             "difficulty": 3
         },
         {
@@ -19951,16 +16796,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This British naturalist developed the theory of evolution by natural selection.",
-            "answer": "Who is Charles Darwin?",
-            "difficulty": 4
-        },
-        {
-            "question": "This American civil rights activist refused to give up her bus seat in 1955.",
-            "answer": "Who is Rosa Parks?",
-            "difficulty": 4
-        },
-        {
             "question": "This author is known for creating the detective Sherlock Holmes.",
             "answer": "Who is Arthur Conan Doyle?",
             "difficulty": 4
@@ -19969,16 +16804,6 @@ export const library = {
             "question": "This ancient Egyptian queen is known for her beauty and diplomatic skills.",
             "answer": "Who is Cleopatra?",
             "difficulty": 4
-        },
-        {
-            "question": "This Indian leader is known for his nonviolent resistance.",
-            "answer": "Who is Mahatma Gandhi?",
-            "difficulty": 5
-        },
-        {
-            "question": "This American aviator made the first solo nonstop transatlantic flight.",
-            "answer": "Who is Charles Lindbergh?",
-            "difficulty": 5
         },
         {
             "question": "This Italian polymath is famous for his notebooks and inventions.",
@@ -20001,18 +16826,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This American jazz musician is known for his trumpet playing and singing.",
-            "answer": "Who is Louis Armstrong?",
-            "difficulty": 5
-        },
-        {
             "question": "This Italian navigator sailed under the Spanish flag and reached the Caribbean in 1492.",
             "answer": "Who is Christopher Columbus?",
-            "difficulty": 5
-        },
-        {
-            "question": "This French military and political leader rose to prominence during the French Revolution.",
-            "answer": "Who is Napoleon Bonaparte?",
             "difficulty": 5
         },
         {
@@ -20021,34 +16836,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This scientist developed the theory of general relativity.",
-            "answer": "Who is Albert Einstein?",
-            "difficulty": 1
-        },
-        {
-            "question": "This artist painted the ceiling of the Sistine Chapel.",
-            "answer": "Who is Michelangelo?",
-            "difficulty": 2
-        },
-        {
-            "question": "This civil rights leader delivered the 'I Have a Dream' speech.",
-            "answer": "Who is Martin Luther King Jr.?",
-            "difficulty": 2
-        },
-        {
-            "question": "This British monarch had the longest reign prior to Queen Elizabeth II.",
-            "answer": "Who is Queen Victoria?",
-            "difficulty": 3
-        },
-        {
             "question": "This individual was the first woman to win a Nobel Prize, and the only person to win in two different sciences.",
             "answer": "Who is Marie Curie?",
             "difficulty": 3
-        },
-        {
-            "question": "This explorer completed the first circumnavigation of the Earth.",
-            "answer": "Who is Ferdinand Magellan?",
-            "difficulty": 4
         },
         {
             "question": "This philosopher wrote 'The Republic', a Socratic dialogue on justice.",
@@ -20058,19 +16848,9 @@ export const library = {
     ],
     "Rock n' Roll Riots": [
         {
-            "question": "A 1965 event in California escalated into chaos at a concert by a famous British band.",
-            "answer": "What was the Rolling Stones concert at Altamont Speedway?",
-            "difficulty": 3
-        },
-        {
             "question": "This 1979 tragedy occurred before a concert in Ohio, leading to multiple fatalities.",
             "answer": "What was The Who concert in Cincinnati?",
             "difficulty": 4
-        },
-        {
-            "question": "A notorious 1970 festival in New York became infamous for violence and disorganization.",
-            "answer": "What was the Isle of Wight Festival?",
-            "difficulty": 5
         },
         {
             "question": "A 1980 incident in Germany involved clashes between fans and police at a concert by a punk band.",
@@ -20171,11 +16951,6 @@ export const library = {
             "question": "This 1992 concert in Buenos Aires became chaotic due to fan unrest and police intervention.",
             "answer": "What was the Guns N' Roses concert?",
             "difficulty": 4
-        },
-        {
-            "question": "A 1970 concert in Cincinnati by this band ended in disaster, with several fatalities.",
-            "answer": "What was The Who concert?",
-            "difficulty": 1
         },
         {
             "question": "This 1971 concert in London saw chaos and vandalism after the band refused to perform.",
@@ -20428,11 +17203,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This band's 1992 concert in Montreal was cut short, leading to a riot, after a pyrotechnics mishap injured the lead singer of their opening act.",
-            "answer": "Who is Guns N' Roses?",
-            "difficulty": 5
-        },
-        {
             "question": "This band's 1985 concert in Rio de Janeiro was halted by a riot due to a lack of crowd control.",
             "answer": "Who is Queen?",
             "difficulty": 4
@@ -20538,11 +17308,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This famous festival in 1969 experienced significant unrest and police intervention.",
-            "answer": "What is the Altamont Free Concert?",
-            "difficulty": 1
-        },
-        {
             "question": "A 1979 incident involving this band led to the death of 11 fans in Cincinnati during their tour.",
             "answer": "Who are The Who?",
             "difficulty": 1
@@ -20615,11 +17380,6 @@ export const library = {
         {
             "question": "In 1989, this band's concert in Paris was interrupted by a riot, leading to several arrests.",
             "answer": "Who are The Rolling Stones?",
-            "difficulty": 5
-        },
-        {
-            "question": "This band's performance in 1998 at Woodstock '99 is often blamed for inciting violence and riots.",
-            "answer": "Who are Limp Bizkit?",
             "difficulty": 5
         },
         {
@@ -20843,11 +17603,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A 1979 riot in Cleveland was sparked by a radio promotion involving this band's music being destroyed.",
-            "answer": "Who are The Rolling Stones?",
-            "difficulty": 5
-        },
-        {
             "question": "This iconic rock festival in 1969 faced chaos and violence, largely due to inadequate security provided by a motorcycle gang.",
             "answer": "What is Altamont Free Concert?",
             "difficulty": 3
@@ -21038,11 +17793,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A 1986 riot occurred in Montreal after this singer left the stage early due to voice issues.",
-            "answer": "Who is Axl Rose?",
-            "difficulty": 4
-        },
-        {
             "question": "In 1991, a riot broke out in Vancouver after a concert by this group was canceled due to the lead singer's throat issues.",
             "answer": "Who is Guns N' Roses?",
             "difficulty": 3
@@ -21067,11 +17817,6 @@ export const library = {
         {
             "question": "Kenny Chesney sings about this beverage often associated with pirates in his song.",
             "answer": "What is 'Rum'?",
-            "difficulty": 1
-        },
-        {
-            "question": "In Garth Brooks' hit, a drink with lime is consumed in a bar setting.",
-            "answer": "What is 'Margaritaville'?",
             "difficulty": 1
         },
         {
@@ -21100,11 +17845,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "In the song 'Gin and Juice' by a famous rapper, this spirit is a primary focus.",
-            "answer": "What is 'Snoop Dogg'?",
-            "difficulty": 3
-        },
-        {
             "question": "In 'Red Red Wine', this artist sings about the effects of a particular alcoholic beverage.",
             "answer": "Who is 'UB40'?",
             "difficulty": 3
@@ -21116,11 +17856,6 @@ export const library = {
         },
         {
             "question": "The Pogues sing about a fairytale in a New York setting involving this type of liquor.",
-            "answer": "What is 'Whiskey'?",
-            "difficulty": 4
-        },
-        {
-            "question": "In 'Tubthumping', this band refers to a drink that rhymes with 'vodka'.",
             "answer": "What is 'Whiskey'?",
             "difficulty": 4
         },
@@ -21210,11 +17945,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This song by the B-52's mentions a drink made with rum and fruit juice.",
-            "answer": "What is 'Rock Lobster'?",
-            "difficulty": 2
-        },
-        {
             "question": "A song by The Champs is named after a distilled beverage from agave.",
             "answer": "What is 'Tequila'?",
             "difficulty": 2
@@ -21295,18 +18025,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "A track by Kesha mentions waking up feeling like a famous rapper.",
-            "answer": "What is 'Tik Tok'?",
-            "difficulty": 5
-        },
-        {
             "question": "In this song, Luke Bryan sings about margaritas and how they taste better with a companion.",
             "answer": "What is 'One Margarita'?",
-            "difficulty": 5
-        },
-        {
-            "question": "This track by The Rolling Stones describes a cocktail made with lime and tequila.",
-            "answer": "What is 'You Got the Silver'?",
             "difficulty": 5
         },
         {
@@ -21403,11 +18123,6 @@ export const library = {
             "question": "This artist sings about 'Red Red Wine' in a song that became a hit for UB40.",
             "answer": "Who is Neil Diamond?",
             "difficulty": 2
-        },
-        {
-            "question": "In this song, Jimmy Buffett is searching for his lost shaker of salt.",
-            "answer": "What is 'Margaritaville'?",
-            "difficulty": 1
         },
         {
             "question": "This band sings about a 'Whisky in the Jar' in a popular cover version.",
@@ -21630,19 +18345,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Which hit by Garth Brooks mentions a beverage in the title that is popular in Ireland?",
-            "answer": "What is 'Two Pina Coladas'?",
-            "difficulty": 1
-        },
-        {
             "question": "Which pop superstar sings about 'Tennessee whiskey' in one of their songs?",
             "answer": "Who is Chris Stapleton?",
             "difficulty": 1
-        },
-        {
-            "question": "Which rapper has a song titled after a type of alcohol often associated with celebrations?",
-            "answer": "Who is Kanye West with 'Champagne Poetry'?",
-            "difficulty": 2
         },
         {
             "question": "Which artist sings about a 'Tequila Sunrise' in a classic rock song?",
@@ -21672,11 +18377,6 @@ export const library = {
         {
             "question": "Which song by AC/DC is named after a popular whiskey brand?",
             "answer": "What is 'Have a Drink on Me'?",
-            "difficulty": 3
-        },
-        {
-            "question": "Which song by the Beastie Boys includes a reference to a specific type of whiskey?",
-            "answer": "What is 'Brass Monkey'?",
             "difficulty": 3
         },
         {
@@ -21717,11 +18417,6 @@ export const library = {
         {
             "question": "Which song by The Pogues includes a mention of a specific alcoholic beverage during Christmas?",
             "answer": "What is 'Fairytale of New York'?",
-            "difficulty": 5
-        },
-        {
-            "question": "Which song by Fleetwood Mac contains a reference to 'rivers of whiskey'?",
-            "answer": "What is 'Gold Dust Woman'?",
             "difficulty": 5
         },
         {
@@ -21805,11 +18500,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Who sings about 'cocaina' in a popular song?",
-            "answer": "Who is Eric Clapton with 'Cocaine'?",
-            "difficulty": 2
-        },
-        {
             "question": "Which song by Sheryl Crow involves drinking 'beer' in the morning?",
             "answer": "What is 'All I Wanna Do'?",
             "difficulty": 3
@@ -21818,16 +18508,6 @@ export const library = {
             "question": "What drink is referred to in the title of a song by Van Halen?",
             "answer": "What is 'Cabo Wabo'?",
             "difficulty": 4
-        },
-        {
-            "question": "Which song by Red Hot Chili Peppers mentions drinking 'cabernet'?",
-            "answer": "What is 'Under the Bridge'?",
-            "difficulty": 5
-        },
-        {
-            "question": "Which song by Alan Jackson and Jimmy Buffett talks about 'margaritas'?",
-            "answer": "What is 'It's Five O'Clock Somewhere'?",
-            "difficulty": 1
         },
         {
             "question": "What drink is highlighted in a song by Kacey Musgraves?",
@@ -21922,11 +18602,6 @@ export const library = {
         {
             "question": "This artist sings about 'Rum and Coca-Cola' in a classic tune.",
             "answer": "Who are The Andrews Sisters?",
-            "difficulty": 2
-        },
-        {
-            "question": "This song's lyrics include 'vodka and lime'.",
-            "answer": "What is 'Escape (The Pi\u00f1a Colada Song)' by Rupert Holmes?",
             "difficulty": 2
         },
         {
@@ -22092,11 +18767,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "Which band sang about a cold-hearted snake in a 1983 hit?",
-            "answer": "Who is Rockwell?",
-            "difficulty": 1
-        },
-        {
             "question": "This 1981 song by Kim Carnes was about a famous actress from old Hollywood.",
             "answer": "What is 'Bette Davis Eyes'?",
             "difficulty": 1
@@ -22162,18 +18832,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This 1983 song by Eurythmics discusses dreams and sweet fantasies.",
-            "answer": "What is 'Sweet Dreams (Are Made of This)'?",
-            "difficulty": 3
-        },
-        {
             "question": "Which 1985 hit by Baltimora is known for its catchy chorus and jungle theme?",
             "answer": "What is 'Tarzan Boy'?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Italian artist had a 1983 hit about a futuristic world.",
-            "answer": "Who is Baltimora?",
             "difficulty": 3
         },
         {
@@ -22219,11 +18879,6 @@ export const library = {
         {
             "question": "This 1989 song by Martika discusses a form of emotional support.",
             "answer": "What is 'Toy Soldiers'?",
-            "difficulty": 4
-        },
-        {
-            "question": "Which 1986 hit by The Bangles is about a weekday?",
-            "answer": "What is 'Manic Monday'?",
             "difficulty": 4
         },
         {
@@ -22292,11 +18947,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This artist sang about being 'Too Shy' in 1983.",
-            "answer": "Who is Kajagoogoo?",
-            "difficulty": 1
-        },
-        {
             "question": "This singer told us 'I Just Died in Your Arms' in 1986.",
             "answer": "Who is Cutting Crew?",
             "difficulty": 1
@@ -22315,11 +18965,6 @@ export const library = {
             "question": "This 1982 hit is known for its catchy lines and was sung by Toni Basil.",
             "answer": "What is 'Mickey'?",
             "difficulty": 1
-        },
-        {
-            "question": "This band sang about a 'Major Tom' in their 1983 hit.",
-            "answer": "Who is Peter Schilling?",
-            "difficulty": 2
         },
         {
             "question": "This artist's 'Turning Japanese' became popular in 1980.",
@@ -22507,19 +19152,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This group wanted to 'rock you like a hurricane' in the 80s.",
-            "answer": "Who are the Scorpions?",
-            "difficulty": 2
-        },
-        {
             "question": "This hit involved a song about a 'car' that was 'driven' to number one.",
             "answer": "What is 'Cars' by Gary Numan?",
             "difficulty": 3
-        },
-        {
-            "question": "This band had a top hit with a song about the 'centerfold' in 1982.",
-            "answer": "Who are the J. Geils Band?",
-            "difficulty": 1
         },
         {
             "question": "This single from 1982 was about a girl with 'red balloons'.",
@@ -22535,11 +19170,6 @@ export const library = {
             "question": "This hit from 1986 was about the 'future' and performed by a band with 'dark' in the name.",
             "answer": "What is 'The Future's So Bright, I Gotta Wear Shades' by Timbuk3?",
             "difficulty": 2
-        },
-        {
-            "question": "This artist's one-hit wonder involved a 'rap' about 'Russians'.",
-            "answer": "What is 'Russians' by Sting?",
-            "difficulty": 5
         },
         {
             "question": "This song by a duo in 1984 was about a 'broken' relationship.",
@@ -22582,16 +19212,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This artist's hit was about 'falling in love' and 'being afraid'.",
-            "answer": "What is 'I Want to Know What Love Is' by Foreigner?",
-            "difficulty": 3
-        },
-        {
-            "question": "This song from 1983 was about being 'under pressure' and involved a collaboration with a famous band.",
-            "answer": "What is 'Under Pressure' by Queen and David Bowie?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1985 song was about a 'rumor' and involved an 'English' artist.",
             "answer": "What is 'Rumors' by Timex Social Club?",
             "difficulty": 3
@@ -22605,11 +19225,6 @@ export const library = {
             "question": "This hit from 1982 involved a 'word' and a 'bird'.",
             "answer": "What is 'Surfin' Bird' by The Trashmen?",
             "difficulty": 5
-        },
-        {
-            "question": "This 1984 song was about 'jumping' and performed by a hard rock band.",
-            "answer": "What is 'Jump' by Van Halen?",
-            "difficulty": 2
         },
         {
             "question": "This hit involved a 'tainted love' in 1981.",
@@ -22627,34 +19242,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This 1986 song was about 'perfect' strangers and performed by a band with a 'purple' name.",
-            "answer": "What is 'Perfect Strangers' by Deep Purple?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1985 song was about 'money for nothing' and performed by a 'dire' band.",
-            "answer": "What is 'Money for Nothing' by Dire Straits?",
-            "difficulty": 2
-        },
-        {
             "question": "This hit from 1980 was about 'funkytown'.",
             "answer": "What is 'Funkytown' by Lipps Inc.?",
             "difficulty": 2
-        },
-        {
-            "question": "This 1984 song was about 'running up that hill' and performed by a British female artist.",
-            "answer": "What is 'Running Up That Hill' by Kate Bush?",
-            "difficulty": 4
-        },
-        {
-            "question": "This 1989 hit involved a 'girl' and a 'material world'.",
-            "answer": "What is 'Material Girl' by Madonna?",
-            "difficulty": 1
-        },
-        {
-            "question": "This artist had a one-hit wonder in 1981 about a 'man on the corner'.",
-            "answer": "What is 'Man on the Corner' by Genesis?",
-            "difficulty": 5
         },
         {
             "question": "This 1988 song was about 'wild, wild west' and performed by a band with a 'number' name.",
@@ -22697,19 +19287,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This 1980 song was about 'call me' and was performed by a band with a 'blonde' name.",
-            "answer": "What is 'Call Me' by Blondie?",
-            "difficulty": 2
-        },
-        {
             "question": "This 1988 hit was about 'fast car' and performed by a female artist.",
             "answer": "What is 'Fast Car' by Tracy Chapman?",
             "difficulty": 3
-        },
-        {
-            "question": "This 1986 song was about 'west end girls' and performed by a duo with 'pets' in the name.",
-            "answer": "What is 'West End Girls' by Pet Shop Boys?",
-            "difficulty": 2
         },
         {
             "question": "This 1983 hit involved a 'love shack' and was performed by a band with '52s' in the name.",
@@ -22744,11 +19324,6 @@ export const library = {
         {
             "question": "This 1981 hit was about 'Jessie's Girl' and performed by an artist with a 'Rick' name.",
             "answer": "What is 'Jessie's Girl' by Rick Springfield?",
-            "difficulty": 1
-        },
-        {
-            "question": "This song by A-ha features a memorable animated music video.",
-            "answer": "What is 'Take On Me'?",
             "difficulty": 1
         },
         {
@@ -22867,11 +19442,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This band had a 1982 hit with a song about 'being on video'.",
-            "answer": "Who is The Buggles?",
-            "difficulty": 5
-        },
-        {
             "question": "This artist's hit song was about a 'major breakdown'.",
             "answer": "Who is Tubeway Army?",
             "difficulty": 5
@@ -22977,16 +19547,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This group had a 1985 hit about a 'tarzan boy'.",
-            "answer": "Who is Baltimora?",
-            "difficulty": 3
-        },
-        {
-            "question": "This band had a hit in 1983 with a song about 'too shy'.",
-            "answer": "Who is Kajagoogoo?",
-            "difficulty": 2
-        },
-        {
             "question": "This artist had a 1982 hit about 'I eat cannibals'.",
             "answer": "Who is Total Coelo?",
             "difficulty": 5
@@ -22995,21 +19555,6 @@ export const library = {
             "question": "This song by a Norwegian band topped the charts and featured a groundbreaking animated music video.",
             "answer": "What is 'Take On Me' by a-ha?",
             "difficulty": 1
-        },
-        {
-            "question": "This 1982 hit by a German singer describes a girl's night out and reached number one in several countries.",
-            "answer": "What is '99 Luftballons' by Nena?",
-            "difficulty": 1
-        },
-        {
-            "question": "This quirky song from 1980 celebrated a specific day of the week and was performed by an American duo.",
-            "answer": "What is 'It's Raining Men' by The Weather Girls?",
-            "difficulty": 2
-        },
-        {
-            "question": "This 1983 hit by an American musician is famous for its distinct saxophone riff and was his only top 40 hit.",
-            "answer": "What is 'Baker Street' by Gerry Rafferty?",
-            "difficulty": 2
         },
         {
             "question": "This 1988 British song asked listeners not to be cruel and became a staple of dance parties.",
@@ -23027,55 +19572,20 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This 1984 hit by a Dutch band describes a time measurement and was their only major US hit.",
-            "answer": "What is 'Twilight Zone' by Golden Earring?",
-            "difficulty": 4
-        },
-        {
             "question": "This 1989 track by a British artist was inspired by a painting of an American actress and was his only hit.",
             "answer": "What is 'Dear God' by XTC?",
-            "difficulty": 4
-        },
-        {
-            "question": "This 1985 song by a British band tells about moving to a new neighborhood and was their only charting single.",
-            "answer": "What is 'Our House' by Madness?",
             "difficulty": 4
         },
         {
             "question": "This 1984 song by an American duo describes a fleeting romantic encounter and became their only major hit.",
             "answer": "What is 'Obsession' by Animotion?",
             "difficulty": 5
-        },
-        {
-            "question": "This 1981 song by a Scottish band describes a particular type of celebration and was their only US hit.",
-            "answer": "What is 'In a Big Country' by Big Country?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1982 hit by an Australian group describes the feeling of isolation and was their only US top 10 single.",
-            "answer": "What is 'I Melt with You' by Modern English?",
-            "difficulty": 5
-        },
-        {
-            "question": "This 1987 track by a British artist uses a famous German word for its title and was their only hit.",
-            "answer": "What is 'Der Kommissar' by After the Fire?",
-            "difficulty": 5
         }
     ],
     "Rap": [
         {
-            "question": "This artist is known for the album 'The Marshall Mathers LP'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 1
-        },
-        {
             "question": "This rapper released 'Life After Death' shortly before his passing.",
             "answer": "Who is The Notorious B.I.G.?",
-            "difficulty": 1
-        },
-        {
-            "question": "This artist is famous for the song 'Hotline Bling'.",
-            "answer": "Who is Drake?",
             "difficulty": 1
         },
         {
@@ -23099,16 +19609,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This rapper founded the label Roc-A-Fella Records.",
-            "answer": "Who is Jay-Z?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist is known for the song 'Super Bass'.",
-            "answer": "Who is Nicki Minaj?",
-            "difficulty": 2
-        },
-        {
             "question": "This album by Kanye West includes the track 'Stronger'.",
             "answer": "What is 'Graduation'?",
             "difficulty": 2
@@ -23129,19 +19629,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This artist released the hit single 'Old Town Road'.",
-            "answer": "Who is Lil Nas X?",
-            "difficulty": 3
-        },
-        {
             "question": "This duo is known for the song 'Ms. Jackson'.",
             "answer": "Who are OutKast?",
             "difficulty": 3
-        },
-        {
-            "question": "This rapper was part of the group N.W.A.",
-            "answer": "Who is Ice Cube?",
-            "difficulty": 4
         },
         {
             "question": "This artist was the first female rapper to win a Grammy for Best Rap Album.",
@@ -23151,16 +19641,6 @@ export const library = {
         {
             "question": "This rapper's breakout mixtape was titled 'So Far Gone'.",
             "answer": "Who is Drake?",
-            "difficulty": 4
-        },
-        {
-            "question": "This artist is known for the album 'The Chronic'.",
-            "answer": "Who is Dr. Dre?",
-            "difficulty": 4
-        },
-        {
-            "question": "This rapper is known for popularizing the term 'bling bling'.",
-            "answer": "Who is Lil Wayne?",
             "difficulty": 4
         },
         {
@@ -23184,11 +19664,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This artist created the alter ego 'Macho Man' for a wrestling career.",
-            "answer": "Who is Macho Man Randy Savage?",
-            "difficulty": 5
-        },
-        {
             "question": "This rapper is known as the 'King of Crunk'.",
             "answer": "Who is Lil Jon?",
             "difficulty": 5
@@ -23209,16 +19684,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This rapper's debut album is 'Reasonable Doubt'.",
-            "answer": "Who is Jay-Z?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist created the album 'The College Dropout'.",
-            "answer": "Who is Kanye West?",
-            "difficulty": 2
-        },
-        {
             "question": "This artist's real name is Curtis Jackson.",
             "answer": "Who is 50 Cent?",
             "difficulty": 3
@@ -23236,11 +19701,6 @@ export const library = {
         {
             "question": "This artist was involved in the song 'California Love'.",
             "answer": "Who is Tupac Shakur?",
-            "difficulty": 4
-        },
-        {
-            "question": "This rapper is known for the phrase 'Cash Money Records'.",
-            "answer": "Who is Birdman?",
             "difficulty": 4
         },
         {
@@ -23299,11 +19759,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This rapper is known as 'Slim Shady'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 1
-        },
-        {
             "question": "This artist's album 'The College Dropout' was released in 2004.",
             "answer": "Who is Kanye West?",
             "difficulty": 1
@@ -23314,28 +19769,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This artist is known for the song 'Hotline Bling'.",
-            "answer": "Who is Drake?",
-            "difficulty": 1
-        },
-        {
             "question": "This artist released the album 'Lemonade' in 2016.",
             "answer": "Who is Beyonc\u00e9?",
             "difficulty": 1
         },
         {
-            "question": "This rapper's real name is Shawn Carter.",
-            "answer": "Who is Jay-Z?",
-            "difficulty": 1
-        },
-        {
             "question": "This rapper is associated with the phrase 'Thug Life'.",
             "answer": "Who is Tupac Shakur?",
-            "difficulty": 1
-        },
-        {
-            "question": "This artist is known for the song 'Lose Yourself'.",
-            "answer": "Who is Eminem?",
             "difficulty": 1
         },
         {
@@ -23369,28 +19809,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This rapper released the album 'The Marshall Mathers LP'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 2
-        },
-        {
             "question": "This artist is known for wearing a clock around his neck.",
             "answer": "Who is Flavor Flav?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist released the song 'Bodak Yellow'.",
-            "answer": "Who is Cardi B?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist is known for the song 'Old Town Road'.",
-            "answer": "Who is Lil Nas X?",
-            "difficulty": 2
-        },
-        {
-            "question": "This rapper's birth name is Onika Tanya Maraj.",
-            "answer": "Who is Nicki Minaj?",
             "difficulty": 2
         },
         {
@@ -23404,38 +19824,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This rapper's debut album was 'The Chronic'.",
-            "answer": "Who is Dr. Dre?",
-            "difficulty": 3
-        },
-        {
             "question": "This artist's hit song 'Rockstar' featured 21 Savage.",
             "answer": "Who is Post Malone?",
             "difficulty": 3
         },
         {
-            "question": "This artist's album 'DAMN.' won a Pulitzer Prize for Music.",
-            "answer": "Who is Kendrick Lamar?",
-            "difficulty": 3
-        },
-        {
-            "question": "This rapper released the album 'Illmatic' in 1994.",
-            "answer": "Who is Nas?",
-            "difficulty": 3
-        },
-        {
             "question": "This artist is known for the song 'Sicko Mode'.",
             "answer": "Who is Travis Scott?",
-            "difficulty": 3
-        },
-        {
-            "question": "This rapper's real name is Calvin Broadus Jr.",
-            "answer": "Who is Snoop Dogg?",
-            "difficulty": 3
-        },
-        {
-            "question": "This artist is known for the hit 'In Da Club'.",
-            "answer": "Who is 50 Cent?",
             "difficulty": 3
         },
         {
@@ -23449,11 +19844,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This rapper was a member of 'N.W.A'.",
-            "answer": "Who is Ice Cube?",
-            "difficulty": 4
-        },
-        {
             "question": "This artist released the mixtape 'Acid Rap' in 2013.",
             "answer": "Who is Chance the Rapper?",
             "difficulty": 4
@@ -23461,11 +19851,6 @@ export const library = {
         {
             "question": "This rapper's debut album was 'Man on the Moon: The End of Day'.",
             "answer": "Who is Kid Cudi?",
-            "difficulty": 4
-        },
-        {
-            "question": "This artist is known for the track 'I Will Always Love You' cover.",
-            "answer": "Who is Whitney Houston?",
             "difficulty": 4
         },
         {
@@ -23482,11 +19867,6 @@ export const library = {
             "question": "This rapper is known for the phrase 'Wu-Tang Clan ain't nothin' to f' wit'.",
             "answer": "Who is Method Man?",
             "difficulty": 4
-        },
-        {
-            "question": "This rapper released the album 'My Beautiful Dark Twisted Fantasy'.",
-            "answer": "Who is Kanye West?",
-            "difficulty": 5
         },
         {
             "question": "This artist's debut album 'The Slim Shady LP' won a Grammy Award.",
@@ -23506,11 +19886,6 @@ export const library = {
         {
             "question": "This rapper's real name is Amethyst Amelia Kelly.",
             "answer": "Who is Iggy Azalea?",
-            "difficulty": 5
-        },
-        {
-            "question": "This artist is known for the album 'Enter the Wu-Tang (36 Chambers)'.",
-            "answer": "Who are the Wu-Tang Clan?",
             "difficulty": 5
         },
         {
@@ -23559,16 +19934,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This artist released the album 'The Chronic'.",
-            "answer": "Who is Dr. Dre?",
-            "difficulty": 1
-        },
-        {
-            "question": "This rapper's real name is Shawn Carter.",
-            "answer": "Who is Jay-Z?",
-            "difficulty": 1
-        },
-        {
             "question": "This female rapper is known for the song 'Super Bass'.",
             "answer": "Who is Nicki Minaj?",
             "difficulty": 1
@@ -23579,28 +19944,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This artist's debut album is 'Get Rich or Die Tryin'.",
-            "answer": "Who is 50 Cent?",
-            "difficulty": 2
-        },
-        {
-            "question": "This rapper is known for wearing a clock around his neck.",
-            "answer": "Who is Flavor Flav?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist is known for the song 'HUMBLE.'.",
-            "answer": "Who is Kendrick Lamar?",
-            "difficulty": 2
-        },
-        {
             "question": "This rapper is known for his 'Heartless' style.",
             "answer": "Who is Kanye West?",
-            "difficulty": 2
-        },
-        {
-            "question": "This rapper is known for the album 'Illmatic'.",
-            "answer": "Who is Nas?",
             "difficulty": 2
         },
         {
@@ -23639,11 +19984,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This rapper's real name is Calvin Broadus Jr.",
-            "answer": "Who is Snoop Dogg?",
-            "difficulty": 3
-        },
-        {
             "question": "This artist is known for the song 'Trap Queen'.",
             "answer": "Who is Fetty Wap?",
             "difficulty": 3
@@ -23661,11 +20001,6 @@ export const library = {
         {
             "question": "This artist is known for the hit song 'Panda'.",
             "answer": "Who is Desiigner?",
-            "difficulty": 3
-        },
-        {
-            "question": "This rapper created the album 'Good Kid, M.A.A.D City'.",
-            "answer": "Who is Kendrick Lamar?",
             "difficulty": 3
         },
         {
@@ -23734,18 +20069,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This rapper is known for the album 'The Marshall Mathers LP'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 5
-        },
-        {
             "question": "This artist is known for the song 'Stan' featuring Dido.",
             "answer": "Who is Eminem?",
-            "difficulty": 5
-        },
-        {
-            "question": "This rapper released the album 'Life After Death'.",
-            "answer": "Who is The Notorious B.I.G.?",
             "difficulty": 5
         },
         {
@@ -23764,16 +20089,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This rapper's real name is Marshall Mathers.",
-            "answer": "Who is Eminem?",
-            "difficulty": 5
-        },
-        {
-            "question": "This artist is known for the album 'Illmatic'.",
-            "answer": "Who is Nas?",
-            "difficulty": 5
-        },
-        {
             "question": "This rapper is known for his 2000 album titled 'The Marshall Mathers LP'.",
             "answer": "Who is Eminem?",
             "difficulty": 1
@@ -23786,11 +20101,6 @@ export const library = {
         {
             "question": "This group is known for their influential album 'Straight Outta Compton'.",
             "answer": "Who is N.W.A?",
-            "difficulty": 1
-        },
-        {
-            "question": "This rapper founded the record label Roc-A-Fella Records.",
-            "answer": "Who is Jay-Z?",
             "difficulty": 1
         },
         {
@@ -23819,28 +20129,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This rapper is known for his alter ego 'Slim Shady'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 2
-        },
-        {
             "question": "This rapper is married to Beyonc\u00e9.",
             "answer": "Who is Jay-Z?",
             "difficulty": 2
         },
         {
-            "question": "This rapper's debut album is titled 'Get Rich or Die Tryin'.",
-            "answer": "Who is 50 Cent?",
-            "difficulty": 2
-        },
-        {
             "question": "This rapper was born as Shawn Corey Carter.",
             "answer": "Who is Jay-Z?",
-            "difficulty": 2
-        },
-        {
-            "question": "This artist is known for the album 'To Pimp a Butterfly'.",
-            "answer": "Who is Kendrick Lamar?",
             "difficulty": 2
         },
         {
@@ -23919,21 +20214,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This rapper's real name is O'Shea Jackson.",
-            "answer": "Who is Ice Cube?",
-            "difficulty": 4
-        },
-        {
-            "question": "This rapper released the song 'Stan' featuring Dido.",
-            "answer": "Who is Eminem?",
-            "difficulty": 4
-        },
-        {
-            "question": "This rapper was part of the group The Fugees.",
-            "answer": "Who is Lauryn Hill?",
-            "difficulty": 4
-        },
-        {
             "question": "This rapper's debut album is titled 'College Dropout'.",
             "answer": "Who is Kanye West?",
             "difficulty": 4
@@ -24004,16 +20284,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This rapper is known for his album 'The Marshall Mathers LP'.",
-            "answer": "Who is Eminem?",
-            "difficulty": 1
-        },
-        {
-            "question": "This artist released the song 'Hotline Bling' in 2015.",
-            "answer": "Who is Drake?",
-            "difficulty": 1
-        },
-        {
             "question": "The rapper who founded 'Yeezy' brand.",
             "answer": "Who is Kanye West?",
             "difficulty": 1
@@ -24029,47 +20299,17 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This influential rap group released 'Straight Outta Compton' in 1988.",
-            "answer": "Who is N.W.A?",
-            "difficulty": 2
-        },
-        {
             "question": "The artist who won a Pulitzer Prize for the album 'DAMN.' in 2018.",
             "answer": "Who is Kendrick Lamar?",
             "difficulty": 3
         },
         {
-            "question": "This rapper's debut album is titled 'Reasonable Doubt'.",
-            "answer": "Who is Jay-Z?",
-            "difficulty": 3
-        },
-        {
-            "question": "This artist is known for the hit 'Old Town Road'.",
-            "answer": "Who is Lil Nas X?",
-            "difficulty": 3
-        },
-        {
-            "question": "This rapper was part of the duo 'OutKast'.",
-            "answer": "Who is Andr\u00e9 3000?",
-            "difficulty": 4
-        },
-        {
             "question": "The rapper who was gunned down in Las Vegas in 1996.",
             "answer": "Who is Tupac Shakur?",
             "difficulty": 4
-        },
-        {
-            "question": "This rapper's stage name is derived from a character in 'Back to the Future'.",
-            "answer": "Who is Busta Rhymes?",
-            "difficulty": 5
         }
     ],
     "Haus (House Music)": [
-        {
-            "question": "This Chicago DJ is often credited with pioneering house music in the 1980s.",
-            "answer": "Who is Frankie Knuckles?",
-            "difficulty": 1
-        },
         {
             "question": "This genre of music, often played at clubs, is known for its repetitive 4/4 beats and originated in the early 1980s.",
             "answer": "What is house music?",
@@ -24093,11 +20333,6 @@ export const library = {
         {
             "question": "This European city is often seen as a major hub for house music in the 1990s, particularly in its club scene.",
             "answer": "What is Berlin?",
-            "difficulty": 2
-        },
-        {
-            "question": "This term describes the characteristic house music beat pattern emphasizing the second and fourth beats in a measure.",
-            "answer": "What is 'four-on-the-floor'?",
             "difficulty": 2
         },
         {
@@ -24146,11 +20381,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This influential 1987 house track by Raze features the iconic line 'Got to have house music all night long.'",
-            "answer": "What is 'Jack Your Body'?",
-            "difficulty": 5
-        },
-        {
             "question": "This Chicago DJ, known for his work with Trax Records, co-produced the iconic house track 'Your Love' with Frankie Knuckles.",
             "answer": "Who is Jamie Principle?",
             "difficulty": 5
@@ -24189,11 +20419,6 @@ export const library = {
             "question": "This term refers to a short, repeating section of music, often used in house tracks to build energy.",
             "answer": "What is a loop?",
             "difficulty": 3
-        },
-        {
-            "question": "This house music producer, famous for the track 'I Feel for You', is also known as a pioneer of the Detroit techno scene.",
-            "answer": "Who is Kevin Saunderson?",
-            "difficulty": 4
         },
         {
             "question": "This UK electronic music duo, known for their work in the house genre, released the album 'Remedy' in 1999.",
@@ -24336,11 +20561,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "A house music track that samples the bassline from the 1983 disco song 'Let No Man Put Asunder'.",
-            "answer": "What is 'Ride on Time' by Black Box?",
-            "difficulty": 3
-        },
-        {
             "question": "This form of house music combines elements of Latin music with traditional house beats.",
             "answer": "What is Latin House?",
             "difficulty": 2
@@ -24416,11 +20636,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The influential house producer behind the classic track 'French Kiss'.",
-            "answer": "Who is Lil Louis?",
-            "difficulty": 3
-        },
-        {
             "question": "A distinctive feature of house music often used to create anticipation on the dance floor.",
             "answer": "What is a Build-up or Drop?",
             "difficulty": 2
@@ -24469,11 +20684,6 @@ export const library = {
             "question": "The Ibiza nightclub known for its extravagant parties and being an icon of the island's nightlife.",
             "answer": "What is Pacha?",
             "difficulty": 3
-        },
-        {
-            "question": "This house music producer is known for the track 'I Feel for You', featuring vocals by Chaka Khan.",
-            "answer": "Who is Bob Sinclar?",
-            "difficulty": 4
         },
         {
             "question": "The term for a DJ who creates new tracks by combining several existing songs.",
@@ -24561,11 +20771,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This electronic music subgenre blends house music with elements of soul and R&B.",
-            "answer": "What is deep house?",
-            "difficulty": 2
-        },
-        {
             "question": "This prominent house music DJ and producer released the track 'Your Love' in 1986.",
             "answer": "Who is Frankie Knuckles?",
             "difficulty": 2
@@ -24579,11 +20784,6 @@ export const library = {
             "question": "The 'Chicago sound' in electronic music is primarily associated with this genre.",
             "answer": "What is house music?",
             "difficulty": 1
-        },
-        {
-            "question": "This house track by Marshall Jefferson is known for its piano riff and was released in 1986.",
-            "answer": "What is 'Move Your Body'?",
-            "difficulty": 3
         },
         {
             "question": "This house music pioneer released the track 'Can You Feel It' in 1986.",
@@ -24608,11 +20808,6 @@ export const library = {
         {
             "question": "The drum machine that significantly influenced the sound of early house music.",
             "answer": "What is the Roland TR-808?",
-            "difficulty": 3
-        },
-        {
-            "question": "This house music subgenre is characterized by its soulful vocals and slower tempo.",
-            "answer": "What is soulful house?",
             "difficulty": 3
         },
         {
@@ -24656,11 +20851,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This house music anthem by CeCe Peniston topped the charts in 1991.",
-            "answer": "What is 'Finally'?",
-            "difficulty": 2
-        },
-        {
             "question": "This legendary Ibiza nightclub is often credited with popularizing house music in Europe.",
             "answer": "What is Amnesia?",
             "difficulty": 5
@@ -24673,11 +20863,6 @@ export const library = {
         {
             "question": "This electronic music genre combines elements of house and techno.",
             "answer": "What is tech house?",
-            "difficulty": 2
-        },
-        {
-            "question": "This house music track by Robin S became a club hit in the early 1990s.",
-            "answer": "What is 'Show Me Love'?",
             "difficulty": 2
         },
         {
@@ -24766,11 +20951,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This legendary house music DJ and producer from Chicago is known for the track 'Baby Wants to Ride'.",
-            "answer": "Who is Frankie Knuckles?",
-            "difficulty": 3
-        },
-        {
             "question": "This house music track by Armand Van Helden became a worldwide hit in 1999.",
             "answer": "What is 'U Don't Know Me'?",
             "difficulty": 3
@@ -24779,11 +20959,6 @@ export const library = {
             "question": "This genre, a fusion of house and hip-hop, is known for its use of samples and rap elements.",
             "answer": "What is hip house?",
             "difficulty": 3
-        },
-        {
-            "question": "This genre of music originated in Chicago in the early 1980s.",
-            "answer": "What is House Music?",
-            "difficulty": 1
         },
         {
             "question": "This song by Daft Punk features the lyrics 'Like the legend of the phoenix'.",
@@ -24801,19 +20976,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This subgenre of house music is characterized by deep basslines and soulful vocals.",
-            "answer": "What is Deep House?",
-            "difficulty": 2
-        },
-        {
             "question": "This legendary club in New York is often credited with the birth of modern dance music culture.",
             "answer": "What is Paradise Garage?",
             "difficulty": 4
-        },
-        {
-            "question": "This DJ duo is known for the hit track 'Pjanoo'.",
-            "answer": "Who are Axwell and Ingrosso?",
-            "difficulty": 3
         },
         {
             "question": "This style of house music is known for its use of repetitive beats and strong basslines.",
@@ -24896,19 +21061,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This producer's hit 'I Feel for You' was one of the first to use a sampler.",
-            "answer": "Who is Chaka Khan?",
-            "difficulty": 4
-        },
-        {
             "question": "This DJ and producer is known for the 2000 track 'Lady (Hear Me Tonight)'.",
             "answer": "Who is Modjo?",
             "difficulty": 2
-        },
-        {
-            "question": "This DJ was the first to use the term 'house music' in reference to his mixes.",
-            "answer": "Who is DJ Knuckles?",
-            "difficulty": 5
         },
         {
             "question": "This house music duo is known for their live performances with a giant light-up cross.",
@@ -24981,11 +21136,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This house music label was founded by Tony Humphries and was instrumental in the genre's growth.",
-            "answer": "What is Strictly Rhythm?",
-            "difficulty": 5
-        },
-        {
             "question": "This house music festival, started in Belgium, has become one of the biggest electronic music festivals in the world.",
             "answer": "What is Tomorrowland?",
             "difficulty": 2
@@ -25014,11 +21164,6 @@ export const library = {
             "question": "This track by Todd Terry featuring a sample of 'Weekend' became a house classic.",
             "answer": "What is 'Keep on Jumpin'?",
             "difficulty": 4
-        },
-        {
-            "question": "This Chicago club is often credited as the birthplace of house music.",
-            "answer": "What is The Warehouse?",
-            "difficulty": 1
         },
         {
             "question": "Known as the 'Godfather of House Music', this DJ and producer helped pioneer the genre in the 1980s.",
@@ -25068,16 +21213,6 @@ export const library = {
     ],
     "World Capitals": [
         {
-            "question": "The capital of France known for the Eiffel Tower.",
-            "answer": "What is Paris?",
-            "difficulty": 1
-        },
-        {
-            "question": "The city that serves as the capital of Italy.",
-            "answer": "What is Rome?",
-            "difficulty": 1
-        },
-        {
             "question": "The capital city of Japan, famous for its technology and culture.",
             "answer": "What is Tokyo?",
             "difficulty": 1
@@ -25088,31 +21223,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The capital of Germany, known for its historical significance.",
-            "answer": "What is Berlin?",
-            "difficulty": 1
-        },
-        {
-            "question": "The capital of Spain, known for its art museums and royal palace.",
-            "answer": "What is Madrid?",
-            "difficulty": 1
-        },
-        {
-            "question": "This city is the capital of Russia, famous for the Kremlin.",
-            "answer": "What is Moscow?",
-            "difficulty": 1
-        },
-        {
-            "question": "The largest city and capital of Argentina.",
-            "answer": "What is Buenos Aires?",
-            "difficulty": 1
-        },
-        {
-            "question": "The capital city of Australia, located in the southeast.",
-            "answer": "What is Canberra?",
-            "difficulty": 2
-        },
-        {
             "question": "The capital of Canada, located in the province of Ontario.",
             "answer": "What is Ottawa?",
             "difficulty": 2
@@ -25120,11 +21230,6 @@ export const library = {
         {
             "question": "This city serves as the capital of Brazil.",
             "answer": "What is Bras\u00edlia?",
-            "difficulty": 2
-        },
-        {
-            "question": "The capital of India, known for its historic Red Fort.",
-            "answer": "What is New Delhi?",
             "difficulty": 2
         },
         {
@@ -25148,16 +21253,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The capital of Thailand, known for its vibrant street life and temples.",
-            "answer": "What is Bangkok?",
-            "difficulty": 2
-        },
-        {
-            "question": "This city is the capital of the Netherlands.",
-            "answer": "What is Amsterdam?",
-            "difficulty": 2
-        },
-        {
             "question": "The capital of Turkey, located in the Anatolian region.",
             "answer": "What is Ankara?",
             "difficulty": 2
@@ -25165,16 +21260,6 @@ export const library = {
         {
             "question": "The capital city of Switzerland, a country known for its neutrality.",
             "answer": "What is Bern?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Austria, famous for its classical music heritage.",
-            "answer": "What is Vienna?",
-            "difficulty": 3
-        },
-        {
-            "question": "This city is the capital of Portugal, known for its hilly landscape.",
-            "answer": "What is Lisbon?",
             "difficulty": 3
         },
         {
@@ -25188,48 +21273,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This city is the capital of Norway, known for its maritime history.",
-            "answer": "What is Oslo?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Sweden, built on 14 islands.",
-            "answer": "What is Stockholm?",
-            "difficulty": 3
-        },
-        {
             "question": "The capital city of Denmark, known for its harbor and mermaid statue.",
             "answer": "What is Copenhagen?",
             "difficulty": 3
         },
         {
-            "question": "This city is the capital of Finland, known for design and architecture.",
-            "answer": "What is Helsinki?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Belgium, also the de facto capital of the European Union.",
-            "answer": "What is Brussels?",
-            "difficulty": 3
-        },
-        {
             "question": "The capital of New Zealand, located at the southwestern tip of the North Island.",
             "answer": "What is Wellington?",
-            "difficulty": 4
-        },
-        {
-            "question": "This city is the capital of Chile, nestled in a valley surrounded by mountains.",
-            "answer": "What is Santiago?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Malaysia, known for its iconic twin towers.",
-            "answer": "What is Kuala Lumpur?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Vietnam, known for its centuries-old architecture.",
-            "answer": "What is Hanoi?",
             "difficulty": 4
         },
         {
@@ -25243,11 +21293,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of South Africa, one of three in the country.",
-            "answer": "What is Pretoria?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of Saudi Arabia, located in the center of the Arabian Peninsula.",
             "answer": "What is Riyadh?",
             "difficulty": 4
@@ -25258,11 +21303,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of Indonesia, located on the island of Java.",
-            "answer": "What is Jakarta?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of the Philippines, part of a metropolitan area with over 16 million people.",
             "answer": "What is Manila?",
             "difficulty": 4
@@ -25270,11 +21310,6 @@ export const library = {
         {
             "question": "The capital of Qatar, a rapidly developing city on the Persian Gulf.",
             "answer": "What is Doha?",
-            "difficulty": 5
-        },
-        {
-            "question": "The capital of Kazakhstan, renamed in 2019 in honor of the former president.",
-            "answer": "What is Nur-Sultan?",
             "difficulty": 5
         },
         {
@@ -25298,11 +21333,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The capital of Tajikistan, located in the Gissar Valley.",
-            "answer": "What is Dushanbe?",
-            "difficulty": 5
-        },
-        {
             "question": "The capital of Turkmenistan, known for its white marble buildings.",
             "answer": "What is Ashgabat?",
             "difficulty": 5
@@ -25318,11 +21348,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This city is the capital of France.",
-            "answer": "What is Paris?",
-            "difficulty": 1
-        },
-        {
             "question": "Known for its iconic opera house, this city is the capital of New South Wales, Australia.",
             "answer": "What is Sydney?",
             "difficulty": 1
@@ -25330,11 +21355,6 @@ export const library = {
         {
             "question": "The capital of Japan, known for its blend of traditional and modern architecture.",
             "answer": "What is Tokyo?",
-            "difficulty": 1
-        },
-        {
-            "question": "This city is the capital of the United Kingdom.",
-            "answer": "What is London?",
             "difficulty": 1
         },
         {
@@ -25423,16 +21443,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This city is the capital of Norway, known for its museums and green spaces.",
-            "answer": "What is Oslo?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital city of the Netherlands, famous for its canals and art museums.",
-            "answer": "What is Amsterdam?",
-            "difficulty": 3
-        },
-        {
             "question": "This city is the capital of Austria, known for its classical music heritage.",
             "answer": "What is Vienna?",
             "difficulty": 3
@@ -25458,19 +21468,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The capital of Finland, located on a peninsula in the Gulf of Finland.",
-            "answer": "What is Helsinki?",
-            "difficulty": 3
-        },
-        {
             "question": "This city is the capital of Greece, known for its ancient landmarks such as the Parthenon.",
             "answer": "What is Athens?",
             "difficulty": 3
-        },
-        {
-            "question": "The capital of Colombia, located at a high altitude in the Andes mountains.",
-            "answer": "What is Bogot\u00e1?",
-            "difficulty": 4
         },
         {
             "question": "This city is the capital of Chile, set in a valley surrounded by the Andes and Chilean Coast Range mountains.",
@@ -25529,7 +21529,7 @@ export const library = {
         },
         {
             "question": "The capital of Kazakhstan, moved from Almaty in 1997 and known for its futuristic skyline.",
-            "answer": "What is Nur-Sultan?",
+            "answer": "What is Astana?",
             "difficulty": 5
         },
         {
@@ -25568,53 +21568,13 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This city is the capital of France.",
-            "answer": "What is Paris?",
-            "difficulty": 1
-        },
-        {
-            "question": "The capital city of Japan, known for its modern architecture and rich history.",
-            "answer": "What is Tokyo?",
-            "difficulty": 1
-        },
-        {
-            "question": "This city is the capital of Italy and home to the Colosseum.",
-            "answer": "What is Rome?",
-            "difficulty": 1
-        },
-        {
-            "question": "The capital city of the United Kingdom.",
-            "answer": "What is London?",
-            "difficulty": 1
-        },
-        {
-            "question": "This city is the capital of Australia.",
-            "answer": "What is Canberra?",
-            "difficulty": 2
-        },
-        {
             "question": "The capital of Brazil, designed by Oscar Niemeyer.",
             "answer": "What is Bras\u00edlia?",
             "difficulty": 2
         },
         {
-            "question": "This city is the capital of Germany, known for its Brandenburg Gate.",
-            "answer": "What is Berlin?",
-            "difficulty": 2
-        },
-        {
-            "question": "The capital of Canada, located in Ontario.",
-            "answer": "What is Ottawa?",
-            "difficulty": 2
-        },
-        {
             "question": "This South Asian city is the capital of India.",
             "answer": "What is New Delhi?",
-            "difficulty": 2
-        },
-        {
-            "question": "The capital of Russia, known for the Kremlin.",
-            "answer": "What is Moscow?",
             "difficulty": 2
         },
         {
@@ -25628,58 +21588,13 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This city is the capital of Thailand, famous for its vibrant street life.",
-            "answer": "What is Bangkok?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Argentina, known for its European-style architecture.",
-            "answer": "What is Buenos Aires?",
-            "difficulty": 3
-        },
-        {
-            "question": "This city is the capital of South Korea, known for its modern skyscrapers.",
-            "answer": "What is Seoul?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Kenya, known for its national park within city limits.",
-            "answer": "What is Nairobi?",
-            "difficulty": 3
-        },
-        {
-            "question": "This city is the capital of Saudi Arabia.",
-            "answer": "What is Riyadh?",
-            "difficulty": 3
-        },
-        {
             "question": "The capital of Turkey, not to be confused with its largest city.",
             "answer": "What is Ankara?",
             "difficulty": 3
         },
         {
-            "question": "This city is the capital of Spain, known for its Royal Palace.",
-            "answer": "What is Madrid?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of the United States.",
-            "answer": "What is Washington, D.C.?",
-            "difficulty": 3
-        },
-        {
-            "question": "This city is the capital of Greece, known for the Acropolis.",
-            "answer": "What is Athens?",
-            "difficulty": 3
-        },
-        {
             "question": "The capital of Portugal, located on the Iberian Peninsula.",
             "answer": "What is Lisbon?",
-            "difficulty": 3
-        },
-        {
-            "question": "This city is the capital of the Netherlands, known for its canals.",
-            "answer": "What is Amsterdam?",
             "difficulty": 3
         },
         {
@@ -25703,28 +21618,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of Vietnam, located in the northern part of the country.",
-            "answer": "What is Hanoi?",
-            "difficulty": 4
-        },
-        {
-            "question": "This city is the capital of Chile, nestled in a valley surrounded by mountains.",
-            "answer": "What is Santiago?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Norway, known for its green spaces and museums.",
-            "answer": "What is Oslo?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of Finland, located on the shore of the Gulf of Finland.",
             "answer": "What is Helsinki?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Sweden, spread across 14 islands.",
-            "answer": "What is Stockholm?",
             "difficulty": 4
         },
         {
@@ -25733,18 +21628,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of Austria, known for its classical music scene.",
-            "answer": "What is Vienna?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of Hungary, divided by the Danube River.",
             "answer": "What is Budapest?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Poland, rebuilt after World War II.",
-            "answer": "What is Warsaw?",
             "difficulty": 4
         },
         {
@@ -25753,18 +21638,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of Belgium, also known as the de facto capital of the EU.",
-            "answer": "What is Brussels?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of Iceland, known for its geothermal activity.",
             "answer": "What is Reykjavik?",
-            "difficulty": 5
-        },
-        {
-            "question": "The capital of Bolivia, one of the highest capitals in the world.",
-            "answer": "What is La Paz?",
             "difficulty": 5
         },
         {
@@ -25833,28 +21708,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The capital of Germany, known for its Brandenburg Gate.",
-            "answer": "What is Berlin?",
-            "difficulty": 1
-        },
-        {
-            "question": "This Asian capital is located on the island of Java.",
-            "answer": "What is Jakarta?",
-            "difficulty": 2
-        },
-        {
             "question": "The capital city of Egypt, home to Tahrir Square.",
             "answer": "What is Cairo?",
-            "difficulty": 2
-        },
-        {
-            "question": "This South American capital is famous for its Carnival festival.",
-            "answer": "What is Rio de Janeiro?",
-            "difficulty": 2
-        },
-        {
-            "question": "The capital of Canada, located in Ontario.",
-            "answer": "What is Ottawa?",
             "difficulty": 2
         },
         {
@@ -25863,28 +21718,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The capital of Russia, known for the Kremlin and Red Square.",
-            "answer": "What is Moscow?",
-            "difficulty": 2
-        },
-        {
             "question": "This city is the capital of Argentina and the birthplace of tango.",
             "answer": "What is Buenos Aires?",
             "difficulty": 2
         },
         {
-            "question": "The capital of South Korea, known for its modern skyscrapers and palaces.",
-            "answer": "What is Seoul?",
-            "difficulty": 3
-        },
-        {
             "question": "This Scandinavian capital is located on the eastern coast of the Zealand island.",
             "answer": "What is Copenhagen?",
-            "difficulty": 3
-        },
-        {
-            "question": "The capital of Thailand, famous for its vibrant street life and temples.",
-            "answer": "What is Bangkok?",
             "difficulty": 3
         },
         {
@@ -25903,11 +21743,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The capital of Portugal, known for its hilly terrain and pastel buildings.",
-            "answer": "What is Lisbon?",
-            "difficulty": 3
-        },
-        {
             "question": "This city is the capital of Norway and known for its green spaces and museums.",
             "answer": "What is Oslo?",
             "difficulty": 3
@@ -25918,11 +21753,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This European capital is divided by the Danube River.",
-            "answer": "What is Budapest?",
-            "difficulty": 4
-        },
-        {
             "question": "The capital city of Finland, known for its design scene and archipelago.",
             "answer": "What is Helsinki?",
             "difficulty": 4
@@ -25930,16 +21760,6 @@ export const library = {
         {
             "question": "Capital of Iceland, it's the northernmost capital of a sovereign state.",
             "answer": "What is Reykjavik?",
-            "difficulty": 4
-        },
-        {
-            "question": "This African capital is the largest city of its country and known for Table Mountain.",
-            "answer": "What is Cape Town?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Kenya, known for its National Park and wildlife.",
-            "answer": "What is Nairobi?",
             "difficulty": 4
         },
         {
@@ -25958,34 +21778,14 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "The capital of Spain, known for its royal palace and Prado Museum.",
-            "answer": "What is Madrid?",
-            "difficulty": 4
-        },
-        {
             "question": "This city is the capital of the Philippines, located on the island of Luzon.",
             "answer": "What is Manila?",
-            "difficulty": 4
-        },
-        {
-            "question": "The capital of Austria, known for its classical music heritage.",
-            "answer": "What is Vienna?",
             "difficulty": 4
         },
         {
             "question": "This European capital is famous for its ancient ruins and the Acropolis.",
             "answer": "What is Athens?",
             "difficulty": 4
-        },
-        {
-            "question": "The capital of Sweden, spread across 14 islands.",
-            "answer": "What is Stockholm?",
-            "difficulty": 4
-        },
-        {
-            "question": "This African capital is located in the Sahara Desert and known for its historic city center.",
-            "answer": "What is Bamako?",
-            "difficulty": 5
         },
         {
             "question": "The capital of Mongolia, known for its proximity to the vast steppe region.",
@@ -25995,16 +21795,6 @@ export const library = {
         {
             "question": "This Pacific island nation's capital is known for its lagoon and coral reefs.",
             "answer": "What is Tarawa?",
-            "difficulty": 5
-        },
-        {
-            "question": "The capital of Bhutan, known for its traditional architecture.",
-            "answer": "What is Thimphu?",
-            "difficulty": 5
-        },
-        {
-            "question": "This Central Asian capital is known for its Soviet-era architecture.",
-            "answer": "What is Bishkek?",
             "difficulty": 5
         },
         {
@@ -26028,11 +21818,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The capital of Kazakhstan, renamed in 2019, known for its futuristic architecture.",
-            "answer": "What is Nur-Sultan?",
-            "difficulty": 5
-        },
-        {
             "question": "This European capital city is known for its medieval architecture and is situated at the confluence of two rivers.",
             "answer": "What is Bratislava?",
             "difficulty": 5
@@ -26043,19 +21828,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This city is the capital of France.",
-            "answer": "What is Paris?",
-            "difficulty": 1
-        },
-        {
             "question": "This city is the capital of the country known for the landmark Big Ben.",
             "answer": "What is London?",
             "difficulty": 2
-        },
-        {
-            "question": "This city became the capital of Australia in 1913.",
-            "answer": "What is Canberra?",
-            "difficulty": 3
         },
         {
             "question": "This city, known for its fjords, is the capital of a Scandinavian country.",
@@ -26130,28 +21905,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river is the longest in Asia.",
-            "answer": "What is the Yangtze?",
-            "difficulty": 2
-        },
-        {
-            "question": "This lake is located in Kazakhstan and is the largest saltwater lake in the world.",
-            "answer": "What is the Caspian Sea?",
-            "difficulty": 2
-        },
-        {
             "question": "This river is known for its scenic beauty and flows through Germany and Austria.",
             "answer": "What is the Danube?",
-            "difficulty": 2
-        },
-        {
-            "question": "This lake is known for its mythical monster in Scotland.",
-            "answer": "What is Loch Ness?",
-            "difficulty": 2
-        },
-        {
-            "question": "This river flows through the Grand Canyon.",
-            "answer": "What is the Colorado River?",
             "difficulty": 2
         },
         {
@@ -26162,11 +21917,6 @@ export const library = {
         {
             "question": "This river is known for its association with the ancient Indus Valley Civilization.",
             "answer": "What is the Indus?",
-            "difficulty": 2
-        },
-        {
-            "question": "This lake is the largest in South America.",
-            "answer": "What is Lake Titicaca?",
             "difficulty": 2
         },
         {
@@ -26290,11 +22040,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This lake is the largest in Central Asia and was once part of the Aral Sea basin.",
-            "answer": "What is the Caspian Sea?",
-            "difficulty": 5
-        },
-        {
             "question": "This river is known for its importance to the Inca civilization.",
             "answer": "What is the Urubamba?",
             "difficulty": 5
@@ -26312,16 +22057,6 @@ export const library = {
         {
             "question": "This river flows through Paris.",
             "answer": "What is the Seine?",
-            "difficulty": 1
-        },
-        {
-            "question": "This body of water is the largest freshwater lake by surface area.",
-            "answer": "What is Lake Superior?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river flows through London.",
-            "answer": "What is the Thames?",
             "difficulty": 1
         },
         {
@@ -26345,18 +22080,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river is famous for its delta in Bangladesh.",
-            "answer": "What is the Ganges?",
-            "difficulty": 2
-        },
-        {
             "question": "This river is known for the ancient civilization that flourished along its banks in India.",
             "answer": "What is the Indus?",
-            "difficulty": 2
-        },
-        {
-            "question": "This river is the longest in Europe.",
-            "answer": "What is the Volga?",
             "difficulty": 2
         },
         {
@@ -26365,18 +22090,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river is the longest in China.",
-            "answer": "What is the Yangtze?",
-            "difficulty": 2
-        },
-        {
             "question": "This river is known for passing through the capital of Italy.",
             "answer": "What is the Tiber?",
-            "difficulty": 2
-        },
-        {
-            "question": "This lake is the deepest in the world.",
-            "answer": "What is Lake Baikal?",
             "difficulty": 2
         },
         {
@@ -26402,11 +22117,6 @@ export const library = {
         {
             "question": "This river plays a crucial role in the hydrology of the Himalayas.",
             "answer": "What is the Brahmaputra?",
-            "difficulty": 3
-        },
-        {
-            "question": "This river forms a natural border between Germany and Poland.",
-            "answer": "What is the Oder?",
             "difficulty": 3
         },
         {
@@ -26455,23 +22165,8 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This river is known for its cultural significance in Hinduism.",
-            "answer": "What is the Ganges?",
-            "difficulty": 4
-        },
-        {
             "question": "This lake is the world's largest saltwater lake.",
             "answer": "What is the Caspian Sea?",
-            "difficulty": 4
-        },
-        {
-            "question": "This river is known for being the longest entirely within one country.",
-            "answer": "What is the Yangtze?",
-            "difficulty": 4
-        },
-        {
-            "question": "This river is known as the cradle of Chinese civilization.",
-            "answer": "What is the Yellow River?",
             "difficulty": 4
         },
         {
@@ -26505,13 +22200,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This lake is the largest in Central America.",
-            "answer": "What is Lake Nicaragua?",
-            "difficulty": 5
-        },
-        {
             "question": "This river is known for being the longest river in the Iberian Peninsula.",
-            "answer": "What is the Ebro?",
+            "answer": "What is the Tagus?",
             "difficulty": 5
         },
         {
@@ -26530,23 +22220,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This river is the longest in the world.",
-            "answer": "What is the Nile?",
-            "difficulty": 1
-        },
-        {
             "question": "This American river is famous for carving out the Grand Canyon.",
             "answer": "What is the Colorado River?",
-            "difficulty": 1
-        },
-        {
-            "question": "This is the largest freshwater lake by volume.",
-            "answer": "What is Lake Baikal?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river flows through Paris.",
-            "answer": "What is the Seine?",
             "difficulty": 1
         },
         {
@@ -26555,43 +22230,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This river is known for its historical significance to Rome.",
-            "answer": "What is the Tiber?",
-            "difficulty": 1
-        },
-        {
-            "question": "This body of water is the largest lake in Africa.",
-            "answer": "What is Lake Victoria?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river forms part of the border between the U.S. and Mexico.",
-            "answer": "What is the Rio Grande?",
-            "difficulty": 1
-        },
-        {
             "question": "This is the largest lake in North America.",
             "answer": "What is Lake Superior?",
             "difficulty": 1
         },
         {
-            "question": "This river is the longest in South America.",
-            "answer": "What is the Amazon?",
-            "difficulty": 1
-        },
-        {
             "question": "This European river passes through ten countries.",
             "answer": "What is the Danube?",
-            "difficulty": 2
-        },
-        {
-            "question": "This river is the longest in China.",
-            "answer": "What is the Yangtze?",
-            "difficulty": 2
-        },
-        {
-            "question": "This is the largest lake in South America.",
-            "answer": "What is Lake Titicaca?",
             "difficulty": 2
         },
         {
@@ -26606,17 +22251,12 @@ export const library = {
         },
         {
             "question": "This is the longest river on the Indian subcontinent.",
-            "answer": "What is the Ganges?",
+            "answer": "What is the Indus?",
             "difficulty": 2
         },
         {
             "question": "This river is known as China's 'Sorrow' due to its flooding.",
             "answer": "What is the Yellow River?",
-            "difficulty": 2
-        },
-        {
-            "question": "This African lake is the second deepest in the world.",
-            "answer": "What is Lake Tanganyika?",
             "difficulty": 2
         },
         {
@@ -26630,33 +22270,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river is the longest in North America.",
-            "answer": "What is the Missouri River?",
-            "difficulty": 3
-        },
-        {
             "question": "This river is the primary source for the water supply of Cairo.",
             "answer": "What is the Nile?",
             "difficulty": 3
         },
         {
-            "question": "This river flows through the capital of Hungary.",
-            "answer": "What is the Danube?",
-            "difficulty": 3
-        },
-        {
             "question": "This river is the longest entirely within Italy.",
             "answer": "What is the Po?",
-            "difficulty": 3
-        },
-        {
-            "question": "This lake is the largest in Central America.",
-            "answer": "What is Lake Nicaragua?",
-            "difficulty": 3
-        },
-        {
-            "question": "This river is the longest in Australia.",
-            "answer": "What is the Murray?",
             "difficulty": 3
         },
         {
@@ -26667,11 +22287,6 @@ export const library = {
         {
             "question": "This river flows into the Caspian Sea and is Europe's longest river.",
             "answer": "What is the Volga?",
-            "difficulty": 3
-        },
-        {
-            "question": "This river forms part of the border between Laos and Thailand.",
-            "answer": "What is the Mekong?",
             "difficulty": 3
         },
         {
@@ -26741,12 +22356,7 @@ export const library = {
         },
         {
             "question": "This is the world's largest lake located entirely within one country.",
-            "answer": "What is the Caspian Sea?",
-            "difficulty": 5
-        },
-        {
-            "question": "This river is often considered the cradle of Chinese civilization.",
-            "answer": "What is the Yellow River?",
+            "answer": "What is Lake Baikal?",
             "difficulty": 5
         },
         {
@@ -26770,31 +22380,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This river runs through Egypt and is one of the longest in the world.",
-            "answer": "What is the Nile?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river is famous for being the second longest in South America.",
-            "answer": "What is the Amazon?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river flows through Paris.",
-            "answer": "What is the Seine?",
-            "difficulty": 1
-        },
-        {
-            "question": "This lake is the largest by surface area in the world.",
-            "answer": "What is Lake Superior?",
-            "difficulty": 1
-        },
-        {
-            "question": "This river forms part of the border between the United States and Mexico.",
-            "answer": "What is the Rio Grande?",
-            "difficulty": 1
-        },
-        {
             "question": "This river is known for the Great Migration of wildebeest in Africa.",
             "answer": "What is the Mara?",
             "difficulty": 2
@@ -26810,33 +22395,13 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river is the longest in Asia.",
-            "answer": "What is the Yangtze?",
-            "difficulty": 2
-        },
-        {
             "question": "This river in India is considered sacred in Hinduism.",
             "answer": "What is the Ganges?",
             "difficulty": 2
         },
         {
-            "question": "This river is the longest in Europe.",
-            "answer": "What is the Volga?",
-            "difficulty": 3
-        },
-        {
             "question": "This river is known for its delta in Southern Vietnam.",
             "answer": "What is the Mekong?",
-            "difficulty": 3
-        },
-        {
-            "question": "This lake is the largest in Africa by surface area.",
-            "answer": "What is Lake Victoria?",
-            "difficulty": 3
-        },
-        {
-            "question": "This river flows through London.",
-            "answer": "What is the Thames?",
             "difficulty": 3
         },
         {
@@ -26911,7 +22476,7 @@ export const library = {
         },
         {
             "question": "This river flows through the city of Baghdad.",
-            "answer": "What is the Euphrates?",
+            "answer": "What is the Tigris?",
             "difficulty": 3
         },
         {
@@ -26927,11 +22492,6 @@ export const library = {
         {
             "question": "This river has its source in the Himalayas and flows through Bangladesh.",
             "answer": "What is the Ganges?",
-            "difficulty": 4
-        },
-        {
-            "question": "This river is the longest in Australia.",
-            "answer": "What is the Murray?",
             "difficulty": 4
         },
         {
@@ -26975,11 +22535,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This river is the longest in Italy.",
-            "answer": "What is the Po?",
-            "difficulty": 3
-        },
-        {
             "question": "This river flows through central London, providing a historical transportation route.",
             "answer": "What is the Thames?",
             "difficulty": 2
@@ -27005,29 +22560,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This river flows through the capital of Hungary.",
-            "answer": "What is the Danube?",
-            "difficulty": 2
-        },
-        {
-            "question": "This river is the longest in the world.",
-            "answer": "What is the Nile?",
-            "difficulty": 1
-        },
-        {
             "question": "This famous lake is known for its monster legend in Scotland.",
             "answer": "What is Loch Ness?",
             "difficulty": 1
-        },
-        {
-            "question": "This North American lake is the largest by surface area.",
-            "answer": "What is Lake Superior?",
-            "difficulty": 2
-        },
-        {
-            "question": "This river runs through Paris, the capital of France.",
-            "answer": "What is the Seine?",
-            "difficulty": 2
         },
         {
             "question": "This river is the longest in the United States.",
@@ -27038,16 +22573,6 @@ export const library = {
             "question": "This is the largest freshwater lake by volume in the world.",
             "answer": "What is Lake Baikal?",
             "difficulty": 3
-        },
-        {
-            "question": "This river flows through the Grand Canyon.",
-            "answer": "What is the Colorado River?",
-            "difficulty": 3
-        },
-        {
-            "question": "This African lake is the world's second-largest freshwater lake by surface area.",
-            "answer": "What is Lake Victoria?",
-            "difficulty": 4
         },
         {
             "question": "This major river flows through ten countries in Europe, more than any other river.",
@@ -27074,11 +22599,6 @@ export const library = {
         {
             "question": "This is the highest mountain on Earth, located in the Himalayas.",
             "answer": "What is Mount Everest?",
-            "difficulty": 1
-        },
-        {
-            "question": "This mountain range runs along the western coast of South America.",
-            "answer": "What are the Andes?",
             "difficulty": 1
         },
         {
@@ -27122,11 +22642,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This mountain range forms a natural border between Europe and Asia.",
-            "answer": "What are the Ural Mountains?",
-            "difficulty": 2
-        },
-        {
             "question": "Known as the 'Matterhorn of the Andes', this peak is located in Peru and is famous for its shape.",
             "answer": "What is Alpamayo?",
             "difficulty": 2
@@ -27142,24 +22657,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The tallest peak in the Andes and the highest outside of Asia.",
-            "answer": "What is Aconcagua?",
-            "difficulty": 2
-        },
-        {
             "question": "This mountain range in the United Kingdom is home to the highest peak in England.",
-            "answer": "What are the Lake District Mountains?",
+            "answer": "What are the Cumbrian Mountains?",
             "difficulty": 2
-        },
-        {
-            "question": "This range in Australia is known for its Great Dividing Range.",
-            "answer": "What are the Australian Alps?",
-            "difficulty": 2
-        },
-        {
-            "question": "This mountain in the Pyrenees serves as a natural border between France and Spain.",
-            "answer": "What is Aneto?",
-            "difficulty": 3
         },
         {
             "question": "This mountain in Greece is known for being the mythological home of the gods.",
@@ -27204,11 +22704,6 @@ export const library = {
         {
             "question": "This mountain in the Pyrenees is the highest in the range.",
             "answer": "What is Aneto?",
-            "difficulty": 4
-        },
-        {
-            "question": "This peak in the Karakoram range is the second-highest mountain in the world.",
-            "answer": "What is K2?",
             "difficulty": 4
         },
         {
@@ -27262,11 +22757,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This mountain is the highest peak in the Rwenzori Mountains of Uganda.",
-            "answer": "What is Mount Stanley?",
-            "difficulty": 5
-        },
-        {
             "question": "This peak in the Andes is the highest in Chile.",
             "answer": "What is Ojos del Salado?",
             "difficulty": 5
@@ -27297,16 +22787,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The tallest mountain in the world.",
-            "answer": "What is Mount Everest?",
-            "difficulty": 1
-        },
-        {
-            "question": "This mountain range separates Europe and Asia.",
-            "answer": "What are the Ural Mountains?",
-            "difficulty": 2
-        },
-        {
             "question": "The largest mountain on Earth by base circumference.",
             "answer": "What is Mauna Loa?",
             "difficulty": 3
@@ -27317,28 +22797,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "The highest mountain in Africa.",
-            "answer": "What is Mount Kilimanjaro?",
-            "difficulty": 1
-        },
-        {
             "question": "This European peak is the highest in the Alps.",
             "answer": "What is Mont Blanc?",
-            "difficulty": 2
-        },
-        {
-            "question": "This mountain range runs along the western coast of South America.",
-            "answer": "What are the Andes?",
-            "difficulty": 1
-        },
-        {
-            "question": "The second highest mountain in the world.",
-            "answer": "What is K2?",
-            "difficulty": 2
-        },
-        {
-            "question": "The highest mountain in the contiguous United States.",
-            "answer": "What is Mount Whitney?",
             "difficulty": 2
         },
         {
@@ -27357,11 +22817,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This mountain range is found in the eastern United States.",
-            "answer": "What are the Appalachian Mountains?",
-            "difficulty": 1
-        },
-        {
             "question": "The mountain range that includes the Matterhorn.",
             "answer": "What are the Pennine Alps?",
             "difficulty": 3
@@ -27370,11 +22825,6 @@ export const library = {
             "question": "This mountain is known as the highest in the British Isles.",
             "answer": "What is Ben Nevis?",
             "difficulty": 2
-        },
-        {
-            "question": "The highest peak in the Pyrenees.",
-            "answer": "What is Aneto?",
-            "difficulty": 4
         },
         {
             "question": "This peak is the highest in the Carpathian Mountains.",
@@ -27390,16 +22840,6 @@ export const library = {
             "question": "This mountain is the tallest volcano in the Solar System.",
             "answer": "What is Olympus Mons?",
             "difficulty": 3
-        },
-        {
-            "question": "The highest peak in the Andes.",
-            "answer": "What is Aconcagua?",
-            "difficulty": 2
-        },
-        {
-            "question": "This peak is the highest in the Caucasus and Europe.",
-            "answer": "What is Mount Elbrus?",
-            "difficulty": 2
         },
         {
             "question": "This mountain range is located in the heart of Europe and stretches across eight countries.",
@@ -27430,11 +22870,6 @@ export const library = {
             "question": "This mountain range forms a natural barrier between Italy and Switzerland.",
             "answer": "What are the Alps?",
             "difficulty": 1
-        },
-        {
-            "question": "The highest mountain in the Canadian Rockies.",
-            "answer": "What is Mount Robson?",
-            "difficulty": 3
         },
         {
             "question": "The highest point in Mexico.",
@@ -27537,26 +22972,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The tallest mountain on Earth.",
-            "answer": "What is Mount Everest?",
-            "difficulty": 1
-        },
-        {
-            "question": "The name of the mountain range separating Europe from Asia.",
-            "answer": "What are the Ural Mountains?",
-            "difficulty": 2
-        },
-        {
-            "question": "This mountain range is known for its 'Seven Summits'.",
-            "answer": "What are the Andes?",
-            "difficulty": 3
-        },
-        {
-            "question": "The highest peak in North America.",
-            "answer": "What is Denali?",
-            "difficulty": 2
-        },
-        {
             "question": "This mountain is known for its iconic, flat-topped profile in Cape Town.",
             "answer": "What is Table Mountain?",
             "difficulty": 1
@@ -27567,23 +22982,8 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This mountain is considered the highest unclimbed peak in the world.",
-            "answer": "What is Gangkhar Puensum?",
-            "difficulty": 5
-        },
-        {
-            "question": "The tallest mountain in Africa.",
-            "answer": "What is Mount Kilimanjaro?",
-            "difficulty": 1
-        },
-        {
             "question": "This South American peak holds the title of the highest outside of Asia.",
             "answer": "What is Aconcagua?",
-            "difficulty": 2
-        },
-        {
-            "question": "The longest mountain range above water.",
-            "answer": "What are the Andes?",
             "difficulty": 2
         },
         {
@@ -27602,11 +23002,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The tallest mountain in continental Europe.",
-            "answer": "What is Mount Elbrus?",
-            "difficulty": 2
-        },
-        {
             "question": "The geological process responsible for creating the Himalayas.",
             "answer": "What is plate tectonics?",
             "difficulty": 4
@@ -27617,19 +23012,9 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This mountain range runs through Morocco, Algeria, and Tunisia.",
-            "answer": "What are the Atlas Mountains?",
-            "difficulty": 3
-        },
-        {
             "question": "The mountain range that forms a natural border between Spain and France.",
             "answer": "What are the Pyrenees?",
             "difficulty": 2
-        },
-        {
-            "question": "The highest peak of the Karakoram Range.",
-            "answer": "What is K2?",
-            "difficulty": 3
         },
         {
             "question": "The world's highest volcano, located in the Andes.",
@@ -27637,19 +23022,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This mountain is the highest in Antarctica.",
-            "answer": "What is Mount Vinson?",
-            "difficulty": 3
-        },
-        {
             "question": "The mountain range known for its rugged terrain and the Appalachian Trail.",
             "answer": "What are the Appalachian Mountains?",
             "difficulty": 2
-        },
-        {
-            "question": "This peak is the highest in the Southern Hemisphere.",
-            "answer": "What is Aconcagua?",
-            "difficulty": 3
         },
         {
             "question": "The first successful ascent of this mountain was by Sir Edmund Hillary and Tenzing Norgay.",
@@ -27697,19 +23072,9 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The mountain range that stretches from British Columbia to New Mexico.",
-            "answer": "What are the Rocky Mountains?",
-            "difficulty": 3
-        },
-        {
             "question": "This mountain in the Indian subcontinent is known for its difficult climb and local name Sagarmatha.",
             "answer": "What is Mount Everest?",
             "difficulty": 3
-        },
-        {
-            "question": "The second highest mountain in the world.",
-            "answer": "What is K2?",
-            "difficulty": 2
         },
         {
             "question": "The mountain range that includes Mount Whitney, the tallest in the contiguous United States.",
@@ -27738,7 +23103,7 @@ export const library = {
         },
         {
             "question": "The mountain range that is home to Mount Olympus, the mythical home of the Greek gods.",
-            "answer": "What are the Olympus Range?",
+            "answer": "What is the Olympus massif?",
             "difficulty": 4
         },
         {
@@ -27762,11 +23127,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This peak is the highest point in the British Isles.",
-            "answer": "What is Ben Nevis?",
-            "difficulty": 3
-        },
-        {
             "question": "The tallest mountain in the world when measured from base to summit on the ocean floor.",
             "answer": "What is Mauna Kea?",
             "difficulty": 4
@@ -27782,18 +23142,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "The tallest mountain in the world.",
-            "answer": "What is Mount Everest?",
-            "difficulty": 1
-        },
-        {
             "question": "This mountain range contains the highest peaks in Europe.",
-            "answer": "What are the Alps?",
-            "difficulty": 1
-        },
-        {
-            "question": "The highest mountain in Africa.",
-            "answer": "What is Mount Kilimanjaro?",
+            "answer": "What are the Caucasus Mountains?",
             "difficulty": 1
         },
         {
@@ -27802,33 +23152,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This peak is the highest in North America.",
-            "answer": "What is Denali?",
-            "difficulty": 1
-        },
-        {
-            "question": "The mountain range that acts as a natural boundary between Europe and Asia.",
-            "answer": "What are the Ural Mountains?",
-            "difficulty": 1
-        },
-        {
             "question": "This range is found in the eastern United States and extends from Canada to Alabama.",
             "answer": "What are the Appalachian Mountains?",
             "difficulty": 1
         },
         {
-            "question": "The highest mountain in Japan.",
-            "answer": "What is Mount Fuji?",
-            "difficulty": 1
-        },
-        {
             "question": "The famous mountain range in western North America known for its skiing resorts.",
             "answer": "What are the Rocky Mountains?",
-            "difficulty": 1
-        },
-        {
-            "question": "This mountain in the Himalayas is the second highest in the world.",
-            "answer": "What is K2?",
             "difficulty": 1
         },
         {
@@ -27842,21 +23172,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "The tallest mountain in Antarctica.",
-            "answer": "What is Mount Vinson?",
-            "difficulty": 2
-        },
-        {
-            "question": "The mountain range that runs parallel to the west coast of South America.",
-            "answer": "What are the Andes?",
-            "difficulty": 2
-        },
-        {
-            "question": "The highest peak in the European Alps.",
-            "answer": "What is Mont Blanc?",
-            "difficulty": 2
-        },
-        {
             "question": "This peak is known as Chomolungma in Tibetan.",
             "answer": "What is Mount Everest?",
             "difficulty": 2
@@ -27864,11 +23179,6 @@ export const library = {
         {
             "question": "The highest peak in the Pyrenees mountains.",
             "answer": "What is Aneto?",
-            "difficulty": 2
-        },
-        {
-            "question": "This mountain is the highest in the contiguous United States.",
-            "answer": "What is Mount Whitney?",
             "difficulty": 2
         },
         {
@@ -27882,26 +23192,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The longest mountain range in the world.",
-            "answer": "What are the Andes?",
-            "difficulty": 3
-        },
-        {
-            "question": "The highest peak in the Andes.",
-            "answer": "What is Aconcagua?",
-            "difficulty": 3
-        },
-        {
-            "question": "The mountain range that features the Matterhorn.",
-            "answer": "What are the Alps?",
-            "difficulty": 3
-        },
-        {
-            "question": "This mountain range runs through Morocco, Algeria, and Tunisia.",
-            "answer": "What are the Atlas Mountains?",
-            "difficulty": 3
-        },
-        {
             "question": "The mountain range known for Mount Elbert, its highest peak.",
             "answer": "What are the Rocky Mountains?",
             "difficulty": 3
@@ -27912,21 +23202,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This peak is the highest in the Southern Alps of New Zealand.",
-            "answer": "What is Aoraki / Mount Cook?",
-            "difficulty": 3
-        },
-        {
-            "question": "The mountain range with the highest peak in the British Isles.",
-            "answer": "What are the Grampian Mountains?",
-            "difficulty": 3
-        },
-        {
-            "question": "This peak is the highest in the Carpathian Mountains.",
-            "answer": "What is Gerlachovsk\u00fd \u0161t\u00edt?",
-            "difficulty": 4
-        },
-        {
             "question": "The tallest mountain in the Scandinavian range.",
             "answer": "What is Galdh\u00f8piggen?",
             "difficulty": 4
@@ -27934,16 +23209,6 @@ export const library = {
         {
             "question": "Known as Sagarmatha in Nepali, this peak is the tallest in the world.",
             "answer": "What is Mount Everest?",
-            "difficulty": 4
-        },
-        {
-            "question": "This peak is the highest in the Canadian Rockies.",
-            "answer": "What is Mount Robson?",
-            "difficulty": 4
-        },
-        {
-            "question": "The highest mountain in the British Isles.",
-            "answer": "What is Ben Nevis?",
             "difficulty": 4
         },
         {
@@ -27967,11 +23232,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This peak is known as the highest unclimbed mountain in the world.",
-            "answer": "What is Gangkhar Puensum?",
-            "difficulty": 5
-        },
-        {
             "question": "The mountain range in Antarctica that contains the highest peaks.",
             "answer": "What is the Ellsworth Mountains?",
             "difficulty": 5
@@ -27984,16 +23244,6 @@ export const library = {
         {
             "question": "The mountain range that forms a natural border between Norway and Sweden.",
             "answer": "What are the Scandinavian Mountains?",
-            "difficulty": 5
-        },
-        {
-            "question": "The peak named after the first President of the United States in the North Cascades.",
-            "answer": "What is Mount Washington?",
-            "difficulty": 5
-        },
-        {
-            "question": "This peak is the highest in the Hindu Kush range.",
-            "answer": "What is Tirich Mir?",
             "difficulty": 5
         },
         {
@@ -28065,11 +23315,6 @@ export const library = {
             "question": "This mountain range is the longest continental mountain range in the world.",
             "answer": "What are the Andes?",
             "difficulty": 5
-        },
-        {
-            "question": "This mountain is located on the border of Nepal and Tibet and is the third highest in the world.",
-            "answer": "What is Kangchenjunga?",
-            "difficulty": 5
         }
     ],
     "Islands": [
@@ -28079,34 +23324,14 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This island nation is famous for its hula dancing and volcanic landscapes.",
-            "answer": "What is Hawaii?",
-            "difficulty": 1
-        },
-        {
             "question": "This Caribbean island shares its territory with both Haiti and the Dominican Republic.",
             "answer": "What is Hispaniola?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island is the largest in the Mediterranean Sea.",
-            "answer": "What is Sicily?",
             "difficulty": 1
         },
         {
             "question": "This Asian island nation is known for its cherry blossoms and technology.",
             "answer": "What is Japan?",
             "difficulty": 1
-        },
-        {
-            "question": "This island is the largest in the world and is covered by ice.",
-            "answer": "What is Greenland?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island nation is famous for its ancient ruins such as the Parthenon.",
-            "answer": "What is Greece?",
-            "difficulty": 2
         },
         {
             "question": "This island country in Southeast Asia is famous for its beaches and biodiversity.",
@@ -28121,11 +23346,6 @@ export const library = {
         {
             "question": "This island is the second-largest in the Mediterranean Sea.",
             "answer": "What is Sardinia?",
-            "difficulty": 2
-        },
-        {
-            "question": "This island is known for its unique stone statues called moai.",
-            "answer": "What is Easter Island?",
             "difficulty": 2
         },
         {
@@ -28144,11 +23364,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This island is the largest in the Caribbean by land area.",
-            "answer": "What is Cuba?",
-            "difficulty": 3
-        },
-        {
             "question": "This island nation consists of 115 islands in the Indian Ocean.",
             "answer": "What is Seychelles?",
             "difficulty": 3
@@ -28159,34 +23374,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This island is the largest in Canada and the fifth-largest in the world.",
-            "answer": "What is Baffin Island?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island nation is located in the Indian Ocean and is known for its tea plantations.",
-            "answer": "What is Sri Lanka?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is known for its distinctive white cliffs located on the English Channel.",
-            "answer": "What is the Isle of Wight?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island, part of the Kingdom of Denmark, is known for its geothermal activity and glaciers.",
-            "answer": "What is Iceland?",
-            "difficulty": 3
-        },
-        {
             "question": "This island is located at the southern tip of India and is known for its Tamil culture.",
             "answer": "What is Sri Lanka?",
             "difficulty": 3
-        },
-        {
-            "question": "This Mediterranean island is divided between a Greek south and a Turkish north.",
-            "answer": "What is Cyprus?",
-            "difficulty": 4
         },
         {
             "question": "This island in the Persian Gulf is the smallest independent country in the Arab world.",
@@ -28230,7 +23420,7 @@ export const library = {
         },
         {
             "question": "This island is the largest in the Persian Gulf and is a major oil producer.",
-            "answer": "What is Bahrain?",
+            "answer": "What is Qeshm?",
             "difficulty": 4
         },
         {
@@ -28264,11 +23454,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is known for its unique endemic species like the lemurs.",
-            "answer": "What is Madagascar?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is known for its large stone hill, reputed to be a site of ancient worship in Oceania.",
             "answer": "What is Yap?",
             "difficulty": 5
@@ -28284,11 +23469,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is the largest in Indonesia and is known for its Krakatoa volcano.",
-            "answer": "What is Sumatra?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is part of the Solomon Islands and was a major battleground during World War II.",
             "answer": "What is Guadalcanal?",
             "difficulty": 5
@@ -28299,38 +23479,13 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This island is famous for its giant moai statues.",
-            "answer": "What is Easter Island?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island in New York City is home to the Statue of Liberty.",
-            "answer": "What is Liberty Island?",
-            "difficulty": 1
-        },
-        {
-            "question": "Which island nation is located at the southern tip of India?",
-            "answer": "What is Sri Lanka?",
-            "difficulty": 1
-        },
-        {
             "question": "This Mediterranean island is divided between two countries, one Greek and one Turkish.",
             "answer": "What is Cyprus?",
             "difficulty": 1
         },
         {
-            "question": "This island is the largest in the Caribbean and known for its cigars.",
-            "answer": "What is Cuba?",
-            "difficulty": 1
-        },
-        {
             "question": "This island is home to the city of Reykjavik.",
             "answer": "What is Iceland?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island nation in the Indian Ocean is known for its beaches and luxury resorts.",
-            "answer": "What are the Maldives?",
             "difficulty": 1
         },
         {
@@ -28349,11 +23504,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This island is the largest in Canada.",
-            "answer": "What is Baffin Island?",
-            "difficulty": 2
-        },
-        {
             "question": "Which island is separated from the UK by the Irish Sea?",
             "answer": "What is the Isle of Man?",
             "difficulty": 2
@@ -28364,18 +23514,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This island is known for its unique wildlife, such as lemurs.",
-            "answer": "What is Madagascar?",
-            "difficulty": 2
-        },
-        {
             "question": "This island was formed by volcanic activity and is part of the Gal\u00e1pagos.",
             "answer": "What is Isabela Island?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island in the Baltic Sea belongs to Denmark.",
-            "answer": "What is Bornholm?",
             "difficulty": 3
         },
         {
@@ -28394,19 +23534,9 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This island is shared by three countries in the Caribbean.",
-            "answer": "What is Saint Martin?",
-            "difficulty": 3
-        },
-        {
             "question": "Which island in the Mediterranean is known for its palace of the Grand Masters?",
             "answer": "What is Rhodes?",
             "difficulty": 3
-        },
-        {
-            "question": "This island is the largest in the Adriatic Sea.",
-            "answer": "What is Cres?",
-            "difficulty": 4
         },
         {
             "question": "This island is part of Yemen and known for its unique dragon's blood trees.",
@@ -28444,16 +23574,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is the largest in the Arctic Archipelago of Canada.",
-            "answer": "What is Baffin Island?",
-            "difficulty": 5
-        },
-        {
-            "question": "This island was the site of the ancient Minoan civilization.",
-            "answer": "What is Crete?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is the largest in the Seychelles group.",
             "answer": "What is Mah\u00e9?",
             "difficulty": 5
@@ -28479,18 +23599,8 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is the site of the oldest known civilization in the Americas.",
-            "answer": "What is Caral?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is located in the Bay of Bengal and is known for its unique flora and fauna.",
             "answer": "What is Andaman Islands?",
-            "difficulty": 5
-        },
-        {
-            "question": "This island was once known as Formosa.",
-            "answer": "What is Taiwan?",
             "difficulty": 5
         },
         {
@@ -28514,19 +23624,9 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is the largest in the Balearic Islands group.",
-            "answer": "What is Mallorca?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is located in the South Atlantic and is part of a British Overseas Territory.",
             "answer": "What is Ascension Island?",
             "difficulty": 5
-        },
-        {
-            "question": "The largest island in the world.",
-            "answer": "What is Greenland?",
-            "difficulty": 1
         },
         {
             "question": "This island is home to the city of Honolulu.",
@@ -28536,11 +23636,6 @@ export const library = {
         {
             "question": "The island known for the Statue of Liberty.",
             "answer": "What is Liberty Island?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island nation is famous for its unique wildlife, including lemurs.",
-            "answer": "What is Madagascar?",
             "difficulty": 1
         },
         {
@@ -28574,11 +23669,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This Caribbean island is the largest by area.",
-            "answer": "What is Cuba?",
-            "difficulty": 1
-        },
-        {
             "question": "The island known as the 'Emerald Isle'.",
             "answer": "What is Ireland?",
             "difficulty": 1
@@ -28604,11 +23694,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "The largest island in the Mediterranean Sea.",
-            "answer": "What is Sicily?",
-            "difficulty": 2
-        },
-        {
             "question": "The island known as the 'Land of the Rising Sun'.",
             "answer": "What is Japan?",
             "difficulty": 1
@@ -28624,11 +23709,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "An island in the Caribbean associated with reggae music.",
-            "answer": "What is Jamaica?",
-            "difficulty": 1
-        },
-        {
             "question": "The island known for its capital, Reykjavik.",
             "answer": "What is Iceland?",
             "difficulty": 1
@@ -28642,11 +23722,6 @@ export const library = {
             "question": "The island home to the Great Barrier Reef.",
             "answer": "What is Australia?",
             "difficulty": 1
-        },
-        {
-            "question": "The island where the ancient Minoan civilization thrived.",
-            "answer": "What is Crete?",
-            "difficulty": 3
         },
         {
             "question": "The island located in the Bay of Naples, famous for its Blue Grotto.",
@@ -28679,44 +23754,9 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This island is the largest of the Channel Islands.",
-            "answer": "What is Jersey?",
-            "difficulty": 3
-        },
-        {
-            "question": "The island known for its ancient ruins of Machu Picchu.",
-            "answer": "What is not an island?",
-            "difficulty": 5
-        },
-        {
-            "question": "This island is shared by three countries: Brunei, Indonesia, and Malaysia.",
-            "answer": "What is Borneo?",
-            "difficulty": 2
-        },
-        {
-            "question": "An island in the Indian Ocean once known as Ceylon.",
-            "answer": "What is Sri Lanka?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island is home to the city of Reykjavik.",
-            "answer": "What is Iceland?",
-            "difficulty": 1
-        },
-        {
             "question": "The island where the fictional monster King Kong was found.",
             "answer": "What is Skull Island?",
             "difficulty": 4
-        },
-        {
-            "question": "This island's name means 'Green Land' in its native language.",
-            "answer": "What is Greenland?",
-            "difficulty": 2
-        },
-        {
-            "question": "The island known for the annual running of the bulls.",
-            "answer": "What is not an island?",
-            "difficulty": 5
         },
         {
             "question": "This island is the third largest of the Hawaiian Islands.",
@@ -28727,11 +23767,6 @@ export const library = {
             "question": "The island that was formerly known as Formosa.",
             "answer": "What is Taiwan?",
             "difficulty": 2
-        },
-        {
-            "question": "This island is the largest of the Balearic Islands.",
-            "answer": "What is Mallorca?",
-            "difficulty": 3
         },
         {
             "question": "The island where Napoleon was exiled in 1815.",
@@ -28764,11 +23799,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This island nation is known for its iconic kangaroos.",
-            "answer": "What is Australia?",
-            "difficulty": 1
-        },
-        {
             "question": "This island is the largest of the Hawaiian chain.",
             "answer": "What is the Big Island?",
             "difficulty": 1
@@ -28789,11 +23819,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This island is the largest in the Mediterranean Sea.",
-            "answer": "What is Sicily?",
-            "difficulty": 2
-        },
-        {
             "question": "This island nation consists of over 7,000 islands and is located in Southeast Asia.",
             "answer": "What is the Philippines?",
             "difficulty": 2
@@ -28801,11 +23826,6 @@ export const library = {
         {
             "question": "This island is home to the famous archaeological site known as Stonehenge.",
             "answer": "What is Great Britain?",
-            "difficulty": 2
-        },
-        {
-            "question": "This island country is the world's second-largest by area and is located in the Caribbean.",
-            "answer": "What is Cuba?",
             "difficulty": 2
         },
         {
@@ -28821,11 +23841,6 @@ export const library = {
         {
             "question": "This island in Greece is famous for its whitewashed buildings and sunsets in the town of Oia.",
             "answer": "What is Santorini?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is the most populous in the Caribbean and has the capital city of Port-au-Prince.",
-            "answer": "What is Hispaniola?",
             "difficulty": 3
         },
         {
@@ -28884,11 +23899,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is the largest in the world that is not a continent.",
-            "answer": "What is Greenland?",
-            "difficulty": 5
-        },
-        {
             "question": "This island is known as the \"Emerald Isle\" and is located in the North Atlantic.",
             "answer": "What is Ireland?",
             "difficulty": 1
@@ -28899,18 +23909,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This island is the largest in the Caribbean and is part of Hispaniola.",
-            "answer": "What is Cuba?",
-            "difficulty": 2
-        },
-        {
             "question": "This island nation in the Indian Ocean was formerly known as Ceylon.",
             "answer": "What is Sri Lanka?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is shared by three countries: Brunei, Indonesia, and Malaysia.",
-            "answer": "What is Borneo?",
             "difficulty": 3
         },
         {
@@ -28932,11 +23932,6 @@ export const library = {
             "question": "This island is part of the Cyclades and is famous for its blue-domed churches.",
             "answer": "What is Santorini?",
             "difficulty": 3
-        },
-        {
-            "question": "This island is the largest of the Channel Islands and is known for its cattle breed.",
-            "answer": "What is Jersey?",
-            "difficulty": 4
         },
         {
             "question": "This island group in the South Atlantic is a British Overseas Territory known for its wildlife.",
@@ -28984,36 +23979,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This island is part of the French overseas department known for its rum and reggae.",
-            "answer": "What is Martinique?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is one of the largest in the Caribbean and is known for its cigars.",
-            "answer": "What is Cuba?",
-            "difficulty": 2
-        },
-        {
-            "question": "This island is known for its famous statues called Moai.",
-            "answer": "What is Easter Island?",
-            "difficulty": 1
-        },
-        {
-            "question": "This archipelago consists of over 7,000 islands in Southeast Asia.",
-            "answer": "What is the Philippines?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island is the largest in the Mediterranean Sea.",
-            "answer": "What is Sicily?",
-            "difficulty": 1
-        },
-        {
-            "question": "This island nation is located to the southeast of India.",
-            "answer": "What is Sri Lanka?",
-            "difficulty": 1
-        },
-        {
             "question": "This archipelago is known for its unique wildlife and inspired Charles Darwin's theory of evolution.",
             "answer": "What are the Gal\u00e1pagos Islands?",
             "difficulty": 2
@@ -29029,26 +23994,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This island is the largest in the Caribbean.",
-            "answer": "What is Cuba?",
-            "difficulty": 2
-        },
-        {
-            "question": "This island is the largest in Canada by area.",
-            "answer": "What is Baffin Island?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is home to the city of Reykjavik.",
-            "answer": "What is Iceland?",
-            "difficulty": 3
-        },
-        {
-            "question": "This island is shared by three countries: Brunei, Indonesia, and Malaysia.",
-            "answer": "What is Borneo?",
-            "difficulty": 3
-        },
-        {
             "question": "This island chain is part of the United States and is located in the Pacific Ocean.",
             "answer": "What are the Hawaiian Islands?",
             "difficulty": 3
@@ -29062,16 +24007,6 @@ export const library = {
             "question": "This island is famous for its giant tortoises and is part of Ecuador.",
             "answer": "What is the Gal\u00e1pagos Islands?",
             "difficulty": 4
-        },
-        {
-            "question": "This island is known for its fjords and is the second-largest in Europe by area.",
-            "answer": "What is Great Britain?",
-            "difficulty": 4
-        },
-        {
-            "question": "This island is located in the Indian Ocean and is known for its unique biodiversity, including lemurs.",
-            "answer": "What is Madagascar?",
-            "difficulty": 5
         }
     ],
     "Landmarks": [
@@ -29096,28 +24031,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This famous statue in New York Harbor was a gift from France.",
-            "answer": "What is the Statue of Liberty?",
-            "difficulty": 1
-        },
-        {
             "question": "This ancient wonder is the only one still largely intact and is located in Egypt.",
             "answer": "What are the Great Pyramids of Giza?",
-            "difficulty": 1
-        },
-        {
-            "question": "This iconic bridge connects San Francisco to Marin County.",
-            "answer": "What is the Golden Gate Bridge?",
-            "difficulty": 1
-        },
-        {
-            "question": "This religious complex in Cambodia is the largest religious monument in the world.",
-            "answer": "What is Angkor Wat?",
-            "difficulty": 1
-        },
-        {
-            "question": "This tall structure in Toronto was the world's tallest free-standing structure until 2007.",
-            "answer": "What is the CN Tower?",
             "difficulty": 1
         },
         {
@@ -29136,18 +24051,8 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This palace in Beijing served as the home of emperors for nearly 500 years.",
-            "answer": "What is the Forbidden City?",
-            "difficulty": 2
-        },
-        {
             "question": "This mountainous site in Peru is known as the 'Lost City of the Incas'.",
             "answer": "What is Machu Picchu?",
-            "difficulty": 2
-        },
-        {
-            "question": "This mausoleum in Agra, India, was built by an emperor in memory of his wife.",
-            "answer": "What is the Taj Mahal?",
             "difficulty": 2
         },
         {
@@ -29156,18 +24061,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This iconic sculpture in Rio de Janeiro depicts a religious figure with open arms.",
-            "answer": "What is Christ the Redeemer?",
-            "difficulty": 2
-        },
-        {
             "question": "This historic fortress and prison is located on an island in San Francisco Bay.",
             "answer": "What is Alcatraz?",
-            "difficulty": 2
-        },
-        {
-            "question": "This temple complex in Athens is dedicated to the goddess Athena.",
-            "answer": "What is the Parthenon?",
             "difficulty": 2
         },
         {
@@ -29178,11 +24073,6 @@ export const library = {
         {
             "question": "This ancient city carved into the rock is located in southern Jordan.",
             "answer": "What is Petra?",
-            "difficulty": 2
-        },
-        {
-            "question": "This Italian tower is famous for its unintended tilt.",
-            "answer": "What is the Leaning Tower of Pisa?",
             "difficulty": 2
         },
         {
@@ -29198,11 +24088,6 @@ export const library = {
         {
             "question": "This historic square in Beijing is one of the largest city squares in the world.",
             "answer": "What is Tiananmen Square?",
-            "difficulty": 3
-        },
-        {
-            "question": "This large sculpture in Easter Island is known for its oversized heads.",
-            "answer": "What are the Moai?",
             "difficulty": 3
         },
         {
@@ -29306,11 +24191,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This fortress complex in Moscow includes the residence of the president of Russia.",
-            "answer": "What is the Kremlin?",
-            "difficulty": 5
-        },
-        {
             "question": "This pre-Incan archaeological site in Bolivia is known for its megalithic structures.",
             "answer": "What is Tiwanaku?",
             "difficulty": 5
@@ -29323,11 +24203,6 @@ export const library = {
         {
             "question": "This ancient amphitheater is located in the center of Rome and is an iconic symbol of Imperial Rome.",
             "answer": "What is the Colosseum?",
-            "difficulty": 1
-        },
-        {
-            "question": "This iconic clock tower is located at the north end of the Palace of Westminster in London.",
-            "answer": "What is Big Ben?",
             "difficulty": 1
         },
         {
@@ -29366,16 +24241,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This prehistoric monument in Wiltshire, England, consists of a ring of standing stones.",
-            "answer": "What is Stonehenge?",
-            "difficulty": 1
-        },
-        {
-            "question": "This large ancient amphitheater in Athens, Greece, is dedicated to a Greek god.",
-            "answer": "What is the Parthenon?",
-            "difficulty": 2
-        },
-        {
             "question": "This structure is the largest and most famous of the Great Wall of China sections.",
             "answer": "What is the Badaling section?",
             "difficulty": 2
@@ -29396,18 +24261,8 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This historic fortress and former prison is located on an island in Paris.",
-            "answer": "What is the \u00cele de la Cit\u00e9?",
-            "difficulty": 2
-        },
-        {
             "question": "This mausoleum in Turkey is the final resting place of Mustafa Kemal Atat\u00fcrk.",
             "answer": "What is An\u0131tkabir?",
-            "difficulty": 2
-        },
-        {
-            "question": "This monument in Washington, D.C., honors the 16th President of the United States.",
-            "answer": "What is the Lincoln Memorial?",
             "difficulty": 2
         },
         {
@@ -29424,16 +24279,6 @@ export const library = {
             "question": "This grand palace in France is known for its Hall of Mirrors.",
             "answer": "What is the Palace of Versailles?",
             "difficulty": 2
-        },
-        {
-            "question": "This temple complex in Cambodia is the largest religious monument in the world.",
-            "answer": "What is Angkor Wat?",
-            "difficulty": 3
-        },
-        {
-            "question": "This ancient city in Peru is known as the 'Lost City of the Incas'.",
-            "answer": "What is Machu Picchu?",
-            "difficulty": 3
         },
         {
             "question": "This tower in Pisa, Italy, is famous for its unintended tilt.",
@@ -29458,11 +24303,6 @@ export const library = {
         {
             "question": "This fortress in St. Petersburg, Russia, was the original citadel of the city.",
             "answer": "What is the Peter and Paul Fortress?",
-            "difficulty": 3
-        },
-        {
-            "question": "This ancient city in Iraq is one of the world's first known cities.",
-            "answer": "What is Ur?",
             "difficulty": 3
         },
         {
@@ -29496,11 +24336,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This medieval castle in Germany inspired the design of Disney's Sleeping Beauty Castle.",
-            "answer": "What is Neuschwanstein Castle?",
-            "difficulty": 4
-        },
-        {
             "question": "This ancient monastery in Ethiopia is one of the oldest Christian structures in the world.",
             "answer": "What is the Church of St. George in Lalibela?",
             "difficulty": 4
@@ -29526,11 +24361,6 @@ export const library = {
             "difficulty": 4
         },
         {
-            "question": "This ancient city in Jordan is known for its stunning rock-cut architecture.",
-            "answer": "What is Petra?",
-            "difficulty": 5
-        },
-        {
             "question": "This temple in Greece is dedicated to the goddess Athena and is considered the epitome of Doric architecture.",
             "answer": "What is the Parthenon?",
             "difficulty": 5
@@ -29543,11 +24373,6 @@ export const library = {
         {
             "question": "This archaeological site in Peru is an ancient Inca city on a mountain ridge.",
             "answer": "What is Machu Picchu?",
-            "difficulty": 5
-        },
-        {
-            "question": "This massive stone structure in China is a series of fortifications built to protect against invasions.",
-            "answer": "What is the Great Wall of China?",
             "difficulty": 5
         },
         {
@@ -29591,11 +24416,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This New York statue was a gift from France and symbolizes freedom and democracy.",
-            "answer": "What is the Statue of Liberty?",
-            "difficulty": 1
-        },
-        {
             "question": "This ancient Roman amphitheater is one of the largest and best-preserved examples of its kind.",
             "answer": "What is the Colosseum?",
             "difficulty": 1
@@ -29621,11 +24441,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This temple complex in Cambodia is the largest religious monument in the world.",
-            "answer": "What is Angkor Wat?",
-            "difficulty": 2
-        },
-        {
             "question": "This iconic amphitheater in Greece is known for its acoustics and performances.",
             "answer": "What is the Epidaurus Theatre?",
             "difficulty": 2
@@ -29638,11 +24453,6 @@ export const library = {
         {
             "question": "This 19th-century fortress in Russia is located in the heart of its capital city.",
             "answer": "What is the Kremlin?",
-            "difficulty": 2
-        },
-        {
-            "question": "This monument in Washington D.C. honors the 16th President of the United States.",
-            "answer": "What is the Lincoln Memorial?",
             "difficulty": 2
         },
         {
@@ -29671,11 +24481,6 @@ export const library = {
             "difficulty": 3
         },
         {
-            "question": "This site in southern England is a prehistoric monument consisting of a ring of standing stones.",
-            "answer": "What is Stonehenge?",
-            "difficulty": 3
-        },
-        {
             "question": "This structure in Egypt is the oldest of the Seven Wonders of the Ancient World.",
             "answer": "What is the Great Pyramid of Giza?",
             "difficulty": 3
@@ -29688,16 +24493,6 @@ export const library = {
         {
             "question": "This palace complex in Beijing served as the home of emperors for nearly 500 years.",
             "answer": "What is the Forbidden City?",
-            "difficulty": 3
-        },
-        {
-            "question": "This ancient city in Jordan is famous for its rock-cut architecture and water conduit system.",
-            "answer": "What is Petra?",
-            "difficulty": 3
-        },
-        {
-            "question": "This famous mausoleum in Turkey was originally a cathedral and later a mosque.",
-            "answer": "What is Hagia Sophia?",
             "difficulty": 3
         },
         {
@@ -29806,21 +24601,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This ancient amphitheater is located in the center of Rome, Italy.",
-            "answer": "What is the Colosseum?",
-            "difficulty": 1
-        },
-        {
-            "question": "This famous clock tower is located at the north end of the Palace of Westminster in London.",
-            "answer": "What is Big Ben?",
-            "difficulty": 1
-        },
-        {
-            "question": "This statue in New York City was a gift from France and symbolizes freedom.",
-            "answer": "What is the Statue of Liberty?",
-            "difficulty": 1
-        },
-        {
             "question": "This historic wall once divided a German city during the Cold War.",
             "answer": "What is the Berlin Wall?",
             "difficulty": 1
@@ -29846,11 +24626,6 @@ export const library = {
             "difficulty": 1
         },
         {
-            "question": "This ancient Incan city is located on a mountain ridge in Peru.",
-            "answer": "What is Machu Picchu?",
-            "difficulty": 1
-        },
-        {
             "question": "This large canyon in the United States is known for its size and layered red rock formations.",
             "answer": "What is the Grand Canyon?",
             "difficulty": 1
@@ -29863,11 +24638,6 @@ export const library = {
         {
             "question": "This famous museum in Paris is home to the Mona Lisa.",
             "answer": "What is the Louvre?",
-            "difficulty": 2
-        },
-        {
-            "question": "This iconic bridge connects San Francisco to Marin County in California.",
-            "answer": "What is the Golden Gate Bridge?",
             "difficulty": 2
         },
         {
@@ -29896,11 +24666,6 @@ export const library = {
             "difficulty": 2
         },
         {
-            "question": "This landmark in Cambodia is the largest religious monument in the world.",
-            "answer": "What is Angkor Wat?",
-            "difficulty": 2
-        },
-        {
             "question": "This series of fortifications was built along the northern borders of China to protect against invasions.",
             "answer": "What is the Great Wall of China?",
             "difficulty": 2
@@ -29908,11 +24673,6 @@ export const library = {
         {
             "question": "This tall structure in Toronto, Canada, held the record for the world's tallest free-standing structure for 32 years.",
             "answer": "What is the CN Tower?",
-            "difficulty": 3
-        },
-        {
-            "question": "This Tokyo landmark is a communications and observation tower and the second tallest structure in Japan.",
-            "answer": "What is Tokyo Skytree?",
             "difficulty": 3
         },
         {
@@ -29954,11 +24714,6 @@ export const library = {
             "question": "This medieval castle in Germany is nestled in the Bavarian Alps and served as the inspiration for Disney's Sleeping Beauty Castle.",
             "answer": "What is Neuschwanstein Castle?",
             "difficulty": 3
-        },
-        {
-            "question": "This island in Scotland is renowned for its standing stones and Neolithic monuments.",
-            "answer": "What is the Isle of Skye?",
-            "difficulty": 4
         },
         {
             "question": "This historic Swiss chapel bridge is located in Lucerne and is one of Europe's oldest wooden bridges.",
@@ -30026,11 +24781,6 @@ export const library = {
             "difficulty": 5
         },
         {
-            "question": "This mountain in the North Sea near Norway is known for its unique rock formations resembling organ pipes.",
-            "answer": "What is the Giant's Causeway?",
-            "difficulty": 5
-        },
-        {
             "question": "This ancient monument in Lebanon is known for its Roman ruins and well-preserved temples.",
             "answer": "What is Baalbek?",
             "difficulty": 5
@@ -30076,5 +24826,5 @@ export const library = {
             "difficulty": 5
         }
     ]
-}
+    }
 };
