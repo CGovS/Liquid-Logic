@@ -4,3 +4,5 @@
 **/.Rhistory
 History/
 Random/
+node_modules/
+**/node_modules/

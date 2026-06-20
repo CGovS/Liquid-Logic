@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#0d0d12" />
+  <title>Liquid Logic — Buzzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      margin: 0; height: 100%; overflow: hidden;
+      font-family: 'Oswald', system-ui, sans-serif;
+      background: #0d0d12; color: #fff; user-select: none;
+    }
+    body { display: flex; flex-direction: column; }
+
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 18px; font-size: 13px; letter-spacing: 1px;
+      background: rgba(255,255,255,0.04); border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .brand { font-family: 'Press Start 2P', monospace; font-size: 11px; color: #f39c12; }
+    .conn { display: flex; align-items: center; gap: 6px; font-size: 12px; opacity: .8; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; background: #777; }
+    .dot.online { background: #2ecc71; box-shadow: 0 0 8px #2ecc71; }
+    .dot.offline { background: #e74c3c; }
+
+    .stage { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; gap: 18px; }
+
+    /* Team picker */
+    #team-picker { width: 100%; max-width: 420px; }
+    #team-picker h2 { text-align: center; font-weight: 500; opacity: .85; margin: 0 0 14px; }
+    .team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .team-opt {
+      padding: 22px 10px; border-radius: 14px; border: 2px solid var(--c,#555);
+      background: rgba(255,255,255,0.03); color: #fff; font-size: 18px; font-weight: 700;
+      text-align: center; cursor: pointer;
+    }
+    .team-opt:active { transform: scale(0.97); }
+
+    /* Buzzer */
+    #buzz-area { display: none; flex-direction: column; align-items: center; gap: 22px; width: 100%; }
+    .my-team { font-size: 20px; font-weight: 700; letter-spacing: .5px; }
+    .status { font-size: 16px; opacity: .85; text-align: center; min-height: 22px; }
+    .buzz-btn {
+      width: 78vw; max-width: 360px; height: 78vw; max-height: 360px;
+      border-radius: 50%; border: none; font-family: 'Press Start 2P', monospace;
+      font-size: 26px; color: #fff; cursor: pointer; transition: transform .05s, filter .15s;
+      background: radial-gradient(circle at 35% 30%, #444, #111);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.6), inset 0 -8px 20px rgba(0,0,0,0.5);
+    }
+    .buzz-btn:active { transform: scale(0.94); }
+    .buzz-btn.armed {
+      background: radial-gradient(circle at 35% 30%, #2ecc71, #0f7a3d);
+      box-shadow: 0 0 40px rgba(46,204,113,0.6), inset 0 -8px 20px rgba(0,0,0,0.4);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+    .buzz-btn.warn { background: radial-gradient(circle at 35% 30%, #e67e22, #a84300); }
+    .buzz-btn.locked { background: radial-gradient(circle at 35% 30%, #555, #222); filter: grayscale(1); opacity: .55; }
+    .buzz-btn.mine  { background: radial-gradient(circle at 35% 30%, #3498db, #1d5b86); box-shadow: 0 0 40px rgba(52,152,219,0.7); }
+    @keyframes pulse { 0%,100% { box-shadow: 0 0 30px rgba(46,204,113,0.5);} 50% { box-shadow: 0 0 55px rgba(46,204,113,0.9);} }
+
+    .change-team { background: none; border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7); padding: 8px 16px; border-radius: 20px; font-family: inherit; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <span class="brand">LIQUID LOGIC</span>
+    <span class="conn"><span class="dot" id="conn-dot"></span><span id="conn-text">Connecting…</span></span>
+  </div>
+
+  <div class="stage">
+    <!-- Step 1: pick your team -->
+    <div id="team-picker">
+      <h2>Pick your team</h2>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+
+    <!-- Step 2: buzz -->
+    <div id="buzz-area">
+      <div class="my-team" id="my-team-name"></div>
+      <button class="buzz-btn" id="buzz-btn">BUZZ</button>
+      <div class="status" id="status">Waiting for a clue…</div>
+      <button class="change-team" id="change-team">Change team</button>
+    </div>
+  </div>
+
+  <script src="buzzer.js"></script>
+</body>
+</html>

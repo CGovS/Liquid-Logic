@@ -1,0 +1,21 @@
+{
+  "name": "liquid-logic-buzzer-server",
+  "version": "6.0.0",
+  "private": true,
+  "description": "LAN buzzer relay + static host for Liquid Logic v6.0 (phones-as-buzzers over local WiFi).",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
